@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Edunite/edunite/compare/v1.0.3...v1.0.4) (2025-04-09)
+
+
+### Bug Fixes
+
+* fixed workflow ([04b8c58](https://github.com/Edunite/edunite/commit/04b8c58afa9014d7668d5aeb7e1a31e51f036593))
+
 ## [1.0.3](https://github.com/Edunite/edunite/compare/v1.0.2...v1.0.3) (2025-04-09)
 
 
