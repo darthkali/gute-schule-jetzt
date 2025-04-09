@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Edunite/edunite/compare/v1.0.1...v1.0.2) (2025-04-09)
+
+
+### Bug Fixes
+
+* added log ([98c4d33](https://github.com/Edunite/edunite/commit/98c4d33c7438db0a709144284a9362da4342263f))
+
 ## [1.0.1](https://github.com/Edunite/edunite/compare/v1.0.0...v1.0.1) (2025-04-09)
 
 
