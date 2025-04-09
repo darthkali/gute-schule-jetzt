@@ -52,6 +52,7 @@ jobs:
 
       # Im nächsten Schritt die Variable verwenden
       - name: Check semantic-release version
+        id: check_version
         run: |
           echo "SEMANTIC_RELEASE_VERSION: $SEMANTIC_RELEASE_VERSION"
           if [ -z "$SEMANTIC_RELEASE_VERSION" ]; then
@@ -65,7 +66,7 @@ jobs:
 
       # 6) Docker-Login (nur bei neuem Release)
       - name: Log in to Docker registry
-        if: ${{ steps.semantic_release.outputs.semanti_release_version != '' }}
+        if: ${{ steps.check_version.outputs.version != '' }}
         uses: docker/login-action@v2.2.0
         with:
           registry: docker.io
@@ -74,7 +75,7 @@ jobs:
 
       # 7) pack CLI installieren
       - name: Install pack CLI
-        if: ${{ steps.semantic_release.outputs.semanti_release_version != '' }}
+        if: ${{ steps.check_version.outputs.version != '' }}
         run: |
           curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.29.0/pack-v0.29.0-linux.tgz" \
           | sudo tar -xvz -C /usr/local/bin
@@ -82,10 +83,10 @@ jobs:
 
       # 8) Buildpack-Image mit Semantic-Release-Version taggen
       - name: Build image with Buildpacks
-        if: ${{ steps.semantic_release.outputs.semanti_release_version != '' }}
+        if: ${{ steps.check_version.outputs.version != '' }}
         run: |
-          pack build docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.semanti_release_version }} \
+          pack build docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }} \
             --builder paketobuildpacks/builder:base
-            --tag docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.semanti_release_version }}
+            --tag docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }}
             --publish
 
