@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Edunite/edunite/compare/v1.0.0...v1.0.1) (2025-04-09)
+
+
+### Bug Fixes
+
+* added exec plugin ([e9aca7e](https://github.com/Edunite/edunite/commit/e9aca7e52b4ddb887d0684ef447f109d06e650c9))
+
 # 1.0.0 (2025-04-09)
 
 
