@@ -62,7 +62,7 @@ jobs:
             # Falls semantic-release mit einem Fehler (non-zero) endet, bricht der Job ohnehin ab.
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
 
 
