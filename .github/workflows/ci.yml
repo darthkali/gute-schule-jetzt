@@ -84,14 +84,12 @@ jobs:
       # 8) Build Image mit Semantic-Release-Version
       - name: Build Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
-        env:
-          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-        run: docker build \
-          --build-arg NEXT_PUBLIC_SUPABASE_URL=${{ secrets.SUPABASE_URL }} \
-          --build-arg NEXT_PUBLIC_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }} \
-          -t docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }} \
-          .
+        run: |
+          docker build \
+            --build-arg NEXT_PUBLIC_SUPABASE_URL=${{ secrets.SUPABASE_URL }} \
+            --build-arg NEXT_PUBLIC_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }} \
+            -t docker.io/darthkali/edunite:0.0.8 \
+            .
       # 8) Push Image mit Semantic-Release-Version
       - name: Push Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
