@@ -51,6 +51,7 @@ jobs:
 
           # Falls in sr.log keine "version" gefunden wird, ist kein neuer Release erfolgt
           VERSION=$SEMANTIC_RELEASE_VERSION
+          echo $SEMANTIC_RELEASE_VERSION
 
           if [ -z "$VERSION" ]; then
             echo "No new release created."
