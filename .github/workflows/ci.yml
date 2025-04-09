@@ -47,32 +47,25 @@ jobs:
         run: |
           # Führe semantic-release aus und speichere die Log-Ausgabe
           npx semantic-release --debug
-          
-
-          # Falls in sr.log keine "version" gefunden wird, ist kein neuer Release erfolgt
-          VERSION=$SEMANTIC_RELEASE_VERSION
-          echo $SEMANTIC_RELEASE_VERSION
-
-          if [ -z "$VERSION" ]; then
-            echo "No new release created."
-            # Setze Output "version" auf leer
-            echo "version=" >> $GITHUB_OUTPUT
-            # Damit der Job nicht fehlschlägt (kein Release ist okay)
-            exit 0
-          else
-            echo "New release version: $VERSION"
-            echo "version=$VERSION" >> $GITHUB_OUTPUT
-            # semantic-release hat erfolgreich ein Release erstellt
-            # Falls semantic-release mit einem Fehler (non-zero) endet, bricht der Job ohnehin ab.
-          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-
+      # Im nächsten Schritt die Variable verwenden
+      - name: Check semantic-release version
+        run: |
+          echo "SEMANTIC_RELEASE_VERSION: $SEMANTIC_RELEASE_VERSION"
+          if [ -z "$SEMANTIC_RELEASE_VERSION" ]; then
+            echo "No new release created."
+            echo "version=" >> $GITHUB_OUTPUT
+            exit 0
+          else
+            echo "New release version: $SEMANTIC_RELEASE_VERSION"
+            echo "version=$SEMANTIC_RELEASE_VERSION" >> $GITHUB_OUTPUT
+          fi
 
       # 6) Docker-Login (nur bei neuem Release)
       - name: Log in to Docker registry
-        if: ${{ steps.semantic_release.outputs.version != '' }}
+        if: ${{ steps.semantic_release.outputs.semanti_release_version != '' }}
         uses: docker/login-action@v2.2.0
         with:
           registry: docker.io
@@ -81,7 +74,7 @@ jobs:
 
       # 7) pack CLI installieren
       - name: Install pack CLI
-        if: ${{ steps.semantic_release.outputs.version != '' }}
+        if: ${{ steps.semantic_release.outputs.semanti_release_version != '' }}
         run: |
           curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.29.0/pack-v0.29.0-linux.tgz" \
           | sudo tar -xvz -C /usr/local/bin
@@ -89,10 +82,10 @@ jobs:
 
       # 8) Buildpack-Image mit Semantic-Release-Version taggen
       - name: Build image with Buildpacks
-        if: ${{ steps.semantic_release.outputs.version != '' }}
+        if: ${{ steps.semantic_release.outputs.semanti_release_version != '' }}
         run: |
-          pack build docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.version }} \
+          pack build docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.semanti_release_version }} \
             --builder paketobuildpacks/builder:base
-            --tag docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.version }}
+            --tag docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.semanti_release_version }}
             --publish
 
