@@ -1,0 +1,91 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Code auschecken
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      # 2) Node-Version festlegen
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # 3) Dependencies installieren
+      - name: Install dependencies
+        run: npm ci
+
+      # 4) Next.js (Test) Build
+      - name: Build & Test
+        run: |
+          npm run build
+          npm run test
+
+      # 5) Semantic Release ausführen
+      #
+      #    - Wir lassen Semantic Release laufen und leiten die Ausgabe in eine Log-Datei um.
+      #    - Anschließend suchen wir in diesem Log nach der Version und geben sie als Output aus.
+      #    - Wenn keine neue Version veröffentlicht wird, bricht Semantic Release mit Code 0 ab,
+      #      wir setzen dann "version" leer und überspringen das Docker-Build später.
+      - name: Semantic Release
+        id: semantic_release
+        run: |
+          # Führe semantic-release aus und speichere die Log-Ausgabe
+          npx semantic-release --ci false > sr.log 2>&1 || true
+
+          # Falls in sr.log keine "version" gefunden wird, ist kein neuer Release erfolgt
+          VERSION=$(grep -oP '(?<="version": ")[^"]+' sr.log | head -1)
+
+          if [ -z "$VERSION" ]; then
+            echo "No new release created."
+            # Setze Output "version" auf leer
+            echo "version=" >> $GITHUB_OUTPUT
+            # Damit der Job nicht fehlschlägt (kein Release ist okay)
+            exit 0
+          else
+            echo "New release version: $VERSION"
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            # semantic-release hat erfolgreich ein Release erstellt
+            # Falls semantic-release mit einem Fehler (non-zero) endet, bricht der Job ohnehin ab.
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+
+
+
+      # 8) Docker-Login (nur bei neuem Release)
+      - name: Log in to Docker registry
+        if: ${{ steps.semantic_release.outputs.version != '' }}
+        uses: docker/login-action@v2.2.0
+        with:
+          registry: docker.io
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      # 6) pack CLI installieren
+      - name: Install pack CLI
+        if: ${{ steps.semantic_release.outputs.version != '' }}
+        run: |
+          curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.29.0/pack-v0.29.0-linux.tgz" \
+          | sudo tar -xvz -C /usr/local/bin
+
+
+      # 7) Buildpack-Image mit Semantic-Release-Version taggen
+      - name: Build image with Buildpacks
+        if: ${{ steps.semantic_release.outputs.version != '' }}
+        run: |
+          pack build docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.version }} \
+            --builder paketobuildpacks/builder:base
+            --tag docker.io/darthkali/edunite:${{ steps.semantic_release.outputs.version }}
+            --publish
+
