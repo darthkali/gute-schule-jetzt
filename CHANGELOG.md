@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/Edunite/edunite/compare/v0.0.3...v0.0.4) (2025-04-09)
+
+
+### Bug Fixes
+
+* updated pack ([c8c8941](https://github.com/Edunite/edunite/commit/c8c8941af9046b6071f8529560112fb6e7949947))
+
 ## [0.0.3](https://github.com/Edunite/edunite/compare/v0.0.2...v0.0.3) (2025-04-09)
 
 
