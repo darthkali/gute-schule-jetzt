@@ -40,11 +40,13 @@ jobs:
       #    - Anschließend suchen wir in diesem Log nach der Version und geben sie als Output aus.
       #    - Wenn keine neue Version veröffentlicht wird, bricht Semantic Release mit Code 0 ab,
       #      wir setzen dann "version" leer und überspringen das Docker-Build später.
+      # > sr.log 2>&1 || true
       - name: Semantic Release
         id: semantic_release
         run: |
           # Führe semantic-release aus und speichere die Log-Ausgabe
-          npx semantic-release --debug > sr.log 2>&1 || true
+          npx semantic-release --debug 
+          
 
           # Falls in sr.log keine "version" gefunden wird, ist kein neuer Release erfolgt
           VERSION=$(grep -oP '(?<="version": ")[^"]+' sr.log | head -1)
