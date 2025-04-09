@@ -3,6 +3,9 @@ FROM node:20 AS builder
 
 WORKDIR /app
 
+ENV NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
+ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+
 # Nur package.json + lock kopieren, um den npm ci step zu cachen
 COPY package*.json ./
 
