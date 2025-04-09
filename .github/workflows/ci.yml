@@ -88,6 +88,6 @@ jobs:
           pack build docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }} \
             --builder paketobuildpacks/builder-jammy-base \
             --tag docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }} \
-            --env "BP_NODE_VERSION=20.0.0" \
+            --env "BP_NODE_VERSION=20.*" \
             --publish
           
