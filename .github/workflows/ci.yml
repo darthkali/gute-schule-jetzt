@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
 
       # 3) Dependencies installieren
       - name: Install dependencies
@@ -40,11 +40,13 @@ jobs:
       #    - Anschließend suchen wir in diesem Log nach der Version und geben sie als Output aus.
       #    - Wenn keine neue Version veröffentlicht wird, bricht Semantic Release mit Code 0 ab,
       #      wir setzen dann "version" leer und überspringen das Docker-Build später.
+      # > sr.log 2>&1 || true
       - name: Semantic Release
         id: semantic_release
         run: |
           # Führe semantic-release aus und speichere die Log-Ausgabe
-          npx semantic-release --ci false > sr.log 2>&1 || true
+          npx semantic-release --debug 2>&1 | tee sr.log || true
+          
 
           # Falls in sr.log keine "version" gefunden wird, ist kein neuer Release erfolgt
           VERSION=$(grep -oP '(?<="version": ")[^"]+' sr.log | head -1)
@@ -62,11 +64,11 @@ jobs:
             # Falls semantic-release mit einem Fehler (non-zero) endet, bricht der Job ohnehin ab.
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
 
 
-      # 8) Docker-Login (nur bei neuem Release)
+      # 6) Docker-Login (nur bei neuem Release)
       - name: Log in to Docker registry
         if: ${{ steps.semantic_release.outputs.version != '' }}
         uses: docker/login-action@v2.2.0
@@ -75,7 +77,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      # 6) pack CLI installieren
+      # 7) pack CLI installieren
       - name: Install pack CLI
         if: ${{ steps.semantic_release.outputs.version != '' }}
         run: |
@@ -83,7 +85,7 @@ jobs:
           | sudo tar -xvz -C /usr/local/bin
 
 
-      # 7) Buildpack-Image mit Semantic-Release-Version taggen
+      # 8) Buildpack-Image mit Semantic-Release-Version taggen
       - name: Build image with Buildpacks
         if: ${{ steps.semantic_release.outputs.version != '' }}
         run: |
