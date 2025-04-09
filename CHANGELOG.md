@@ -1,3 +1,10 @@
+## [0.0.10](https://github.com/Edunite/edunite/compare/v0.0.9...v0.0.10) (2025-04-09)
+
+
+### Bug Fixes
+
+* removed ssr in login page ([8a4a8dc](https://github.com/Edunite/edunite/commit/8a4a8dcf77c947d2dc861520afd0b14ea6cab693))
+
 ## [0.0.9](https://github.com/Edunite/edunite/compare/v0.0.8...v0.0.9) (2025-04-09)
 
 
