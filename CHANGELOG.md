@@ -1,3 +1,10 @@
+## [0.0.13](https://github.com/Edunite/edunite/compare/v0.0.12...v0.0.13) (2025-04-09)
+
+
+### Bug Fixes
+
+* updated dockerfile ([d651aec](https://github.com/Edunite/edunite/commit/d651aecda3e0aa441f030e4dec109f3333787732))
+
 ## [0.0.12](https://github.com/Edunite/edunite/compare/v0.0.11...v0.0.12) (2025-04-09)
 
 
