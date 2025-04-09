@@ -9,7 +9,8 @@ on:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       # 1) Code auschecken
       - name: Check out code
@@ -64,7 +65,7 @@ jobs:
             # Falls semantic-release mit einem Fehler (non-zero) endet, bricht der Job ohnehin ab.
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 
