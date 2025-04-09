@@ -81,13 +81,15 @@ jobs:
           | sudo tar -xvz -C /usr/local/bin
 
 
-      # 8) Buildpack-Image mit Semantic-Release-Version taggen
-      - name: Build image with Buildpacks
+      # 8) Build Image mit Semantic-Release-Version
+      - name: Build Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
-          pack build docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }} \
-            --builder paketobuildpacks/builder-jammy-base \
-            --tag docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }} \
-            --env "BP_NODE_VERSION=20.*" \
-            --publish
-          
+          docker build \
+            -t docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }} \
+
+      # 8) Push Image mit Semantic-Release-Version
+      - name: Push Docker image
+        if: ${{ steps.check_version.outputs.version != '' }}
+        run: |
+          docker push docker.io/darthkali/edunite:${{ steps.check_version.outputs.version }}
