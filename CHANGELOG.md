@@ -1,3 +1,10 @@
+## [0.0.2](https://github.com/Edunite/edunite/compare/v0.0.1...v0.0.2) (2025-04-09)
+
+
+### Bug Fixes
+
+* updated node version ([79c3b86](https://github.com/Edunite/edunite/commit/79c3b86f4ede36935ecf1514408d69ff6aa34110))
+
 ## [0.0.1](https://github.com/Edunite/edunite/compare/v0.0.0...v0.0.1) (2025-04-09)
 
 
