@@ -1,3 +1,10 @@
+## [0.0.5](https://github.com/Edunite/edunite/compare/v0.0.4...v0.0.5) (2025-04-09)
+
+
+### Bug Fixes
+
+* removed buildpacks and added dockerfile ([46b3eb2](https://github.com/Edunite/edunite/commit/46b3eb2a420d5bf9ae2cc3341922ffc7e4c791fa))
+
 ## [0.0.4](https://github.com/Edunite/edunite/compare/v0.0.3...v0.0.4) (2025-04-09)
 
 
