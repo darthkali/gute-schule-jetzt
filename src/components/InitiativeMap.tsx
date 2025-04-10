@@ -5,8 +5,11 @@ import L from 'leaflet'
 import Link from 'next/link'
 import 'leaflet/dist/leaflet.css'
 
-// 🧙 Icon-Fix für Next.js / Leaflet
-delete (L.Icon.Default.prototype as any)._getIconUrl
+interface IconPrototypeFix {
+    _getIconUrl?: unknown
+}
+
+delete (L.Icon.Default.prototype as IconPrototypeFix)._getIconUrl
 L.Icon.Default.mergeOptions({
     iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
     shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
