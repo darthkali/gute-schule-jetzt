@@ -1,5 +1,6 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
+import InitiativeMap from "@/components/InitiativeMap";
 
 export default async function HomePage() {
     const supabase = createServerComponentClient({ cookies })
@@ -15,7 +16,10 @@ export default async function HomePage() {
 
     return (
         <main className="p-6 max-w-3xl mx-auto">
+
             <h1 className="text-3xl font-bold mb-6">Initiativen</h1>
+            <InitiativeMap initiatives={initiatives || []} />
+
             <ul className="space-y-4">
                 {initiatives?.map((initiative) => (
                     <li key={initiative.id} className="border rounded p-4 shadow">
