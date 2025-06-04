@@ -6,7 +6,7 @@ import {supabase} from '@/lib/supabase/client'
 import RequireAuth from '@/components/RequireAuth'
 
 export default function EditInitiativePage() {
-    const {id} = useParams()
+    const { id } = useParams<{ id: string }>()
     const router = useRouter()
 
     const [formData, setFormData] = useState({
