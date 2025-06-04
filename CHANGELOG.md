@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/Edunite/edunite/compare/v0.1.0...v0.1.1) (2025-06-04)
+
+
+### Bug Fixes
+
+* narrow id type in edit page ([2195246](https://github.com/Edunite/edunite/commit/219524604707cf4a7c36e436b99e246839993b03))
+
 # [0.1.0](https://github.com/Edunite/edunite/compare/v0.0.13...v0.1.0) (2025-04-10)
 
 
