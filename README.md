@@ -38,3 +38,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Projektübersicht
+
+Dieses Repository enthält ein kleines **Next.js-Projekt** (TypeScript). Nach dem Klonen kannst du den Entwicklungsserver mit `npm run dev` (oder `yarn dev`, `pnpm dev`, `bun dev`) starten.
+
+### Verzeichnisstruktur
+
+- **`src/app`** – alle Seiten (z. B. Home, Login, Admin-Routen).
+- **`src/components`** – wiederverwendbare Komponenten wie `AdminMenu.tsx`, `InitiativeMap.tsx` und `RequireAuth.tsx`.
+- **`src/lib/supabase`** – Initialisierung des Supabase-Clients.
+- **`__tests__`** – enthält vorbereitete Jest-Tests.
+- **`Dockerfile`** – Build für die Produktion mit Weitergabe der Supabase-Variablen.
+- **`.github/workflows/ci.yml`** – Workflow für Build, Tests und Release inklusive Docker-Image.
+
+### Wichtig zu erlernen
+
+1. **Next.js Grundlagen** – Seiten unter `src/app`, serverseitige vs. clientseitige Komponenten und Routing.
+2. **Supabase** – Authentifizierung und Datenbankzugriff (`RequireAuth`-Komponente).
+3. **React Hooks** – z. B. `useState`, `useEffect`, `useRouter`, `useParams`.
+4. **Leaflet und react-leaflet** – für die Kartenanzeige.
+5. **CI/CD und Docker** – Dockerfile und Release-Workflow verstehen.
+6. **Testing mit Jest** – aktuell minimal, aber für Erweiterungen vorbereitet.
