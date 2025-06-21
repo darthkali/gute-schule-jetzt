@@ -15,8 +15,10 @@ export default function Card({
                              }: CardProps
 ) {
     return (
-        <div className="relative w-70 h-50 rounded-xl overflow-hidden shadow-lg">
-            {/* Hintergrundbild */}
+        <div className="relative w-full aspect-[4/3] max-w-[180px] sm:max-w-[220px] md:max-w-[260px] rounded-xl overflow-hidden shadow-lg">
+
+
+        {/* Hintergrundbild */}
 
             <Image
                 src={imageSrc}
@@ -30,9 +32,9 @@ export default function Card({
 
             {/* Zentrierter Text */}
             <div className="absolute inset-0 flex items-center justify-center">
-                <h2 className={`${textColor} text-center`}>
-                    {title}
-                </h2>
+                <p className={`${textColor} text-center text-lg sm:text-xl md:text-2xl font-semibold px-4`}>
+                {title}
+                </p>
             </div>
         </div>
     );
