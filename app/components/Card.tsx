@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type CardProps = {
     imageSrc: string;
     title: string;
@@ -15,10 +17,12 @@ export default function Card({
     return (
         <div className="relative w-70 h-50 rounded-xl overflow-hidden shadow-lg">
             {/* Hintergrundbild */}
-            <img
+
+            <Image
                 src={imageSrc}
                 alt="Card Image"
-                className="w-full h-full object-cover"
+                className="object-cover"
+                fill
             />
 
             {/* Overlay */}
