@@ -1,29 +1,67 @@
-export default async function HomePage() {
+import Card from "@/app/components/Card";
+import InitiativeMapClient from "@/app/components/Map";
+
+export default function HomePage() {
+
     return (
         <div>
-            <div className="bg-[color:var(--color-primary)] w-full h-15 sticky top-0">
+
+            <div className="innerBox py-10">
+                <h1 className="text-[color:var(--color-primary)] text-[min(10vw,50px)]">DYSFUNKTIONALES SCHULSYSTEM
+                    PRODUZIERT ZU VIELE
+                    VERLIERER
+                </h1>
+                <h2 className="text-[color:var(--color-primary)]">Probleme haben immer Ursachen - aus ihrer Analyse
+                    entstehen die Lösungsansätze</h2>
+                <p className="text-[color:var(--color-text)]">Wir alle spüren, dass es so nicht weitergehen kann.
+                    Unser
+                    Schulsystem produziert zu viele Verlierer. Bildung ist aber eine wesentliche Grundlage für
+                    unsere
+                    Gesellschaft und ihre Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer
+                    Wirtschaft und unserer Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule
+                    ist
+                    hier ein Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die
+                    Zuversicht weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.</p>
+            </div>
+
+            <div className="bg-[color:var(--color-secondary)]">
+                <div className="innerBox flex flex-wrap justify-center gap-15 py-10">
+                    <Card
+                        imageSrc="/images/solidarity-649713_1920.jpg"
+                        title="VERÄNDERTE WELT"
+                    />
+                    <Card
+                        imageSrc="/images/solidarity-649713_1920.jpg"
+                        title="DYSFUNKTIONALES SCHULSYSTEM"
+                    />
+                </div>
+            </div>
+
+            <div className="innerBox flex flex-wrap justify-center gap-5 py-10">
+                <div className="flex flex-wrap justify-center gap-15 ">
+                    <Card
+                        imageSrc="/images/solidarity-649713_1920.jpg"
+                        title="VERÄNDERTE WELT"
+                    />
+                    <Card
+                        imageSrc="/images/solidarity-649713_1920.jpg"
+                        title="WAS BRAUCHEN KINDER?"
+                        overlayColor="bg-[color:var(--color-secondary)]/70"
+                    />
+                    <Card
+                        imageSrc="/images/solidarity-649713_1920.jpg"
+                        title="DYSFUNKTIONALES SCHULSYSTEM"
+                    />
+                </div>
+
+                <InitiativeMapClient />
 
             </div>
 
-                <div className="innerBox">
-                    <h1 className="text-[color:var(--color-primary)]">DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE
-                        VERLIERER
-                    </h1>
-                    <h2 className="text-[color:var(--color-primary)]">Probleme haben immer Ursachen - aus ihrer Analyse
-                        entstehen die Lösungsansätze</h2>
-                    <p className="text-[color:var(--color-text)]">Wir alle spüren, dass es so nicht weitergehen kann.
-                        Unser
-                        Schulsystem produziert zu viele Verlierer. Bildung ist aber eine wesentliche Grundlage für
-                        unsere
-                        Gesellschaft und ihre Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer
-                        Wirtschaft und unserer Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule
-                        ist
-                        hier ein Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die
-                        Zuversicht weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.</p>
-                </div>
+
 
             <div className="bg-[color:var(--color-secondary)] ">
-                <div className="innerBox grid grid-cols-1 md:grid-cols-2 gap-4 text-[color:var(--color-neutral)]">
+                <div className="innerBox grid grid-cols-1 md:grid-cols-2 gap-4 text-[color:var(--color-neutral)] py-10">
                     <div>
                         <h2>
                             Welche Funktionen von Schule liegen im Ungleichgewicht?
@@ -165,9 +203,9 @@ export default async function HomePage() {
                         </p>
                     </div>
                 </div>
-
-
             </div>
+
+
         </div>
 
     )

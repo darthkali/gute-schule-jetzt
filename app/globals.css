@@ -3,7 +3,6 @@
 @theme {
   --background: #f0ead4;
   --foreground: #171717;
-  --font-main: var(--font-poppins);
   --color-accent: #f39c12;
   --color-background: #f0ead4;
   --color-neutral: #ffffff;
@@ -18,7 +17,7 @@
     font-size: 4rem;
     font-weight: 600;
     line-height: 1.2;
-    @apply mt-15;
+    @apply mt-5;
   }
   h2 {
     font-family: var(--font-poppins), serif;
@@ -32,6 +31,7 @@
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.2;
+    @apply my-2;
   }
 
   p {
@@ -39,7 +39,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.2;
-    @apply mb-2;
+    @apply my-2;
   }
 }
 
@@ -49,7 +49,13 @@
   }
 
   .innerBox {
-    @apply mx-10 md:mx-20 xl:mx-48;
+    @apply
+    mx-5
+    sm:mx-10
+    md:mx-16
+    xl:mx-38
+    2xl:mx-48
+    py-5
   }
 }
 
