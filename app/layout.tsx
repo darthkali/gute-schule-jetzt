@@ -1,6 +1,9 @@
-import type { Metadata } from "next";
+import type {Metadata} from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import Navbar from "@/app/components/Navbar";
+import React from "react";
+import Footer from "@/app/components/Footer";
 
 const poppinsFont = localFont({
     src: [
@@ -30,18 +33,23 @@ const robotoFont = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "EdUnite",
-  description: "GUTE SCHULE JETZT",
+    title: "EdUnite",
+    description: "GUTE SCHULE JETZT",
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
+                                       children,
+                                   }: Readonly<{
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="de" className={`${poppinsFont.variable} ${robotoFont.variable}`}>
-      <body>{children}</body>
-    </html>
-  );
+    return (
+        <html lang="de" className={`${poppinsFont.variable} ${robotoFont.variable}`}>
+        <body className="min-h-screen flex flex-col">
+        <Navbar/>
+        <main className="flex-grow">{children}</main>
+        <Footer/>
+        </body>
+
+        </html>
+    );
 }
