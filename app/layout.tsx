@@ -28,6 +28,12 @@ const robotoFont = localFont({
             weight: '400',
             style: 'normal',
         },
+        {
+            path: "/fonts/Roboto-Bold.ttf",
+            weight: '700',
+            style: 'normal',
+        },
+
     ],
     variable: '--font-roboto'
 })

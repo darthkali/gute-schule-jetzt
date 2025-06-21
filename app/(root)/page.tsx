@@ -211,7 +211,7 @@ export default function HomePage() {
                         </div>
                     </div>
 
-                    <h2 className={"text-center text-[color:var(--color-accent)]"}>Teile unsere Seite und mache andere darauf aufmerksam</h2>
+                    <p className={"text-center text-[color:var(--color-accent)]"}>Teile unsere Seite und mache andere darauf aufmerksam</p>
 
                     <div className="flex gap-4 justify-center items-center">
                         <div className={iconBoxStyle}><FaEnvelope size={24} /></div>
