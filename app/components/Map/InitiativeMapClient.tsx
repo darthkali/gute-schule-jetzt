@@ -11,8 +11,9 @@ interface IconPrototypeFix {
 
 delete (L.Icon.Default.prototype as IconPrototypeFix)._getIconUrl
 L.Icon.Default.mergeOptions({
-    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    iconUrl: '/icons/marker-icon.png',
+    shadowUrl: '/icons/marker-shadow.png',
+    iconRetinaUrl: '/icons/marker-icon.png', // falls du keine Retina-Variante brauchst
 })
 
 type Initiative = {
