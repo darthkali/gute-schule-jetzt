@@ -1,3 +1,20 @@
+# [0.2.0](https://github.com/Edunite/edunite/compare/v0.1.1...v0.2.0) (2025-06-21)
+
+
+### Bug Fixes
+
+* added font definition and changed language to german ([06d9493](https://github.com/Edunite/edunite/commit/06d949312b5c03789e13a9d4965a6709acae1522))
+* removed jest config ([393dc30](https://github.com/Edunite/edunite/commit/393dc30381cd224735b449c925c6ea26801925e5))
+* removed test ([8f5edf5](https://github.com/Edunite/edunite/commit/8f5edf58dc9ef1bdcb44654e7542ec702ae74c94))
+* replaced img with Image ([7954f33](https://github.com/Edunite/edunite/commit/7954f330a0c7c50a8d9216576441d0c98e43f7be))
+* updated error page ([e636ee3](https://github.com/Edunite/edunite/commit/e636ee3876dde739b493bce3cbdf57db31f58e5f))
+
+
+### Features
+
+* added base layout and settings ([1bb24d5](https://github.com/Edunite/edunite/commit/1bb24d59866f30021bb37f13f24b148619cef78a))
+* added main-page ([e67c15b](https://github.com/Edunite/edunite/commit/e67c15b3fb3e00502e2ee564c3d3a4f3aa82feed))
+
 ## [0.1.1](https://github.com/Edunite/edunite/compare/v0.1.0...v0.1.1) (2025-06-04)
 
 
