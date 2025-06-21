@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de" className={`${poppinsFont.variable} ${robotoFont.variable}`}>
       <body>{children}</body>
     </html>
   );
