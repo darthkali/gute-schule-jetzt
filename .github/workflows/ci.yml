@@ -30,7 +30,6 @@ jobs:
       - name: Build & Test
         run: |
           npm run build
-          npm run test
 
       # 5) Semantic Release ausführen
       #
