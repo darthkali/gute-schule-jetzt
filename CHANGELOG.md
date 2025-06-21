@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/Edunite/edunite/compare/v0.5.0...v0.6.0) (2025-06-21)
+
+
+### Features
+
+* added all change pages ([a3520f1](https://github.com/Edunite/edunite/commit/a3520f1fbdc23533a1f1b6a29803738eaaa146fb))
+
 # [0.5.0](https://github.com/Edunite/edunite/compare/v0.4.0...v0.5.0) (2025-06-21)
 
 
