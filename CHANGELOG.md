@@ -1,3 +1,19 @@
+# [0.5.0](https://github.com/Edunite/edunite/compare/v0.4.0...v0.5.0) (2025-06-21)
+
+
+### Bug Fixes
+
+* deleted testpage ([ff63e65](https://github.com/Edunite/edunite/commit/ff63e65fe1199b6afdce0202a477e803ceecb5b1))
+* made map responsive and added a better ux on mobile. ([ba20bb4](https://github.com/Edunite/edunite/commit/ba20bb495a90a055f83436a013fbe517634c2f04))
+* updated headings and improved responsive ([7b87372](https://github.com/Edunite/edunite/commit/7b8737282306c352ce99ed3c0cdb2bc70c151d6f))
+
+
+### Features
+
+* added custom button ([1bd9f8f](https://github.com/Edunite/edunite/commit/1bd9f8f760e67f84c4c078046625ecbfaa429255))
+* added other pages ([73721eb](https://github.com/Edunite/edunite/commit/73721ebb0aaea60f5c626a31fd88178ad4def05e))
+* improved responsive ([5242b5a](https://github.com/Edunite/edunite/commit/5242b5a26ff5d7689fe44a22c3dc4bb4484fe8a4))
+
 # [0.4.0](https://github.com/Edunite/edunite/compare/v0.3.0...v0.4.0) (2025-06-21)
 
 
