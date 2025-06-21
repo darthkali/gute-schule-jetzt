@@ -28,7 +28,6 @@ export default function Navbar() {
                     <Link href="/" className="hover:underline"><h3>Home</h3></Link>
                     <Link href="/ueber-uns" className="hover:underline"><h3>Über Uns</h3></Link>
                     <Link href="/kontakt" className="hover:underline"><h3>Kontakt</h3></Link>
-                    <Link href="/testpage" className="hover:underline"><h3>testpage</h3></Link>
                 </div>
 
                 {/*  Petition-Button */}
