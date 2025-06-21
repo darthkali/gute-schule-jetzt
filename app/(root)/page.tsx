@@ -2,6 +2,7 @@ import Card from "@/app/components/Card";
 import InitiativeMapClient from "@/app/components/Map";
 import Image from "next/image";
 import { FaEnvelope, FaMastodon, FaSignal, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter } from "react-icons/fa6"
+import Button from "@/app/components/Button";
 
 
 export default function HomePage() {
@@ -27,21 +28,28 @@ export default function HomePage() {
                     </div>
 
                     {/* Inhalt */}
-                    <div className="relative z-10  mx-auto px-6 py-10 sm:py-15 md:py-20 text-white">
+                    <div className="relative z-10  mx-auto px-6  sm:py-8 md:py-10 text-white">
                         <h1>GUTE SCHULE JETZT</h1>
-                        <h3>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in unseren
+                        <p>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in unseren
                             staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die Herausforderungen,
                             der sich rasant verändernden Welt besteht dringender Handlungsbedarf! Dazu werden Dir hier
                             gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen Bundesländern,
                             die alle Ebenen dazu ermutigen, nicht nur über bessere Bildung zu reden, sondern konkrete
-                            Schritte zu gehen.</h3>
+                            Schritte zu gehen.</p>
                         <div className="flex gap-4 flex-wrap">
-                            <button className="bg-[color:var(--color-neutral)] text-[color:var(--color-text)] px-6 py-3 rounded shadow">Wer steckt dahinter?
-                            </button>
-                            <button
-                                className="bg-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)]/80 text-white px-6 py-3 rounded shadow">
-                                Petition unterzeichnen
-                            </button>
+                            <Button
+                                text="Wer steckt dahinter?"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-neutral)]"
+                                textColor="text-[color:var(--color-text)]"
+                            />
+
+                            <Button
+                                text="Petition unterzeichnen"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-accent)]"
+                                textColor="text-[color:var(--color-neutral)]"
+                            />
                         </div>
                     </div>
                 </div>
@@ -51,27 +59,23 @@ export default function HomePage() {
             {/*HERAUSFORDERUNGEN*/}
             <section>
                 <div className={"innerBox"}>
-                    <h1 className={"text-center text-[color:var(--color-text)]"}>Welche Herausforderungen sehen
-                        wir?</h1>
-                    <p className={"text-[color:var(--color-text)] text-center"}>Diese beiden Schulen haben wir
-                        stellvertretend ausgewählt, weil sie erprobte Lösungen und Ideen zeigen, wie Kindern der Weg zum
-                        Lernen wirklich frei gemacht wird. Jede Schule hat ihren ganz eigenen Charakter, aber das Lernen
-                        steht unglaublich im Mittelpunkt!
-                    </p>
-
-                    <div className="flex flex-wrap justify-center gap-15 ">
+                    <h1 className={"text-center text-[color:var(--color-text)]"}>Welche Herausforderungen sehen wir?</h1>
+                    <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5">
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="VERÄNDERTE WELT"
+                            href={"/veraenderte-welt"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="WAS BRAUCHEN KINDER?"
                             overlayColor={"bg-[color:var(--color-secondary)]/70"}
+                            href={"/was-brauchen-kinder"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="DYSFUNKTIONALES SCHULSYSTEM"
+                            href={"/dysfunktionales-schulsystem"}
                         />
                     </div>
                     <p className="
@@ -108,14 +112,16 @@ export default function HomePage() {
                         Lernen wirklich frei gemacht wird. Jede Schule hat ihren ganz eigenen Charakter, aber das Lernen
                         steht unglaublich im Mittelpunkt!
                     </p>
-                    <div className="flex flex-wrap justify-center gap-15 ">
+                    <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5">
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Primus Schule Münster Berg Fidel"
+                            href={"/primus-schule-muenster"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Alemannenschule Wutöschingen"
+                            href={"/alemannenschule"}
                         />
                     </div>
 
@@ -134,36 +140,41 @@ export default function HomePage() {
             <section>
                 <div className={"innerBox"}>
                     <h1 className={"text-center text-[color:var(--color-text)]"}>Wo kann Veränderung direkt
-                        ansetzen?</h1>
-                    <h2 className={"text-center"}>Wie kann ich dazu beitragen oder aktiv werden?</h2>
+                        ansetzen? Wie kann ich dazu beitragen oder aktiv werden?</h1>
                     <p className={"text-[color:var(--color-text)] text-center"}>Für einen Bildungswandel sind alle
                         Ebenen gefordert aufzubrechen. Es braucht Bewusstsein, neues Denken und eine veränderte Haltung.
                     </p>
 
-                    <div className="flex flex-wrap justify-center gap-15 ">
+                    <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5">
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Schülerinnen und Schüler"
+                            href={"/schuelerinnen-und-schueler"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Eltern und Familien"
+                            href={"/eltern-und-familien"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Politik und Bürger:innen"
+                            href={"/politik-und-buerger"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Schulen und Schulleitungen"
+                            href={"/schulen-und-schulleitungen"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Wirtschaft und Handwerk"
+                            href={"/wirtschaft-und-handwerk"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Kommunen - Schulträger und Vereine"
+                            href={"/kommunen"}
                         />
                     </div>
                 </div>
@@ -172,9 +183,14 @@ export default function HomePage() {
             <section className={"bg-[color:var(--color-secondary)]"}>
                 {/*Hero*/}
                 <div className={"innerBox"}>
-                    <div className="flex gap-4 max-w-200 mx-auto   justify-center items-center">
+                    <div className="flex flex-wrap sm:flex-nowrap gap-4 max-w-250 mx-auto justify-center items-center">
                         <div>
-                            <button className="bg-[color:var(--color-neutral)] text-text-[color:var(--color-textl)] px-6 py-3 rounded shadow">Mitwirken?</button>
+                            <Button
+                                text="Mitwirken?"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-neutral)]"
+                                textColor="text-[color:var(--color-text)]"
+                            />
                             <p className={"text-[color:var(--color-neutral)]"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                                 accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
@@ -182,10 +198,12 @@ export default function HomePage() {
                         </div>
 
                         <div>
-                            <button
-                                className="bg-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)]/70 text-[color:var(--color-neutral)] px-6 py-3 rounded shadow">
-                                Petition unterzeichnen
-                            </button>
+                            <Button
+                                text="Petition unterzeichnen"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-accent)]"
+                                textColor="text-[color:var(--color-neutral)]"
+                            />
                             <p className={"text-[color:var(--color-neutral)]"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                                 accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata

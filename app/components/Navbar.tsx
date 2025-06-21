@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import MobileMenu from './MobileMenu'
+import Button from "@/app/components/Button";
 
 export default function Navbar() {
     return (
@@ -27,17 +28,16 @@ export default function Navbar() {
                     <Link href="/" className="hover:underline"><h3>Home</h3></Link>
                     <Link href="/ueber-uns" className="hover:underline"><h3>Über Uns</h3></Link>
                     <Link href="/kontakt" className="hover:underline"><h3>Kontakt</h3></Link>
-                    <Link href="/testpage" className="hover:underline"><h3>testpage</h3></Link>
                 </div>
 
                 {/*  Petition-Button */}
                 <div className={"ml-auto"}>
-                    <Link href="/petition">
-                        <button
-                            className="bg-[#f59e0b] text-black px-4 rounded-md shadow hover:bg-[#facc15] transition">
-                            <h3>Petition unterzeichnen</h3>
-                        </button>
-                    </Link>
+                    <Button
+                        text="Petition unterzeichnen"
+                        href="/kontakt"
+                        bgColor="bg-[color:var(--color-accent)]"
+                        textColor="text-[color:var(--color-neutral)]"
+                    />
                 </div>
             </div>
 
