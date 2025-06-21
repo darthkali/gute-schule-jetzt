@@ -2,6 +2,7 @@ import Card from "@/app/components/Card";
 import InitiativeMapClient from "@/app/components/Map";
 import Image from "next/image";
 import { FaEnvelope, FaMastodon, FaSignal, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter } from "react-icons/fa6"
+import Button from "@/app/components/Button";
 
 
 export default function HomePage() {
@@ -36,12 +37,19 @@ export default function HomePage() {
                             die alle Ebenen dazu ermutigen, nicht nur über bessere Bildung zu reden, sondern konkrete
                             Schritte zu gehen.</p>
                         <div className="flex gap-4 flex-wrap">
-                            <button className="bg-[color:var(--color-neutral)] text-[color:var(--color-text)] px-6 py-3 rounded shadow">Wer steckt dahinter?
-                            </button>
-                            <button
-                                className="bg-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)]/80 text-white px-6 py-3 rounded shadow">
-                                Petition unterzeichnen
-                            </button>
+                            <Button
+                                text="Wer steckt dahinter?"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-neutral)]"
+                                textColor="text-[color:var(--color-text)]"
+                            />
+
+                            <Button
+                                text="Petition unterzeichnen"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-accent)]"
+                                textColor="text-[color:var(--color-neutral)]"
+                            />
                         </div>
                     </div>
                 </div>
@@ -56,15 +64,18 @@ export default function HomePage() {
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="VERÄNDERTE WELT"
+                            href={"/veraenderte-welt"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="WAS BRAUCHEN KINDER?"
                             overlayColor={"bg-[color:var(--color-secondary)]/70"}
+                            href={"/was-brauchen-kinder"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="DYSFUNKTIONALES SCHULSYSTEM"
+                            href={"/dysfunktionales-schulsystem"}
                         />
                     </div>
                     <p className="
@@ -105,10 +116,12 @@ export default function HomePage() {
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Primus Schule Münster Berg Fidel"
+                            href={"/primus-schule-muenster"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Alemannenschule Wutöschingen"
+                            href={"/alemannenschule"}
                         />
                     </div>
 
@@ -136,26 +149,32 @@ export default function HomePage() {
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Schülerinnen und Schüler"
+                            href={"/schuelerinnen-und-schueler"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Eltern und Familien"
+                            href={"/eltern-und-familien"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Politik und Bürger:innen"
+                            href={"/politik-und-buerger"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Schulen und Schulleitungen"
+                            href={"/schulen-und-schulleitungen"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Wirtschaft und Handwerk"
+                            href={"/wirtschaft-und-handwerk"}
                         />
                         <Card
                             imageSrc="/images/solidarity-649713_1920.jpg"
                             title="Kommunen - Schulträger und Vereine"
+                            href={"/kommunen"}
                         />
                     </div>
                 </div>
@@ -164,9 +183,14 @@ export default function HomePage() {
             <section className={"bg-[color:var(--color-secondary)]"}>
                 {/*Hero*/}
                 <div className={"innerBox"}>
-                    <div className="flex gap-4 max-w-200 mx-auto   justify-center items-center">
+                    <div className="flex flex-wrap sm:flex-nowrap gap-4 max-w-250 mx-auto justify-center items-center">
                         <div>
-                            <button className="bg-[color:var(--color-neutral)] text-text-[color:var(--color-textl)] px-6 py-3 rounded shadow">Mitwirken?</button>
+                            <Button
+                                text="Mitwirken?"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-neutral)]"
+                                textColor="text-[color:var(--color-text)]"
+                            />
                             <p className={"text-[color:var(--color-neutral)]"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                                 accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
@@ -174,10 +198,12 @@ export default function HomePage() {
                         </div>
 
                         <div>
-                            <button
-                                className="bg-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)]/70 text-[color:var(--color-neutral)] px-6 py-3 rounded shadow">
-                                Petition unterzeichnen
-                            </button>
+                            <Button
+                                text="Petition unterzeichnen"
+                                href="/kontakt"
+                                bgColor="bg-[color:var(--color-accent)]"
+                                textColor="text-[color:var(--color-neutral)]"
+                            />
                             <p className={"text-[color:var(--color-neutral)]"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                                 accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
