@@ -1,3 +1,16 @@
+# [0.4.0](https://github.com/Edunite/edunite/compare/v0.3.0...v0.4.0) (2025-06-21)
+
+
+### Bug Fixes
+
+* fixed missing map marker on smartphone ([8e224a1](https://github.com/Edunite/edunite/commit/8e224a1ecee8608be962c11da89810c536c11e75))
+* improved h3 sizes ([5b5734d](https://github.com/Edunite/edunite/commit/5b5734d9394a5f83b00f7bd760abcad9cccf9a78))
+
+
+### Features
+
+* improved spacing, improved text sizes responsiv, fix problem on wide screens. ([65f45ea](https://github.com/Edunite/edunite/commit/65f45eadcc1c613d46bdfd51eff3306b8fb6beb3))
+
 # [0.3.0](https://github.com/Edunite/edunite/compare/v0.2.0...v0.3.0) (2025-06-21)
 
 
