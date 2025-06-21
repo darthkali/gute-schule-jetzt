@@ -1,9 +1,13 @@
 'use client'
 
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 import L from 'leaflet'
 import Link from 'next/link'
 import 'leaflet/dist/leaflet.css'
+import {useState} from "react";
+
+const isMobile = typeof window !== 'undefined' && window.innerWidth < 640
+
 
 interface IconPrototypeFix {
     _getIconUrl?: unknown
@@ -99,32 +103,50 @@ const initiatives: Initiative[] = [
 
 
 function InitiativeMapClient() {
+    const [activated, setActivated] = useState(false)
+
     return (
-        <MapContainer
-            center={[51.1657, 10.4515]} // Mittelpunkt Deutschland
-            zoom={6}
-            scrollWheelZoom={true}
-            className="h-[500px] w-full rounded shadow z-0"
-        >
-            <TileLayer
-                attribution='© OpenStreetMap contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            {initiatives.map((i) => (
-                <Marker key={i.id} position={[i.latitude, i.longitude]}>
-                    <Popup>
-                        <strong>{i.name}</strong><br />
-                        <p className="text-sm text-gray-700">{i.description?.slice(0, 80)}...</p>
-                        <Link
-                            href={`/initiative/${i.id}`}
-                            className="text-blue-600 underline text-sm block mt-1"
-                        >
-                            Zur Detailseite
-                        </Link>
-                    </Popup>
-                </Marker>
-            ))}
-        </MapContainer>
+        <div className="relative h-[300px] sm:h-[500px] md:h-[700px] w-full rounded shadow z-0">
+            <MapContainer
+                center={[51.1657, 10.4515]} // Mittelpunkt Deutschland
+                zoom={6}
+                scrollWheelZoom={false}
+                className="h-full"
+            >
+                <TileLayer
+                    attribution='© OpenStreetMap contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                {initiatives.map((i) => (
+                    <Marker key={i.id} position={[i.latitude, i.longitude]}>
+                        <Popup>
+                            <strong>{i.name}</strong><br/>
+                            <p className="text-sm text-gray-700">{i.description?.slice(0, 80)}...</p>
+                            <Link
+                                href={`/initiative/${i.id}`}
+                                className="text-blue-600 underline text-sm block mt-1"
+                            >
+                                Zur Detailseite
+                            </Link>
+                        </Popup>
+                    </Marker>
+                ))}
+
+            </MapContainer>
+            {/* Overlay */}
+            {isMobile && !activated && (
+                <div
+                    className="absolute inset-0 bg-transparent backdrop-blur-sm cursor-pointer z-[999]"
+                    onClick={() => setActivated(true)}
+                >
+                    <div className="absolute inset-0 flex items-center justify-center">
+            <span className="bg-white text-black text-sm px-3 py-1 rounded shadow">
+              Karte aktivieren
+            </span>
+                    </div>
+                </div>
+            )}
+        </div>
     )
 }
 
