@@ -1,73 +1,66 @@
 @import "tailwindcss";
 
 @theme {
-  --background: #f0ead4;
-  --foreground: #171717;
-  --color-accent: #f39c12;
-  --color-background: #f0ead4;
-  --color-neutral: #ffffff;
-  --color-primary: #2c3e50;
-  --color-secondary: #3498db;
-  --color-text: #333333;
+    --color-accent: #f39c12;
+    --color-background: #f0ead4;
+    --color-neutral: #ffffff;
+    --color-primary: #2c3e50;
+    --color-secondary: #3498db;
+    --color-text: #333333;
 }
 
 @layer base {
-  h1 {
-    font-family: var(--font-poppins), serif;
-    font-size: 4rem;
-    font-weight: 600;
-    line-height: 1.2;
-    @apply mt-5;
-  }
-  h2 {
-    font-family: var(--font-poppins), serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 1.2;
-    @apply mt-3 mb-2;
-  }
-  h3 {
-    font-family: var(--font-poppins), serif;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.2;
-    @apply my-2;
-  }
+    h1 {
+        font-family: var(--font-poppins), serif;
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1.2;
+        @apply mt-5;
+    }
 
-  p {
-    font-family: var(--font-roboto), serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.2;
-    @apply my-2;
-  }
+    h2 {
+        font-family: var(--font-poppins), serif;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.2;
+        @apply mt-3 mb-2;
+    }
+
+    h3 {
+        font-family: var(--font-poppins), serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2;
+        @apply my-2;
+    }
+
+    p {
+        font-family: var(--font-roboto), serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2;
+        @apply my-2;
+    }
 }
 
 @layer components {
-  .card {
-    @apply rounded-lg bg-white p-2;
-  }
+    .card {
+        @apply rounded-lg bg-white p-2;
+    }
 
-  .innerBox {
-    @apply
-    mx-5
-    sm:mx-10
-    md:mx-16
-    xl:mx-38
-    2xl:mx-48
-    py-5
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    .innerBox {
+        @apply
+        mx-5
+        sm:mx-10
+        md:mx-16
+        xl:mx-38
+        2xl:mx-48
+        py-5
+    }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, Helvetica, sans-serif;
 }

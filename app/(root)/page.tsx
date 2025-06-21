@@ -36,10 +36,10 @@ export default function HomePage() {
                             die alle Ebenen dazu ermutigen, nicht nur über bessere Bildung zu reden, sondern konkrete
                             Schritte zu gehen.</h3>
                         <div className="flex gap-4 flex-wrap">
-                            <button className="bg-white text-gray-800 px-6 py-3 rounded shadow">Wer steckt dahinter?
+                            <button className="bg-[color:var(--color-neutral)] text-[color:var(--color-text)] px-6 py-3 rounded shadow">Wer steckt dahinter?
                             </button>
                             <button
-                                className="bg-[color:var(--color-accent)] hover:bg-orange-600 text-white px-6 py-3 rounded shadow">
+                                className="bg-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)]/80 text-white px-6 py-3 rounded shadow">
                                 Petition unterzeichnen
                             </button>
                         </div>
