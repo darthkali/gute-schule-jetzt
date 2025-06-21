@@ -11,11 +11,13 @@
 
 @layer base {
     h1 {
-        font-family: var(--font-poppins), serif;
+        font-family: var(), serif;
         font-size: 4rem;
         font-weight: 600;
         line-height: 1.2;
         @apply mt-5;
+        @apply break-words;
+        @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl
     }
 
     h2 {
@@ -24,6 +26,8 @@
         font-weight: 600;
         line-height: 1.2;
         @apply mt-3 mb-2;
+        @apply break-words;
+        @apply text-lg sm:text-xl md:text-2xl
     }
 
     h3 {
@@ -32,6 +36,8 @@
         font-weight: 500;
         line-height: 1.2;
         @apply my-2;
+        @apply break-words;
+        @apply text-xs sm:text-sm md:text-base lg:text-lg
     }
 
     p {
@@ -40,6 +46,8 @@
         font-weight: 400;
         line-height: 1.2;
         @apply my-2;
+        @apply break-words;
+        @apply text-xs sm:text-sm md:text-base
     }
 }
 
@@ -50,12 +58,13 @@
 
     .innerBox {
         @apply
-        mx-5
-        sm:mx-10
-        md:mx-16
-        xl:mx-38
-        2xl:mx-48
-        py-5
+        w-full
+        max-w-screen-2xl
+        mx-auto
+        px-5
+        sm:px-10
+        md:px-16
+        py-5;
     }
 }
 

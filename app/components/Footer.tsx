@@ -19,7 +19,7 @@ export default function Footer() {
                     <a href="/kontakt" className="hover:underline">Kontakt</a>
                     <a href="/impressum" className="hover:underline">Impressum</a>
                     <a href="/datenschutz" className="hover:underline">Datenschutz</a>
-                    <span className="text-sm whitespace-nowrap">Non-Profit Website Designed By Danny Steinbrecher</span>
+                    <span className="text-sm  break-words">Non-Profit Website Designed By Danny Steinbrecher</span>
                 </div>
             </div>
         </footer>
