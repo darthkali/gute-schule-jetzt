@@ -1,3 +1,22 @@
+## [0.1.1](https://github.com/Edunite/edunite/compare/v0.1.0...v0.1.1) (2025-06-04)
+
+
+### Bug Fixes
+
+* narrow id type in edit page ([2195246](https://github.com/Edunite/edunite/commit/219524604707cf4a7c36e436b99e246839993b03))
+
+# [0.1.0](https://github.com/Edunite/edunite/compare/v0.0.13...v0.1.0) (2025-04-10)
+
+
+### Bug Fixes
+
+* fixed type error ([be84bc7](https://github.com/Edunite/edunite/commit/be84bc77b432e22da50696eb2163bc9389437e5c))
+
+
+### Features
+
+* added map and icon ([c86d979](https://github.com/Edunite/edunite/commit/c86d979350bcc6df7400fdce58cdd64e01e7a925))
+
 ## [0.0.13](https://github.com/Edunite/edunite/compare/v0.0.12...v0.0.13) (2025-04-09)
 
 
