@@ -37,7 +37,7 @@
         line-height: 1.2;
         @apply my-2;
         @apply break-words;
-        @apply text-sm sm:text-base md:text-lg lg:text-xl
+        @apply text-xs sm:text-sm md:text-base lg:text-lg
     }
 
     p {
