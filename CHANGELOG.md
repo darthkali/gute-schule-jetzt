@@ -1,3 +1,16 @@
+# [0.3.0](https://github.com/Edunite/edunite/compare/v0.2.0...v0.3.0) (2025-06-21)
+
+
+### Bug Fixes
+
+* made footer sticky on little content ([f8d3139](https://github.com/Edunite/edunite/commit/f8d3139c9111037263d5edd3625f530edfc2a452))
+* removed darkmode ([62e9825](https://github.com/Edunite/edunite/commit/62e982504d91aa192935f764bc48b678f8710399))
+
+
+### Features
+
+* added all pages (empty) ([6a5cb46](https://github.com/Edunite/edunite/commit/6a5cb46d12849a43d03caa43de889239191576a3))
+
 # [0.2.0](https://github.com/Edunite/edunite/compare/v0.1.1...v0.2.0) (2025-06-21)
 
 
