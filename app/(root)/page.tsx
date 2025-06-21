@@ -27,7 +27,7 @@ export default function HomePage() {
                     </div>
 
                     {/* Inhalt */}
-                    <div className="relative z-10  mx-auto px-6 py-32  text-white">
+                    <div className="relative z-10  mx-auto px-6 py-10 sm:py-15 md:py-20 text-white">
                         <h1>GUTE SCHULE JETZT</h1>
                         <h3>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in unseren
                             staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die Herausforderungen,
