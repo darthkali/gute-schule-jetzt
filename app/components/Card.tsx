@@ -13,14 +13,15 @@ export default function Card({
                                  imageSrc,
                                  title,
                                  href,
-                                 overlayColor = 'bg-black/70',
+                                 overlayColor = 'bg-[color:var(--color-primary)]/70',
                                  textColor = 'text-[color:var(--color-neutral)]'
                              }: CardProps
 ) {
     return (
         <Link
             href={href}
-            className="group relative w-full aspect-[4/3] max-w-[180px] sm:max-w-[220px] md:max-w-[260px] rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+            className="group shadow-xl relative w-full aspect-[4/3] max-w-[180px] sm:max-w-[220px]
+            md:max-w-[260px] rounded-xl overflow-hidden transition-transform duration-300 hover:scale-105">
 
             <Image
                 src={imageSrc}
