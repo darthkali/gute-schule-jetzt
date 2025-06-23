@@ -106,7 +106,7 @@ function InitiativeMapClient() {
     const [activated, setActivated] = useState(false)
 
     return (
-        <div className="relative h-[300px] sm:h-[500px] md:h-[700px] w-full rounded shadow z-0">
+        <div className="relative h-[300px] sm:h-[500px] md:h-[650px] w-full rounded shadow z-0">
             <MapContainer
                 center={[51.1657, 10.4515]} // Mittelpunkt Deutschland
                 zoom={6}
