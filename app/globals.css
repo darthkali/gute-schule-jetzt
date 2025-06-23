@@ -37,7 +37,7 @@
         line-height: 1.2;
         @apply my-2;
         @apply break-words;
-        @apply text-base sm:text-lg md:text-lg lg:text-xl leading-relaxed;
+        @apply text-base sm:text-lg md:text-lg leading-relaxed;
     }
 }
 
