@@ -37,7 +37,19 @@
         line-height: 1.2;
         @apply my-2;
         @apply break-words;
-        @apply text-base sm:text-lg md:text-lg lg:text-xl leading-relaxed;
+        @apply text-base sm:text-lg md:text-lg leading-relaxed;
+    }
+
+    ul {
+        @apply list-disc list-inside pl-6 my-4;
+    }
+
+    ol {
+        @apply list-decimal pl-6 my-4;
+    }
+
+    li {
+        @apply mb-2 leading-relaxed;
     }
 }
 
@@ -63,3 +75,31 @@ body {
     color: var(--color-text);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+blockquote {
+    position: relative;
+    padding-left: 2em;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 3em;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 1em;
+    font-size: 0.9em;
+    text-align: right;
+    color: var(--color-secondary);
+}
+

@@ -15,11 +15,11 @@ export default function Footer() {
                 </div>
 
                 {/* Links */}
-                <div className="flex gap-6 text-sm font-medium">
+                <div className="flex gap-6 flex-wrap text-sm font-medium justify-center">
                     <a href="/kontakt" className="hover:underline">Kontakt</a>
                     <a href="/impressum" className="hover:underline">Impressum</a>
                     <a href="/datenschutz" className="hover:underline">Datenschutz</a>
-                    <span className="text-sm  break-words">Non-Profit Website Designed By Danny Steinbrecher</span>
+                    <span className="text-sm  break-words">Gemeinnützige Webseite</span>
                 </div>
             </div>
         </footer>
