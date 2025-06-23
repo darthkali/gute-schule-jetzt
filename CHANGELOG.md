@@ -1,3 +1,26 @@
+# [0.7.0](https://github.com/Edunite/edunite/compare/v0.6.0...v0.7.0) (2025-06-23)
+
+
+### Bug Fixes
+
+* added flex-wrap to footer ([f9ab8a9](https://github.com/Edunite/edunite/commit/f9ab8a909c042fdfce70b3c31542e7db43171b9d))
+* fixed youtube preview image ([b33e026](https://github.com/Edunite/edunite/commit/b33e026beca067246dabbb6a22a393e98de5287e))
+
+
+### Features
+
+* added Alemannenschule Wutöschingen content, added Info- and MediaCard ([9eaeea8](https://github.com/Edunite/edunite/commit/9eaeea8e8cf07e6640ada15bcc8bbf6f2c4c63c3))
+* added contact page and make the button also capable to handle submits ([42ec025](https://github.com/Edunite/edunite/commit/42ec025dea1c0b6f794e3768faefb6a13adc4c88))
+* added list styling ([67c78b2](https://github.com/Edunite/edunite/commit/67c78b290a8c82e6f7a96af0645e9b8fe9899d5c))
+* added MediaCard ([0dbcff4](https://github.com/Edunite/edunite/commit/0dbcff414cd0125fd618fa51433040b567adb7ca))
+* added newTab boolean and className to Button ([7598828](https://github.com/Edunite/edunite/commit/7598828b94364752e2bd2ecfebb91d25992b3b36))
+* added Primus Schule Münster Berg Fidel page ([39f4070](https://github.com/Edunite/edunite/commit/39f40706a68fd55dd2d2e1313eab717d09316aa2))
+* added some images ([396b16a](https://github.com/Edunite/edunite/commit/396b16a0527057b906b7d6d7c50428891926156b))
+* added unique images to cards on main page, added new images, updated card shadow ([79f5a55](https://github.com/Edunite/edunite/commit/79f5a553d38509702bd29a5262208bc821a4fb62))
+* added YoutubePreview component ([692e30b](https://github.com/Edunite/edunite/commit/692e30b2a56bafb00923df7ed2aad3ba266137ab))
+* adjusted hero image so that the image will fit on all screens, ([ddb262d](https://github.com/Edunite/edunite/commit/ddb262d4e873dfb0c7057422493a229db5789c80))
+* resized map ([877448f](https://github.com/Edunite/edunite/commit/877448fae9fcb2e2b607b28caf0f9fb314d7a27f))
+
 # [0.6.0](https://github.com/Edunite/edunite/compare/v0.5.0...v0.6.0) (2025-06-21)
 
 
