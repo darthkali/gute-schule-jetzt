@@ -129,9 +129,9 @@ export default function HomePage() {
                                     Primus Schule <br/> Münster Berg Fidel
                                 </h2>
                                 <ul className={" text-center"}>
-                                    <li>- Vorbild für Grundschulen</li>
-                                    <li>- Vorbild für längeres gemeinsames Lernen</li>
-                                    <li>- Vorbild für Inklusion</li>
+                                    <li>Vorbild für Grundschulen</li>
+                                    <li>Vorbild für längeres gemeinsames Lernen</li>
+                                    <li>Vorbild für Inklusion</li>
                                 </ul>
                                 <p className="text-blue-400 text-center mt-4">Jede Klasse hat ein Verantwortungsteam-
                                     Vorbild für Grundschulen</p>
@@ -152,8 +152,8 @@ export default function HomePage() {
                                     Alemannenschule Wutöschingen
                                 </h2>
                                 <ul className={" text-center"}>
-                                    <li>- Vorbild für weiterführende Schulen</li>
-                                    <li>- Vorbild für Selbstorganisiertes Lernen</li>
+                                    <li>Vorbild für weiterführende Schulen</li>
+                                    <li>Vorbild für Selbstorganisiertes Lernen</li>
                                 </ul>
                                 <p className="text-blue-400 text-center mt-4">Ich bin selbstwirksam - ich kann die Welt verändern!
                                     Statt schulgerechte Kinder eine kindgerechte Schule!“</p>

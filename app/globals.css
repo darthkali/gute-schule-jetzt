@@ -39,6 +39,18 @@
         @apply break-words;
         @apply text-base sm:text-lg md:text-lg leading-relaxed;
     }
+
+    ul {
+        @apply list-disc list-inside pl-6 my-4;
+    }
+
+    ol {
+        @apply list-decimal pl-6 my-4;
+    }
+
+    li {
+        @apply mb-2 leading-relaxed;
+    }
 }
 
 @layer components {
