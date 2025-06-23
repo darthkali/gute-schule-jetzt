@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, {useState} from 'react';
+import Image from "next/image";
 
 type YouTubePreviewProps = {
     videoId: string;
@@ -32,12 +33,15 @@ export default function YouTubePreview({
                     className="relative w-full h-full cursor-pointer group"
                     onClick={() => setConsentGiven(true)}
                 >
-                    <img
+                    <Image
                         src={thumbnailUrl}
-                        alt="YouTube Thumbnail"
-                        className="w-full h-full object-cover transition group-hover:brightness-90"
+                        alt={"YouTube Thumbnail"}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className={"object-cover transition group-hover:brightness-90"}
                     />
-                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-center px-4">
+                    <div
+                        className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-center px-4">
                         <div>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +49,7 @@ export default function YouTubePreview({
                                 fill="white"
                                 viewBox="0 0 24 24"
                             >
-                                <path d="M8 5v14l11-7z" />
+                                <path d="M8 5v14l11-7z"/>
                             </svg>
                             <p className="text-sm">{consentText}</p>
                         </div>
