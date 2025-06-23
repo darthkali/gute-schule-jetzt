@@ -45,8 +45,6 @@ export default function HomePage() {
                             <Button
                                 text="Wer steckt dahinter?"
                                 href="/kontakt"
-                                bgColor="bg-[color:var(--color-neutral)]"
-                                textColor="text-[color:var(--color-text)]"
                             />
 
                             <Button
