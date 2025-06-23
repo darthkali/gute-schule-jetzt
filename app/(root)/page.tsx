@@ -11,9 +11,10 @@ export default function HomePage() {
     return (
         <div>
             {/*Hero*/}
+            <section className={"bg-[color:var(--color-secondary)]/70"}>
+            {/*<section className={"bg-[color:var(--color-secondary)]/70"}>*/}
 
-            <section className="relative overflow-hidden min-h-[50vh]">
-                <div className={"innerBox"}>
+                <div className={"innerBox relative overflow-hidden min-h-[700px] bg-[color:var(--color-background)]"}>
                     {/* Hintergrundbild */}
                     <div className="absolute inset-0 bottom-0 z-0">
                         <Image
@@ -23,9 +24,11 @@ export default function HomePage() {
                             className="object-cover object-bottom pointer-events-none"
                             priority
                         />
-                        {/* Blaue Overlay-Ebene */}
-                        <div className="absolute inset-0 bg-[color:var(--color-secondary)]/70"/>
+
                     </div>
+                    {/* Blaue Overlay-Ebene */}
+                    {/*<div className="absolute overflow-hidden inset-0 left-0 h-full w-full  z-10 "/>*/}
+                    <div className="absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/70 z-10 "/>
 
                     {/* Inhalt */}
                     <div className="relative z-10  mx-auto px-6  sm:py-8 md:py-10 text-white">
@@ -36,7 +39,7 @@ export default function HomePage() {
                             gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen Bundesländern,
                             die alle Ebenen dazu ermutigen, nicht nur über bessere Bildung zu reden, sondern konkrete
                             Schritte zu gehen.</p>
-                        <div className="flex gap-4 flex-wrap">
+                        <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
                             <Button
                                 text="Wer steckt dahinter?"
                                 href="/kontakt"
@@ -62,41 +65,30 @@ export default function HomePage() {
                     <h1 className={"text-center text-[color:var(--color-text)]"}>Welche Herausforderungen sehen wir?</h1>
                     <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5">
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="VERÄNDERTE WELT"
                             href={"/veraenderte-welt"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="WAS BRAUCHEN KINDER?"
                             overlayColor={"bg-[color:var(--color-secondary)]/70"}
                             href={"/was-brauchen-kinder"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="DYSFUNKTIONALES SCHULSYSTEM"
                             href={"/dysfunktionales-schulsystem"}
                         />
                     </div>
-                    <p className="
-                    relative text-[color:var(--color-text)] text-center leading-relaxed italic before:content-['„'] before:absolute before:-left-10 before:text-9xl before:top-[-100px]
-                    ">
-                        Die Transformation, die Verwandlung also, sie besteht darin, dass sich die Menschen in diesem
-                        Land endlich an den
-                        Kopf greifen, um zu verstehen, was ihr wichtigstes Kapital ist: Denken, Problemlösungen oder,
-                        wie wir es auch nennen:
-                        Wissensarbeit. Doch Deutschland verpennt es seit Jahren und wurstelt weiter in der Tretmühle.
-                        Die Idee, dass mehr
-                        Routinearbeit zu mehr wirtschaftlichem Erfolg führt, ist auch ökonomisch aus der Zeit gefallen.
-                        Alle Kraft wäre der
-                        Frage zu widmen, wie aus unserem Land wieder Ideen und Initiativen kommen könnten. Eine Welt, in
-                        der man sich nicht
-                        am Freitag aufs Wochenende freut, weil die blöde Last vorbei ist, und am Sonntagnachmittag
-                        depressiv wird, weil der
-                        nächste Werktag droht. Eine Welt, in der wir uns selber gehören, und gerade deshalb unser Bestes
-                        geben, um ein paar
-                        der verdammt vielen Probleme zu lösen, die wir haben.
-                    </p>
+                    <blockquote>
+                        Die Transformation, die Verwandlung also, sie besteht darin, dass sich die Menschen in diesem Land endlich an den Kopf greifen, um zu verstehen, was ihr wichtigstes Kapital ist:
+                        <br/>
+                        Denken, Problemlösungen oder, wie wir es auch nennen: Wissensarbeit. Doch Deutschland verpennt es seit Jahren und wurstelt weiter in der Tretmühle. Die Idee, dass mehr Routinearbeit zu mehr wirtschaftlichem Erfolg führt, ist auch ökonomisch aus der Zeit gefallen. Alle Kraft wäre der Frage zu widmen, wie aus unserem Land wieder Ideen und Initiativen kommen könnten.
+                        <br/>   <br/>
+                        Eine Welt, in der man sich nicht am Freitag aufs Wochenende freut, weil die blöde Last vorbei ist, und am Sonntagnachmittag depressiv wird, weil der nächste Werktag droht. Eine Welt, in der wir uns selber gehören, und gerade deshalb unser Bestes geben, um ein paar der verdammt vielen Probleme zu lösen, die wir haben.
+                        <cite>gekürzt, Wolf Lotter, https://www.wolflotter.com</cite>
+                    </blockquote>
 
                 </div>
             </section>
@@ -114,12 +106,12 @@ export default function HomePage() {
                     </p>
                     <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5">
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Primus Schule Münster Berg Fidel"
                             href={"/primus-schule-muenster"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Alemannenschule Wutöschingen"
                             href={"/alemannenschule"}
                         />
@@ -147,32 +139,32 @@ export default function HomePage() {
 
                     <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5">
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Schülerinnen und Schüler"
                             href={"/schuelerinnen-und-schueler"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Eltern und Familien"
                             href={"/eltern-und-familien"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Politik und Bürger:innen"
                             href={"/politik-und-buerger"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Schulen und Schulleitungen"
                             href={"/schulen-und-schulleitungen"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Wirtschaft und Handwerk"
                             href={"/wirtschaft-und-handwerk"}
                         />
                         <Card
-                            imageSrc="/images/solidarity-649713_1920.jpg"
+                            imageSrc="/images/hoch/solidarity-649713_1920.jpg"
                             title="Kommunen - Schulträger und Vereine"
                             href={"/kommunen"}
                         />
