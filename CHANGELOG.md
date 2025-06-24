@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/Edunite/edunite/compare/v0.8.1...v0.9.0) (2025-06-24)
+
+
+### Features
+
+* added ImageTextComponent ([35e8a7c](https://github.com/Edunite/edunite/commit/35e8a7c7654fb603248890a423ab4e5712b27aee))
+* added new Images ([e66d90a](https://github.com/Edunite/edunite/commit/e66d90a832f90afb2dceac16f0d8a8a462921639))
+* updated all pages with Image-Text sections ([6490588](https://github.com/Edunite/edunite/commit/64905887bb891c102bd047f6cfc9b417c2571ca7))
+
 ## [0.8.1](https://github.com/Edunite/edunite/compare/v0.8.0...v0.8.1) (2025-06-24)
 
 
