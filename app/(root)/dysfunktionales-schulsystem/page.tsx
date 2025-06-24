@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 
 const Page = () => {
     return (
@@ -128,7 +127,7 @@ const Page = () => {
                                 ermöglichen, sondern in Demotivation zuführen. Hinzu kommen die Benachteiligung oder
                                 Ausgrenzung von Kindern. Chancengerechtigkeit sieht anders aus. Familien erleiden
                                 unnötige Belastungen. Wieviel Bildung, Chancen und Lebensfreude hier zu gewinnen wären.
-                                § 11 Landesverfassung BW 11.11.1953 : "Jeder junge Mensch hat ohne Rücksicht auf
+                                § 11 Landesverfassung BW 11.11.1953 : &#34;Jeder junge Mensch hat ohne Rücksicht auf
                                 Herkunft oder wirtschaftliche Lage das Recht auf eine seiner Begabung entsprechende
                                 Erziehung und Ausbildung. Das öffentliche Schulwesen ist nach diesem Grundsatz zu
                                 gestalten.“</p>
