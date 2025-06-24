@@ -25,6 +25,7 @@ export default function HomePage() {
                             className="object-cover object-bottom pointer-events-none"
                             priority
                             placeholder="blur"
+                            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvklEQVR4nB3DzUvDMBgH4Pz5HgLzGASHzCEIVQYDoZeBB/G6g2zCUOqyt23SJP1IaB2+8hN84BFkScXvhNKWXHuL2hsUdMRXpXEsNVNNIGekMNao6TzBNoa9d3CugbE19Enjff/G+vMA1wUp2tAqMCN2PachIvXD/ymNaH1gZxukbpAijk79/EYQfbANGsZr+FihoD2qpmDfl0hTkGK7e1Gb1zVWT3d8v77GY36Dq9sZ1PIC80zyIrtE/vwg/wDDIq/dDmXMmgAAAABJRU5ErkJggg=="
                         />
 
                     </div>
@@ -154,7 +155,7 @@ export default function HomePage() {
                                 </h2>
                                 <ul className={" text-center"}>
                                     <li>Vorbild für weiterführende Schulen</li>
-                                    <li>Vorbild für Selbstorganisiertes Lernen</li>
+                                    <li>Vorbild für Selbstorganisiertes Lernen und gemeinsames Projekt-Lernen</li>
                                 </ul>
                                 <p className="text-blue-400 text-center mt-4">Ich bin selbstwirksam - ich kann die Welt verändern!
                                     Statt schulgerechte Kinder eine kindgerechte Schule!“</p>
