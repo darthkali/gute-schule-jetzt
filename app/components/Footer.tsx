@@ -11,6 +11,7 @@ export default function Footer() {
                         alt="EduUnite Logo"
                         width={40}
                         height={40}
+                        placeholder="blur"
                     />
                 </div>
 

@@ -39,6 +39,7 @@ export default function YouTubePreview({
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className={"object-cover transition group-hover:brightness-90"}
+                        placeholder="blur"
                     />
                     <div
                         className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-center px-4">

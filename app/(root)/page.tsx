@@ -24,6 +24,7 @@ export default function HomePage() {
                             fill
                             className="object-cover object-bottom pointer-events-none"
                             priority
+                            placeholder="blur"
                         />
 
                     </div>

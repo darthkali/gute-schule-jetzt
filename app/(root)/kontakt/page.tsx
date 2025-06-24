@@ -77,6 +77,7 @@ export default function ContactPage() {
                     layout="fill"
                     objectFit="cover"
                     className="rounded-l-xl"
+                    placeholder="blur"
                 />
             </div>
 

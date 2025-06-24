@@ -28,6 +28,7 @@ export default function Card({
                 alt={title}
                 className="object-cover "
                 fill
+                placeholder="blur"
             />
 
             {/* Overlay */}
