@@ -10,6 +10,7 @@ const Page = () => {
                     imageSrc="/images/hoch/graduation-2308406_1920.jpg"
                     imageAlt="Raupe, Puppe und Schmetterling"
                     imagePosition="left"
+                    blueImageSrc={"/images/boy-8474750_1920_blur.jpg"}
                 >
                     <p className={"font-semibold"}>
                         Hi, an alle Jugendlichen in unseren Schulen in BW,

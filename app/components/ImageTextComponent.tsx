@@ -36,6 +36,7 @@ export default function ImageTextSection({
                     width={imageWidth}
                     height={imageHeight}
                     className="w-full h-auto rounded shadow"
+                    placeholder="blur"
                 />
             </div>
         </div>
