@@ -1,3 +1,15 @@
+# [0.10.0](https://github.com/Edunite/edunite/compare/v0.9.0...v0.10.0) (2025-06-24)
+
+
+### Bug Fixes
+
+* deleted old property ([d9be6b1](https://github.com/Edunite/edunite/commit/d9be6b13d3fe6c51f110650436eeed6a0fde8289))
+
+
+### Features
+
+* added image blur for loading time ([b06a712](https://github.com/Edunite/edunite/commit/b06a712b28e403e94a13fc956efdb81502d55fc7))
+
 # [0.9.0](https://github.com/Edunite/edunite/compare/v0.8.1...v0.9.0) (2025-06-24)
 
 
