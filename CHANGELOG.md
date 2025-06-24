@@ -1,3 +1,17 @@
+# [0.8.0](https://github.com/Edunite/edunite/compare/v0.7.0...v0.8.0) (2025-06-24)
+
+
+### Bug Fixes
+
+* removes unused import ([c7d92b5](https://github.com/Edunite/edunite/commit/c7d92b5301c01332c00f674e5da442852832eaa9))
+
+
+### Features
+
+* added dysfunktionale schulsystem page ([e4fbaa1](https://github.com/Edunite/edunite/commit/e4fbaa1628c1f048f0393baea6fadc076cd78a38))
+* added veraenderte welt page ([ef06ff4](https://github.com/Edunite/edunite/commit/ef06ff4bf0a08b34d916c5a12292400d2d87f922))
+* added was brauchen Kinder page ([c4f817b](https://github.com/Edunite/edunite/commit/c4f817b0784d7ecf599dd5d35b9402385223c749))
+
 # [0.7.0](https://github.com/Edunite/edunite/compare/v0.6.0...v0.7.0) (2025-06-23)
 
 
