@@ -1,16 +1,26 @@
 import React from 'react'
 import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponent";
+import Image from "next/image";
 
 const Page = () => {
     return (
         <div>
             <section>
-                <div className={"innerBox"}>
-                    <h1>WAS BRAUCHEN KINDER?</h1>
-                    <p>Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen stattfinden und das volle
-                        Potenzial eines Menschen entfaltet werden.
-                        Die Voraussetzung für aufbauendes Lernen ist die Beachtung der beiden Grundbedürfnisse nach
-                        Verbundenheit und Autonomie. .</p>
+                <div className="innerBox grid grid-cols-1 lg:grid-cols-4  mt-4 py-0">
+                    <div className={"col-span-3"}>
+                        <h1>WAS BRAUCHEN KINDER?</h1>
+                        <p>Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen stattfinden und das volle
+                            Potenzial eines Menschen entfaltet werden.
+                            Die Voraussetzung für aufbauendes Lernen ist die Beachtung der beiden Grundbedürfnisse nach
+                            Verbundenheit und Autonomie. .</p>
+                    </div>
+                    <Image
+                        src={"/images/Kinderbilder/kids-3171905_1920mb.png"}
+                        alt={"imageAlt"}
+                        width={500}
+                        height={600}
+                        className="w-full h-auto hidden lg:block"
+                    />
                 </div>
             </section>
             <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
