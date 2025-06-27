@@ -39,26 +39,32 @@ export default function HomePage() {
                         className="absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/70 z-10 "/>
 
                     {/* Inhalt */}
-                    <div className="relative z-10  px-6  sm:py-8 md:py-10 text-white">
-                        <h1>GUTE SCHULE JETZT</h1>
-                        <p>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in unseren
-                            staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die Herausforderungen,
-                            der sich rasant verändernden Welt besteht dringender Handlungsbedarf! Dazu werden Dir hier
-                            gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen Bundesländern,
-                            die alle Ebenen andere dazu ermutigen, nicht nur über nachhaltigere Bildung zu reden,
-                            sondern konkrete Schritte zu gehen.</p>
-                        <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
-                            <Button
-                                text="Wer steckt dahinter?"
-                                href="/kontakt"
-                            />
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 relative z-10  px-6  sm:py-8 md:py-10 text-white">
+                        <div className={"sm:col-span-2"}>
+                            <h1>GUTE SCHULE JETZT</h1>
+                            <p>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in
+                                unseren
+                                staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die
+                                Herausforderungen,
+                                der sich rasant verändernden Welt besteht dringender Handlungsbedarf! Dazu werden Dir
+                                hier
+                                gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen
+                                Bundesländern,
+                                die alle Ebenen andere dazu ermutigen, nicht nur über nachhaltigere Bildung zu reden,
+                                sondern konkrete Schritte zu gehen.</p>
+                            <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
+                                <Button
+                                    text="Wer steckt dahinter?"
+                                    href="/kontakt"
+                                />
 
-                            <Button
-                                text="Petition unterzeichnen"
-                                href="/kontakt"
-                                bgColor="bg-[color:var(--color-accent)]"
-                                textColor="text-[color:var(--color-neutral)]"
-                            />
+                                <Button
+                                    text="Petition unterzeichnen"
+                                    href="/kontakt"
+                                    bgColor="bg-[color:var(--color-accent)]"
+                                    textColor="text-[color:var(--color-neutral)]"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -270,10 +276,10 @@ export default function HomePage() {
                             className={iconBoxStyle}
                             aria-label="Teilen per E-Mail"
                         >
-                            <FaEnvelope size={24} />
+                            <FaEnvelope size={24}/>
                         </a>
 
-                        <MastodonShareButton key="mastodon" text={text} shareUrl={shareUrl} className={iconBoxStyle} />
+                        <MastodonShareButton key="mastodon" text={text} shareUrl={shareUrl} className={iconBoxStyle}/>
 
                         <a
                             key="linkedin"
@@ -283,7 +289,7 @@ export default function HomePage() {
                             className={iconBoxStyle}
                             aria-label="Teilen auf LinkedIn"
                         >
-                            <FaLinkedin size={24} className="text-[#0077B5]" />
+                            <FaLinkedin size={24} className="text-[#0077B5]"/>
                         </a>
 
                         <a
@@ -294,7 +300,7 @@ export default function HomePage() {
                             className={iconBoxStyle}
                             aria-label="Teilen auf WhatsApp"
                         >
-                            <FaWhatsapp size={24} className="text-[#25D366]" />
+                            <FaWhatsapp size={24} className="text-[#25D366]"/>
                         </a>
 
                         <a
@@ -305,7 +311,7 @@ export default function HomePage() {
                             className={iconBoxStyle}
                             aria-label="Teilen auf Facebook"
                         >
-                            <FaFacebook size={24} className="text-[#1877F2]" />
+                            <FaFacebook size={24} className="text-[#1877F2]"/>
                         </a>
 
                         <a
@@ -316,7 +322,7 @@ export default function HomePage() {
                             className={iconBoxStyle}
                             aria-label="Teilen auf X (Twitter)"
                         >
-                            <FaXTwitter size={24} className="text-black" />
+                            <FaXTwitter size={24} className="text-black"/>
                         </a>
 
 
