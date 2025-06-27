@@ -1,12 +1,16 @@
 import Card from "@/app/components/Card";
 import InitiativeMapClient from "@/app/components/Map";
 import Image from "next/image";
-import {FaEnvelope, FaMastodon, FaSignal, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter} from "react-icons/fa6"
+import {FaEnvelope, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter} from "react-icons/fa6"
 import Button from "@/app/components/Button";
 import Link from "next/link";
+import MastodonShareButton from "@/app/components/MastodonShareButton";
 
 
 export default function HomePage() {
+    const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
+    const text = encodeURIComponent('Schau dir diese Seite an:');
+
     const iconBoxStyle = "bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow"
 
     return (
@@ -157,7 +161,8 @@ export default function HomePage() {
                                     <li>Vorbild für weiterführende Schulen</li>
                                     <li>Vorbild für Selbstorganisiertes Lernen und gemeinsames Projekt-Lernen</li>
                                 </ul>
-                                <p className="text-blue-400 text-center mt-4">Ich bin selbstwirksam - ich kann die Welt verändern!
+                                <p className="text-blue-400 text-center mt-4">Ich bin selbstwirksam - ich kann die Welt
+                                    verändern!
                                     Statt schulgerechte Kinder eine kindgerechte Schule!“</p>
                             </div>
                         </Link>
@@ -255,14 +260,66 @@ export default function HomePage() {
                     <p className={"text-center text-[color:var(--color-accent)]"}>Teile unsere Seite und mache andere
                         darauf aufmerksam</p>
 
-                    <div className="flex gap-4 justify-center items-center">
-                        <div className={iconBoxStyle}><FaEnvelope size={24}/></div>
-                        <div className={iconBoxStyle}><FaMastodon size={24} className="text-[#6364FF]"/></div>
-                        <div className={iconBoxStyle}><FaSignal size={24} className="text-[#3A76F0]"/></div>
-                        <div className={iconBoxStyle}><FaLinkedin size={24} className="text-[#0077B5]"/></div>
-                        <div className={iconBoxStyle}><FaWhatsapp size={24} className="text-[#25D366]"/></div>
-                        <div className={iconBoxStyle}><FaFacebook size={24} className="text-[#1877F2]"/></div>
-                        <div className={iconBoxStyle}><FaXTwitter size={24} className="text-black"/></div>
+                    <div className="flex flex-wrap gap-4 justify-center items-center">
+
+                        <a
+                            key="email"
+                            href={`mailto:?subject=Empfehlung&body=${text}%0A${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen per E-Mail"
+                        >
+                            <FaEnvelope size={24} />
+                        </a>
+
+                        <MastodonShareButton key="mastodon" text={text} shareUrl={shareUrl} className={iconBoxStyle} />
+
+                        <a
+                            key="linkedin"
+                            href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf LinkedIn"
+                        >
+                            <FaLinkedin size={24} className="text-[#0077B5]" />
+                        </a>
+
+                        <a
+                            key="whatsapp"
+                            href={`https://wa.me/?text=${text}%20${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf WhatsApp"
+                        >
+                            <FaWhatsapp size={24} className="text-[#25D366]" />
+                        </a>
+
+                        <a
+                            key="facebook"
+                            href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf Facebook"
+                        >
+                            <FaFacebook size={24} className="text-[#1877F2]" />
+                        </a>
+
+                        <a
+                            key="twitter"
+                            href={`https://twitter.com/intent/tweet?text=${text}&url=${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf X (Twitter)"
+                        >
+                            <FaXTwitter size={24} className="text-black" />
+                        </a>
+
+
                     </div>
                 </div>
             </section>
