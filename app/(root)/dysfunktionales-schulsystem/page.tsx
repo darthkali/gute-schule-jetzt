@@ -1,22 +1,32 @@
 import React from 'react'
+import Image from "next/image";
 
 const Page = () => {
     return (
         <div>
             <section>
-                <div className={"innerBox"}>
-                    <h1>DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER</h1>
-                    <h2>Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze</h2>
-                    <p>Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele
-                        Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre
-                        Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und unserer
-                        Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein
-                        Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die Zuversicht
-                        weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.</p>
+                <div className="innerBox grid grid-cols-1 lg:grid-cols-4 mt-4">
+                    <div className={"col-span-3"}>
+                        <h1>DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER</h1>
+                        <h2>Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze</h2>
+                        <p>Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele
+                            Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre
+                            Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und unserer
+                            Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein
+                            Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die Zuversicht
+                            weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.</p>
+                    </div>
+                    <Image
+                        src={"/images/Kinderbilder/kids-3171905_1920mh.png"}
+                        alt={"imageAlt"}
+                        width={500}
+                        height={600}
+                        className="w-full h-auto hidden lg:block"
+                    />
                 </div>
             </section>
             <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
-                <div className="innerBox grid grid-cols-1 xl:grid-cols-2  mt-4 p-0">
+                <div className="innerBox grid grid-cols-1 xl:grid-cols-2  mt-4 py-0">
                     <div className={"p-4"}>
                         <h2>Welche Funktionen von Schule liegen im Ungleichgewicht ?</h2>
                         <p>Schule hat in Deutschland drei Funktionen: Aufbewahrung, Auslese und Bildung. Seit der
@@ -111,7 +121,7 @@ const Page = () => {
                 </div>
             </section>
             <section>
-                <div className="innerBox grid grid-cols-1 xl:grid-cols-2   p-0">
+                <div className="innerBox grid grid-cols-1 xl:grid-cols-2 py-0">
                         <div className={"p-4"}>
                             <h2>Verlierer Nr. 1 DIE KINDER UND FAMILIEN</h2>
                             <p>Mehr als 25% der GrundschülerInnen erreichen die Leistungsstandards in Deutsch und
