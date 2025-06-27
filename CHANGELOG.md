@@ -1,3 +1,10 @@
+## [0.11.1](https://github.com/Edunite/edunite/compare/v0.11.0...v0.11.1) (2025-06-27)
+
+
+### Bug Fixes
+
+* removed ionos workflows ([a816927](https://github.com/Edunite/edunite/commit/a816927ab2c0ff2493bc93df84996d1ce47992f7))
+
 # [0.11.0](https://github.com/Edunite/edunite/compare/v0.10.0...v0.11.0) (2025-06-27)
 
 
