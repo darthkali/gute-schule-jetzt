@@ -1,3 +1,14 @@
+# [0.11.0](https://github.com/Edunite/edunite/compare/v0.10.0...v0.11.0) (2025-06-27)
+
+
+### Features
+
+* added blur ([21e7469](https://github.com/Edunite/edunite/commit/21e74690a75cc7af34510df2bec48768839f87fd))
+* added images ([be262d5](https://github.com/Edunite/edunite/commit/be262d5fa7fb883d7a8d8b1ff749427a5d2d65eb))
+* added ImageText with floating component ([be521d5](https://github.com/Edunite/edunite/commit/be521d5e3de840d7fe7b1a6da4758e42d1f5e769))
+* updated veränderte Welt with new floating image-text component ([66e4469](https://github.com/Edunite/edunite/commit/66e44698bd1bc0e9b549a4044a02792fa616cc39))
+* updated was brauchen kinder with new floating image-text component ([35d053b](https://github.com/Edunite/edunite/commit/35d053bbde05f2215ca3ecb553ab6a800c5d8466))
+
 # [0.10.0](https://github.com/Edunite/edunite/compare/v0.9.0...v0.10.0) (2025-06-24)
 
 
