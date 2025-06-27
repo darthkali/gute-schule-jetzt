@@ -16,8 +16,8 @@ const Page = () => {
                 </div>
             </section>
             <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
-                <div className="innerBox grid grid-cols-1 xl:grid-cols-2 gap-4 mt-4 py-4">
-                    <div>
+                <div className="innerBox grid grid-cols-1 xl:grid-cols-2  mt-4 p-0">
+                    <div className={" p-4"}>
                         <h2>Welche Funktionen von Schule liegen im Ungleichgewicht ?</h2>
                         <p>Schule hat in Deutschland drei Funktionen: Aufbewahrung, Auslese und Bildung. Seit der
                             Corona- Schulschließung ist klar, die allerwichtigste ist heutzutage die Aufbewahrung. In
@@ -41,7 +41,7 @@ const Page = () => {
                             der Berufsausbildung geschwächt.</p>
                     </div>
 
-                    <div>
+                    <div className={"bg-[color:var(--color-primary)] p-4"}>
                         <h2>Welche weiteren veralteten Strukturen bewirken Dsyfunktionalität ?</h2>
                         <p>Schule wird in historischer Gewohnheit von oben herab hierarchisch strukturiert und mit
                             (mangelnden) Ressourcen ausgestattet - und das in der Regel von Menschen, die nicht in ihr
@@ -53,7 +53,7 @@ const Page = () => {
                             Takt. Alle Menschen im System müssen funktionieren und die Strukturen aushalten.</p>
                     </div>
 
-                    <div>
+                    <div className={"bg-[color:var(--color-primary)] p-4"}>
                         <h2>Welche Rolle spielen Personalmangel und zunehmende Aufgabenfülle?</h2>
                         <p>Unser Land lässt seit Jahrzehnten eine genügende Personalplanung vermissen. ErstklässlerInnen
                             fallen ja nicht vom Himmel. Welcher Betrieb weiß sechs Jahre zuvor die Zahlen? Doch es wird
@@ -91,7 +91,7 @@ const Page = () => {
                             ist der Ausdruck der Lebendigkeit eines Kindes</p>
                     </div>
 
-                    <div>
+                    <div className={"p-4"}>
                         <h2>Wir haben doch gute Bildungspläne und
                             Lehrkräfte?</h2>
                         <p>Natürlich haben wir ziemlich gute Werte und hehre Bildungsziele - dem gesellschaftlichen
@@ -111,10 +111,8 @@ const Page = () => {
                 </div>
             </section>
             <section>
-                <div className={"innerBox"}>
-                    <h1>Verlierer</h1>
-                    <div className=" grid grid-cols-1 xl:grid-cols-2 gap-4 mt-4 py-4">
-                        <div>
+                <div className="innerBox grid grid-cols-1 xl:grid-cols-2   p-0">
+                        <div className={" p-4"}>
                             <h2>Verlierer Nr. 1 DIE KINDER UND FAMILIEN</h2>
                             <p>Mehr als 25% der GrundschülerInnen erreichen die Leistungsstandards in Deutsch und
                                 Mathematik nicht. Immer mehr Kinder und Jugendliche leiden unter Stress, zeigen
@@ -133,7 +131,7 @@ const Page = () => {
                                 gestalten.“</p>
                         </div>
 
-                        <div>
+                        <div className={"bg-[color:var(--color-neutral)] p-4"}>
                             <h2>Verlierer Nr. 2 Pädagogisches Personal und Schulleitungen</h2>
                             <p>In unserem sehr schwerfälligen staatlichen Schulsystem geht tagtäglich viel an Engagement
                                 und an eingesetzten Ressourcen verloren. Zuviel Einzelkämpfertum und überholte
@@ -150,7 +148,7 @@ const Page = () => {
                                 der Situation führt. Es ist ein systemisches Problem.</p>
                         </div>
 
-                        <div>
+                        <div className={"bg-[color:var(--color-neutral)] p-4"}>
                             <h2>Verlierer Nr. 3 ARBEITSWELT</h2>
                             <p>Der Arbeitsmarkt in unserer alternden Gesellschaft leidet unter akutem Fachkräftemangel.
                                 Handwerksbetriebe finden zu wenige geeignete Auszubildende. Gleichzeitig fehlen zu
@@ -165,7 +163,7 @@ const Page = () => {
                                 https://taz.de/Lotters-Transformator/!vn6081100/) (evt. weglassen?)</p>
                         </div>
 
-                        <div>
+                        <div className={"p-4"}>
                             <h2>Verlierer Nr. 4 GESELLSCHAFT</h2>
                             <p>Dieses Bildungssystem lässt Bildungsqualität und Chancengerechtigkeit vermissen. Dadurch
                                 wird weiterhin soziale Ungleichheit erzeugt. Weder Inklusion noch Integration können
@@ -191,7 +189,6 @@ const Page = () => {
                         </div>
 
                     </div>
-                </div>
             </section>
         </div>
     )
