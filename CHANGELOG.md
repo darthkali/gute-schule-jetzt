@@ -1,3 +1,17 @@
+# [0.13.0](https://github.com/Edunite/edunite/compare/v0.12.0...v0.13.0) (2025-06-27)
+
+
+### Bug Fixes
+
+* updated tailwind ([ef06924](https://github.com/Edunite/edunite/commit/ef069241bc1cbc47a4d78732eeea638ff06d9f7e))
+* updated text length on hero ([f514d63](https://github.com/Edunite/edunite/commit/f514d6327127b12f461266ee641bc06718a4efc7))
+
+
+### Features
+
+* added hover for share icons ([e5af993](https://github.com/Edunite/edunite/commit/e5af993b65ff443977f93a9c0fd97dd226a86baa))
+* added share functionality ([43c017f](https://github.com/Edunite/edunite/commit/43c017f41c84efcb88dd8d86e4a2b6551b8f2b01))
+
 # [0.12.0](https://github.com/Edunite/edunite/compare/v0.11.1...v0.12.0) (2025-06-27)
 
 
