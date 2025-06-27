@@ -1,16 +1,12 @@
-import React from "react";
+type InfoCardProps = {
+    children: React.ReactNode;
+    bgColor?: string;
+};
 
-type CardProps = {
-    text: React.ReactNode;
-}
-
-export default function InfoCard({
-                                 text,
-                             }: CardProps
-) {
+export default function InfoCard({ children, bgColor }: InfoCardProps) {
     return (
-        <div className={"bg-[color:var(--color-neutral)] rounded-xl p-4 h-full shadow mb-4 break-inside-avoid"}>
-            <p className={""}>{text}</p>
+        <div className={`${bgColor ?? "bg-white"} p-4 h-full shadow break-inside-avoid `}>
+            {children}
         </div>
     );
 }

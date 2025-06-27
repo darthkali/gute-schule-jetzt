@@ -1,23 +1,38 @@
 import React from 'react'
+import Image from "next/image";
 
 const Page = () => {
     return (
         <div>
             <section>
-                <div className={"innerBox"}>
-                    <h1>DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER</h1>
-                    <h2>Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze</h2>
-                    <p>Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele
-                        Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre
-                        Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und unserer
-                        Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein
-                        Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die Zuversicht
-                        weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.</p>
+                <div className="innerBox ">
+                  <h1>DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER</h1>
+                    <div className=" grid grid-cols-1 lg:grid-cols-4 mt-4">
+                        <div className={"col-span-3"}>
+
+                            <h2>Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze</h2>
+                            <p>Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele
+                                Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre
+                                Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und
+                                unserer
+                                Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein
+                                Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die
+                                Zuversicht
+                                weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.</p>
+                        </div>
+                        <Image
+                            src={"/images/Kinderbilder/kids-3171905_1920mh.png"}
+                            alt={"imageAlt"}
+                            width={500}
+                            height={600}
+                            className="w-full h-auto hidden lg:block"
+                        />
+                    </div>
                 </div>
             </section>
             <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
-                <div className="innerBox grid grid-cols-1 xl:grid-cols-2 gap-4 mt-4 py-4">
-                    <div>
+                <div className="innerBox grid grid-cols-1 xl:grid-cols-2  mt-4 py-0">
+                    <div className={"p-4"}>
                         <h2>Welche Funktionen von Schule liegen im Ungleichgewicht ?</h2>
                         <p>Schule hat in Deutschland drei Funktionen: Aufbewahrung, Auslese und Bildung. Seit der
                             Corona- Schulschließung ist klar, die allerwichtigste ist heutzutage die Aufbewahrung. In
@@ -41,7 +56,7 @@ const Page = () => {
                             der Berufsausbildung geschwächt.</p>
                     </div>
 
-                    <div>
+                    <div className={"bg-[color:var(--color-primary)] p-4"}>
                         <h2>Welche weiteren veralteten Strukturen bewirken Dsyfunktionalität ?</h2>
                         <p>Schule wird in historischer Gewohnheit von oben herab hierarchisch strukturiert und mit
                             (mangelnden) Ressourcen ausgestattet - und das in der Regel von Menschen, die nicht in ihr
@@ -53,7 +68,7 @@ const Page = () => {
                             Takt. Alle Menschen im System müssen funktionieren und die Strukturen aushalten.</p>
                     </div>
 
-                    <div>
+                    <div className={"xl:bg-[color:var(--color-primary)] p-4"}>
                         <h2>Welche Rolle spielen Personalmangel und zunehmende Aufgabenfülle?</h2>
                         <p>Unser Land lässt seit Jahrzehnten eine genügende Personalplanung vermissen. ErstklässlerInnen
                             fallen ja nicht vom Himmel. Welcher Betrieb weiß sechs Jahre zuvor die Zahlen? Doch es wird
@@ -91,7 +106,7 @@ const Page = () => {
                             ist der Ausdruck der Lebendigkeit eines Kindes</p>
                     </div>
 
-                    <div>
+                    <div className={"bg-[color:var(--color-primary)] xl:bg-[color:var(--color-secondary)]  p-4"}>
                         <h2>Wir haben doch gute Bildungspläne und
                             Lehrkräfte?</h2>
                         <p>Natürlich haben wir ziemlich gute Werte und hehre Bildungsziele - dem gesellschaftlichen
@@ -111,86 +126,83 @@ const Page = () => {
                 </div>
             </section>
             <section>
-                <div className={"innerBox"}>
-                    <h1>Verlierer</h1>
-                    <div className=" grid grid-cols-1 xl:grid-cols-2 gap-4 mt-4 py-4">
-                        <div>
-                            <h2>Verlierer Nr. 1 DIE KINDER UND FAMILIEN</h2>
-                            <p>Mehr als 25% der GrundschülerInnen erreichen die Leistungsstandards in Deutsch und
-                                Mathematik nicht. Immer mehr Kinder und Jugendliche leiden unter Stress, zeigen
-                                psychologische Auffälligkeiten oder haben sonderpädagogische Bedarfe. Die Chance wird
-                                vertan, Kinder und Jugendliche in ihrer Individualität zu erkennen und anzuerkennen und
-                                ihnen die Möglichkeit zu geben, dabei etwas über ihr eigenes Lernen herauszufinden.
-                                Seelische und körperliche Gesundheit, sowie die Entwicklung ihres Potentials erfahren
-                                nicht die Fürsorge, die unser Landesgesetz verspricht. Das System ist nicht dafür
-                                ausgelegt, Kinder langfristig aufzubauen, ihnen die Freude am Lebenslangen Lernen zu
-                                ermöglichen, sondern in Demotivation zuführen. Hinzu kommen die Benachteiligung oder
-                                Ausgrenzung von Kindern. Chancengerechtigkeit sieht anders aus. Familien erleiden
-                                unnötige Belastungen. Wieviel Bildung, Chancen und Lebensfreude hier zu gewinnen wären.
-                                § 11 Landesverfassung BW 11.11.1953 : &#34;Jeder junge Mensch hat ohne Rücksicht auf
-                                Herkunft oder wirtschaftliche Lage das Recht auf eine seiner Begabung entsprechende
-                                Erziehung und Ausbildung. Das öffentliche Schulwesen ist nach diesem Grundsatz zu
-                                gestalten.“</p>
-                        </div>
-
-                        <div>
-                            <h2>Verlierer Nr. 2 Pädagogisches Personal und Schulleitungen</h2>
-                            <p>In unserem sehr schwerfälligen staatlichen Schulsystem geht tagtäglich viel an Engagement
-                                und an eingesetzten Ressourcen verloren. Zuviel Einzelkämpfertum und überholte
-                                Strukturen behindern die notwendige Transformation. „Echte Bildungsqualität fängt damit
-                                an, dass die, die sie herstellen sollen und wollen, überhaupt „Luft“ dafür haben!“ Haben
-                                sie diese nicht, verlieren sie den Erfolg und die Freude am so wichtigen Beruf. In
-                                Zeiten knapper Fachkräfte ein fataler Teufelskreis. Wieviel tolle Arbeitsplätze,
-                                Bildungserfolg und Arbeitsfreude hier zu gewinnen wären. Und natürlich auch viele junge
-                                Menschen, die Lust bekämen diesen sinnvollen Beruf auszuüben… Link zu überholte
-                                Strukturen : Wenn man die aktuellen Aussagen von Herrn Schleicher betrachtet, dann lässt
-                                er keinen Zweifel daran, dass das Modell des jetzigen Unterrichts ausgedient hat. Seine
-                                Meinung ist, dass wir mit unseren VERA- und PISAVergleichsstudien ausreichend bewiesen
-                                haben, dass unser System nicht zu einer Verbesserung sondern zu einer Verschlechterung
-                                der Situation führt. Es ist ein systemisches Problem.</p>
-                        </div>
-
-                        <div>
-                            <h2>Verlierer Nr. 3 ARBEITSWELT</h2>
-                            <p>Der Arbeitsmarkt in unserer alternden Gesellschaft leidet unter akutem Fachkräftemangel.
-                                Handwerksbetriebe finden zu wenige geeignete Auszubildende. Gleichzeitig fehlen zu
-                                vielen Jugendlichen neben Grund- Kompetenzen in Deutsch und Mathematik auch andere
-                                wichtige Fähigkeiten, wie Teamfähigkeit, kritisches Denken, Kreativität,
-                                Eigenverantwortung oder soziale Umgangsformen. Die Wirtschaft braucht aber, gerade in
-                                Zeiten ungünstiger Demographie, dringend kompetente und tatkräftige MitarbeiterInnen.
-                                Diese fallen nicht vom Himmel, sondern können in unseren Schulen gebildet und gewonnen
-                                werden. „Drei Viertel der Menschen in Deutschland arbeiten – bei einem historischen
-                                Höchststand der Beschäftigtenzahlen – im Dienstleistungsbereich. Mehr als 43,3 Prozent
-                                aller Beschäftigten verrichten wissensbasierte Dienstleistungsarbeit.“ (8.4.2025
-                                https://taz.de/Lotters-Transformator/!vn6081100/) (evt. weglassen?)</p>
-                        </div>
-
-                        <div>
-                            <h2>Verlierer Nr. 4 GESELLSCHAFT</h2>
-                            <p>Dieses Bildungssystem lässt Bildungsqualität und Chancengerechtigkeit vermissen. Dadurch
-                                wird weiterhin soziale Ungleichheit erzeugt. Weder Inklusion noch Integration können
-                                ohne eine wirkliche Transformation gelingen. Schule im Stressbetrieb kann auch keine
-                                Demokratiebildung leben und entlässt zu viele Jugendliche, denen es an grundlegenden
-                                Kompetenzen, Eigenverantwortung oder seelischer Gesundheit fehlt. Unsere Gesellschaft,
-                                die inmitten von vielen Herausforderungen steht, erfährt so keinen Zuwachs an
-                                Zusammenhalt, sondern weitergehende Spaltung. Inzwischen ist die Demokratie in
-                                Bedrängnis, die Menschen verlieren die Zuversicht und die AFD erfährt weiteren
-                                Machtzuwachs. Die Folgekosten die ein dysfunktionales Bildungssystem verursacht, sind
-                                nicht direkt sichtbar, aber immens. Jeder Euro, der in unsere Kinder und die
-                                Transformation in ein
-                                erfolgreiches Bildungssystem investiert wird, ist das Zigfache wert. Die beste Rendite
-                                für unsere Gesellschaft steckt in der Bildung aller unserer Kinder. Kein Grund zum
-                                Feiern: Seit zehn Jahren herrscht Stillstand bei der Inklusion. 5. August 2024:
-                                Deutschland hat sich im vergangenen Jahr eine Rüge der Vereinten Nationen dafür
-                                eingehandelt, dass die schulische Inklusion hierzulande in den vergangenen zehn, 15
-                                Jahren kaum vorangekommen ist. Exemplarisch lohnt ein Blick nach Sachsen-Anhalt, wo der
-                                Anteil von Kindern und Jugendlichen, die an gesonderten „Förderschulen“ unterrichtet
-                                werden, so groß ist wie in keinem anderen Bundesland. https://
-                                www.news4teachers.de/2024/08/kein-grund-zum-feiern
-                                seitzehn-jahren-herrscht-stillstand-bei-der-inklusion-wie-dasbeispiel-sachsen-anhalt-zeigt/</p>
-                        </div>
-
+                <div className="innerBox grid grid-cols-1 xl:grid-cols-2 py-0">
+                    <div className={"p-4"}>
+                        <h2>Verlierer Nr. 1 DIE KINDER UND FAMILIEN</h2>
+                        <p>Mehr als 25% der GrundschülerInnen erreichen die Leistungsstandards in Deutsch und
+                            Mathematik nicht. Immer mehr Kinder und Jugendliche leiden unter Stress, zeigen
+                            psychologische Auffälligkeiten oder haben sonderpädagogische Bedarfe. Die Chance wird
+                            vertan, Kinder und Jugendliche in ihrer Individualität zu erkennen und anzuerkennen und
+                            ihnen die Möglichkeit zu geben, dabei etwas über ihr eigenes Lernen herauszufinden.
+                            Seelische und körperliche Gesundheit, sowie die Entwicklung ihres Potentials erfahren
+                            nicht die Fürsorge, die unser Landesgesetz verspricht. Das System ist nicht dafür
+                            ausgelegt, Kinder langfristig aufzubauen, ihnen die Freude am Lebenslangen Lernen zu
+                            ermöglichen, sondern in Demotivation zuführen. Hinzu kommen die Benachteiligung oder
+                            Ausgrenzung von Kindern. Chancengerechtigkeit sieht anders aus. Familien erleiden
+                            unnötige Belastungen. Wieviel Bildung, Chancen und Lebensfreude hier zu gewinnen wären.
+                            § 11 Landesverfassung BW 11.11.1953 : &#34;Jeder junge Mensch hat ohne Rücksicht auf
+                            Herkunft oder wirtschaftliche Lage das Recht auf eine seiner Begabung entsprechende
+                            Erziehung und Ausbildung. Das öffentliche Schulwesen ist nach diesem Grundsatz zu
+                            gestalten.“</p>
                     </div>
+
+                    <div className={"bg-[color:var(--color-neutral)] p-4"}>
+                        <h2>Verlierer Nr. 2 Pädagogisches Personal und Schulleitungen</h2>
+                        <p>In unserem sehr schwerfälligen staatlichen Schulsystem geht tagtäglich viel an Engagement
+                            und an eingesetzten Ressourcen verloren. Zuviel Einzelkämpfertum und überholte
+                            Strukturen behindern die notwendige Transformation. „Echte Bildungsqualität fängt damit
+                            an, dass die, die sie herstellen sollen und wollen, überhaupt „Luft“ dafür haben!“ Haben
+                            sie diese nicht, verlieren sie den Erfolg und die Freude am so wichtigen Beruf. In
+                            Zeiten knapper Fachkräfte ein fataler Teufelskreis. Wieviel tolle Arbeitsplätze,
+                            Bildungserfolg und Arbeitsfreude hier zu gewinnen wären. Und natürlich auch viele junge
+                            Menschen, die Lust bekämen diesen sinnvollen Beruf auszuüben… Link zu überholte
+                            Strukturen : Wenn man die aktuellen Aussagen von Herrn Schleicher betrachtet, dann lässt
+                            er keinen Zweifel daran, dass das Modell des jetzigen Unterrichts ausgedient hat. Seine
+                            Meinung ist, dass wir mit unseren VERA- und PISAVergleichsstudien ausreichend bewiesen
+                            haben, dass unser System nicht zu einer Verbesserung sondern zu einer Verschlechterung
+                            der Situation führt. Es ist ein systemisches Problem.</p>
+                    </div>
+
+                    <div className={"xl:bg-[color:var(--color-neutral)] p-4"}>
+                        <h2>Verlierer Nr. 3 ARBEITSWELT</h2>
+                        <p>Der Arbeitsmarkt in unserer alternden Gesellschaft leidet unter akutem Fachkräftemangel.
+                            Handwerksbetriebe finden zu wenige geeignete Auszubildende. Gleichzeitig fehlen zu
+                            vielen Jugendlichen neben Grund- Kompetenzen in Deutsch und Mathematik auch andere
+                            wichtige Fähigkeiten, wie Teamfähigkeit, kritisches Denken, Kreativität,
+                            Eigenverantwortung oder soziale Umgangsformen. Die Wirtschaft braucht aber, gerade in
+                            Zeiten ungünstiger Demographie, dringend kompetente und tatkräftige MitarbeiterInnen.
+                            Diese fallen nicht vom Himmel, sondern können in unseren Schulen gebildet und gewonnen
+                            werden. „Drei Viertel der Menschen in Deutschland arbeiten – bei einem historischen
+                            Höchststand der Beschäftigtenzahlen – im Dienstleistungsbereich. Mehr als 43,3 Prozent
+                            aller Beschäftigten verrichten wissensbasierte Dienstleistungsarbeit.“ (8.4.2025
+                            https://taz.de/Lotters-Transformator/!vn6081100/) (evt. weglassen?)</p>
+                    </div>
+
+                    <div className={"bg-[color:var(--color-neutral)] xl:bg-[color:var(--color-background)]  p-4"}>
+                        <h2>Verlierer Nr. 4 GESELLSCHAFT</h2>
+                        <p>Dieses Bildungssystem lässt Bildungsqualität und Chancengerechtigkeit vermissen. Dadurch
+                            wird weiterhin soziale Ungleichheit erzeugt. Weder Inklusion noch Integration können
+                            ohne eine wirkliche Transformation gelingen. Schule im Stressbetrieb kann auch keine
+                            Demokratiebildung leben und entlässt zu viele Jugendliche, denen es an grundlegenden
+                            Kompetenzen, Eigenverantwortung oder seelischer Gesundheit fehlt. Unsere Gesellschaft,
+                            die inmitten von vielen Herausforderungen steht, erfährt so keinen Zuwachs an
+                            Zusammenhalt, sondern weitergehende Spaltung. Inzwischen ist die Demokratie in
+                            Bedrängnis, die Menschen verlieren die Zuversicht und die AFD erfährt weiteren
+                            Machtzuwachs. Die Folgekosten die ein dysfunktionales Bildungssystem verursacht, sind
+                            nicht direkt sichtbar, aber immens. Jeder Euro, der in unsere Kinder und die
+                            Transformation in ein
+                            erfolgreiches Bildungssystem investiert wird, ist das Zigfache wert. Die beste Rendite
+                            für unsere Gesellschaft steckt in der Bildung aller unserer Kinder. Kein Grund zum
+                            Feiern: Seit zehn Jahren herrscht Stillstand bei der Inklusion. 5. August 2024:
+                            Deutschland hat sich im vergangenen Jahr eine Rüge der Vereinten Nationen dafür
+                            eingehandelt, dass die schulische Inklusion hierzulande in den vergangenen zehn, 15
+                            Jahren kaum vorangekommen ist. Exemplarisch lohnt ein Blick nach Sachsen-Anhalt, wo der
+                            Anteil von Kindern und Jugendlichen, die an gesonderten „Förderschulen“ unterrichtet
+                            werden, so groß ist wie in keinem anderen Bundesland. https://
+                            www.news4teachers.de/2024/08/kein-grund-zum-feiern
+                            seitzehn-jahren-herrscht-stillstand-bei-der-inklusion-wie-dasbeispiel-sachsen-anhalt-zeigt/</p>
+                    </div>
+
                 </div>
             </section>
         </div>
