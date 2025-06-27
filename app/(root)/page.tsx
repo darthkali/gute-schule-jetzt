@@ -11,7 +11,7 @@ export default function HomePage() {
     const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
     const text = encodeURIComponent('Schau dir diese Seite an:');
 
-    const iconBoxStyle = "bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow"
+    const iconBoxStyle = "bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow hover:scale-110 transition-transform"
 
     return (
         <div>
