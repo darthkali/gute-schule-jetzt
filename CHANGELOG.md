@@ -1,3 +1,25 @@
+# [0.12.0](https://github.com/Edunite/edunite/compare/v0.11.1...v0.12.0) (2025-06-27)
+
+
+### Bug Fixes
+
+* fixed box colors from dysfunktionales schulsystem ([eb31736](https://github.com/Edunite/edunite/commit/eb31736bb87765c976c08e14c8154fdcb24d8294))
+
+
+### Features
+
+* added about us ([c7461bd](https://github.com/Edunite/edunite/commit/c7461bd8b4729efdd13cf371f43626b0287ff64f))
+* added boxes to dysfunktionales schulsystem ([a28a331](https://github.com/Edunite/edunite/commit/a28a33187bf0aa3aa1732828a6508dfdb7cd2c2c))
+* added child element to InfoCard ([7267adb](https://github.com/Edunite/edunite/commit/7267adbdce6cfa0dd0f232ac9471f3405b324b88))
+* added image to media card ([1ee4b2d](https://github.com/Edunite/edunite/commit/1ee4b2d23804e1971c980e6f37b89158eb41fea1))
+* added new image ([6ed3308](https://github.com/Edunite/edunite/commit/6ed330837be815f0a3ee66d401214ebbd271eadc))
+* added new images and icons ([0489562](https://github.com/Edunite/edunite/commit/0489562c4f91c795f19137637258839df046bd4a))
+* added new images on top heading in alemannenschule ([0ee5195](https://github.com/Edunite/edunite/commit/0ee5195ca2e4af544914afad391948164601c279))
+* added new images on top heading in was brauchen kinder ([92781ba](https://github.com/Edunite/edunite/commit/92781ba584ca905821e49e116645bd322aaf1379))
+* updated alemannenschule, primusschule ([06e7ba1](https://github.com/Edunite/edunite/commit/06e7ba1d88af4f7bf27e46ffcd3f9a67820816d8))
+* updated herausfoderungen pages and moved the image under the heading ([efb72cc](https://github.com/Edunite/edunite/commit/efb72cc3633b37810b9738e60d3bd43caec784e3))
+* updated navbar, added hover effect and showed active link ([e4a0c45](https://github.com/Edunite/edunite/commit/e4a0c45371dc2f8a7c2da93cf096d6aa40cdd358))
+
 ## [0.11.1](https://github.com/Edunite/edunite/compare/v0.11.0...v0.11.1) (2025-06-27)
 
 
