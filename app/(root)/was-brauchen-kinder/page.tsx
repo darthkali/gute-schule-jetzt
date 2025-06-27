@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageTextSection from "@/app/components/ImageTextComponent";
+import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponent";
 
 const Page = () => {
     return (
@@ -17,14 +17,13 @@ const Page = () => {
 
                 <div className={"innerBox"}>
                     <h1>Erkenntnisse aus der Hirnforschung</h1>
-                    <ImageTextSection
+                    <ImageTextFloatingSection
                         imageSrc="/images/artificial-intelligence-3382521_1920.jpg"
                         imageAlt="Raupe, Puppe und Schmetterling"
-                        imagePosition="left"
+                        imagePosition="right"
+                        caption={"Kinder brauchen Verbundenheit und verlässliche Beziehung Kinder haben ein grundlegendes\n" +
+                            "                            Bedürfnis nach Autonomie"}
                     >
-                        <h2>Kinder brauchen Verbundenheit und verlässliche Beziehung Kinder haben ein grundlegendes
-                            Bedürfnis nach Autonomie</h2>
-
                         <p>Folgendes Wissen stammt von Dr. rer. nat. Dr. med. habil. Gerald Hüther,
                             Neurowissenschaftler und Vorstand der Akademie für Potentialentfaltung, der sich als
                             Brückenbauer zwischen der Wissenschaft und dem Leben da draußen versteht: Wir kommen
@@ -90,17 +89,17 @@ const Page = () => {
                             wahrgenommen zu
                             werden.https://www.welt.de/debatte/kommentare/article113327766/Jedes-Kind-lernt-gerneaber-nur-ohne-Druck.htmlhttps://www.gerald-huether.de
                         </p>
-                    </ImageTextSection>
+                    </ImageTextFloatingSection>
                 </div>
             </section>
             <section>
 
                 <div className={"innerBox"}>
-                    <h1>Überholtes Schulkonzept wird Kindern und ihrem Lernen nicht gerecht.</h1>
-                    <ImageTextSection
+                    <ImageTextFloatingSection
                         imageSrc="/images/classroom-1660223_1920.jpg"
                         imageAlt="Raupe, Puppe und Schmetterling"
-                        imagePosition="right"
+                        imagePosition="left"
+                        caption={"Überholtes Schulkonzept wird Kindern und ihrem Lernen nicht gerecht"}
                     >
                         <p>Unsere Schulen beruhen auf 200 Jahre altenVorstellungen, sind entstanden aus Kadetten-
                             undPriesterschulen und sind vom Prinzip her Dressur- undAbrichtungsschulen. Dort wird
@@ -134,15 +133,21 @@ const Page = () => {
                             für einen Wandel. Und in manchenSchulen ist er ja auch schon im
                             Gang.http://www.schule-im-aufbruch.dehttp://www.schulen-der-zukunft.orgwww.laenger-gemeinsam-lernen-bw.de
                         </p>
-                    </ImageTextSection>
+                    </ImageTextFloatingSection>
                 </div>
             </section>
 
             <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
                 <div className={"innerBox"}>
                     <h1>VISION für alle Schularten</h1>
-                    <h2>Schulen als stark machende Lebens und Lernorte, die Potentialentwicklung, Gesundheit und
-                        Selbstwirksamkeitserfahrung für alle Kinder ermöglichen</h2>
+
+                    <ImageTextFloatingSection
+                        imageSrc="/images/evolution-4107273_1920.jpg"
+                        imageAlt="Raupe, Puppe und Schmetterling"
+                        imagePosition="right"
+                        caption={"Schulen als stark machende Lebens und Lernorte, die Potentialentwicklung, Gesundheit und Selbstwirksamkeitserfahrung für alle Kinder ermöglichen"}
+                    >
+
                     <p>Schule, als stark machender Lebens-und Lernort, gibt Kindernund Jugendlichen das, was sie aus
                         entwicklungspsychologischerSicht brauchen, ermöglicht Lernen, wie es aus neurobiologischerSicht
                         nachhaltig ist und bereitet Schülerinnen und Schüler auf einLeben in der Gesellschaft vor, wie
@@ -165,11 +170,14 @@ const Page = () => {
                         geliebt und kriege genugGelegenheiten Entdecker zu sein.„Es geht also nicht darum Fässer zu
                         füllen, sondern Fackeln zuentzünden“ (den Geist zu entzünden, der die Kulturgüter
                         hervorbringt).</p>
+                    </ImageTextFloatingSection>
 
-                    <h2>Neue Lernkultur, die gekennzeichnet ist von Ermutigung, Sinnhaftigkeit und Feedback-Kultur Neue
-                        Lernformate: Lernen vielfältig begleiten, statt Unterricht durchführen, selbstreguliertes und
-                        sinnorientiertes Lernen in Projekten, Lernen in Gemeinschaft</h2>
-
+                        <ImageTextFloatingSection
+                            imageSrc="/images/return-1825515_1920.jpg"
+                            imageAlt="Raupe, Puppe und Schmetterling"
+                            imagePosition="left"
+                            caption={"Neue Lernkultur, die gekennzeichnet ist von Ermutigung, Sinnhaftigkeit und Feedback-Kultur Neue Lernformate: Lernen vielfältig begleiten, statt Unterricht durchführen, selbstreguliertes und sinnorientiertes Lernen in Projekten, Lernen in Gemeinschaft"}
+                        >
                     <p>Primarschulen:- Die Kinder und ihre Bildungsbiographien stehen anerster Stelle!- Integration,
                         Inklusion und Vielfalt werden gelebt.Wirksame Rahmenbedingungen, wie längeresgemeinsames Lernen
                         oder eine veränderteLehrerbildung, werden dafür Stück für Stückeingerichtet.- Die neue Schule
@@ -194,9 +202,13 @@ const Page = () => {
                         Verantwortungsteam. Kein Kind wirdalleingelassen, alle Teamkräfte gestalten undverantworten die
                         Bildungsentwicklung gemeinsam.Praxisbeispiel: Primusschule Münster Berg Fidel</p>
 
-                    <h2>Gesellschaft zusammenbringen, statt spalten Weg von Selektionsanstalten zu
-                        integrativen,kindgerechten Schulen als Chancenorte</h2>
-
+                        </ImageTextFloatingSection>
+                            <ImageTextFloatingSection
+                                imageSrc="/images/hands-1846428_1920.jpg"
+                                imageAlt="Raupe, Puppe und Schmetterling"
+                                imagePosition="right"
+                                caption={"Gesellschaft zusammenbringen, statt spalten Weg von Selektionsanstalten zu integrativen,kindgerechten Schulen als Chancenorte"}
+                            >
                     <p>
                         Zu denken geben sollte, dass die in Deutschlandpraktizierte frühe Sortierung auf
                         hierarchischabgestufte Schularten der Sekundarstufe Iinternational unüblich ist.
@@ -251,7 +263,7 @@ const Page = () => {
                     Teams)http://www.schule-im-aufbruch.dehttp://www.schulen-der-zukunft.orgwww.laenger-gemeinsam-lernen-bw.deTeambuch
                     Inklusion - Praxisbuch für multiprofessionelleTeams, Reinhard Stähling Barbara Wenders
                 </p>
-
+                            </ImageTextFloatingSection>
 
                 </div>
             </section>

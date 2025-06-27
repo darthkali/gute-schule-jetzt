@@ -20,7 +20,6 @@ export default function Navbar() {
                     <Image
                         src="/logo/edunite-logo.svg"
                         alt="EduUnite Logo"
-                        placeholder="blur"
                         width={32}
                         height={32}
                     />

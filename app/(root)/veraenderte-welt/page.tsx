@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageTextSection from "@/app/components/ImageTextComponent";
+import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponent";
 
 const Page = () => {
     return (
@@ -15,13 +15,12 @@ const Page = () => {
                     sind alle Lernende und brauchen Transformationskompetenz Zukunftsfähige Bildung: Lebenslanges
                     Lernen, Teamgeist und der Wille zum Umdenken</p>
 
-                <ImageTextSection
+                <ImageTextFloatingSection
                     imageSrc="/images/teenager-8656620_1920.jpg"
                     imageAlt="Teenager"
                     imagePosition="right"
+                    caption={"Krisen und eine unerhört dynamische Veränderung der Lebens- undArbeitswelt"}
                 >
-                    <h2 className={"mt-0 pt-0"}>Krisen und eine unerhört dynamische Veränderung der Lebens- und
-                        Arbeitswelt </h2>
                     <p>Wir leben in einer technisierten Gesellschaft und global vernetzten Welt, die den Menschen immer
                         höhere Qualifikationen abfordert. Die Informationsmengen, die wir für das Funktionieren in
                         Wirtschaft, Technik, Kultur und im täglichen Leben verarbeiten müssen, nehmen exponentiell zu.
@@ -39,14 +38,14 @@ const Page = () => {
                         Einzelkämpfertum und Wissensvermittlung alter Schule haben ausgedient. Wenn wir unsere
                         Gesellschaft und Wirtschaft auf einen neuen Weg bringen wollen, müssen wir bereits bei der
                         Bildung der Kinder ansetzen.</p>
-                </ImageTextSection>
+                </ImageTextFloatingSection>
 
-                <ImageTextSection
+                <ImageTextFloatingSection
                     imageSrc="/images/gods-creation-7658099_1920.jpg"
                     imageAlt="Raupe, Puppe und Schmetterling"
                     imagePosition="left"
+                    caption={"Wir sind alle Lernende und brauchen Transformationskompetenz"}
                 >
-                    <h2 className={"mt-0 pt-0"}>Wir sind alle Lernende und brauchen Transformationskompetenz </h2>
                     <p>Welche Art der Bildung wollen wir unseren Kindern mitgeben? Es geht um alles: Wir haben in
                         Deutschland Werte, die es immer wieder zu leben und realisieren gilt: Die Idee der
                         demokratischen, toleranten und gerechten Gesellschaft. Das kann nur mit der Einbindung und der
@@ -61,7 +60,7 @@ const Page = () => {
                         Realität ist an vielen Orten noch groß, kann aber überwunden werden. Informieren Sie sich hier,
                         wie das geht, wo das schon geschafft ist und was aufbruchswillige Menschen in Schulen, in
                         Landes- oder Kommunalpolitik, in Betrieben oder als Wählerinnen und Wähler beitragen können.</p>
-                </ImageTextSection>
+                </ImageTextFloatingSection>
 
             </div>
         </section>
