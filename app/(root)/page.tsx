@@ -1,13 +1,17 @@
 import Card from "@/app/components/Card";
 import InitiativeMapClient from "@/app/components/Map";
 import Image from "next/image";
-import {FaEnvelope, FaMastodon, FaSignal, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter} from "react-icons/fa6"
+import {FaEnvelope, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter} from "react-icons/fa6"
 import Button from "@/app/components/Button";
 import Link from "next/link";
+import MastodonShareButton from "@/app/components/MastodonShareButton";
 
 
 export default function HomePage() {
-    const iconBoxStyle = "bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow"
+    const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
+    const text = encodeURIComponent('Schau dir diese Seite an:');
+
+    const iconBoxStyle = "bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow hover:scale-110 transition-transform"
 
     return (
         <div>
@@ -35,26 +39,32 @@ export default function HomePage() {
                         className="absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/70 z-10 "/>
 
                     {/* Inhalt */}
-                    <div className="relative z-10  px-6  sm:py-8 md:py-10 text-white">
-                        <h1>GUTE SCHULE JETZT</h1>
-                        <p>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in unseren
-                            staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die Herausforderungen,
-                            der sich rasant verändernden Welt besteht dringender Handlungsbedarf! Dazu werden Dir hier
-                            gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen Bundesländern,
-                            die alle Ebenen andere dazu ermutigen, nicht nur über nachhaltigere Bildung zu reden,
-                            sondern konkrete Schritte zu gehen.</p>
-                        <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
-                            <Button
-                                text="Wer steckt dahinter?"
-                                href="/kontakt"
-                            />
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 relative z-10  px-6  sm:py-8 md:py-10 text-white">
+                        <div className={"sm:col-span-2"}>
+                            <h1>GUTE SCHULE JETZT</h1>
+                            <p>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in
+                                unseren
+                                staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die
+                                Herausforderungen,
+                                der sich rasant verändernden Welt besteht dringender Handlungsbedarf! Dazu werden Dir
+                                hier
+                                gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen
+                                Bundesländern,
+                                die alle Ebenen andere dazu ermutigen, nicht nur über nachhaltigere Bildung zu reden,
+                                sondern konkrete Schritte zu gehen.</p>
+                            <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
+                                <Button
+                                    text="Wer steckt dahinter?"
+                                    href="/kontakt"
+                                />
 
-                            <Button
-                                text="Petition unterzeichnen"
-                                href="/kontakt"
-                                bgColor="bg-[color:var(--color-accent)]"
-                                textColor="text-[color:var(--color-neutral)]"
-                            />
+                                <Button
+                                    text="Petition unterzeichnen"
+                                    href="/kontakt"
+                                    bgColor="bg-[color:var(--color-accent)]"
+                                    textColor="text-[color:var(--color-neutral)]"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -157,7 +167,8 @@ export default function HomePage() {
                                     <li>Vorbild für weiterführende Schulen</li>
                                     <li>Vorbild für Selbstorganisiertes Lernen und gemeinsames Projekt-Lernen</li>
                                 </ul>
-                                <p className="text-blue-400 text-center mt-4">Ich bin selbstwirksam - ich kann die Welt verändern!
+                                <p className="text-blue-400 text-center mt-4">Ich bin selbstwirksam - ich kann die Welt
+                                    verändern!
                                     Statt schulgerechte Kinder eine kindgerechte Schule!“</p>
                             </div>
                         </Link>
@@ -255,14 +266,66 @@ export default function HomePage() {
                     <p className={"text-center text-[color:var(--color-accent)]"}>Teile unsere Seite und mache andere
                         darauf aufmerksam</p>
 
-                    <div className="flex gap-4 justify-center items-center">
-                        <div className={iconBoxStyle}><FaEnvelope size={24}/></div>
-                        <div className={iconBoxStyle}><FaMastodon size={24} className="text-[#6364FF]"/></div>
-                        <div className={iconBoxStyle}><FaSignal size={24} className="text-[#3A76F0]"/></div>
-                        <div className={iconBoxStyle}><FaLinkedin size={24} className="text-[#0077B5]"/></div>
-                        <div className={iconBoxStyle}><FaWhatsapp size={24} className="text-[#25D366]"/></div>
-                        <div className={iconBoxStyle}><FaFacebook size={24} className="text-[#1877F2]"/></div>
-                        <div className={iconBoxStyle}><FaXTwitter size={24} className="text-black"/></div>
+                    <div className="flex flex-wrap gap-4 justify-center items-center">
+
+                        <a
+                            key="email"
+                            href={`mailto:?subject=Empfehlung&body=${text}%0A${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen per E-Mail"
+                        >
+                            <FaEnvelope size={24}/>
+                        </a>
+
+                        <MastodonShareButton key="mastodon" text={text} shareUrl={shareUrl} className={iconBoxStyle}/>
+
+                        <a
+                            key="linkedin"
+                            href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf LinkedIn"
+                        >
+                            <FaLinkedin size={24} className="text-[#0077B5]"/>
+                        </a>
+
+                        <a
+                            key="whatsapp"
+                            href={`https://wa.me/?text=${text}%20${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf WhatsApp"
+                        >
+                            <FaWhatsapp size={24} className="text-[#25D366]"/>
+                        </a>
+
+                        <a
+                            key="facebook"
+                            href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf Facebook"
+                        >
+                            <FaFacebook size={24} className="text-[#1877F2]"/>
+                        </a>
+
+                        <a
+                            key="twitter"
+                            href={`https://twitter.com/intent/tweet?text=${text}&url=${shareUrl}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={iconBoxStyle}
+                            aria-label="Teilen auf X (Twitter)"
+                        >
+                            <FaXTwitter size={24} className="text-black"/>
+                        </a>
+
+
                     </div>
                 </div>
             </section>

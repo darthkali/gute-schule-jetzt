@@ -46,7 +46,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
     "semantic-release": "^24.2.3",
-    "tailwindcss": "^4.1",
+    "tailwindcss": "^4.1.11",
     "ts-node": "^10.9.2",
     "typescript": "^5"
   }
