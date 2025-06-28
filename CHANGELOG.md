@@ -1,3 +1,11 @@
+## [0.13.1](https://github.com/Edunite/edunite/compare/v0.13.0...v0.13.1) (2025-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @tailwindcss/postcss to v4.1.11 ([6ba00aa](https://github.com/Edunite/edunite/commit/6ba00aa9b8da63a5371c6db09727751852e403aa))
+* **deps:** update nextjs monorepo to v15.3.4 ([5853346](https://github.com/Edunite/edunite/commit/5853346f1d9e17922d9f64d3aa967518cfc25806))
+
 # [0.13.0](https://github.com/Edunite/edunite/compare/v0.12.0...v0.13.0) (2025-06-27)
 
 
