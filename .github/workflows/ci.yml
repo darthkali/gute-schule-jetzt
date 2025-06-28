@@ -18,7 +18,7 @@ jobs:
 
       # 2) Node-Version festlegen
       - name: Set up Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
