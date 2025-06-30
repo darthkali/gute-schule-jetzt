@@ -2,19 +2,35 @@
 import Image from "next/image";
 import { useState } from "react";
 import Button from "@/app/components/Button";
+import Toast from "@/app/components/Toast";
+
 
 export default function ContactPage() {
-    const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+    const [formData, setFormData] = useState({ name: "", email: "", message: "", honeypot: ""});
+    const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        console.log("Gesendet:", formData);
-        // Hier könnte z.B. ein API-Call erfolgen
+
+        const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+        });
+
+        if (res.ok) {
+            setToast({ message: "Nachricht erfolgreich gesendet!", type: "success" });
+            setFormData({ name: "", email: "", message: "", honeypot: ""});
+        } else {
+            const error = await res.json();
+            setToast({ message: error?.error || "Fehler beim Senden.", type: "error" });
+        }
     };
+
 
     return (
         <div className="min-h-screen grid grid-cols-1 md:grid-cols-2">
@@ -67,6 +83,16 @@ export default function ContactPage() {
                         textColor="text-[color:var(--color-neutral)]"
                         type="submit"
                     />
+
+                    <input
+                        type="text"
+                        name="honeypot"
+                        value=""
+                        onChange={() => {}}
+                        className="hidden aria-hidden tabIndex={-1}"
+                        autoComplete="off"
+                    />
+
                 </form>
             </div>
 
@@ -81,7 +107,14 @@ export default function ContactPage() {
                     blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvklEQVR4nB3DzUvDMBgH4Pz5HgLzGASHzCEIVQYDoZeBB/G6g2zCUOqyt23SJP1IaB2+8hN84BFkScXvhNKWXHuL2hsUdMRXpXEsNVNNIGekMNao6TzBNoa9d3CugbE19Enjff/G+vMA1wUp2tAqMCN2PachIvXD/ymNaH1gZxukbpAijk79/EYQfbANGsZr+FihoD2qpmDfl0hTkGK7e1Gb1zVWT3d8v77GY36Dq9sZ1PIC80zyIrtE/vwg/wDDIq/dDmXMmgAAAABJRU5ErkJggg=="
                 />
             </div>
-
+            {toast && (
+                <Toast
+                    message={toast.message}
+                    type={toast.type}
+                    onClose={() => setToast(null)}
+                />
+            )}
         </div>
+
     );
 }
