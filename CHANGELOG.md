@@ -1,3 +1,10 @@
+## [0.14.1](https://github.com/Edunite/edunite/compare/v0.14.0...v0.14.1) (2025-06-30)
+
+
+### Bug Fixes
+
+* updated contact transponder configs ([63d4389](https://github.com/Edunite/edunite/commit/63d43896dd8155ea3ddd0fcc91f0244c41c610df))
+
 # [0.14.0](https://github.com/Edunite/edunite/compare/v0.13.1...v0.14.0) (2025-06-30)
 
 
