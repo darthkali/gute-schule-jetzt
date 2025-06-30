@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     }
 
     const transporter = nodemailer.createTransport({
-        host: 'smtp.mailbox.org',
+        host: process.env.EMAIL_HOST,
         port: 587,
         secure: false,
         auth: {
@@ -24,9 +24,9 @@ export async function POST(req: NextRequest) {
 
     try {
         await transporter.sendMail({
-            from: `"Kontaktformular" <${process.env.EMAIL_USER}>`,
-            to: process.env.EMAIL_USER,
-            subject: 'Neue Nachricht von deiner Webseite',
+            from: "Kontaktformular Edunite",
+            to: process.env.EMAIL_TO,
+            subject: 'Neue Nachricht von Edunite',
             text: `Name: ${name}\nE-Mail: ${email}\n\n${message}`,
         });
 
