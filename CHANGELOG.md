@@ -1,3 +1,11 @@
+# [0.14.0](https://github.com/Edunite/edunite/compare/v0.13.1...v0.14.0) (2025-06-30)
+
+
+### Features
+
+* added contact page with backend api ([0a7e186](https://github.com/Edunite/edunite/commit/0a7e186fc8528038d00b02defbc9e042d9f3009a))
+* updated env ([a5ea43a](https://github.com/Edunite/edunite/commit/a5ea43adf58f7fcee8063d6906fa8220d5ac50b8))
+
 ## [0.13.1](https://github.com/Edunite/edunite/compare/v0.13.0...v0.13.1) (2025-06-28)
 
 
