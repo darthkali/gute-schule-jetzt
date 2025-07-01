@@ -1,3 +1,10 @@
+# [0.16.0](https://github.com/Edunite/edunite/compare/v0.15.0...v0.16.0) (2025-07-01)
+
+
+### Features
+
+* added impressum and datenschutz ([d1408b2](https://github.com/Edunite/edunite/commit/d1408b227ae126b7919966f1eab2583823f5559f))
+
 # [0.15.0](https://github.com/Edunite/edunite/compare/v0.14.1...v0.15.0) (2025-07-01)
 
 
