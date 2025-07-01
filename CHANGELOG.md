@@ -1,3 +1,10 @@
+## [0.16.1](https://github.com/Edunite/edunite/compare/v0.16.0...v0.16.1) (2025-07-01)
+
+
+### Bug Fixes
+
+* updated icons to the same design ([9f72515](https://github.com/Edunite/edunite/commit/9f7251517eae6c50777c0f5dd6d4a6a9527f2a1c))
+
 # [0.16.0](https://github.com/Edunite/edunite/compare/v0.15.0...v0.16.0) (2025-07-01)
 
 
