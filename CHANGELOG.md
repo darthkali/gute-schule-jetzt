@@ -1,3 +1,10 @@
+# [0.15.0](https://github.com/Edunite/edunite/compare/v0.14.1...v0.15.0) (2025-07-01)
+
+
+### Features
+
+* redesigned contact page and added loading spinner ([b436f9f](https://github.com/Edunite/edunite/commit/b436f9fccfe5669216f9270091197318d79b8ecf))
+
 ## [0.14.1](https://github.com/Edunite/edunite/compare/v0.14.0...v0.14.1) (2025-06-30)
 
 
