@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from "next/image";
-
+import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponent";
 const Page = () => {
     return (
         <div>
             <section>
                 <div className="innerBox ">
-                  <h1>DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER</h1>
+                    <h1>DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER</h1>
                     <div className=" grid grid-cols-1 lg:grid-cols-4 mt-4">
                         <div className={"col-span-3"}>
 
@@ -30,10 +30,18 @@ const Page = () => {
                     </div>
                 </div>
             </section>
+
             <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
-                <div className="innerBox grid grid-cols-1 xl:grid-cols-2  mt-4 py-0">
-                    <div className={"p-4"}>
-                        <h2>Welche Funktionen von Schule liegen im Ungleichgewicht ?</h2>
+                <div className={"innerBox"}>
+
+
+                    <ImageTextFloatingSection
+                        imageSrc="/images/justice-4100373_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="right"
+                        size={"small"}
+                        caption={"Welche Funktionen von Schule liegen im Ungleichgewicht ?"}
+                    >
                         <p>Schule hat in Deutschland drei Funktionen: Aufbewahrung, Auslese und Bildung. Seit der
                             Corona- Schulschließung ist klar, die allerwichtigste ist heutzutage die Aufbewahrung. In
                             einer Situation der Unterversorgung mit Personal und Verpflichtung zum Ganztag steht das
@@ -54,10 +62,15 @@ const Page = () => {
                             Gymnasialempfehlung auf Kinder und Familien. Viele Kinder der weiterführenden Schulen
                             erleben: „Du bist das falsche Kind an der richtigen Schule.“ Gleichzeitig wird das System
                             der Berufsausbildung geschwächt.</p>
-                    </div>
+                    </ImageTextFloatingSection>
 
-                    <div className={"bg-[color:var(--color-primary)] p-4"}>
-                        <h2>Welche weiteren veralteten Strukturen bewirken Dsyfunktionalität ?</h2>
+                    <ImageTextFloatingSection
+                        imageSrc="/images/window-7209118_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="left"
+                        size={"small"}
+                        caption={"Welche weiteren veralteten Strukturen bewirken Dsyfunktionalität ?"}
+                    >
                         <p>Schule wird in historischer Gewohnheit von oben herab hierarchisch strukturiert und mit
                             (mangelnden) Ressourcen ausgestattet - und das in der Regel von Menschen, die nicht in ihr
                             arbeiten. Das Konzept ist aus dem vorletzten Jahrhundert: Man nehme eine Großgruppe Kinder,
@@ -66,10 +79,14 @@ const Page = () => {
                             Im Extremfall erleben Kinder schon in der Grundschule im Ganztag bis zu 10 Personalwechsel
                             täglich. Die Stundenpläne und Sachzwänge erfordern unnachgiebige Fachabfolge im vorgegebenen
                             Takt. Alle Menschen im System müssen funktionieren und die Strukturen aushalten.</p>
-                    </div>
+                    </ImageTextFloatingSection>
 
-                    <div className={"xl:bg-[color:var(--color-primary)] p-4"}>
-                        <h2>Welche Rolle spielen Personalmangel und zunehmende Aufgabenfülle?</h2>
+                    <ImageTextFloatingSection
+                        imageSrc="/images/stadium-2921657_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="right"
+                        caption={"Welche Rolle spielen Personalmangel und zunehmende Aufgabenfülle?"}
+                    >
                         <p>Unser Land lässt seit Jahrzehnten eine genügende Personalplanung vermissen. ErstklässlerInnen
                             fallen ja nicht vom Himmel. Welcher Betrieb weiß sechs Jahre zuvor die Zahlen? Doch es wird
                             noch nicht einmal eine Lehrkräftereserve. eingeplant So gehören Unterrichtsausfälle, bereits
@@ -104,11 +121,17 @@ const Page = () => {
                             etwas in Beziehung geht. Das Glücksgefühl - der Flow als Folge des Lernprozesses gibt die
                             Energie für weiteres Lernen - kurz: Was man gemeistert hat, beflügelt! Die Freude am Lernen
                             ist der Ausdruck der Lebendigkeit eines Kindes</p>
-                    </div>
 
-                    <div className={"bg-[color:var(--color-primary)] xl:bg-[color:var(--color-secondary)]  p-4"}>
-                        <h2>Wir haben doch gute Bildungspläne und
-                            Lehrkräfte?</h2>
+                    </ImageTextFloatingSection>
+
+                    <ImageTextFloatingSection
+                        imageSrc="/images/desperate-5011953_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="left"
+                        size={"small"}
+                        caption={"Wir haben doch gute Bildungspläne und\n" +
+                            "                            Lehrkräfte?"}
+                    >
                         <p>Natürlich haben wir ziemlich gute Werte und hehre Bildungsziele - dem gesellschaftlichen
                             Fortschritt nach dem 2. Weltkrieg sei Dank. Die Schule soll mündige und demokratische
                             Menschen erziehen, fachliche Kompetenz vermitteln, Chancengleichheit, Integration &
@@ -121,14 +144,20 @@ const Page = () => {
                             einzelnen Schulen. In der Fläche herrschen notgedrungen business as usual, Stillstand,
                             Resignation oder Verschleiß.Zwischen Wirklichkeit und Realität sind riesige Unterschiede.
                             Wir doktern noch ewig, wenn die Strukturen nicht geändert werden.</p>
-                    </div>
+                    </ImageTextFloatingSection>
 
                 </div>
             </section>
+
             <section>
-                <div className="innerBox grid grid-cols-1 xl:grid-cols-2 py-0">
-                    <div className={"p-4"}>
-                        <h2>Verlierer Nr. 1 DIE KINDER UND FAMILIEN</h2>
+                <div className={"innerBox"}>
+                    <ImageTextFloatingSection
+                        imageSrc="/images/family-6886803_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="right"
+                        size={"medium"}
+                        caption={"Verlierer Nr. 1 DIE KINDER UND FAMILIEN"}
+                    >
                         <p>Mehr als 25% der GrundschülerInnen erreichen die Leistungsstandards in Deutsch und
                             Mathematik nicht. Immer mehr Kinder und Jugendliche leiden unter Stress, zeigen
                             psychologische Auffälligkeiten oder haben sonderpädagogische Bedarfe. Die Chance wird
@@ -144,10 +173,15 @@ const Page = () => {
                             Herkunft oder wirtschaftliche Lage das Recht auf eine seiner Begabung entsprechende
                             Erziehung und Ausbildung. Das öffentliche Schulwesen ist nach diesem Grundsatz zu
                             gestalten.“</p>
-                    </div>
+                    </ImageTextFloatingSection>
 
-                    <div className={"bg-[color:var(--color-neutral)] p-4"}>
-                        <h2>Verlierer Nr. 2 Pädagogisches Personal und Schulleitungen</h2>
+                    <ImageTextFloatingSection
+                        imageSrc="/images/college-student-2052868_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="left"
+                        size={"medium"}
+                        caption={"Verlierer Nr. 2 Pädagogisches Personal und Schulleitungen"}
+                    >
                         <p>In unserem sehr schwerfälligen staatlichen Schulsystem geht tagtäglich viel an Engagement
                             und an eingesetzten Ressourcen verloren. Zuviel Einzelkämpfertum und überholte
                             Strukturen behindern die notwendige Transformation. „Echte Bildungsqualität fängt damit
@@ -161,10 +195,15 @@ const Page = () => {
                             Meinung ist, dass wir mit unseren VERA- und PISAVergleichsstudien ausreichend bewiesen
                             haben, dass unser System nicht zu einer Verbesserung sondern zu einer Verschlechterung
                             der Situation führt. Es ist ein systemisches Problem.</p>
-                    </div>
+                    </ImageTextFloatingSection>
 
-                    <div className={"xl:bg-[color:var(--color-neutral)] p-4"}>
-                        <h2>Verlierer Nr. 3 ARBEITSWELT</h2>
+                    <ImageTextFloatingSection
+                        imageSrc="/images/worker-5736096_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="right"
+                        size={"medium"}
+                        caption={"Verlierer Nr. 3 ARBEITSWELT"}
+                    >
                         <p>Der Arbeitsmarkt in unserer alternden Gesellschaft leidet unter akutem Fachkräftemangel.
                             Handwerksbetriebe finden zu wenige geeignete Auszubildende. Gleichzeitig fehlen zu
                             vielen Jugendlichen neben Grund- Kompetenzen in Deutsch und Mathematik auch andere
@@ -176,10 +215,15 @@ const Page = () => {
                             Höchststand der Beschäftigtenzahlen – im Dienstleistungsbereich. Mehr als 43,3 Prozent
                             aller Beschäftigten verrichten wissensbasierte Dienstleistungsarbeit.“ (8.4.2025
                             https://taz.de/Lotters-Transformator/!vn6081100/) (evt. weglassen?)</p>
-                    </div>
+                    </ImageTextFloatingSection>
 
-                    <div className={"bg-[color:var(--color-neutral)] xl:bg-[color:var(--color-background)]  p-4"}>
-                        <h2>Verlierer Nr. 4 GESELLSCHAFT</h2>
+                    <ImageTextFloatingSection
+                        imageSrc="/images/hoch/street-coffee-444922_1920.jpg"
+                        imageAlt="Teenager"
+                        imagePosition="left"
+                        size={"tiny"}
+                        caption={"Verlierer Nr. 4 GESELLSCHAFT"}
+                    >
                         <p>Dieses Bildungssystem lässt Bildungsqualität und Chancengerechtigkeit vermissen. Dadurch
                             wird weiterhin soziale Ungleichheit erzeugt. Weder Inklusion noch Integration können
                             ohne eine wirkliche Transformation gelingen. Schule im Stressbetrieb kann auch keine
@@ -201,9 +245,9 @@ const Page = () => {
                             werden, so groß ist wie in keinem anderen Bundesland. https://
                             www.news4teachers.de/2024/08/kein-grund-zum-feiern
                             seitzehn-jahren-herrscht-stillstand-bei-der-inklusion-wie-dasbeispiel-sachsen-anhalt-zeigt/</p>
-                    </div>
-
+                    </ImageTextFloatingSection>
                 </div>
+
             </section>
         </div>
     )
