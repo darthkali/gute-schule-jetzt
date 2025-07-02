@@ -55,7 +55,7 @@ export default function HomePage() {
                             <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
                                 <Button
                                     text="Wer steckt dahinter?"
-                                    href="/kontakt"
+                                    href="/ueber-uns"
                                 />
 
                                 <Button
