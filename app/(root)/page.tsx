@@ -62,7 +62,6 @@ export default function HomePage() {
                                     text="Petition an den Landtag unterzeichnen"
                                     href="/kontakt"
                                     bgColor="bg-[color:var(--color-accent)]"
-                                    textColor="text-[color:var(--color-neutral)]"
                                 />
                             </div>
                         </div>
@@ -253,7 +252,6 @@ export default function HomePage() {
                                 text="Petition an den Landtag unterzeichnen"
                                 href="/kontakt"
                                 bgColor="bg-[color:var(--color-accent)]"
-                                textColor="text-[color:var(--color-neutral)]"
                             />
                             <p className={"text-[color:var(--color-neutral)]"}>
                                 Danke, dass du bis hier runter gescrollt hast.<br/>

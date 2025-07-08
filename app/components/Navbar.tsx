@@ -15,9 +15,9 @@ export default function Navbar() {
 
     return (
         <nav className=" sticky top-0 z-50 bg-[color:var(--color-primary)] text-white">
-            <div className=" sticky top-0 z-50 bg-red-500 text-white text-center">
-                Preview - Seite ist noch in Arbeit.
-            </div>
+            {/*<div className=" sticky top-0 z-50 bg-red-500 text-white text-center">*/}
+            {/*    Preview - Seite ist noch in Arbeit.*/}
+            {/*</div>*/}
             {/* Mobile Burger Menu */}
             <div className="sm:hidden">
                 <MobileMenu/>
@@ -60,7 +60,6 @@ export default function Navbar() {
                         text="Petition an den Landtag unterzeichnen"
                         href="/kontakt"
                         bgColor="bg-[color:var(--color-accent)]"
-                        textColor="text-[color:var(--color-neutral)]"
                     />
                 </div>
             </div>
