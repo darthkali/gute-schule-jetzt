@@ -1,3 +1,23 @@
+# [0.17.0](https://github.com/Edunite/edunite/compare/v0.16.1...v0.17.0) (2025-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency nodemailer to v7.0.5 ([70b4693](https://github.com/Edunite/edunite/commit/70b4693635e8b3cfdf18e5864b894708dbc946f3))
+* **deps:** update nextjs monorepo to v15.3.5 ([20542bf](https://github.com/Edunite/edunite/commit/20542bf9dfe3f7416c13adc818251df4fccc83b2))
+* updated route for "Wer steckt dahinter" from contact to about us ([63b08ef](https://github.com/Edunite/edunite/commit/63b08efba53a211267c094b730ea3106e01a118e))
+
+
+### Features
+
+* added ew content for Schulen und Schulleitungen ([9c90e52](https://github.com/Edunite/edunite/commit/9c90e5205ddb19b794a1e30f6db92c02a75cb1dd))
+* added highlight ([102959f](https://github.com/Edunite/edunite/commit/102959f4c9dc929995087809b8890eccceaa5dd6))
+* added new images ([cf57553](https://github.com/Edunite/edunite/commit/cf5755309c7640a090a034682f62647f3396b0c3))
+* removed top margin from heading 2 ([d516177](https://github.com/Edunite/edunite/commit/d516177cc847b808ffe485daa881ab5901509383))
+* updated Alemannenschule Wutöschingen ([0606ff8](https://github.com/Edunite/edunite/commit/0606ff833b898ec54842eb6eb6ff10cc2636f944))
+* updated ImageTextFloatingComponent and rearranged dysfunktionales-schulsystem ([572f666](https://github.com/Edunite/edunite/commit/572f666a403d797b9fad99c6e6ecd9e077cd9384))
+* updated text for mitwirken and petition unterzeichen ([682891b](https://github.com/Edunite/edunite/commit/682891b4e8044152b00d75ae576aaeee2acaeee0))
+
 ## [0.16.1](https://github.com/Edunite/edunite/compare/v0.16.0...v0.16.1) (2025-07-01)
 
 
