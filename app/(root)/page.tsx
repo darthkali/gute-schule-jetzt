@@ -5,6 +5,7 @@ import {FaEnvelope, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter} from "react-
 import Button from "@/app/components/Button";
 import Link from "next/link";
 import MastodonShareButton from "@/app/components/MastodonShareButton";
+import Highlight from '@/app/components/Highlight';
 
 
 export default function HomePage() {
@@ -39,27 +40,26 @@ export default function HomePage() {
                         className="absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/70 z-10 "/>
 
                     {/* Inhalt */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 relative z-10  px-6  sm:py-8 md:py-10 text-white">
+                    <div
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 relative z-10  px-6  sm:py-8 md:py-10 text-white">
                         <div className={"sm:col-span-2"}>
                             <h1>GUTE SCHULE JETZT</h1>
-                            <p>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in
-                                unseren
-                                staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die
-                                Herausforderungen,
-                                der sich rasant verändernden Welt besteht dringender Handlungsbedarf! Dazu werden Dir
-                                hier
-                                gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen
-                                Bundesländern,
-                                die alle Ebenen andere dazu ermutigen, nicht nur über nachhaltigere Bildung zu reden,
-                                sondern konkrete Schritte zu gehen.</p>
+                            <p>Hallo, auf dieser Seite erfährst Du, was <Highlight>Kinder</Highlight> grundlegend
+                                brauchen, damit sie in unseren staatlichen Schulen (endlich) aufbauend zusammen lernen
+                                können. Durch die Herausforderungen, der sich <Highlight>rasant verändernden
+                                    Welt</Highlight> besteht <Highlight>grundlegender Handlungsbedarf</Highlight>! Dazu
+                                werden Dir hier gangbare Wege und Einstiege aufgezeigt. Wir sind <Highlight>Menschen aus
+                                    BW und anderen Bundesländern</Highlight>, die alle Ebenen andere dazu ermutigen,
+                                nicht nur über <Highlight>nachhaltigere Bildung</Highlight> zu reden,
+                                sondern <Highlight>konkrete Schritte</Highlight> zu gehen.</p>
                             <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
                                 <Button
                                     text="Wer steckt dahinter?"
-                                    href="/kontakt"
+                                    href="/ueber-uns"
                                 />
 
                                 <Button
-                                    text="Petition unterzeichnen"
+                                    text="Petition an den Landtag unterzeichnen"
                                     href="/kontakt"
                                     bgColor="bg-[color:var(--color-accent)]"
                                     textColor="text-[color:var(--color-neutral)]"
@@ -231,37 +231,41 @@ export default function HomePage() {
             </section>
 
             <section className={"bg-[color:var(--color-secondary)]"}>
-                {/*Hero*/}
-                <div className={"innerBox"}>
-                    <div className="flex flex-wrap sm:flex-nowrap gap-4 max-w-250 mx-auto justify-center items-center">
-                        <div>
+                <div className={"innerBox "}>
+                    <div className="flex flex-wrap sm:flex-nowrap gap-4 max-w-250 mx-auto justify-center items-start ">
+                        <div className="flex-1">
                             <Button
                                 text="Mitwirken?"
                                 href="/kontakt"
                                 bgColor="bg-[color:var(--color-neutral)]"
                                 textColor="text-[color:var(--color-text)]"
                             />
-                            <p className={"text-[color:var(--color-neutral)]"}>Lorem ipsum dolor sit amet, consetetur
-                                sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, c</p>
+                            <p className={"text-[color:var(--color-neutral)]"}>
+                                Hallo,<br/>
+                                hast du Lust selbst aktiv zu werden?<br/>
+                                Wir freuen uns über Ideen, Menschen im Hintergrund und Vordergrund und …. Schau mal
+                                rein!
+                            </p>
                         </div>
 
-                        <div>
+                        <div className="flex-1">
                             <Button
-                                text="Petition unterzeichnen"
+                                text="Petition an den Landtag unterzeichnen"
                                 href="/kontakt"
                                 bgColor="bg-[color:var(--color-accent)]"
                                 textColor="text-[color:var(--color-neutral)]"
                             />
-                            <p className={"text-[color:var(--color-neutral)]"}>Lorem ipsum dolor sit amet, consetetur
-                                sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, c</p>
+                            <p className={"text-[color:var(--color-neutral)]"}>
+                                Danke, dass du bis hier runter gescrollt hast.<br/>
+                                Hier kommst du zur Petition, die die Bildungswende in BW (und irgendwann auch
+                                bildungspolitisch für ganz Deutschland) in Fahrt bringen soll. Wir danken dir für deine
+                                Unterstützung! Bei Fragen, Ideen und Anregungen schreibe uns gerne an. (LINK zum
+                                Kontaktformular).
+                            </p>
                         </div>
                     </div>
+
+
 
                     <p className={"text-center text-[color:var(--color-accent)]"}>Teile unsere Seite und mache andere
                         darauf aufmerksam</p>

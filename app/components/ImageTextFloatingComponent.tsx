@@ -9,6 +9,7 @@ type ImageTextSectionProps = {
     imagePosition?: "left" | "right";
     caption?: string;
     children: ReactNode;
+    size?: "tiny" | "small" | "medium" | "large" | "xl";
 };
 
 export default function ImageTextFloatingSection({
@@ -19,11 +20,19 @@ export default function ImageTextFloatingSection({
                                                      imagePosition = "left",
                                                      caption,
                                                      children,
+                                                     size = "xl",
                                                  }: ImageTextSectionProps) {
     const floatClass = imagePosition === "right" ? "lg:float-right lg:ml-4" : "lg:float-left lg:mr-4";
 
-    return (
+    const sizeClasses = {
+        tiny: "max-w-xs",     // 320px
+        small: "max-w-sm",    // 384px
+        medium: "max-w-md",   // 448px
+        large: "max-w-lg",    // 512px
+        xl: "max-w-xl"        // 576px
+    };
 
+    return (
         <div className="my-10">
             <h2>{caption}</h2>
             <Image
@@ -31,11 +40,12 @@ export default function ImageTextFloatingSection({
                 alt={imageAlt}
                 width={imageWidth}
                 height={imageHeight}
-                className={`${floatClass} mb-2 mx-auto w-auto h-auto rounded shadow`}
+                className={`${floatClass} ${sizeClasses[size]} w-full mb-2 mx-auto  h-auto rounded shadow`}
             />
             <div className="clearfix">
                 {children}
             </div>
+            <div className="clear-both"></div>
         </div>
     );
 }
