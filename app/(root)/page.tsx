@@ -5,6 +5,7 @@ import {FaEnvelope, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter} from "react-
 import Button from "@/app/components/Button";
 import Link from "next/link";
 import MastodonShareButton from "@/app/components/MastodonShareButton";
+import Highlight from '@/app/components/Highlight';
 
 
 export default function HomePage() {
@@ -43,16 +44,14 @@ export default function HomePage() {
                         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 relative z-10  px-6  sm:py-8 md:py-10 text-white">
                         <div className={"sm:col-span-2"}>
                             <h1>GUTE SCHULE JETZT</h1>
-                            <p>Hallo, auf dieser Seite erfährst Du, was Kinder grundlegend brauchen, damit sie in
-                                unseren
-                                staatlichen Schulen (endlich) aufbauend zusammen lernen können. Durch die
-                                Herausforderungen,
-                                der sich rasant verändernden Welt besteht dringender Handlungsbedarf! Dazu werden Dir
-                                hier
-                                gangbare Wege und Einstiege aufgezeigt. Wir sind Menschen aus BW und anderen
-                                Bundesländern,
-                                die alle Ebenen andere dazu ermutigen, nicht nur über nachhaltigere Bildung zu reden,
-                                sondern konkrete Schritte zu gehen.</p>
+                            <p>Hallo, auf dieser Seite erfährst Du, was <Highlight>Kinder</Highlight> grundlegend
+                                brauchen, damit sie in unseren staatlichen Schulen (endlich) aufbauend zusammen lernen
+                                können. Durch die Herausforderungen, der sich <Highlight>rasant verändernden
+                                    Welt</Highlight> besteht <Highlight>grundlegender Handlungsbedarf</Highlight>! Dazu
+                                werden Dir hier gangbare Wege und Einstiege aufgezeigt. Wir sind <Highlight>Menschen aus
+                                    BW und anderen Bundesländern</Highlight>, die alle Ebenen andere dazu ermutigen,
+                                nicht nur über <Highlight>nachhaltigere Bildung</Highlight> zu reden,
+                                sondern <Highlight>konkrete Schritte</Highlight> zu gehen.</p>
                             <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
                                 <Button
                                     text="Wer steckt dahinter?"
@@ -60,7 +59,7 @@ export default function HomePage() {
                                 />
 
                                 <Button
-                                    text="Petition unterzeichnen"
+                                    text="Petition an den Landtag unterzeichnen"
                                     href="/kontakt"
                                     bgColor="bg-[color:var(--color-accent)]"
                                     textColor="text-[color:var(--color-neutral)]"
@@ -251,7 +250,7 @@ export default function HomePage() {
 
                         <div className="flex-1">
                             <Button
-                                text="Petition unterzeichnen"
+                                text="Petition an den Landtag unterzeichnen"
                                 href="/kontakt"
                                 bgColor="bg-[color:var(--color-accent)]"
                                 textColor="text-[color:var(--color-neutral)]"
