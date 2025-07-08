@@ -1,3 +1,15 @@
+# [0.18.0](https://github.com/Edunite/edunite/compare/v0.17.0...v0.18.0) (2025-07-08)
+
+
+### Bug Fixes
+
+* adjusted colors for a better readability ([227491c](https://github.com/Edunite/edunite/commit/227491ca71a277d0bf26e1a06d107fbc01e6ea82))
+
+
+### Features
+
+* added new colors ([9770ec1](https://github.com/Edunite/edunite/commit/9770ec1bd9b4c32e3f84e2003acbe6760d2716bb))
+
 # [0.17.0](https://github.com/Edunite/edunite/compare/v0.16.1...v0.17.0) (2025-07-08)
 
 
