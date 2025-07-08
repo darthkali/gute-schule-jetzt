@@ -2,7 +2,7 @@
 
 import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 import MarkerClusterGroup from 'react-leaflet-markercluster'
-import L from 'leaflet'
+import L, {MarkerCluster} from 'leaflet'
 import Link from 'next/link'
 import 'leaflet/dist/leaflet.css'
 import {useState} from "react";
@@ -52,7 +52,7 @@ const initiatives: Initiative[] = [
         description: "außerschulischer Lernort für Schüler:innen, der dabei hilft, das volle Potenzial der jungen Menschen zu entfalten. Lehrkräfte können ihren Unterricht für eine Projektarbeit dorthin verlegen und Geräte, Materialien und Räumlichkeiten nutzen.",
         latitude: 47.565424,
         longitude: 9.371903,
-        link: "www.talenticum.swiss"
+        link: "https://www.talenticum.swiss"
     },
     {
         id: "4",
@@ -60,12 +60,12 @@ const initiatives: Initiative[] = [
         description: `gründete 1980 das erste Haus des Lernens mit seinem Konzept des autonomen Lernens in gestalteter Umgebung."  2020 arbeiteten bereits über 140 Schulen im In- und Ausland danach und stellen die Lernenden in den Mittelpunkt. Buch „Lass mir die Welt – verschule sie nicht"`,
         latitude: 47.563747,
         longitude: 9.362589,
-        link: "www.peterfratton.com"
+        link: "https://www.peterfratton.com"
     },
 ];
 
 // Benutzerdefinierte Cluster-Icon-Erstellung mit Ihren CSS-Variablen
-const createClusterCustomIcon = (cluster: any) => {
+const createClusterCustomIcon = (cluster: MarkerCluster) => {
     const childCount = cluster.getChildCount()
 
     return L.divIcon({
@@ -116,11 +116,7 @@ function InitiativeMapClient() {
                                     </p>
                                     <Link
                                         href={i.link}
-                                        className="inline-block px-3 py-1 text-sm font-medium rounded-md transition-colors duration-200 hover:opacity-80"
-                                        style={{
-                                            backgroundColor: 'var(--color-secondary)',
-                                            color: 'var(--color-neutral)'
-                                        }}
+                                        className="text-blue-600 underline text-sm block mt-1"
                                         target={"_blank"}
                                     >
                                         Zur Webseite →
