@@ -12,13 +12,16 @@ export default function Navbar() {
         { href: "/ueber-uns", text: "Über Uns" },
         { href: "/kontakt", text: "Kontakt" }
     ];
+    const showDevBanner = process.env.NEXT_PUBLIC_SHOW_DEV_BANNER === 'true';
 
     return (
         <nav className=" sticky top-0 z-50 bg-[color:var(--color-primary)] text-white">
-            {/*<div className=" sticky top-0 z-50 bg-red-500 text-white text-center">*/}
-            {/*    Preview - Seite ist noch in Arbeit.*/}
-            {/*</div>*/}
-            {/* Mobile Burger Menu */}
+            {showDevBanner && (
+                <div className="sticky top-0 z-50 bg-red-500 text-white text-center py-1">
+                    Preview - Seite ist noch in Arbeit.
+                </div>
+            )}
+             {/*Mobile Burger Menu*/}
             <div className="sm:hidden">
                 <MobileMenu/>
             </div>
