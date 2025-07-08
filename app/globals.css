@@ -51,6 +51,33 @@
     li {
         @apply mb-2 leading-relaxed;
     }
+
+    .leaflet-div-icon {
+        background: transparent !important;
+        border: none !important;
+    }
+
+    .leaflet-marker-icon.custom-marker-cluster .cluster-icon {
+        margin: 0 !important;
+        padding: 0 !important;
+        position: relative !important;
+    }
+
+    /* Popup styling */
+    .leaflet-popup-content-wrapper {
+        background: var(--color-neutral) !important;
+        border-radius: 8px !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    }
+
+    .leaflet-popup-content {
+        color: var(--color-text) !important;
+        font-family: var(--font-roboto), sans-serif !important;
+    }
+
+    .leaflet-popup-tip {
+        background: var(--color-neutral) !important;
+    }
 }
 
 @layer components {
@@ -67,6 +94,40 @@
         sm:px-10
         md:px-16
         py-5;
+    }
+    .cluster-icon {
+        background: var(--color-secondary) !important;
+        border-radius: 50% !important;
+        color: var(--color-neutral) !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        width: 40px !important;
+        height: 40px !important;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+        border: 3px solid var(--color-neutral) !important;
+        transition: all 0.2s ease !important;
+        font-family: var(--font-poppins), sans-serif !important;
+    }
+
+    .cluster-icon:hover {
+        background: var(--color-primary) !important;
+        transform: scale(1.1) !important;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.25) !important;
+    }
+
+    .cluster-text {
+        color: var(--color-neutral) !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+    }
+
+    .custom-marker-cluster {
+        background: transparent !important;
+        border: none !important;
     }
 }
 

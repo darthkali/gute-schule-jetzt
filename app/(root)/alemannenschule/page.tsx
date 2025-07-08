@@ -59,9 +59,10 @@ const Page = () => {
 
 
                         <Button
-                            text="Webseite der Schule"
+                            text="Zur Webseite der Schule"
                             href="https://asw-wutoeschingen.de/"
-                            bgColor="bg-[color:var(--color-accent)]"
+                            bgColor="bg-[color:var(--color-primary)]"
+                            textColor={"text-[color:var(--color-neutral)]"}
                             newTab={true}
                         />
                     </div>
