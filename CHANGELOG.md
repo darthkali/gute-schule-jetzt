@@ -1,3 +1,10 @@
+## [0.19.1](https://github.com/Edunite/edunite/compare/v0.19.0...v0.19.1) (2025-07-08)
+
+
+### Bug Fixes
+
+* preview banner only in dev ([6c7a486](https://github.com/Edunite/edunite/commit/6c7a48646623116a76b1e426f5b4daa4c811d102))
+
 # [0.19.0](https://github.com/Edunite/edunite/compare/v0.18.0...v0.19.0) (2025-07-08)
 
 
