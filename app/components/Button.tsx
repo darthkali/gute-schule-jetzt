@@ -10,7 +10,7 @@ type ButtonProps = {
     textColor?: string
     newTab?: boolean
     className?: string
-} & ButtonHTMLAttributes<HTMLButtonElement>; // Für z. B. type="submit"
+} & ButtonHTMLAttributes<HTMLButtonElement>;
 
 
 export default function Button({
@@ -23,7 +23,7 @@ export default function Button({
                                    ...rest
                                }: ButtonProps) {
 
-    const classNameInternal = `${className} inline-block px-6 py-3 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 ${bgColor} ${textColor} transition-transform duration-300 hover:scale-105`;
+    const classNameInternal = `${className} text-xs sm:text-sm md:text-base inline-block px-6 py-3 rounded-full  font-bold shadow transition-colors duration-300 hover:brightness-110 ${bgColor} ${textColor} transition-transform duration-300 hover:scale-105`;
 
     if (href) {
         return (
