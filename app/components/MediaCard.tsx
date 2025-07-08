@@ -51,9 +51,7 @@ export default function MediaCard({
                         text={buttonTitle ?? ""}
                         href={buttonHref}
                         bgColor="bg-[color:var(--color-accent)]"
-                        textColor="text-[color:var(--color-neutral)]"
                         newTab={true}
-                        className=""
                     />
                 </div>
 

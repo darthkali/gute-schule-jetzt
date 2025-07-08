@@ -67,7 +67,6 @@ const Page = () => {
                             text="Webseite der Schule"
                             href="https://www.primus-muenster.de/"
                             bgColor="bg-[color:var(--color-accent)]"
-                            textColor="text-[color:var(--color-neutral)]"
                             newTab={true}
                         />
                     </div>

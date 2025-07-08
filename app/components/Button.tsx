@@ -23,7 +23,7 @@ export default function Button({
                                    ...rest
                                }: ButtonProps) {
 
-    const classNameInternal = `${className} inline-block px-6 py-3 rounded-full font-medium shadow transition-colors duration-300 hover:brightness-110 ${bgColor} ${textColor} transition-transform duration-300 hover:scale-105`;
+    const classNameInternal = `${className} inline-block px-6 py-3 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 ${bgColor} ${textColor} transition-transform duration-300 hover:scale-105`;
 
     if (href) {
         return (

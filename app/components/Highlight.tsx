@@ -16,7 +16,7 @@ const Highlight: React.FC<HighlightProps> = ({
         : 'text-[color:var(--color-accent)]';
 
     return (
-        <span className={`${colorClass} ${className}`}>
+        <span className={`${colorClass} ${className} font-bold`}>
       {children}
     </span>
     );
