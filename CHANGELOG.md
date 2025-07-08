@@ -1,3 +1,17 @@
+# [0.19.0](https://github.com/Edunite/edunite/compare/v0.18.0...v0.19.0) (2025-07-08)
+
+
+### Bug Fixes
+
+* added markercluster type ([cde10d8](https://github.com/Edunite/edunite/commit/cde10d8a8d523e4521dcf4340e6d2993411d7e72))
+* updated button background for website button on allemanenschule and primusschule ([1f2a78b](https://github.com/Edunite/edunite/commit/1f2a78b360b13d8b8a4d25403772c951b79e6206))
+* updated button font size for different screen sizes ([27f7117](https://github.com/Edunite/edunite/commit/27f71172a8726158f4e86be2f1e2b6d7649a7e15))
+
+
+### Features
+
+* added cluster icon ([04a13e5](https://github.com/Edunite/edunite/commit/04a13e586ae57903b2f2ef6fc33f7dce5e850dcc))
+
 # [0.18.0](https://github.com/Edunite/edunite/compare/v0.17.0...v0.18.0) (2025-07-08)
 
 
