@@ -43,7 +43,7 @@ export default function HomePage() {
                     <div
                         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 relative z-10  px-6  sm:py-8 md:py-10 text-white">
                         <div className={"sm:col-span-2"}>
-                            <h1>GUTE SCHULE JETZT</h1>
+                            <h1>Gute Schule - Jetzt!</h1>
                             <p>Hallo, auf dieser Seite erfährst Du, was <Highlight>Kinder</Highlight> grundlegend
                                 brauchen, damit sie in unseren staatlichen Schulen (endlich) aufbauend zusammen lernen
                                 können. Durch die Herausforderungen, der sich <Highlight>rasant verändernden
@@ -136,9 +136,10 @@ export default function HomePage() {
                             ">
 
                             <div className="">
-                                <h2 className={"text-center text-2xl mb-4"}>
+                                <h2 className={"text-center text-2xl mb-0"}>
                                     Primus Schule <br/> Münster Berg Fidel
                                 </h2>
+                                <p className="text-blue-400 text-center mt-0">1-10</p>
                                 <ul className={" text-center"}>
                                     <li>Vorbild für Grundschulen</li>
                                     <li>Vorbild für längeres gemeinsames Lernen</li>
@@ -159,9 +160,10 @@ export default function HomePage() {
                             ">
 
                             <div className="">
-                                <h2 className={"text-center text-2xl mb-4"}>
+                                <h2 className={"text-center text-2xl mb-0"}>
                                     Alemannenschule Wutöschingen
                                 </h2>
+                                <p className="text-blue-400 text-center mt-0">1-13</p>
                                 <ul className={" text-center"}>
                                     <li>Vorbild für weiterführende Schulen</li>
                                     <li>Vorbild für Selbstorganisiertes Lernen und gemeinsames Projekt-Lernen</li>
@@ -197,33 +199,42 @@ export default function HomePage() {
                     <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5">
                         <Card
                             imageSrc="/images/hoch/boy-8474750_1920.jpg"
-                            title="Schülerinnen und Schüler"
+                            title="Kinder und Jugendliche"
                             href={"/schuelerinnen-und-schueler"}
+                            overlayColor={"bg-[color:var(--color-secondary)]/80"}
                         />
                         <Card
                             imageSrc="/images/family-6886803_1920.jpg"
                             title="Eltern und Familien"
                             href={"/eltern-und-familien"}
-                        />
-                        <Card
-                            imageSrc="/images/deutscher-bundestag-4965585_1920.jpg"
-                            title="Politik und Bürger:innen"
-                            href={"/politik-und-buerger"}
+                            overlayColor={"bg-[color:var(--color-secondary)]/80"}
                         />
                         <Card
                             imageSrc="/images/hoch/woodburn-hall-1057364_1920.jpg"
                             title="Schulen und Schulleitungen"
                             href={"/schulen-und-schulleitungen"}
+                            overlayColor={"bg-[color:var(--color-secondary)]/80"}
+                        />
+                    </div>
+
+                    <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5 mt-10">
+                        <Card
+                            imageSrc="/images/deutscher-bundestag-4965585_1920.jpg"
+                            title="Politik und Bürger:innen"
+                            href={"/politik-und-buerger"}
+                            overlayColor={"bg-[color:var(--color-text)]/80"}
                         />
                         <Card
                             imageSrc="/images/money-2696219_1920.jpg"
                             title="Handwerk und Wirtschaft"
                             href={"/wirtschaft-und-handwerk"}
+                            overlayColor={"bg-[color:var(--color-text)]/80"}
                         />
                         <Card
                             imageSrc="/images/hoch/street-coffee-444922_1920.jpg"
                             title="Kommunen - Schulträger und Vereine"
                             href={"/kommunen"}
+                            overlayColor={"bg-[color:var(--color-text)]/80"}
                         />
                     </div>
                 </div>
