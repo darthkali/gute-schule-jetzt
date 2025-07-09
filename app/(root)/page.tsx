@@ -217,7 +217,7 @@ export default function HomePage() {
                         />
                         <Card
                             imageSrc="/images/money-2696219_1920.jpg"
-                            title="Wirtschaft und Handwerk"
+                            title="Handwerk und Wirtschaft"
                             href={"/wirtschaft-und-handwerk"}
                         />
                         <Card
