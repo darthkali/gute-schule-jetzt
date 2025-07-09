@@ -206,7 +206,7 @@ const createClusterCustomIcon = (cluster: MarkerCluster) => {
 
 function InitiativeMapClient() {
     const [activated, setActivated] = useState(false)
-    const maxDescriptionLength = 500
+    const maxDescriptionLength = 120
 
     return (
         <div className="relative h-[300px] sm:h-[500px] md:h-[650px] w-full rounded shadow z-0">
