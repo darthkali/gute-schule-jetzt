@@ -29,6 +29,7 @@ export default function Navbar() {
             <div className={"hidden innerBox items-center sm:flex"}>
                 {/* Logo  */}
 
+                <Link href="/">
                     <Image
                         src="/logo/edunite-logo_neu.svg"
                         alt="EduUnite Logo"
@@ -36,6 +37,7 @@ export default function Navbar() {
                         height={70}
                         className={"pr-4"}
                     />
+                </Link>
 
 
                 {/* Navigation */}
