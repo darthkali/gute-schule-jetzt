@@ -7,7 +7,7 @@ export default function Footer() {
                 {/* Logo */}
                 <div className="flex items-center gap-2">
                     <Image
-                        src="/logo/edunite-logo.svg"
+                        src="/logo/edunite-logo_neu.svg"
                         alt="EduUnite Logo"
                         width={40}
                         height={40}
