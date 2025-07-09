@@ -62,6 +62,133 @@ const initiatives: Initiative[] = [
         longitude: 9.362589,
         link: "https://www.peterfratton.com"
     },
+    {
+        id: "5",
+        name: "Neue Stadtschule St. Gallen",
+        description: `innovative Privatschule, die Lernen neu denkt und begeistert, inspirierendes Basislager, von dem aus die Welt entdeckt, verstanden und aktiv mitgestaltet wird. 2014 von Peter Fratton zusammen mit der Unternehmerin Bettina Würth gegründet, `,
+        latitude: 47.427383,
+        longitude: 9.370321,
+        link: "https://neue-stadtschulen.ch/mittelstufe-st-gallen.html"
+    },
+    {
+        id: "6",
+        name: "Schulen im Aufbruch",
+        description: `Begleitprogramm und Netzwerk für alle Schulen, die sich zu Lern- und Lebensorten entwickeln wollen, in denen die Potentialentfaltung, die Gesundheit und der Erwerb von Zukunftskompetenzen von Schüler*innen und Pädagog*innen im Mittelpunkt stehen. Wir unterstützen Schulen auf ihrem Weg hin zu einer Lernkultur der Potenzialentfaltung. 2012 gegründet von Margret Rasfeld, Prof. Gerald Hüther und Prof. Stefan Breidenbach, mit dem Ziel, Schulen dazu anzustiften, das historisch gewachsene Unterrichtverständnis kritisch zu prüfen, loszulassen und einen transformativen Weg zum neuen Lernen zu ermöglichen.`,
+        latitude: 52.508695,
+        longitude: 13.503651,
+        link: "https://schule-im-aufbruch.de/"
+    },
+
+    {
+        id: "7",
+        name: "FREI DAY Schule werden",
+        description: `Regelmäßige Projektarbeit mindestens 4 Stunden am Stück. Am FREI DAY beschäftigen sich Kinder und Jugendliche mit aktuellen gesellschaftlichen und ökologischen Herausforderungen, die sich an den Global Goals **(SDGs) **der Vereinten Nationen orientieren. Sie finden Antworten auf selbstgewählte Zukunftsfragen. Sie entwickeln Zuversicht für ihre Zukunft, da sie sich als selbstwirksam und handlungsfähig erleben. Im Zentrum steht dabei die dreifache Verantwortung: Verantwortung für sich selbst, Verantwortung für Mitmenschen und Verantwortung für unseren Planeten.`,
+        latitude: 52.508694,
+        longitude: 13.503651,
+        link: "https://frei-day.org/"
+    },
+
+    {
+        id: "8",
+        name: "Lernkompass 2030",
+        description: `Der OECD Lernkompass 2030 ist ein Rahmenkonzept für das Lernen/ Zukunftskompetenzen. Er beschreibt, welches Wissen, welche Fähigkeiten und Fertigkeiten, welche Haltungen und Werte Schülerinnen und Schüler brauchen, um ihr eigenes Leben und die Gesellschaft verantwortlich und zukunftsfähig zu gestalten. Das Ziel ist die Entwicklung einer umfassenden Gestaltungs- und Handlungskompetenz.`,
+        latitude: 48.781260,
+        longitude: 9.179122,
+        link: "https://km.baden-wuerttemberg.de/de/service/pressemitteilung/pid/3-fragen-3-antworten-diesmal-mit-kerstin-wilmans-ueber-den-oecd-lernkompass-2030 "
+    },
+
+    {
+        id: "9",
+        name: "Deutscher Lehrkräftepreis",
+        description: `z.B. Schulentwicklung - innovativer Unterricht: Fächerübergreifendes Projekt zum Thema Migration über 10 Wochen`,
+        latitude: 52.514955,
+        longitude: 13.388882,
+        link: "https://www.lehrkraeftepreis.de/preistraegerinnen/"
+    },
+
+    {
+        id: "10",
+        name: "Nelson-Mandela-Gesamtschule, Bergisch- Gladbach, NRW",
+        description: `„Ich sehe dich und nehme dich wahr – so wie du bist, wo du herkommst und wo deine Wege hingehen. Ich suche und ich finde eine Stärke und baue dies aus.“ Diese Aussage des Kollegiums beschreibt treffend die Haltung der Lehrer:innen der Nelson-Mandela-Gesamtschule. Ihre grundlegende Idee, als inklusive Schule ein „Haus des Lernens“ für alle zu sein, steht im Sinne einer Potenzialentfaltungskultur und Stärkenorientierung im Zentrum der schulischen Entwicklung. Das Drei-Säulen-Modell der Nelson-Mandela-Gesamtschule fördert selbstregulierte Lernprozesse. Durch die Verzahnung von Fachunterricht, individueller Lernzeit, Projekt- und Werkstattlernen unterstützt die Schule den Wechsel und das Spannungsfeld von Instruktion und Konstruktion. Text: Jurymitglied Prof. Dr. Monika Buhl`,
+        latitude: 50.979302,
+        longitude: 7.1264328,
+        link: "https://nelson-mandela-gesamtschule.de/"
+    },
+    {
+        id: "11",
+        name: "Churer Modell",
+        description: `Türöffner für Veränderung - Begleitung von Schulen «Das Bestechende am «Churermodell» ist, dass es die Basis für viele wesentliche Entwicklungen der heutigen Schule legt – sei es individualisierte Lernförderung, inklusive Schulungsform und integrative Begabungs- und Begabtenförderung.» (Lienhard 2012, S. 14)`,
+        latitude: 46.8638024,
+        longitude: 9.542317,
+        link: "https://churermodell.ch/"
+    },
+
+    {
+        id: "12",
+        name: "Paula-Fürst Schule, Freiburg",
+        description: `Doppelbesetzungen mit Lehrkräften in den Kernfächern Deutsch, Mathe und Englisch, Bezugspädagog:innen, selbstreguliertes Lernen, im staatlich anerkannten Schulverbund mit Ganztagesangeboten, bestehend aus einer Grundschule (Klassen 1-4) und einer Gemeinschaftsschule mit gymnasialer Oberstufe (Klassen 5-13).`,
+        latitude: 47.9877616,
+        longitude: 7.8377031,
+        link: "https://paula-fuerst-schule.de/"
+    },
+
+    {
+        id: "13",
+        name: "Montessorischule Hofheim",
+        description: `Kinderhaus mit Nest, staatliche anerkannte 6 jährige Grundschule, integrierte Gesamtschule 7-10 und Gymnasiale Oberstufe, 1996 von einer Elterninitiative gegründet und bis heute in freier Trägerschaft. Ganztagsschule - Vision: “Die Erziehung muss die Entwicklung der Individualität und die der Gesellschaft unterstützen. Ohne die Entwicklung des Einzelwesens kann es keine Entwicklung der Gesellschaft geben." (Maria Montessori)`,
+        latitude: 50.076645,
+        longitude: 8.4278975,
+        link: "https://www.montessori-hofheim.de/zentrum/das-zentrum/"
+    },
+
+    {
+        id: "14",
+        name: "Anne Frank Schule, Freiburg",
+        description: `Doppelbesetzung seit 2001 Die Entwicklung des einzelnen Kindes steht bei uns im Mittelpunkt. „Menschliche Größe besteht nicht in Reichtum oder Macht, sondern in Charakter und Güte.`,
+        latitude: 48.0036155,
+        longitude: 7.8164793,
+        link: "https://www.annefrankgrundschule.de/"
+    },
+
+    {
+        id: "15",
+        name: "Rosa-Luxemburg-Gemeinschaftsschule in Wittenberg, Sachsen-Anhalt",
+        description: `4 Tage Schule, 1 Tag im Betrieb. Vor drei Jahren startete das Modellprojekt mit zwölf Schulen. Sachsen-Anhalt testet damit als erstes Bundesland eine Art Vier-Tage-Woche für Schüler:innen. An vier Tagen haben die Schüler:innen  regulären Unterricht, am fünften Tag finden analoge oder digitale Selbstlernzeiten, Projekttage oder – wie an der  Rosa-Luxemburg  GMS (offene Ganztagsschule) – Praxislerntage  für die Klassen 8 und 9 in einem Betrieb statt. „4+1“ heißt das Pilotprojekt deshalb. Schüler:innen und Betriebe lieben es und profitieren in der Praxis gegenseitig, berichtete uns die Schulleitung im direkten Gespräch.`,
+        latitude: 51.8697611,
+        longitude: 12.6469298,
+        link: "https://www.sks-luxemburg.bildung-lsa.de/"
+    },
+
+    {
+        id: "16",
+        name: "Grundschule  Hermann-Brommer-Schule in Merdingen ",
+        description: `Inklusiv arbeitende Grundschule mit jahrgangsübergreifenden Klassen (134 Schüler in 7 Familienklassen). 2023 als Nominierte Schule zu den besten 15 Schulen beim Deutschen Schulpreis gekürt. Sich zu einer inklusiv arbeitenden Schule zu entwickeln, war und ist für alle Beteiligten eine große Herausforderung. Heute ist es an unserer Schule selbstverständlich, verschieden zu sein. Unsere Schule möchte ein Lebens- und Lernort für alle sein.`,
+        latitude: 48.0199181,
+        longitude: 7.6892058,
+        link: "https://www.hermann-brommer-schule.de/"
+    },
+
+    {
+        id: "18",
+        name: "Studentische Initiative zur Verbesserung der Lehrkräftebildung, Kreidestaub e.V.",
+        description: `bundesweite Standorte, z.B. Freiburg`,
+        latitude: 52.4791254,
+        longitude: 13.4371564,
+        link: "https://www.kreidestaub.net/"
+    },
+
+    {
+        id: "20",
+        name: "Projektschulen, Robert Bosch Stiftung in Stuttgart",
+        description: `Das Pilotprojekt Deeper Learning soll einen Wandel in der Lern- und Lehrpraxis von Schulen anstoßen. Kernstück ist die Verschränkung (inter-)disziplinärer Wissensaneignung mit ko-konstruktiven, ko-kreativen Problemlöseprozessen. Lernen geschieht dabei in hybriden Lernumgebungen aus schulischen, außerschulischen und digitalen Lebenswelten. Wichtig ist die Authentizität der Lernergebnisse, verknüpft mit formativem Leistungsfeedback.`,
+        latitude: 48.777777,
+        longitude: 9.1988152,
+        link: "https://www.bosch-stiftung.de/de/projekt/deeper-learning-projektschulen-baden-wuerttemberg"
+    },
+
+
+
+
 ];
 
 // Benutzerdefinierte Cluster-Icon-Erstellung mit Ihren CSS-Variablen
@@ -79,7 +206,7 @@ const createClusterCustomIcon = (cluster: MarkerCluster) => {
 
 function InitiativeMapClient() {
     const [activated, setActivated] = useState(false)
-    const maxDescriptionLength = 80
+    const maxDescriptionLength = 500
 
     return (
         <div className="relative h-[300px] sm:h-[500px] md:h-[650px] w-full rounded shadow z-0">
