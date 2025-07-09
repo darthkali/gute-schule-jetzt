@@ -1,3 +1,16 @@
+# [0.21.0](https://github.com/Edunite/edunite/compare/v0.20.0...v0.21.0) (2025-07-09)
+
+
+### Bug Fixes
+
+* added link to icon ([a54523a](https://github.com/Edunite/edunite/commit/a54523aa69e1cad2fa3dc17a067d90af30495ddf))
+* removed loading page ([23a1155](https://github.com/Edunite/edunite/commit/23a11553f5ca49f04103c445e7484b9aafd01247))
+
+
+### Features
+
+* added new initiatives on the map ([930f973](https://github.com/Edunite/edunite/commit/930f973b2541009555c28827eefa584fa205a771))
+
 # [0.20.0](https://github.com/Edunite/edunite/compare/v0.19.1...v0.20.0) (2025-07-09)
 
 
