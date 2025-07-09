@@ -1,3 +1,11 @@
+# [0.20.0](https://github.com/Edunite/edunite/compare/v0.19.1...v0.20.0) (2025-07-09)
+
+
+### Features
+
+* added handwerk content ([b43baa5](https://github.com/Edunite/edunite/commit/b43baa597d8a1fcc17438f6cfd4c9f186f8b4b2a))
+* added new logo ([f4ea4ba](https://github.com/Edunite/edunite/commit/f4ea4baec869038cb867f8b2e2671321458e9080))
+
 ## [0.19.1](https://github.com/Edunite/edunite/compare/v0.19.0...v0.19.1) (2025-07-08)
 
 
