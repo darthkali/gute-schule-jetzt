@@ -206,7 +206,7 @@ const createClusterCustomIcon = (cluster: MarkerCluster) => {
 
 function InitiativeMapClient() {
     const [activated, setActivated] = useState(false)
-    const maxDescriptionLength = 120
+    const maxDescriptionLength = 130
 
     return (
         <div className="relative h-[300px] sm:h-[500px] md:h-[650px] w-full rounded shadow z-0">
@@ -236,8 +236,8 @@ function InitiativeMapClient() {
                         <Marker key={i.id} position={[i.latitude, i.longitude]}>
                             <Popup className="initiative-popup">
                                 <div className="p-3">
-                                    <h3 className="font-semibold text-lg mb-2 text-primary">{i.name}</h3>
-                                    <p className="text-sm mb-3 leading-relaxed">
+                                    <h3 className="font-semibold text-base sm:text-lg mb-2 text-primary">{i.name}</h3>
+                                    <p className="text-xs sm:text-sm mb-3 leading-relaxed">
                                         {i.description?.slice(0, maxDescriptionLength)}
                                         {i.description && i.description.length > maxDescriptionLength && '...'}
                                     </p>
