@@ -28,14 +28,15 @@ export default function Navbar() {
 
             <div className={"hidden innerBox items-center sm:flex"}>
                 {/* Logo  */}
-                <div className="pr-4 items-center flex gap-2">
+
                     <Image
-                        src="/logo/edunite-logo.svg"
+                        src="/logo/edunite-logo_neu.svg"
                         alt="EduUnite Logo"
-                        width={32}
-                        height={32}
+                        width={70}
+                        height={70}
+                        className={"pr-4"}
                     />
-                </div>
+
 
                 {/* Navigation */}
                 <div className="flex gap-6 items-start font-semibold">
