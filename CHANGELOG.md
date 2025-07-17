@@ -1,3 +1,11 @@
+## [0.21.1](https://github.com/Edunite/edunite/compare/v0.21.0...v0.21.1) (2025-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sharp to v0.34.3 ([531aa31](https://github.com/Edunite/edunite/commit/531aa3144924f5915b372fbf58248b646e9bf8b1))
+* **deps:** update nextjs monorepo to v15.4.1 ([fdda573](https://github.com/Edunite/edunite/commit/fdda57345864cd739bbb90083176c06263598800))
+
 # [0.21.0](https://github.com/Edunite/edunite/compare/v0.20.0...v0.21.0) (2025-07-09)
 
 
