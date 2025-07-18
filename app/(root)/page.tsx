@@ -101,7 +101,13 @@ export default function HomePage() {
                         ist, und am Sonntagnachmittag depressiv wird, weil der nächste Werktag droht. Eine Welt, in der
                         wir uns selber gehören, und gerade deshalb unser Bestes geben, um ein paar der verdammt vielen
                         Probleme zu lösen, die wir haben.
-                        <cite>gekürzt, Wolf Lotter, https://www.wolflotter.com</cite>
+                        <cite>gekürzt, Wolf Lotter, https://www.wolflotter.com <br/> siehe: <Link
+                            href={"https://www.zeit.de/2025/29/regression-demokratie-staatliche-steuerung-westen-liberale-demokratie"}
+                            target={"_blank"}
+                            className={"hover:underline"}
+                            >
+                             "Die Demokratie macht schlapp" (Die Zeit Nr 29/ 2025 )
+                        </Link></cite>
                     </blockquote>
 
                 </div>
