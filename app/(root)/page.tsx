@@ -106,7 +106,7 @@ export default function HomePage() {
                             target={"_blank"}
                             className={"hover:underline"}
                             >
-                             "Die Demokratie macht schlapp" (Die Zeit Nr 29/ 2025 )
+                             &#34;Die Demokratie macht schlapp&#34; (Die Zeit Nr 29/ 2025 )
                         </Link></cite>
                     </blockquote>
 
