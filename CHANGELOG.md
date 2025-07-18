@@ -1,3 +1,19 @@
+# [0.23.0](https://github.com/Edunite/edunite/compare/v0.22.0...v0.23.0) (2025-07-18)
+
+
+### Bug Fixes
+
+* fixed quote escape ([e3139d3](https://github.com/Edunite/edunite/commit/e3139d399b7f2a61e5f026ea87eb22a695261fa4))
+* updated link from petition button ([c22a7cc](https://github.com/Edunite/edunite/commit/c22a7cc724fc938480b39092e44d99fcaba0579d))
+
+
+### Features
+
+* added hint in petition ([adfe697](https://github.com/Edunite/edunite/commit/adfe697a182ad3223c6b9038d2760590742b5c29))
+* added petition page ([3068c95](https://github.com/Edunite/edunite/commit/3068c9560eb13caac5ef167274054fdb64526e93))
+* updated about us page ([9c1d1d0](https://github.com/Edunite/edunite/commit/9c1d1d0210fa03462304f508dd052a790f21b5bf))
+* updated cite with link to article ([e0a18e6](https://github.com/Edunite/edunite/commit/e0a18e64d23acaf05e5b6ac054b62e17fe266551))
+
 # [0.22.0](https://github.com/Edunite/edunite/compare/v0.21.1...v0.22.0) (2025-07-18)
 
 
