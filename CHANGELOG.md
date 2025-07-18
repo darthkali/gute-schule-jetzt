@@ -1,3 +1,17 @@
+# [0.22.0](https://github.com/Edunite/edunite/compare/v0.21.1...v0.22.0) (2025-07-18)
+
+
+### Bug Fixes
+
+* adjusted test length and text size for map Description ([f06382e](https://github.com/Edunite/edunite/commit/f06382e40e7189db2ab67cbc074ce24e5b935dfe))
+* adjusted test length for map Description ([2576c60](https://github.com/Edunite/edunite/commit/2576c603525fa81fe8334d3a2a2c76383c200536))
+* updated logo ([9f982e3](https://github.com/Edunite/edunite/commit/9f982e3144832a5a0636533680f7c62d5250877c))
+
+
+### Features
+
+* added inclusive font, changed some small things ([4681b91](https://github.com/Edunite/edunite/commit/4681b918fd86177ada47a17975270447000d50fa))
+
 ## [0.21.1](https://github.com/Edunite/edunite/compare/v0.21.0...v0.21.1) (2025-07-17)
 
 
