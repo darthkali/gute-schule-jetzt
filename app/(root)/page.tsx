@@ -54,13 +54,8 @@ export default function HomePage() {
                                 sondern <Highlight>konkrete Schritte</Highlight> zu gehen.</p>
                             <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
                                 <Button
-                                    text="Wer steckt dahinter?"
-                                    href="/ueber-uns"
-                                />
-
-                                <Button
                                     text="Petition an den Landtag unterzeichnen"
-                                    href="/kontakt"
+                                    href="/petition"
                                     bgColor="bg-[color:var(--color-accent)]"
                                 />
                             </div>
@@ -261,7 +256,7 @@ export default function HomePage() {
                         <div className="flex-1">
                             <Button
                                 text="Petition an den Landtag unterzeichnen"
-                                href="/kontakt"
+                                href="/petition"
                                 bgColor="bg-[color:var(--color-accent)]"
                             />
                             <p className={"text-[color:var(--color-neutral)]"}>
