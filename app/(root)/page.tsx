@@ -54,13 +54,8 @@ export default function HomePage() {
                                 sondern <Highlight>konkrete Schritte</Highlight> zu gehen.</p>
                             <div className="flex gap-5 sm:gap-10 flex-wrap mt-10">
                                 <Button
-                                    text="Wer steckt dahinter?"
-                                    href="/ueber-uns"
-                                />
-
-                                <Button
                                     text="Petition an den Landtag unterzeichnen"
-                                    href="/kontakt"
+                                    href="/petition"
                                     bgColor="bg-[color:var(--color-accent)]"
                                 />
                             </div>
@@ -106,7 +101,13 @@ export default function HomePage() {
                         ist, und am Sonntagnachmittag depressiv wird, weil der nächste Werktag droht. Eine Welt, in der
                         wir uns selber gehören, und gerade deshalb unser Bestes geben, um ein paar der verdammt vielen
                         Probleme zu lösen, die wir haben.
-                        <cite>gekürzt, Wolf Lotter, https://www.wolflotter.com</cite>
+                        <cite>gekürzt, Wolf Lotter, https://www.wolflotter.com <br/> siehe: <Link
+                            href={"https://www.zeit.de/2025/29/regression-demokratie-staatliche-steuerung-westen-liberale-demokratie"}
+                            target={"_blank"}
+                            className={"hover:underline"}
+                            >
+                             &#34;Die Demokratie macht schlapp&#34; (Die Zeit Nr 29/ 2025 )
+                        </Link></cite>
                     </blockquote>
 
                 </div>
@@ -261,7 +262,7 @@ export default function HomePage() {
                         <div className="flex-1">
                             <Button
                                 text="Petition an den Landtag unterzeichnen"
-                                href="/kontakt"
+                                href="/petition"
                                 bgColor="bg-[color:var(--color-accent)]"
                             />
                             <p className={"text-[color:var(--color-neutral)]"}>
