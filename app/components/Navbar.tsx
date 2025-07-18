@@ -64,7 +64,7 @@ export default function Navbar() {
                 <div className={"ml-auto"}>
                     <Button
                         text="Petition an den Landtag unterzeichnen"
-                        href="/kontakt"
+                        href="/petition"
                         bgColor="bg-[color:var(--color-accent)]"
                     />
                 </div>
