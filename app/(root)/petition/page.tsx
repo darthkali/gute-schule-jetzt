@@ -1,5 +1,4 @@
 import React from 'react'
-import ImageTextSection from "@/app/components/ImageTextComponent";
 import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponent";
 
 const Page = () => {
@@ -79,6 +78,11 @@ const Page = () => {
                     <p>Helft mit Eurer Unterschrift, dass diese Punkte bei den Entscheidungsträgern
                         Beachtung und danach Eingang in den Koalitionsvertrag BW 2026 finden.</p>
 
+
+                    <p className={"bg-red-300 p-4 rounded-lg"}>Diese Petition kann ab 3.1 2026 unter diesem Link in einem Zeitraum von 6 Wochen auf der
+                        Internetseite des Landtags unterzeichnet werden. Werden 10 000 Unterschriften erreicht, wird der
+                        Landtag eine öffentliche Anhörung zu dieser Petition durchführen. Bitte unterstütze die
+                        Initiative für alle Kinder des Landes.</p>
 
                 </ImageTextFloatingSection>
             </div>
