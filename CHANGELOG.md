@@ -1,3 +1,12 @@
+## [0.23.1](https://github.com/Edunite/edunite/compare/v0.23.0...v0.23.1) (2025-07-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vercel to v44.5.0 ([7a26d47](https://github.com/Edunite/edunite/commit/7a26d47ea67e22f3f2ed21fcde02f9925bc2f75f))
+* **deps:** update nextjs monorepo to v15.4.2 ([59b39e2](https://github.com/Edunite/edunite/commit/59b39e2dd9cd1224718a14430083b307c430d0a3))
+* updated petition text ([b6a4e6b](https://github.com/Edunite/edunite/commit/b6a4e6b7f6d4991e13b3754b8ba1d89f5c524613))
+
 # [0.23.0](https://github.com/Edunite/edunite/compare/v0.22.0...v0.23.0) (2025-07-18)
 
 
