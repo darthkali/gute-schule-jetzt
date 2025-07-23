@@ -1,3 +1,10 @@
+## [0.23.3](https://github.com/darthkali/gute-schule-jetzt/compare/v0.23.2...v0.23.3) (2025-07-23)
+
+
+### Bug Fixes
+
+* deleted hint message in petition page ([7b1291c](https://github.com/darthkali/gute-schule-jetzt/commit/7b1291c11589348a296c4ca46c5dfd3bebe0674c))
+
 ## [0.23.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.23.1...v0.23.2) (2025-07-23)
 
 
