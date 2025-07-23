@@ -140,11 +140,16 @@ Wir freuen uns über Beiträge zur Verbesserung der Webseite und der Bildungsini
 
 ## Deployment
 
-Die Anwendung wird automatisch auf [Vercel](https://vercel.com) deployed:
+Aktuell wird die Anwendung als Docker Image gebaut und veröffentlicht:
 
-- **Produktions-URL**: https://edunite-web.vercel.app/
-- **Staging**: Automatische Preview-Deployments für Pull Requests
-- **CI/CD**: Automatische Deployments bei Push auf `main` Branch
+- **Docker Registry**: `docker.io/darthkali/edunite`
+- **CI/CD**: Automatischer Build und Push von Docker Images bei neuen Releases
+- **Semantic Versioning**: Automatische Versionierung basierend auf Commit-Nachrichten
+
+### Geplant für Entwicklungsumgebung
+
+- **Vercel Deployment**: Automatisches Deployment auf [Vercel](https://vercel.com) für die Entwicklungsumgebung (in Planung)
+- **Preview Deployments**: Automatische Preview-Deployments für Pull Requests (geplant)
 
 ### Umgebungsvariablen
 
