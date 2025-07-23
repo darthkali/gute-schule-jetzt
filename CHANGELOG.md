@@ -1,3 +1,11 @@
+## [0.23.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.23.1...v0.23.2) (2025-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fortawesome/react-fontawesome to v0.2.3 ([62bdffc](https://github.com/darthkali/gute-schule-jetzt/commit/62bdffc6619597d3eb94bc78e71a3242bee0e7e8))
+* **deps:** update dependency vercel to v44.5.3 ([5487701](https://github.com/darthkali/gute-schule-jetzt/commit/548770162d3e1a62a5cd992aca0662fa80a3c951))
+
 ## [0.23.1](https://github.com/Edunite/edunite/compare/v0.23.0...v0.23.1) (2025-07-21)
 
 
