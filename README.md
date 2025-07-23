@@ -1,4 +1,4 @@
-The repo was archived and forekt to: https://github.com/darthkali/gute-schule-jetzt
+The repo was archived and forked to: https://github.com/darthkali/gute-schule-jetzt
 
 
 ![GitHub Release](https://img.shields.io/github/v/release/Edunite/edunite)
