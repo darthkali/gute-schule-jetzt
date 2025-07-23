@@ -1,3 +1,11 @@
+## [0.23.5](https://github.com/darthkali/gute-schule-jetzt/compare/v0.23.4...v0.23.5) (2025-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update font awesome to v7 ([e2fb12a](https://github.com/darthkali/gute-schule-jetzt/commit/e2fb12aa5f47de6b1cdf7af8a498fc5c323ebec4))
+* updated package-lock.json ([bf65417](https://github.com/darthkali/gute-schule-jetzt/commit/bf65417e88527c048b40be1d4a0031e4d9d685b6))
+
 ## [0.23.4](https://github.com/darthkali/gute-schule-jetzt/compare/v0.23.3...v0.23.4) (2025-07-23)
 
 
