@@ -162,19 +162,7 @@ SMTP_USER=your-email
 SMTP_PASS=your-password
 ```
 
-## Kontakt und Mitwirkung
 
-**Hast du Lust selbst aktiv zu werden?**
-
-Wir freuen uns über Ideen, Menschen im Hintergrund und Vordergrund! 
-
-- 📧 [Kontaktformular auf der Webseite](https://edunite-web.vercel.app/kontakt)
-- 📝 [Petition unterzeichnen](https://edunite-web.vercel.app/petition)
-- 🗺️ [Karte der Bildungsinitiativen entdecken](https://edunite-web.vercel.app/#map)
-
-## Lizenz
-
-Dieses Projekt steht unter einer offenen Lizenz zur Förderung der Bildungsreform. Details siehe LICENSE-Datei.
 
 ---
 
