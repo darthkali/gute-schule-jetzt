@@ -145,7 +145,7 @@ Wir freuen uns über Beiträge zur Verbesserung der Webseite und der Bildungsini
 
 Aktuell wird die Anwendung als Docker Image gebaut und veröffentlicht:
 
-- **Docker Registry**: `docker.io/darthkali/edunite`
+- **Docker Registry**: `docker.io/darthkali/gute-schule-jetzt`
 - **CI/CD**: Automatischer Build und Push von Docker Images bei neuen Releases
 - **Semantic Versioning**: Automatische Versionierung basierend auf Commit-Nachrichten
 
