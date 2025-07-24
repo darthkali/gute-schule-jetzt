@@ -1,3 +1,5 @@
+![GitHub Release](https://img.shields.io/github/v/release/darthkali/gute-schule-jetzt)
+
 # Gute Schule - Jetzt! 🎓
 
 Eine Initiative für bessere Bildung und nachhaltigen Wandel in deutschen Schulen.
