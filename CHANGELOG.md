@@ -1,3 +1,14 @@
+## [0.23.4](https://github.com/darthkali/gute-schule-jetzt/compare/v0.23.3...v0.23.4) (2025-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fortawesome/react-fontawesome to v0.2.3 ([037aa43](https://github.com/darthkali/gute-schule-jetzt/commit/037aa4325a10607a0e135184cc31541288e92d31))
+* **deps:** update dependency vercel to v44.5.3 ([ac95dad](https://github.com/darthkali/gute-schule-jetzt/commit/ac95dadb5237a04d6fa0dcd0a0449b03a906e424))
+* **deps:** update font awesome to v7 ([e2fb12a](https://github.com/darthkali/gute-schule-jetzt/commit/e2fb12aa5f47de6b1cdf7af8a498fc5c323ebec4))
+* **deps:** update nextjs monorepo to v15.4.3 ([a04b201](https://github.com/darthkali/gute-schule-jetzt/commit/a04b201c4eb8de8252f4490f895ab454c8d2acc0))
+* updated package-lock.json ([bf65417](https://github.com/darthkali/gute-schule-jetzt/commit/bf65417e88527c048b40be1d4a0031e4d9d685b6))
+
 ## [0.23.4](https://github.com/darthkali/gute-schule-jetzt/compare/v0.23.3...v0.23.4) (2025-07-23)
 
 
