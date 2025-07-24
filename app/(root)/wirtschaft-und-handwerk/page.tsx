@@ -26,6 +26,7 @@ const Page = () => {
                         Folgen des Mangels werden unser gesamtwirtschaftliches Wachstum bremsen und damit zu
                         Wohlstandverlusten führen.</p>
 
+
                     <h2>Mehr als die Hälfte der Betriebe, die Ausbildungsplätze anbieten, hatten 2023 mit unbesetzten
                         Lehrstellen zu kämpfen.</h2>
 
