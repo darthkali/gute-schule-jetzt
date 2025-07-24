@@ -1,4 +1,4 @@
-![GitHub Release](https://img.shields.io/github/v/release/darthkali/gute-schule-jetzt)
+![GitHub Release](https://img.shields.io/github/v/release/darthkali/gute-schule-jetzt?color=yellow)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/darthkali/gute-schule-jetzt/ci.yml)
 
 # Gute Schule - Jetzt! 🎓
