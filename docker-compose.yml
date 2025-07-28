@@ -1,0 +1,36 @@
+services:
+  app:
+    image: docker.io/darthkali/gute-schule-jetzt:latest
+    container_name: gute-schule-jetzt-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: gute-schule-jetzt-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      # Add SSL certificates if needed
+      # - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - app
+    restart: unless-stopped
+    profiles:
+      - production
+
+networks:
+  default:
+    name: gute-schule-jetzt-network
