@@ -92,3 +92,22 @@ jobs:
       - name: Push Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: docker push docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }}
+
+      # 9) Also tag and push as 'latest' for docker-compose
+      - name: Tag and push latest
+        if: ${{ steps.check_version.outputs.version != '' }}
+        run: |
+          docker tag docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }} docker.io/darthkali/gute-schule-jetzt:latest
+          docker push docker.io/darthkali/gute-schule-jetzt:latest
+
+      # 10) Trigger deployment
+      - name: Deploy to Docker Compose
+        if: ${{ steps.check_version.outputs.version != '' }}
+        run: |
+          chmod +x ./deploy.sh
+          ./deploy.sh ${{ steps.check_version.outputs.version }}
+        env:
+          DEPLOYMENT_METHOD: ${{ vars.DEPLOYMENT_METHOD || 'webhook' }}
+          DEPLOYMENT_WEBHOOK_URL: ${{ secrets.DEPLOYMENT_WEBHOOK_URL }}
+          DEPLOYMENT_HOST: ${{ secrets.DEPLOYMENT_HOST }}
+          DEPLOYMENT_USER: ${{ secrets.DEPLOYMENT_USER }}

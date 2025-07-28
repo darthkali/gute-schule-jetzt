@@ -143,16 +143,34 @@ Wir freuen uns über Beiträge zur Verbesserung der Webseite und der Bildungsini
 
 ## Deployment
 
-Aktuell wird die Anwendung als Docker Image gebaut und veröffentlicht:
+Die Anwendung wird als Docker Image gebaut und kann mit Docker Compose deployed werden:
 
 - **Docker Registry**: `docker.io/darthkali/gute-schule-jetzt`
-- **CI/CD**: Automatischer Build und Push von Docker Images bei neuen Releases
+- **CI/CD**: Automatischer Build, Push und Deployment bei neuen Releases
 - **Semantic Versioning**: Automatische Versionierung basierend auf Commit-Nachrichten
+- **Docker Compose**: Produktions- und Entwicklungsumgebung verfügbar
 
-### Geplant für Entwicklungsumgebung
+### Docker Compose Deployment
 
-- **Vercel Deployment**: Automatisches Deployment auf [Vercel](https://vercel.com) für die Entwicklungsumgebung (in Planung)
-- **Preview Deployments**: Automatische Preview-Deployments für Pull Requests (geplant)
+```bash
+# Produktionsumgebung starten
+docker-compose up -d
+
+# Mit Nginx Reverse Proxy
+docker-compose --profile production up -d
+
+# Entwicklungsumgebung mit Hot Reload
+docker-compose -f docker-compose.dev.yml up -d
+```
+
+Weitere Details siehe [DEPLOYMENT.md](DEPLOYMENT.md)
+
+### Deployment Pipeline
+
+Das CI/CD-System unterstützt verschiedene Deployment-Methoden:
+- **Webhook**: Automatischer Deployment-Trigger über HTTP-Webhook
+- **SSH**: Direktes Deployment auf Remote-Server via SSH
+- **Local**: Lokales Deployment für Entwicklung und Tests
 
 ### Umgebungsvariablen
 
