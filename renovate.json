@@ -8,16 +8,21 @@
   "packageRules": [
     {
       "description": "Auto-merge patch and minor updates",
-      "matchUpdateTypes": ["patch", "minor"],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ],
       "automerge": true
     },
     {
       "description": "Require manual review for major updates",
-      "matchUpdateTypes": ["major"],
+      "matchUpdateTypes": [
+        "major"
+      ],
       "automerge": false
     }
   ],
-  "stabilityDays": 1,
+  "minimumReleaseAge": "1 day",
   "prConcurrentLimit": 5,
   "prHourlyLimit": 2
 }
