@@ -1,3 +1,10 @@
+## [0.24.4](https://github.com/darthkali/gute-schule-jetzt/compare/v0.24.3...v0.24.4) (2025-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([#31](https://github.com/darthkali/gute-schule-jetzt/issues/31)) ([6f8d87c](https://github.com/darthkali/gute-schule-jetzt/commit/6f8d87c165b7c5d454d80507c920a1ca1a474b06))
+
 ## [0.24.3](https://github.com/darthkali/gute-schule-jetzt/compare/v0.24.2...v0.24.3) (2025-07-30)
 
 
