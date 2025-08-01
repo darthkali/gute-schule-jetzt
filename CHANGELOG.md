@@ -1,3 +1,10 @@
+## [0.24.6](https://github.com/darthkali/gute-schule-jetzt/compare/v0.24.5...v0.24.6) (2025-08-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vercel to v44.6.5 ([#35](https://github.com/darthkali/gute-schule-jetzt/issues/35)) ([9cace70](https://github.com/darthkali/gute-schule-jetzt/commit/9cace703ace965e3a7a2ab1e246713a39a8e5ec8))
+
 ## [0.24.5](https://github.com/darthkali/gute-schule-jetzt/compare/v0.24.4...v0.24.5) (2025-07-31)
 
 
