@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "jest"
   },
-  "packageManager": "npm@11.5.1",
+  "packageManager": "npm@11.5.2",
   "overrides": {
     "react": "$react",
     "react-dom": "$react-dom",
