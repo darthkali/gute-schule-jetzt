@@ -105,7 +105,7 @@
         py-5;
     }
     .cluster-icon {
-        background: var(--color-secondary) !important;
+        background: grey !important;
         border-radius: 50% !important;
         color: var(--color-neutral) !important;
         display: flex !important;
