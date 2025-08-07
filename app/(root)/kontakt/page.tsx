@@ -6,11 +6,15 @@ import Toast from "@/app/components/Toast";
 
 
 export default function ContactPage() {
-    const [formData, setFormData] = useState({name: "", email: "", message: "", honeypot: ""});
+    const [formData, setFormData] = useState({name: "", category: "", email: "", message: "", honeypot: ""});
     const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
     const [isLoading, setIsLoading] = useState(false);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        setFormData({...formData, [e.target.name]: e.target.value});
+    };
+
+    const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
         setFormData({...formData, [e.target.name]: e.target.value});
     };
 
@@ -29,7 +33,7 @@ export default function ContactPage() {
 
             if (res.ok) {
                 setToast({message: "Nachricht erfolgreich gesendet!", type: "success"});
-                setFormData({name: "", email: "", message: "", honeypot: ""});
+                setFormData({name: "", category: "", email: "", message: "", honeypot: ""});
             } else {
                 const error = await res.json();
                 setToast({message: error?.error || "Fehler beim Senden.", type: "error"});
@@ -59,6 +63,28 @@ export default function ContactPage() {
 
 
                     <form onSubmit={handleSubmit} className="space-y-4 ">
+
+
+                        <div>
+                            <select
+                                name="category"
+                                id="category"
+                                required
+                                value={formData.category}
+                                onChange={handleSelectChange}
+                                disabled={isLoading}
+                                className={inputClassNames}
+                            >
+                                <option value="" disabled>Kategorie auswählen</option>
+                                <option value="Kommentar">Kommentar</option>
+                                <option value="Mitmachen">Mitmachen</option>
+                                <option value="Frage">Frage</option>
+                            </select>
+                            {formData.category && (
+                                <label htmlFor="category" className="p-1 block text-sm font-medium text-gray-400">Kategorie</label>
+                            )}
+                        </div>
+
                         <div>
                             <input
                                 type="text"
@@ -75,6 +101,7 @@ export default function ContactPage() {
                                 <label htmlFor="name" className="p-1 block text-sm font-medium  text-gray-400">Name</label>
                             )}
                         </div>
+
 
                         <div>
                             <input
