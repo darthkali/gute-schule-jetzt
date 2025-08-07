@@ -1,3 +1,10 @@
+# [0.28.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.27.0...v0.28.0) (2025-08-07)
+
+
+### Features
+
+* include category in contact form submission and email notification ([88e07da](https://github.com/darthkali/gute-schule-jetzt/commit/88e07da139dbc45f313fd7da27025346a11d5bfc))
+
 # [0.27.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.26.0...v0.27.0) (2025-08-07)
 
 
