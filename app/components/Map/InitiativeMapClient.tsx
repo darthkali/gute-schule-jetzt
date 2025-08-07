@@ -313,6 +313,24 @@ function InitiativeMapClient() {
     const [showLegend, setShowLegend] = useState(true)
     const maxDescriptionLength = 130
 
+    useEffect(() => {
+        // Hide zoom controls on mobile
+        if (isMobile) {
+            const style = document.createElement('style');
+            style.innerHTML = `
+                .leaflet-control-zoom {
+                    display: none !important;
+                }
+            `;
+            document.head.appendChild(style);
+            
+            return () => {
+                if (document.head.contains(style)) {
+                    document.head.removeChild(style);
+                }
+            };
+        }
+    }, []);
 
     return (
         <div className="relative h-[300px] sm:h-[500px] md:h-[650px] w-full rounded shadow z-0">
@@ -322,6 +340,7 @@ function InitiativeMapClient() {
                 center={[51.1657, 10.4515]} // Mittelpunkt Deutschland
                 zoom={6}
                 scrollWheelZoom={false}
+                touchZoom={true}
                 className="h-full"
             >
                 <TileLayer
@@ -375,7 +394,7 @@ function InitiativeMapClient() {
             {/* Legend Toggle Button */}
             <button
                 onClick={() => setShowLegend(!showLegend)}
-                className="absolute top-2 right-2 z-[1000] px-3 py-2 bg-white rounded shadow-lg hover:shadow-xl transition-all duration-200 text-sm font-medium border border-gray-200"
+                className="absolute bottom-2 left-2 z-[1000] px-3 py-2 bg-white rounded shadow-lg hover:shadow-xl transition-all duration-200 text-sm font-medium border border-gray-200"
                 title={showLegend ? "Legende ausblenden" : "Legende anzeigen"}
             >
                 {showLegend ? "Legende ausblenden" : "Legende anzeigen"}
