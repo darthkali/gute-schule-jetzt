@@ -20,7 +20,7 @@ export default function TextImageCard({
                                           description,
                                           href
                                       }: TextImageCardProps
-): Element {
+) {
     return (
         <Link
             href={href}
