@@ -1,3 +1,11 @@
+# [0.27.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.26.0...v0.27.0) (2025-08-07)
+
+
+### Features
+
+* add example environment configuration for email settings and dev banner ([35e88f9](https://github.com/darthkali/gute-schule-jetzt/commit/35e88f96ef5632d970cb72f6e43c4974a5dd9e6b))
+* include category in contact form submission and email notification ([e7aea60](https://github.com/darthkali/gute-schule-jetzt/commit/e7aea60b9caadf62199f934dac175265df28778f))
+
 # [0.26.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.25.0...v0.26.0) (2025-08-07)
 
 
