@@ -1,3 +1,11 @@
+# [0.29.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.28.0...v0.29.0) (2025-08-07)
+
+
+### Features
+
+* add custom category icons and legend to InitiativeMap ([132ebe1](https://github.com/darthkali/gute-schule-jetzt/commit/132ebe1180939a1160b26c70525c6dfdd3597615))
+* hide zoom controls on mobile and reposition legend toggle button ([c97b422](https://github.com/darthkali/gute-schule-jetzt/commit/c97b422719ab79a381492031b67e2006fd1c2cf5))
+
 # [0.28.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.27.0...v0.28.0) (2025-08-07)
 
 
