@@ -6,6 +6,7 @@ import Button from "@/app/components/Button";
 import Link from "next/link";
 import MastodonShareButton from "@/app/components/MastodonShareButton";
 import Highlight from '@/app/components/Highlight';
+import TextImageCard from "@/app/components/TextImageCard";
 
 
 export default function HomePage() {
@@ -68,25 +69,37 @@ export default function HomePage() {
             {/*HERAUSFORDERUNGEN*/}
             <section>
                 <div className={"innerBox"}>
-                    <h1 id="herausforderungen" className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Welche Herausforderungen sehen
+                    <h1 id="herausforderungen"
+                        className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Welche
+                        Herausforderungen sehen
                         wir?</h1>
-                    <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5">
-                        <Card
+                    <div className="flex flex-wrap gap-5 md:gap-10">
+
+                        <TextImageCard
+                            overlayText={"VERÄNDERTE WELT"}
                             imageSrc="/images/solar-4867218_1920.jpg"
-                            title="VERÄNDERTE WELT"
+                            heading={"Eine sich rasant VERÄNDERNDE WELT braucht auch eine VERÄNDERTE SCHULE"}
+                            description={"Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus liegt auf dem Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf partizipative Konzepte, bei denen alle Beteiligten – von Schüler*innen bis hin zu Lehrkräften und Schulträgern – aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame Entwicklung schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und Lernprozesse positiv beeinflussen. Krisen und eine unerhört dynamische Veränderung der Lebensund Arbeitswelt Wir sind alle Lernende und brauchen Transformationskompetenz Zukunftsfähige Bildung: Lebenslanges Lernen, Teamgeist und der Wille zum Umdenken"}
                             href={"/veraenderte-welt"}
                         />
-                        <Card
+
+                        <TextImageCard
+                            overlayText={"WAS BRAUCHEN KINDER?"}
                             imageSrc="/images/children-5411350_1920.jpg"
-                            title="WAS BRAUCHEN KINDER?"
                             overlayColor={"bg-[color:var(--color-secondary)]/50"}
+                            description={" Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen stattfinden und das volle Potenzial eines Menschen entfaltet werden. Die Voraussetzung für aufbauendes Lernen ist die Beachtung der beiden Grundbedürfnisse nach Verbundenheit und Autonomie."}
                             href={"/was-brauchen-kinder"}
                         />
-                        <Card
+
+                        <TextImageCard
+                            overlayText={"DYSFUNKTIONALES SCHULSYSTEM"}
                             imageSrc="/images/piano-6315809_1920.jpg"
-                            title="DYSFUNKTIONALES SCHULSYSTEM"
+                            heading={"DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER\n" +
+                                "Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze"}
+                            description={"Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und unserer Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die Zuversicht weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen."}
                             href={"/dysfunktionales-schulsystem"}
                         />
+
                     </div>
                     <blockquote>
                         Die Transformation, die Verwandlung also, sie besteht darin, dass sich die Menschen in diesem
@@ -105,8 +118,8 @@ export default function HomePage() {
                             href={"https://www.zeit.de/2025/29/regression-demokratie-staatliche-steuerung-westen-liberale-demokratie"}
                             target={"_blank"}
                             className={"hover:underline"}
-                            >
-                             &#34;Die Demokratie macht schlapp&#34; (Die Zeit Nr 29/ 2025 )
+                        >
+                            &#34;Die Demokratie macht schlapp&#34; (Die Zeit Nr 29/ 2025 )
                         </Link></cite>
                     </blockquote>
 
@@ -117,7 +130,9 @@ export default function HomePage() {
             {/*VISIONEN*/}
             <section className={"bg-[color:var(--color-secondary)]"}>
                 <div className={"innerBox"}>
-                    <h1 id="visionen" className={"text-center text-[color:var(--color-neutral)] scroll-mt-20 lg:scroll-mt-32"}>Wie sehen bereits umgesetzte
+                    <h1 id="visionen"
+                        className={"text-center text-[color:var(--color-neutral)] scroll-mt-20 lg:scroll-mt-32"}>Wie
+                        sehen bereits umgesetzte
                         Visionen und Lösungen aus?</h1>
                     <p className={"text-[color:var(--color-neutral)] text-center"}>Diese beiden Schulen haben wir
                         stellvertretend ausgewählt, weil sie erprobte Lösungen und Ideen zeigen, wie Kindern der Weg zum
@@ -191,9 +206,12 @@ export default function HomePage() {
             {/*HERAUSFORDERUNGEN*/}
             <section>
                 <div className={"innerBox"}>
-                    <h1 id="aktiv-werden" className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Wo kann Veränderung direkt
+                    <h1 id="aktiv-werden"
+                        className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Wo kann
+                        Veränderung direkt
                         ansetzen?</h1>
-                    <h2 className={"text-center text-[color:var(--color-text)]"}>Wie kann ich dazu beitragen oder aktiv werden?</h2>
+                    <h2 className={"text-center text-[color:var(--color-text)]"}>Wie kann ich dazu beitragen oder aktiv
+                        werden?</h2>
                     <p className={"text-[color:var(--color-text)] text-center"}>Für einen Bildungswandel sind alle
                         Ebenen gefordert aufzubrechen. Es braucht Bewusstsein, neues Denken und eine veränderte Haltung.
                     </p>
@@ -275,7 +293,6 @@ export default function HomePage() {
                             </p>
                         </div>
                     </div>
-
 
 
                     <p className={"text-center text-[color:var(--color-accent)]"}>Teile unsere Seite und mache andere

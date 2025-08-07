@@ -41,12 +41,11 @@
 
     p {
         font-family: var(--font-inter), serif;
-        font-size: 1rem;
         font-weight: 400;
         line-height: 1.2;
         @apply my-2;
         @apply break-words;
-        @apply text-base sm:text-lg md:text-lg leading-relaxed;
+        @apply text-base sm:text-base md:text-lg leading-relaxed;
     }
 
     ul {
