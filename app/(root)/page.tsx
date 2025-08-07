@@ -68,7 +68,7 @@ export default function HomePage() {
             {/*HERAUSFORDERUNGEN*/}
             <section>
                 <div className={"innerBox"}>
-                    <h1 className={"text-center text-[color:var(--color-text)]"}>Welche Herausforderungen sehen
+                    <h1 id="herausforderungen" className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Welche Herausforderungen sehen
                         wir?</h1>
                     <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5">
                         <Card
@@ -117,7 +117,7 @@ export default function HomePage() {
             {/*VISIONEN*/}
             <section className={"bg-[color:var(--color-secondary)]"}>
                 <div className={"innerBox"}>
-                    <h1 className={"text-center text-[color:var(--color-neutral)]"}>Wie sehen bereits umgesetzte
+                    <h1 id="visionen" className={"text-center text-[color:var(--color-neutral)] scroll-mt-20 lg:scroll-mt-32"}>Wie sehen bereits umgesetzte
                         Visionen und Lösungen aus?</h1>
                     <p className={"text-[color:var(--color-neutral)] text-center"}>Diese beiden Schulen haben wir
                         stellvertretend ausgewählt, weil sie erprobte Lösungen und Ideen zeigen, wie Kindern der Weg zum
@@ -191,8 +191,9 @@ export default function HomePage() {
             {/*HERAUSFORDERUNGEN*/}
             <section>
                 <div className={"innerBox"}>
-                    <h1 className={"text-center text-[color:var(--color-text)]"}>Wo kann Veränderung direkt
-                        ansetzen? Wie kann ich dazu beitragen oder aktiv werden?</h1>
+                    <h1 id="aktiv-werden" className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Wo kann Veränderung direkt
+                        ansetzen?</h1>
+                    <h2 className={"text-center text-[color:var(--color-text)]"}>Wie kann ich dazu beitragen oder aktiv werden?</h2>
                     <p className={"text-[color:var(--color-text)] text-center"}>Für einen Bildungswandel sind alle
                         Ebenen gefordert aufzubrechen. Es braucht Bewusstsein, neues Denken und eine veränderte Haltung.
                     </p>
