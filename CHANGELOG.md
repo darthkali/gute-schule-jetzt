@@ -1,3 +1,10 @@
+# [0.26.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.25.0...v0.26.0) (2025-08-07)
+
+
+### Features
+
+* add category selection to contact form ([2015d7c](https://github.com/darthkali/gute-schule-jetzt/commit/2015d7cad10bc7be79afa44a461f0c2fd5bcdb32))
+
 # [0.25.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.24.10...v0.25.0) (2025-08-07)
 
 
