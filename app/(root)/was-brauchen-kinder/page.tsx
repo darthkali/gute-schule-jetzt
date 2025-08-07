@@ -219,23 +219,7 @@ const Page = () => {
                             die
                             Bildungsentwicklung gemeinsam.Praxisbeispiel: Primusschule Münster Berg Fidel</p>
 
-                        <p>rimarschulen:- Die Kinder und ihre Bildungsbiographien stehen anerster Stelle!- Integration,
-                            Inklusion und Vielfalt werden gelebt.Wirksame Rahmenbedingungen, wie längeresgemeinsames
-                            Lernen
-                            oder eine veränderteLehrerbildung, werden dafür Stück für Stückeingerichtet.- Die neue
-                            Schule
-                            ist eine Teamschule mit einer neuenLernkultur, die gekennzeichnet ist von
-                            Ermutigung,Sinnhaftigkeit, Gemeinschaft und Feedback-Kultur.- Dieser Ansatz kennt keine
-                            passiven
-                            Partner mehr inder Bildung. Das Kind bleibt aktiver Konstrukteurseiner eigenen Biographie.
-                            Um
-                            Bildungsprozesseerfolgreich gestalten zu können, müssen dieseangemessen moderiert werden.
-                            Dazu
-                            muss vor allemeine Gruppenatmosphäre mit positiver FehlerKultur geschaffen werden, die diese
-                            Prozesserückhaltlos unterstützt.- Deswegen bekommt jede Grundschulklasse einverlässliches
-                            Verantwortungsteam. Kein Kind wirdalleingelassen, alle Teamkräfte gestalten undverantworten
-                            die
-                            Bildungsentwicklung gemeinsam.Praxisbeispiel: Primusschule Münster Berg Fidel</p>
+
 
                     </ImageTextFloatingSection>
                     <ImageTextFloatingSection

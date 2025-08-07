@@ -2,6 +2,7 @@
 
 import {useState} from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBars, faXmark} from '@fortawesome/free-solid-svg-icons'
 
@@ -10,11 +11,26 @@ export default function MobileMenu() {
 
     return (
         <div className="sticky top-0 z-50  min-h-15 bg-[color:var(--color-primary)]">
+            {/* Logo */}
+            <div className="flex justify-start p-4">
+                <Link href="/" onClick={() => setOpen(false)}>
+                    <Image
+                        src="/logo/edunite-logo_neu.svg"
+                        alt="EduUnite Logo"
+                        width={50}
+                        height={50}
+                        className="hover:scale-105 transition-transform"
+                    />
+                </Link>
+            </div>
+
                 {/* Mobile Menu */}
                 {open && (
                     <div
                         className="sticky inset-0 text-white shadow-lg flex flex-col items-center gap-4 py-4 z-40 " >
-                        <Link href="/" className="hover:underline" onClick={() => setOpen(false)}><h2>Home</h2></Link>
+                        <Link href="/#herausforderungen" className="hover:underline" onClick={() => setOpen(false)}><h2>Herausforderungen</h2></Link>
+                        <Link href="/#visionen" className="hover:underline" onClick={() => setOpen(false)}><h2>Visionen</h2></Link>
+                        <Link href="/#aktiv-werden" className="hover:underline" onClick={() => setOpen(false)}><h2>Aktiv werden</h2></Link>
                         <Link href="/ueber-uns" className="hover:underline" onClick={() => setOpen(false)}><h2>Über
                             Uns</h2></Link>
                         <Link href="/kontakt" className="hover:underline" onClick={() => setOpen(false)}>
