@@ -1,3 +1,10 @@
+# [0.25.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.24.10...v0.25.0) (2025-08-07)
+
+
+### Features
+
+* enhance mobile navigation with logo and dropdown menu ([f34f64a](https://github.com/darthkali/gute-schule-jetzt/commit/f34f64af30fb8240d612d9359cbc1afb0fee8cce))
+
 ## [0.24.10](https://github.com/darthkali/gute-schule-jetzt/compare/v0.24.9...v0.24.10) (2025-08-06)
 
 
