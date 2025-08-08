@@ -7,7 +7,7 @@ const Page = () => {
             <section>
                 <div className={"innerBox"}>
 
-
+                    <h1>Veränderte Welt</h1>
                     <ImageTextFloatingSection
                         imageSrc="/images/teenager-8656620_1920.jpg"
                         imageAlt="Teenager"

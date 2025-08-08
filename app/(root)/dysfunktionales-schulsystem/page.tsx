@@ -4,36 +4,11 @@ import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponen
 const Page = () => {
     return (
         <div>
+
+
             <section>
-                <div className="innerBox ">
-                    <h1>DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER</h1>
-                    <div className=" grid grid-cols-1 lg:grid-cols-4 mt-4">
-                        <div className={"col-span-3"}>
-
-                            <h2>Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze</h2>
-                            <p>Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele
-                                Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre
-                                Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und
-                                unserer
-                                Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein
-                                Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die
-                                Zuversicht
-                                weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.</p>
-                        </div>
-                        <Image
-                            src={"/images/Kinderbilder/kids-3171905_1920mh.png"}
-                            alt={"imageAlt"}
-                            width={500}
-                            height={600}
-                            className="w-full h-auto hidden lg:block"
-                        />
-                    </div>
-                </div>
-            </section>
-
-            <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
                 <div className={"innerBox"}>
-
+                    <h1>Dysfunktionales Schulsystem produziert zu viele Verlierer</h1>
 
                     <ImageTextFloatingSection
                         imageSrc="/images/justice-4100373_1920.jpg"
@@ -149,7 +124,7 @@ const Page = () => {
                 </div>
             </section>
 
-            <section>
+            <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
                 <div className={"innerBox"}>
                     <ImageTextFloatingSection
                         imageSrc="/images/family-6886803_1920.jpg"

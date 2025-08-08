@@ -77,8 +77,8 @@ export default function HomePage() {
                         <TextImageCard
                             overlayText={"VERÄNDERTE WELT"}
                             imageSrc="/images/solar-4867218_1920.jpg"
-                            heading={"Eine sich rasant VERÄNDERNDE WELT braucht auch eine VERÄNDERTE SCHULE"}
-                            description={"Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus liegt auf dem Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf partizipative Konzepte, bei denen alle Beteiligten – von Schüler*innen bis hin zu Lehrkräften und Schulträgern – aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame Entwicklung schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und Lernprozesse positiv beeinflussen. Krisen und eine unerhört dynamische Veränderung der Lebensund Arbeitswelt Wir sind alle Lernende und brauchen Transformationskompetenz Zukunftsfähige Bildung: Lebenslanges Lernen, Teamgeist und der Wille zum Umdenken"}
+                            heading={"Eine sich rasant veränderte Welt braucht auch eine veränderte Schule"}
+                            description={"Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus liegt auf dem Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf partizipative Konzepte, bei denen alle Beteiligten – von Schüler*innen bis hin zu Lehrkräften und Schulträgern – aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame Entwicklung schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und Lernprozesse positiv beeinflussen. Krisen und eine unerhört dynamische Veränderung der Lebensund Arbeitswelt Wir sind alle Lernende und brauchen Transformationskompetenz Zukunftsfähige Bildung: Lebenslanges Lernen, Teamgeist und der Wille zum Umdenken."}
                             href={"/veraenderte-welt"}
                         />
 
@@ -86,8 +86,7 @@ export default function HomePage() {
                         <TextImageCard
                             overlayText={"DYSFUNKTIONALES SCHULSYSTEM"}
                             imageSrc="/images/piano-6315809_1920.jpg"
-                            heading={"DYSFUNKTIONALES SCHULSYSTEM PRODUZIERT ZU VIELE VERLIERER\n" +
-                                "Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze"}
+                            heading={"Dysfunktionales Schulsystem produziert zu viele Verlierer. Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze"}
                             description={"Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und unserer Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die Zuversicht weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen."}
                             href={"/dysfunktionales-schulsystem"}
                         />
@@ -95,7 +94,9 @@ export default function HomePage() {
                     </div>
                     <h2 id="herausforderungen" className={"text-center text-[color:var(--color-text)] mt-10"}>Was
                         brauchen Kinder?</h2>
-                    <p>Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen stattfinden und das volle Potenzial eines Menschen entfaltet werden. Die Voraussetzung für aufbauendes Lernen ist die Beachtung der beiden Grundbedürfnisse nach Verbundenheit und Autonomie. .</p>
+                    <p>Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen stattfinden und das volle
+                        Potenzial eines Menschen entfaltet werden. Die Voraussetzung für aufbauendes Lernen ist die
+                        Beachtung der beiden Grundbedürfnisse nach Verbundenheit und Autonomie. .</p>
                     <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5 mt-5">
                         <Card
                             imageSrc="/images/artificial-intelligence-3382521_1920.jpg"
