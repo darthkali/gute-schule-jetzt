@@ -60,6 +60,7 @@ const createLegendControl = () => {
             font-size: 14px;
             line-height: 18px;
             z-index: 400;
+            margin-top: 50px;
         `;
 
     const legendItems = [
@@ -410,7 +411,7 @@ function InitiativeMapClient() {
       {/* Legend Toggle Button */}
       <button
         onClick={() => setShowLegend(!showLegend)}
-        className='absolute bottom-2 left-2 z-[1000] px-3 py-2 bg-white rounded shadow-lg hover:shadow-xl transition-all duration-200 text-sm font-medium border border-gray-200'
+        className='absolute top-2 right-2 z-[1000] px-3 py-2 bg-white rounded shadow-lg hover:shadow-xl transition-all duration-200 text-sm font-medium border border-gray-200'
         title={showLegend ? 'Legende ausblenden' : 'Legende anzeigen'}
       >
         {showLegend ? 'Legende ausblenden' : 'Legende anzeigen'}
