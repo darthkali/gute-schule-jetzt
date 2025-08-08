@@ -17,14 +17,19 @@ delete (L.Icon.Default.prototype as IconPrototypeFix)._getIconUrl;
 
 // Color mapping for different categories
 const colorMap = {
-  grundschule: '#28b3fd',
-  realschule: '#1c7aac',
+  grundschule: '#9628fd',
+  gemeinschaftsschule: '#28b3fd',
+  realschule_gymnasium: '#1c7aac',
   initiativen: '#FFD700',
 };
 
 // Create custom colored icons for different categories
 const createCategoryIcon = (
-  category: 'grundschule' | 'realschule' | 'initiativen'
+  category:
+    | 'grundschule'
+    | 'gemeinschaftsschule'
+    | 'realschule_gymnasium'
+    | 'initiativen'
 ) => {
   return L.divIcon({
     html: `<div style="
@@ -59,7 +64,11 @@ const createLegendControl = () => {
 
     const legendItems = [
       { category: 'grundschule', label: 'Grundschule' },
-      { category: 'realschule', label: 'Realschule' },
+      {
+        category: 'realschule_gymnasium',
+        label: '(Werk-)Realschule, Gymnasium',
+      },
+      { category: 'gemeinschaftsschule', label: 'Gemeinschaftsschule' },
       { category: 'initiativen', label: 'Initiativen' },
     ];
 
@@ -97,7 +106,11 @@ type Initiative = {
   latitude: number;
   longitude: number;
   link: string;
-  category: 'grundschule' | 'realschule' | 'initiativen';
+  category:
+    | 'grundschule'
+    | 'gemeinschaftsschule'
+    | 'realschule_gymnasium'
+    | 'initiativen';
 };
 
 const initiatives: Initiative[] = [
@@ -109,7 +122,7 @@ const initiatives: Initiative[] = [
     latitude: 47.659764,
     longitude: 8.364378,
     link: 'https://asw-wutoeschingen.de ',
-    category: 'grundschule',
+    category: 'gemeinschaftsschule',
   },
   {
     id: '2',
@@ -118,7 +131,7 @@ const initiatives: Initiative[] = [
     latitude: 51.924613,
     longitude: 7.616089,
     link: 'https://www.primus-muenster.de/',
-    category: 'realschule',
+    category: 'realschule_gymnasium',
   },
   {
     id: '3',
@@ -234,7 +247,7 @@ const initiatives: Initiative[] = [
     latitude: 48.0036155,
     longitude: 7.8164793,
     link: 'https://www.annefrankgrundschule.de/',
-    category: 'realschule',
+    category: 'realschule_gymnasium',
   },
 
   {
