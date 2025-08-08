@@ -71,8 +71,7 @@ export default function HomePage() {
                 <div className={"innerBox"}>
                     <h1 id="herausforderungen"
                         className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Welche
-                        Herausforderungen sehen
-                        wir?</h1>
+                        Herausforderungen sehen wir?</h1>
                     <div className="flex flex-wrap gap-5 md:gap-10">
 
                         <TextImageCard
@@ -83,13 +82,6 @@ export default function HomePage() {
                             href={"/veraenderte-welt"}
                         />
 
-                        <TextImageCard
-                            overlayText={"WAS BRAUCHEN KINDER?"}
-                            imageSrc="/images/children-5411350_1920.jpg"
-                            overlayColor={"bg-[color:var(--color-secondary)]/50"}
-                            description={" Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen stattfinden und das volle Potenzial eines Menschen entfaltet werden. Die Voraussetzung für aufbauendes Lernen ist die Beachtung der beiden Grundbedürfnisse nach Verbundenheit und Autonomie."}
-                            href={"/was-brauchen-kinder"}
-                        />
 
                         <TextImageCard
                             overlayText={"DYSFUNKTIONALES SCHULSYSTEM"}
@@ -98,6 +90,29 @@ export default function HomePage() {
                                 "Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze"}
                             description={"Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und unserer Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die Zuversicht weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen."}
                             href={"/dysfunktionales-schulsystem"}
+                        />
+
+                    </div>
+                    <h2 id="herausforderungen" className={"text-center text-[color:var(--color-text)] mt-10"}>Was
+                        brauchen Kinder?</h2>
+                    <p>Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen stattfinden und das volle Potenzial eines Menschen entfaltet werden. Die Voraussetzung für aufbauendes Lernen ist die Beachtung der beiden Grundbedürfnisse nach Verbundenheit und Autonomie. .</p>
+                    <div className="flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5 mt-5">
+                        <Card
+                            imageSrc="/images/artificial-intelligence-3382521_1920.jpg"
+                            title="Erkenntnisse aus der Hirnforschung"
+                            href={"/was-brauchen-kinder/hirnforschung"}
+                        />
+
+                        <Card
+                            imageSrc="/images/classroom-1660223_1920.jpg"
+                            title="Überholtes Schulkonzept"
+                            href={"/was-brauchen-kinder/ueberholtes-schulkonzept"}
+                        />
+
+                        <Card
+                            imageSrc="/images/evolution-4107273_1920.jpg"
+                            title="VISION für alle Schularten?"
+                            href={"/was-brauchen-kinder/vision-fuer-alle-schularten"}
                         />
 
                     </div>
