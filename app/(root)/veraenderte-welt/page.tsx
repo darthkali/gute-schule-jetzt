@@ -1,47 +1,10 @@
 import React from 'react'
 import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponent";
-import Image from "next/image";
 
 const Page = () => {
     return (
         <div>
             <section>
-
-                <div className="innerBox ">
-                    <h1>Eine sich rasant VERÄNDERNDE WELT braucht auch eine VERÄNDERTE SCHULE</h1>
-                    <div className=" grid grid-cols-1 lg:grid-cols-4  mt-4 py-0">
-                        <div className={"col-span-3"}>
-
-                            <p>Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus
-                                liegt auf
-                                dem
-                                Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf
-                                partizipative
-                                Konzepte, bei denen alle Beteiligten – von Schüler*innen bis hin zu Lehrkräften und
-                                Schulträgern
-                                –
-                                aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame
-                                Entwicklung
-                                schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und
-                                Lernprozesse
-                                positiv beeinflussen. Krisen und eine unerhört dynamische Veränderung der Lebensund
-                                Arbeitswelt
-                                Wir
-                                sind alle Lernende und brauchen Transformationskompetenz Zukunftsfähige Bildung:
-                                Lebenslanges
-                                Lernen, Teamgeist und der Wille zum Umdenken</p>
-                        </div>
-                        <Image
-                            src={"/images/Kinderbilder/kids-3171905_1920bm.png"}
-                            alt={"imageAlt"}
-                            width={500}
-                            height={600}
-                            className="w-full h-auto hidden lg:block"
-                        />
-                    </div>
-                </div>
-            </section>
-            <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
                 <div className={"innerBox"}>
 
 
@@ -75,7 +38,11 @@ const Page = () => {
                             Gesellschaft und Wirtschaft auf einen neuen Weg bringen wollen, müssen wir bereits bei der
                             Bildung der Kinder ansetzen.</p>
                     </ImageTextFloatingSection>
+                </div>
+            </section>
 
+            <section className={"bg-[color:var(--color-secondary)] text-[color:var(--color-neutral)]"}>
+                <div className={"innerBox"}>
                     <ImageTextFloatingSection
                         imageSrc="/images/gods-creation-7658099_1920.jpg"
                         imageAlt="Raupe, Puppe und Schmetterling"
@@ -104,7 +71,6 @@ const Page = () => {
                             Landes- oder Kommunalpolitik, in Betrieben oder als Wählerinnen und Wähler beitragen
                             können.</p>
                     </ImageTextFloatingSection>
-
                 </div>
             </section>
         </div>

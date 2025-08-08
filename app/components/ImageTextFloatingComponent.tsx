@@ -33,7 +33,7 @@ export default function ImageTextFloatingSection({
     };
 
     return (
-        <div className="my-10">
+        <div>
             <h2>{caption}</h2>
             <Image
                 src={imageSrc}
