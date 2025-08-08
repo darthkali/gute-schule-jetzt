@@ -1,8 +1,8 @@
-'use client'
-import dynamic from "next/dynamic";
+'use client';
+import dynamic from 'next/dynamic';
 
 const InitiativeMapClient = dynamic(() => import('./InitiativeMapClient'), {
-    ssr: false,
+  ssr: false,
 });
 
-export default InitiativeMapClient
+export default InitiativeMapClient;

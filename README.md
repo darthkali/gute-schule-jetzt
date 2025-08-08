@@ -14,7 +14,7 @@ Eine Initiative für bessere Bildung und nachhaltigen Wandel in deutschen Schule
 In einer sich rasant verändernden Welt besteht grundlegender Handlungsbedarf in der Bildung. Wir zeigen auf:
 
 - **Was Kinder wirklich brauchen** für ein erfolgreiches Lernen
-- **Herausforderungen des aktuellen Schulsystems** und deren dysfunktionale Aspekte  
+- **Herausforderungen des aktuellen Schulsystems** und deren dysfunktionale Aspekte
 - **Erprobte Lösungen und Visionen** von Vorreiterschulen wie der Primus Schule Münster und der Alemannenschule Wutöschingen
 - **Handlungsmöglichkeiten** für alle Ebenen: Schüler:innen, Eltern, Schulen, Politik, Wirtschaft und Kommunen
 
@@ -43,18 +43,21 @@ Diese Webseite wurde mit modernen Web-Technologien entwickelt, um eine optimale 
 ### Architektur-Entscheidungen
 
 **Warum Next.js?**
+
 - Server-Side Rendering (SSR) für bessere SEO und Performance
 - Static Site Generation (SSG) für schnelle Ladezeiten
 - Eingebaute Optimierungen für Bilder und Fonts
 - API Routes für Backend-Funktionalität (Kontaktformular)
 
 **Warum Tailwind CSS?**
+
 - Konsistente Design-Tokens und Spacing
 - Responsive Design out-of-the-box
 - Kleine Bundle-Größe durch Purging ungenutzter Styles
 - Einfache Wartung und Anpassung
 
 **Warum TypeScript?**
+
 - Typsicherheit reduziert Bugs in der Entwicklung
 - Bessere Developer Experience mit IntelliSense
 - Selbstdokumentierender Code
@@ -63,7 +66,7 @@ Diese Webseite wurde mit modernen Web-Technologien entwickelt, um eine optimale 
 
 ### Voraussetzungen
 
-- Node.js 18+ 
+- Node.js 18+
 - npm 11+
 
 ### Installation und Setup
@@ -165,9 +168,7 @@ SMTP_USER=your-email
 SMTP_PASS=your-password
 ```
 
-
-
 ---
 
-> *"Ich bin selbstwirksam - ich kann die Welt verändern! Statt schulgerechte Kinder eine kindgerechte Schule!"*  
+> _"Ich bin selbstwirksam - ich kann die Welt verändern! Statt schulgerechte Kinder eine kindgerechte Schule!"_  
 > — Leitsatz der Alemannenschule Wutöschingen
