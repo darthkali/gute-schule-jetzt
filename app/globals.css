@@ -1,179 +1,179 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-    --color-accent: #FFD700;
-    --color-background: #f0ead4;
-    --color-neutral: #ffffff;
-    --color-primary: #2c3e50;
-    --color-secondary: #1c7aac;
-    --color-text: #333333;
+  --color-accent: #ffd700;
+  --color-background: #f0ead4;
+  --color-neutral: #ffffff;
+  --color-primary: #2c3e50;
+  --color-secondary: #1c7aac;
+  --color-text: #333333;
 }
 
 @layer base {
-    /* More aggressive word breaking for long German words */
-    h1, h2, h3, p {
-        word-break: break-word;
-        overflow-wrap: anywhere;
-        hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-    }
-    
-    h1 {
-        font-family: var(--font-inter), serif;
-        font-size: 4rem;
-        font-weight: 600;
-        line-height: 1.2;
-        @apply mt-5 mb-5;
-        @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight font-bold;
-    }
+  /* More aggressive word breaking for long German words */
+  h1,
+  h2,
+  h3,
+  p {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+  }
 
-    h2 {
-        font-family: var(--font-inter), serif;
-        font-size: 1.6rem;
-        font-weight: 600;
-        line-height: 1.2;
-        @apply  mb-5;
-        @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold;
-    }
-    h3 {
-        font-family: var(--font-inter), serif;
-        font-size: 1.6rem;
-        font-weight: 600;
-        line-height: 1.2;
-        @apply  mb-3;
-        @apply text-base sm:text-lg md:text-xl lg:text-2xl font-semibold;
-    }
+  h1 {
+    font-family: var(--font-inter), serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    @apply mt-5 mb-5;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight font-bold;
+  }
 
-    p {
-        font-family: var(--font-inter), serif;
-        font-weight: 400;
-        line-height: 1.2;
-        @apply my-2;
-        @apply text-base sm:text-base md:text-lg leading-relaxed;
-    }
+  h2 {
+    font-family: var(--font-inter), serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.2;
+    @apply mb-5;
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold;
+  }
+  h3 {
+    font-family: var(--font-inter), serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.2;
+    @apply mb-3;
+    @apply text-base sm:text-lg md:text-xl lg:text-2xl font-semibold;
+  }
 
-    ul {
-        @apply list-disc list-inside pl-6 my-4;
-    }
+  p {
+    font-family: var(--font-inter), serif;
+    font-weight: 400;
+    line-height: 1.2;
+    @apply my-2;
+    @apply text-base sm:text-base md:text-lg leading-relaxed;
+  }
 
-    ol {
-        @apply list-decimal pl-6 my-4;
-    }
+  ul {
+    @apply list-disc list-inside pl-6 my-4;
+  }
 
-    li {
-        @apply mb-2 leading-relaxed;
-    }
+  ol {
+    @apply list-decimal pl-6 my-4;
+  }
 
-    .leaflet-div-icon {
-        background: transparent !important;
-        border: none !important;
-    }
+  li {
+    @apply mb-2 leading-relaxed;
+  }
 
-    .leaflet-marker-icon.custom-marker-cluster .cluster-icon {
-        margin: 0 !important;
-        padding: 0 !important;
-        position: relative !important;
-    }
+  .leaflet-div-icon {
+    background: transparent !important;
+    border: none !important;
+  }
 
-    /* Popup styling */
-    .leaflet-popup-content-wrapper {
-        background: var(--color-neutral) !important;
-        border-radius: 8px !important;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
-    }
+  .leaflet-marker-icon.custom-marker-cluster .cluster-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+  }
 
-    .leaflet-popup-content {
-        color: var(--color-text) !important;
-        font-family: var(--font-roboto), sans-serif !important;
-    }
+  /* Popup styling */
+  .leaflet-popup-content-wrapper {
+    background: var(--color-neutral) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  }
 
-    .leaflet-popup-tip {
-        background: var(--color-neutral) !important;
-    }
+  .leaflet-popup-content {
+    color: var(--color-text) !important;
+    font-family: var(--font-roboto), sans-serif !important;
+  }
+
+  .leaflet-popup-tip {
+    background: var(--color-neutral) !important;
+  }
 }
 
 @layer components {
-    .card {
-        @apply rounded-lg bg-white p-2;
-    }
+  .card {
+    @apply rounded-lg bg-white p-2;
+  }
 
-    .innerBox {
-        @apply
-        w-full
+  .innerBox {
+    @apply w-full
         max-w-screen-2xl
         mx-auto
         px-5
         sm:px-10
         md:px-16
         py-5;
-    }
-    .cluster-icon {
-        background: grey !important;
-        border-radius: 50% !important;
-        color: var(--color-neutral) !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        font-weight: 600 !important;
-        font-size: 14px !important;
-        width: 40px !important;
-        height: 40px !important;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
-        border: 3px solid var(--color-neutral) !important;
-        transition: all 0.2s ease !important;
-        font-family: var(--font-poppins), sans-serif !important;
-    }
+  }
+  .cluster-icon {
+    background: grey !important;
+    border-radius: 50% !important;
+    color: var(--color-neutral) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    width: 40px !important;
+    height: 40px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+    border: 3px solid var(--color-neutral) !important;
+    transition: all 0.2s ease !important;
+    font-family: var(--font-poppins), sans-serif !important;
+  }
 
-    .cluster-icon:hover {
-        background: var(--color-primary) !important;
-        transform: scale(1.1) !important;
-        box-shadow: 0 6px 12px rgba(0,0,0,0.25) !important;
-    }
+  .cluster-icon:hover {
+    background: var(--color-primary) !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25) !important;
+  }
 
-    .cluster-text {
-        color: var(--color-neutral) !important;
-        font-weight: 600 !important;
-        font-size: 14px !important;
-        text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
-    }
+  .cluster-text {
+    color: var(--color-neutral) !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+  }
 
-    .custom-marker-cluster {
-        background: transparent !important;
-        border: none !important;
-    }
+  .custom-marker-cluster {
+    background: transparent !important;
+    border: none !important;
+  }
 }
 
 body {
-    background: var(--color-background);
-    color: var(--color-text);
-    font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
 blockquote {
-    position: relative;
-    padding-left: 2em;
-    font-weight: 300;
-    font-style: italic;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 20px;
+  position: relative;
+  padding-left: 2em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 20px;
 }
 
 blockquote::before {
-    content: "“";
-    font-size: 3em;
-    position: absolute;
-    left: 0;
-    top: -10px;
+  content: '“';
+  font-size: 3em;
+  position: absolute;
+  left: 0;
+  top: -10px;
 }
 
 blockquote cite {
-    display: block;
-    margin-top: 1em;
-    font-size: 0.9em;
-    text-align: right;
-    color: var(--color-secondary);
+  display: block;
+  margin-top: 1em;
+  font-size: 0.9em;
+  text-align: right;
+  color: var(--color-secondary);
 }
-
