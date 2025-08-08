@@ -33,7 +33,7 @@
         font-size: 1.6rem;
         font-weight: 600;
         line-height: 1.2;
-        @apply  mb-3;
+        @apply  mb-5;
         @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold;
     }
     h3 {
