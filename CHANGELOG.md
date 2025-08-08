@@ -1,3 +1,19 @@
+# [0.30.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.29.1...v0.30.0) (2025-08-08)
+
+
+### Bug Fixes
+
+* correct function signature in TextImageCard component ([fe6d6c8](https://github.com/darthkali/gute-schule-jetzt/commit/fe6d6c8fa9c53e429a261aae2833e0eedce95bed))
+
+
+### Features
+
+* adjust layout for TextImageCard and improve responsiveness ([f8933ba](https://github.com/darthkali/gute-schule-jetzt/commit/f8933baf0a604f3dd768b22b6ce56a924590be48))
+* enhance text handling for German language and clean up page layout ([03f28fd](https://github.com/darthkali/gute-schule-jetzt/commit/03f28fdbb830d350c4d3f3ab505b739f218edcaa))
+* implement TextImageCard component and update homepage layout ([7fb1ceb](https://github.com/darthkali/gute-schule-jetzt/commit/7fb1cebb36b4eadcb7350098c40a515446c0a8b0))
+* restrict Semantic Release to main branch only ([517089f](https://github.com/darthkali/gute-schule-jetzt/commit/517089fc4db908a87acf39ebac77e1174cea12ba))
+* restructure page layout and update content for educational insights ([5ed798e](https://github.com/darthkali/gute-schule-jetzt/commit/5ed798e8dddb4b1910c275bfafc4269a233f8c72))
+
 ## [0.29.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.29.0...v0.29.1) (2025-08-08)
 
 
