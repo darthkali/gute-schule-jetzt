@@ -32,7 +32,7 @@ jobs:
         run: |
           npm run build
 
-      # 5) Semantic Release ausführen
+      # 5) Semantic Release ausführen (nur auf main branch)
       #
       #    - Wir lassen Semantic Release laufen und leiten die Ausgabe in eine Log-Datei um.
       #    - Anschließend suchen wir in diesem Log nach der Version und geben sie als Output aus.
@@ -40,6 +40,7 @@ jobs:
       #      wir setzen dann "version" leer und überspringen das Docker-Build später.
       # > sr.log 2>&1 || true
       - name: Semantic Release
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         id: semantic_release
         run: |
           # Führe semantic-release aus und speichere die Log-Ausgabe
@@ -47,8 +48,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Im nächsten Schritt die Variable verwenden
+      # Im nächsten Schritt die Variable verwenden (nur auf main branch)
       - name: Check semantic-release version
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         id: check_version
         run: |
           echo "SEMANTIC_RELEASE_VERSION: $SEMANTIC_RELEASE_VERSION"
