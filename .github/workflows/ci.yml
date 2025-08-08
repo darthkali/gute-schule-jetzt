@@ -27,12 +27,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 4) Next.js (Test) Build
+      # 4) Linting & Code Quality
+      - name: Lint code
+        run: npm run lint
+
+      - name: Check code formatting
+        run: npm run format:check
+
+      # 5) Next.js (Test) Build
       - name: Build & Test
         run: |
           npm run build
 
-      # 5) Semantic Release ausführen (nur auf main branch)
+      # 6) Semantic Release ausführen (nur auf main branch)
       #
       #    - Wir lassen Semantic Release laufen und leiten die Ausgabe in eine Log-Datei um.
       #    - Anschließend suchen wir in diesem Log nach der Version und geben sie als Output aus.
@@ -63,7 +70,7 @@ jobs:
             echo "version=$SEMANTIC_RELEASE_VERSION" >> $GITHUB_OUTPUT
           fi
 
-      # 6) Docker-Login (nur bei neuem Release)
+      # 7) Docker-Login (nur bei neuem Release)
       - name: Log in to Docker registry
         if: ${{ steps.check_version.outputs.version != '' }}
         uses: docker/login-action@v3.5.0
@@ -72,7 +79,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      # 7) pack CLI installieren
+      # 8) pack CLI installieren
       - name: Install pack CLI
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
@@ -80,7 +87,7 @@ jobs:
           | sudo tar -xvz -C /usr/local/bin
 
 
-      # 8) Build Image mit Semantic-Release-Version
+      # 9) Build Image mit Semantic-Release-Version
       - name: Build Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
@@ -90,7 +97,7 @@ jobs:
             -t docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }} \
             .
 
-      # 8) Push Image mit Semantic-Release-Version
+      # 10) Push Image mit Semantic-Release-Version
       - name: Push Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: docker push docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }}
