@@ -1,4 +1,4 @@
-name: Build and Release
+name: CI/CD Pipeline
 
 "on":
   push:
@@ -8,56 +8,92 @@ name: Build and Release
   workflow_dispatch:
 
 jobs:
-  build-and-release:
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      # 1) Code auschecken
       - name: Check out code
         uses: actions/checkout@v4
 
-      # 2) Node-Version festlegen
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 3) Dependencies installieren
       - name: Install dependencies
         run: npm ci
 
-      # 4) Linting & Code Quality
       - name: Lint code
         run: npm run lint
 
       - name: Check code formatting
         run: npm run format:check
 
-      # 5) Next.js (Test) Build
-      - name: Build & Test
-        run: |
-          npm run build
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
 
-      # 6) Semantic Release ausführen (nur auf main branch)
-      #
-      #    - Wir lassen Semantic Release laufen und leiten die Ausgabe in eine Log-Datei um.
-      #    - Anschließend suchen wir in diesem Log nach der Version und geben sie als Output aus.
-      #    - Wenn keine neue Version veröffentlicht wird, bricht Semantic Release mit Code 0 ab,
-      #      wir setzen dann "version" leer und überspringen das Docker-Build später.
-      # > sr.log 2>&1 || true
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm run test
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js application
+        run: npm run build
+
+  release:
+    name: Release and Deploy
+    runs-on: ubuntu-latest
+    needs: [lint, test, build]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    permissions:
+      contents: write
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Semantic Release
       - name: Semantic Release
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         id: semantic_release
         run: |
-          # Führe semantic-release aus und speichere die Log-Ausgabe
           npx semantic-release --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Im nächsten Schritt die Variable verwenden (nur auf main branch)
+      # Check if a new version was created
       - name: Check semantic-release version
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         id: check_version
         run: |
           echo "SEMANTIC_RELEASE_VERSION: $SEMANTIC_RELEASE_VERSION"
@@ -70,7 +106,7 @@ jobs:
             echo "version=$SEMANTIC_RELEASE_VERSION" >> $GITHUB_OUTPUT
           fi
 
-      # 7) Docker-Login (nur bei neuem Release)
+      # Docker operations (only if new release)
       - name: Log in to Docker registry
         if: ${{ steps.check_version.outputs.version != '' }}
         uses: docker/login-action@v3.5.0
@@ -79,15 +115,12 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      # 8) pack CLI installieren
       - name: Install pack CLI
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
           curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.37.0/pack-v0.37.0-linux.tgz" \
           | sudo tar -xvz -C /usr/local/bin
 
-
-      # 9) Build Image mit Semantic-Release-Version
       - name: Build Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
@@ -97,7 +130,6 @@ jobs:
             -t docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }} \
             .
 
-      # 10) Push Image mit Semantic-Release-Version
       - name: Push Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: docker push docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }}
