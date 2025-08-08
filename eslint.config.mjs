@@ -29,7 +29,6 @@ const eslintConfig = [
       "react-hooks/exhaustive-deps": "warn",
       
       // General code quality rules
-      "no-console": "warn",
       "prefer-const": "error",
       "no-var": "error",
       "object-shorthand": "error",
