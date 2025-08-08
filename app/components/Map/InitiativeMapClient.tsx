@@ -65,11 +65,12 @@ const createLegendControl = () => {
 
     const legendItems = [
       { category: 'grundschule', label: 'Grundschule' },
+      { category: 'gemeinschaftsschule', label: 'Gemeinschaftsschule' },
       {
         category: 'realschule_gymnasium',
         label: '(Werk-)Realschule, Gymnasium',
       },
-      { category: 'gemeinschaftsschule', label: 'Gemeinschaftsschule' },
+
       { category: 'initiativen', label: 'Initiativen' },
     ];
 
@@ -408,14 +409,25 @@ function InitiativeMapClient() {
         <Legend isVisible={showLegend} />
       </MapContainer>
 
-      {/* Legend Toggle Button */}
-      <button
-        onClick={() => setShowLegend(!showLegend)}
-        className='absolute top-2 right-2 z-[1000] px-3 py-2 bg-white rounded shadow-lg hover:shadow-xl transition-all duration-200 text-sm font-medium border border-gray-200'
-        title={showLegend ? 'Legende ausblenden' : 'Legende anzeigen'}
-      >
-        {showLegend ? 'Legende ausblenden' : 'Legende anzeigen'}
-      </button>
+      {/* Legend Toggle Switch */}
+      <div className='absolute top-2 right-2 z-[1000] bg-white rounded-3xl shadow-lg hover:shadow-xl transition-all duration-200 p-2  '>
+        <div className='flex items-center gap-2'>
+          <span className='text-sm font-small text-gray-700'>Legende</span>
+          <button
+            onClick={() => setShowLegend(!showLegend)}
+            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors duration-200 focus:outline-none  ${
+              showLegend ? 'bg-blue-600' : 'bg-gray-200'
+            }`}
+            title={showLegend ? 'Legende ausblenden' : 'Legende anzeigen'}
+          >
+            <span
+              className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform duration-200 ${
+                showLegend ? 'translate-x-6' : 'translate-x-1'
+              }`}
+            />
+          </button>
+        </div>
+      </div>
 
       {/* Overlay */}
       {isMobile && !activated && (
