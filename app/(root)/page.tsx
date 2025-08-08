@@ -72,7 +72,7 @@ export default function HomePage() {
                     <h1 id="herausforderungen"
                         className={"text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32"}>Welche
                         Herausforderungen sehen wir?</h1>
-                    <div className="flex flex-wrap gap-5 md:gap-10">
+                    <div className="flex flex-col lg:flex-row gap-5 md:gap-10">
 
                         <TextImageCard
                             overlayText={"VERÄNDERTE WELT"}

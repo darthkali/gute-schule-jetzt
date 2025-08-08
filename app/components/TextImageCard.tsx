@@ -24,7 +24,7 @@ export default function TextImageCard({
     return (
         <Link
             href={href}
-            className="bg-[color:var(--color-neutral)] group w-full min-w-100 flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105">
+            className="bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105">
 
 
             <div className="relative h-48 w-full">
