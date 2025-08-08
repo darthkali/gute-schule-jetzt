@@ -1,3 +1,24 @@
+# [0.31.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.30.0...v0.31.0) (2025-08-08)
+
+
+### Features
+
+* adjust legend button position and add margin to improve layout ([a58614a](https://github.com/darthkali/gute-schule-jetzt/commit/a58614adb17c0700192a50aa15ed25e91812270c))
+* enhance ESLint and Prettier configurations for improved code quality and consistency ([ec7857f](https://github.com/darthkali/gute-schule-jetzt/commit/ec7857f7c039fbdc9fd1f3355b99b86047d9439a))
+* enhance legend toggle with switch component and update legend items ([70cdd52](https://github.com/darthkali/gute-schule-jetzt/commit/70cdd52f23a09f27bfa0ed2b9a20523d6bdc5490))
+* enhance TextImageCard component layout and add navigation icon ([a37f69f](https://github.com/darthkali/gute-schule-jetzt/commit/a37f69f8165a353d807d6e4189a6a18d4fd27a33))
+* improve formatting and consistency in TextImageCard component ([ab16169](https://github.com/darthkali/gute-schule-jetzt/commit/ab16169ace711ee2b4a266338acccf573c2268d4))
+* remove console warnings from ESLint configuration and clean up imports in page component ([9b99a6f](https://github.com/darthkali/gute-schule-jetzt/commit/9b99a6f8b32ca7e05ec88ed608159e17bcabfdd9))
+* remove test steps from CI configuration to streamline workflow ([9ca995a](https://github.com/darthkali/gute-schule-jetzt/commit/9ca995a16e5fcc1f8da3223c53a8820f11b260e7))
+* reposition legend control and adjust visibility based on device type ([448dcc4](https://github.com/darthkali/gute-schule-jetzt/commit/448dcc41f8376cd9561ff3982bd6b785000d51ec))
+* restructure CI/CD pipeline to include linting, testing, and building steps ([15ca7a4](https://github.com/darthkali/gute-schule-jetzt/commit/15ca7a47043ccda88e70a45fcdd48320ffedb5fa))
+* standardize code formatting and improve consistency across components ([df549e5](https://github.com/darthkali/gute-schule-jetzt/commit/df549e580cd9e39e1b41b71ba1148465b19a58d1))
+* update CI workflow to include linting and code formatting checks ([171c3aa](https://github.com/darthkali/gute-schule-jetzt/commit/171c3aa45db405940a420011b79dc76b5cbbba70))
+* update headings and improve text formatting for clarity and consistency ([5d0ff34](https://github.com/darthkali/gute-schule-jetzt/commit/5d0ff346a1031511b2da91c57193a1866cec58fb))
+* update headings for clarity in page.tsx ([8d981aa](https://github.com/darthkali/gute-schule-jetzt/commit/8d981aa6d3c84701985e641916e3002ac6708b54))
+* update initiative categories and improve map component layout ([70d6f03](https://github.com/darthkali/gute-schule-jetzt/commit/70d6f032194f461a1ef521605657b230dbbc1d30))
+* update layout and improve text formatting for ImageTextFloatingSection ([d45cd7a](https://github.com/darthkali/gute-schule-jetzt/commit/d45cd7a0a8a3d02e891119a458e67ae058bc2293))
+
 # [0.30.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.29.1...v0.30.0) (2025-08-08)
 
 ### Bug Fixes
