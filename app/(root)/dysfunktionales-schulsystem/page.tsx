@@ -5,7 +5,7 @@ const Page = () => {
     <div>
       <section>
         <div className={'innerBox'}>
-          <h1>Dysfunktionales Schulsystem produziert zu viele Verlierer</h1>
+          <h1>Dysfunktionales Schulsystem mit zu vielen Verlierern</h1>
 
           <ImageTextFloatingSection
             imageSrc='/images/justice-4100373_1920.jpg'

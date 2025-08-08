@@ -105,7 +105,7 @@ export default function HomePage() {
               overlayText={'DYSFUNKTIONALES SCHULSYSTEM'}
               imageSrc='/images/piano-6315809_1920.jpg'
               heading={
-                'Dysfunktionales Schulsystem produziert zu viele Verlierer. Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze'
+                'Dysfunktionales Schulsystem mit zu vielen Verlierern. Probleme haben immer Ursachen - aus ihrer Analyse entstehen die Lösungsansätze'
               }
               description={
                 'Wir alle spüren, dass es so nicht weitergehen kann. Unser Schulsystem produziert zu viele Verlierer. Bildung ist aber eine wesentliche Grundlage für unsere Gesellschaft und ihre Erneuerung. Das Wohlergehen von Familien, unserer Demokratie, unserer Wirtschaft und unserer Zukunft hängt davon ab, dass wir unsere Kinder bestmöglich bilden. Schule ist hier ein Instrument der Gesellschaft. Wir werden den Zusammenhalt unserer Gesellschaft und die Zuversicht weiter verlieren, wenn wir nicht gemeinsam in eine Transformation kommen.'
