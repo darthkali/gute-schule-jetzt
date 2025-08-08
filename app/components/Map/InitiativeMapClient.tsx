@@ -48,7 +48,7 @@ const createCategoryIcon = (
 
 // Create legend control
 const createLegendControl = () => {
-  const legend = new L.Control({ position: 'bottomright' });
+  const legend = new L.Control({ position: 'topright' });
 
   legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'legend');
@@ -324,7 +324,7 @@ const createClusterCustomIcon = (cluster: MarkerCluster) => {
 
 function InitiativeMapClient() {
   const [activated, setActivated] = useState(false);
-  const [showLegend, setShowLegend] = useState(true);
+  const [showLegend, setShowLegend] = useState(!isMobile);
   const maxDescriptionLength = 130;
 
   useEffect(() => {
