@@ -1,9 +1,9 @@
-import Card from "@/app/components/Card";
-import InitiativeMapClient from "@/app/components/Map";
 import Image from "next/image";
 import {FaEnvelope, FaLinkedin, FaWhatsapp, FaFacebook, FaXTwitter} from "react-icons/fa6"
-import Button from "@/app/components/Button";
 import Link from "next/link";
+import Card from "@/app/components/Card";
+import InitiativeMapClient from "@/app/components/Map";
+import Button from "@/app/components/Button";
 import MastodonShareButton from "@/app/components/MastodonShareButton";
 import Highlight from '@/app/components/Highlight';
 import TextImageCard from "@/app/components/TextImageCard";

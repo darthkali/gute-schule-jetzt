@@ -1,8 +1,8 @@
 import React from 'react'
+import Image from "next/image";
 import Button from "@/app/components/Button";
 import MediaCard from "@/app/components/MediaCard";
 import InfoCard from "@/app/components/InfoCard";
-import Image from "next/image";
 
 const Page = () => {
 

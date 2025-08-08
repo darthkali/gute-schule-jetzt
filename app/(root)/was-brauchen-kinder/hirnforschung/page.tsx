@@ -1,6 +1,5 @@
 import React from 'react'
 import ImageTextFloatingSection from "@/app/components/ImageTextFloatingComponent";
-import Image from "next/image";
 
 const Page = () => {
     return (

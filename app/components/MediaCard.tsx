@@ -1,7 +1,7 @@
-import Button from "@/app/components/Button";
 import React from "react";
-import YouTubePreview from "@/app/components/ YouTubePreview";
 import Image from "next/image";
+import Button from "@/app/components/Button";
+import YouTubePreview from "@/app/components/ YouTubePreview";
 
 type CardProps = {
     title: string;

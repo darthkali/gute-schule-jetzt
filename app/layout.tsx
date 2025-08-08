@@ -1,8 +1,8 @@
 import type {Metadata} from "next";
 import "./globals.css";
 import localFont from "next/font/local";
-import Navbar from "@/app/components/Navbar";
 import React from "react";
+import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 
 const poppinsFont = localFont({
