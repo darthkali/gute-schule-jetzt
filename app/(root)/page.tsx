@@ -5,6 +5,8 @@ import {
   FaWhatsapp,
   FaFacebook,
   FaXTwitter,
+  FaPen,
+  FaPeopleGroup,
 } from 'react-icons/fa6';
 import Link from 'next/link';
 import Card from '@/app/components/Card';
@@ -49,22 +51,68 @@ export default function HomePage() {
           <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/70 z-10 ' />
 
           {/* Inhalt */}
-          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 relative z-10  px-6  sm:py-8 md:py-10 text-white'>
-            <div className={'sm:col-span-2'}>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10  px-6  sm:py-8 md:py-10 text-white'>
+            <div className={'sm:col-span-3'}>
               <h1>Gute Schule - Jetzt!</h1>
+
               <p>
-                Hallo, auf dieser Seite erfährst Du, was{' '}
-                <Highlight>Kinder</Highlight> grundlegend brauchen, damit sie in
-                unseren staatlichen Schulen (endlich) aufbauend zusammen lernen
-                können. Durch die Herausforderungen, der sich{' '}
-                <Highlight>rasant verändernden Welt</Highlight> besteht{' '}
-                <Highlight>grundlegender Handlungsbedarf</Highlight>! Dazu
-                werden Dir hier gangbare Wege und Einstiege aufgezeigt. Wir sind{' '}
-                <Highlight>Menschen aus BW und anderen Bundesländern</Highlight>
-                , die alle Ebenen andere dazu ermutigen, nicht nur über{' '}
-                <Highlight>nachhaltigere Bildung</Highlight> zu reden, sondern{' '}
-                <Highlight>konkrete Schritte</Highlight> zu gehen.
+                Wir brauchen eine Schule mit Zukunft! Wir schicken unser bestes
+                Potential - unsere Kinder und Jugendlichen- täglich in Schulen
+                und erwarten, dass sie dort für ihr Leben lernen. Aber dieses
+                Schulsystem presst alle Beteiligten in eng getaktete
+                Stundenplanabläufe, die überholten Vorstellungen, sowie der Not
+                an Personal und Raum geschuldet sind. Unser Schulsystem
+                produziert zu viele Leidtragende und leistet bei Weitem nicht,
+                was möglich wäre.
               </p>
+              <p>
+                Wir brauchen eine Schule mit Zukunft, in der Kinder aufblühen!
+                Mit landesweiter Power können wir das erreichen.
+              </p>
+
+              <div className='flex flex-col space-y-6'>
+                {/* Block 1 */}
+                <div className='flex items-center space-x-4'>
+                  <FaPen className='min-w-[32px] h-8 w-8 text-neutral' />
+                  <p className='text-left'>
+                    Darum bereiten wir zur Landtagswahl 2026 eine{' '}
+                    <Highlight>
+                      Petition für eine Neuausrichtung des Schulsystems
+                    </Highlight>{' '}
+                    in Ba-Wü vor. Der Entwurf des Petitionstextes steht hier.
+                    Die Petition kann ab dem 3.1.2026 in einem Zeitraum von 6
+                    Wochen unterschrieben werden. Bis dahin gilt es weiter{' '}
+                    <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
+                    damit weit mehr als die erforderlichen 10000 Unterschriften
+                    erreicht werden. Wirst Du Teil dieses Netzwerkes und
+                    erweiterst seine Reichweite? Wir freuen uns über Anregungen,
+                    sachliche Beiträge und Zusammenarbeit.
+                  </p>
+                </div>
+
+                {/* Block 2 */}
+                <div className='flex items-center space-x-4'>
+                  <FaPeopleGroup className='min-w-[32px] h-8 w-8 text-neutral' />
+                  <p className='text-left'>
+                    Wir möchten Menschen auf allen Ebenen – Eltern – Kommunen –
+                    Schulen & Schulaufsicht – Jugendliche – Politik ermutigen,
+                    konkrete Schritte in den Umbau hin zu Schulen mit Zukunft zu
+                    gehen.
+                  </p>
+                </div>
+              </div>
+
+              <p>
+                Dazu haben wir für die verschiedenen Betroffenen und
+                Interessierten wesentliches Wissen zusammengestellt. Es wird
+                gezeigt, was nötig ist, damit alle Kinder in unseren staatlichen
+                Schulen aufbauend zusammen lernen können. Und wir stellen
+                Schulen vor, die beweisen, dass das möglich und dort lang
+                gelebte Praxis ist. Alles zur Lösung liegt bereit, es braucht
+                nun Menschen vor Ort, die sich für Kinder und ihr Gedeihen
+                einsetzen. Bist Du dabei?
+              </p>
+
               <div className='flex gap-5 sm:gap-10 flex-wrap mt-10'>
                 <Button
                   text='Petition an den Landtag unterzeichnen'
