@@ -27,8 +27,6 @@ export default function HomePage() {
     <div>
       {/*Hero*/}
       <section className={'bg-[color:var(--color-secondary)]/70'}>
-        {/*<section className={"bg-[color:var(--color-secondary)]/70"}>*/}
-
         <div
           className={
             'innerBox relative overflow-hidden min-h-[700px] bg-[color:var(--color-background)]'

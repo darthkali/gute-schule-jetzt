@@ -1,10 +1,9 @@
 # [0.32.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.31.0...v0.32.0) (2025-08-14)
 
-
 ### Features
 
-* add background and text color utility classes, enhance homepage layout and content from main page ([1e2840a](https://github.com/darthkali/gute-schule-jetzt/commit/1e2840a66357034ec04657a21c3b0ad252968a4e))
-* add WebsiteLinks component and enhance content in "was brauchen kinder" ([c661ad8](https://github.com/darthkali/gute-schule-jetzt/commit/c661ad818fb758a9c2fdc4ebdf9b5631f1d6739b))
+- add background and text color utility classes, enhance homepage layout and content from main page ([1e2840a](https://github.com/darthkali/gute-schule-jetzt/commit/1e2840a66357034ec04657a21c3b0ad252968a4e))
+- add WebsiteLinks component and enhance content in "was brauchen kinder" ([c661ad8](https://github.com/darthkali/gute-schule-jetzt/commit/c661ad818fb758a9c2fdc4ebdf9b5631f1d6739b))
 
 # [0.31.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.30.0...v0.31.0) (2025-08-08)
 
