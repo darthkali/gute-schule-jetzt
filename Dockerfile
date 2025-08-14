@@ -3,14 +3,6 @@ FROM node:22 AS builder
 
 WORKDIR /app
 
-# Deklariere die ARGs direkt nach dem FROM
-ARG NEXT_PUBLIC_SUPABASE_URL
-ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
-
-# Gebe die ARGs als ENV weiter, damit Next.js sie beim Build sieht
-ENV NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL
-ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY
-
 # Nur package.json + lock kopieren, um den npm ci step zu cachen
 COPY package*.json ./
 
