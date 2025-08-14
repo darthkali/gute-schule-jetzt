@@ -107,11 +107,12 @@ jobs:
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
           docker build \
-            --build-arg NEXT_PUBLIC_SUPABASE_URL=${{ secrets.SUPABASE_URL }} \
-            --build-arg NEXT_PUBLIC_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }} \
             -t docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }} \
+            -t docker.io/darthkali/gute-schule-jetzt:latest \
             .
 
       - name: Push Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
-        run: docker push docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }}
+        run: |
+          docker push docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }}
+          docker push docker.io/darthkali/gute-schule-jetzt:latest
