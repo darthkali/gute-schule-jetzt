@@ -1,9 +1,8 @@
 ## [0.32.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.0...v0.32.1) (2025-08-14)
 
-
 ### Bug Fixes
 
-* update CI configuration to push latest Docker image alongside versioned image ([5846787](https://github.com/darthkali/gute-schule-jetzt/commit/5846787809ff9eb9654c31fd740217d1fbfcfc11))
+- update CI configuration to push latest Docker image alongside versioned image ([5846787](https://github.com/darthkali/gute-schule-jetzt/commit/5846787809ff9eb9654c31fd740217d1fbfcfc11))
 
 # [0.32.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.31.0...v0.32.0) (2025-08-14)
 

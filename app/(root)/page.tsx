@@ -46,7 +46,7 @@ export default function HomePage() {
           </div>
           {/* Blaue Overlay-Ebene */}
           {/*<div className="absolute overflow-hidden inset-0 left-0 h-full w-full  z-10 "/>*/}
-          <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/70 z-10 ' />
+          <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/85 z-10 ' />
 
           {/* Inhalt */}
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10  px-6  sm:py-8 md:py-10 text-white'>
@@ -55,7 +55,7 @@ export default function HomePage() {
 
               <p>
                 Wir brauchen eine Schule mit Zukunft! Wir schicken unser bestes
-                Potential - unsere Kinder und Jugendlichen- täglich in Schulen
+                Potential - unsere Kinder und Jugendlichen - täglich in Schulen
                 und erwarten, dass sie dort für ihr Leben lernen. Aber dieses
                 Schulsystem presst alle Beteiligten in eng getaktete
                 Stundenplanabläufe, die überholten Vorstellungen, sowie der Not
@@ -81,7 +81,7 @@ export default function HomePage() {
                     Die Petition kann ab dem 3.1.2026 in einem Zeitraum von 6
                     Wochen unterschrieben werden. Bis dahin gilt es weiter{' '}
                     <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
-                    damit weit mehr als die erforderlichen 10000 Unterschriften
+                    damit weit mehr als die erforderlichen 10.000 Unterschriften
                     erreicht werden. Wirst Du Teil dieses Netzwerkes und
                     erweiterst seine Reichweite? Wir freuen uns über Anregungen,
                     sachliche Beiträge und Zusammenarbeit.
