@@ -9,40 +9,28 @@ const Impressum = () => {
 
           <h2>Angaben gemäß § 5 TMG</h2>
           <p>
-            [Firmenname/Betreiber]
+            {process.env.IMPRESSUM_ORGANIZATION}
             <br />
-            [Vorname Nachname]
+            {process.env.IMPRESSUM_NAME}
             <br />
-            [Straße und Hausnummer]
+            {process.env.IMPRESSUM_STREET}
             <br />
-            [PLZ Ort]
+            {process.env.IMPRESSUM_CITY}
             <br />
-            [Land]
+            {process.env.IMPRESSUM_COUNTRY}
           </p>
 
           <h2>Kontakt</h2>
           <ul className='list-disc pl-6 mb-4'>
-            <li>Telefon: [Telefonnummer]</li>
-            <li>E-Mail: [E-Mail-Adresse]</li>
-            <li>Website: [Website-URL]</li>
+            <li>Telefon: {process.env.IMPRESSUM_PHONE}</li>
+            <li>E-Mail: {process.env.IMPRESSUM_EMAIL}</li>
           </ul>
 
-          <h2>Vertreten durch</h2>
-          <p>[Name des Geschäftsführers/Verantwortlichen]</p>
-
           <h2>Gemeinnützigkeit</h2>
-          <div className='bg-blue-50 p-4 rounded-lg my-4 border-l-4 border-blue-500'>
-            <p className='font-medium'>
-              Edunite ist eine gemeinnützige Initiative ohne
-              Gewinnerzielungsabsicht.
-            </p>
-          </div>
-
-          <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
           <p>
-            [Name]
-            <br />
-            [Adresse]
+            {' '}
+            Edunite ist eine gemeinnützige Initiative ohne
+            Gewinnerzielungsabsicht.
           </p>
 
           <h2>Haftungsausschluss</h2>
