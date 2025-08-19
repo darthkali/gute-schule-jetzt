@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <div>
       {/*Hero*/}
-      <section className={'bg-[color:var(--color-secondary)]/70'}>
+      <section className={'bg-[color:var(--color-secondary)]/85'}>
         <div
           className={
             'innerBox relative overflow-hidden min-h-[700px] bg-[color:var(--color-background)]'
@@ -51,7 +51,7 @@ export default function HomePage() {
           {/* Inhalt */}
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10  px-6  sm:py-8 md:py-10 text-white'>
             <div className={'sm:col-span-3'}>
-              <h1>Gute Schule - Jetzt!</h1>
+              <h1 className={'mt-0'}>Gute Schule - Jetzt!</h1>
 
               <p>
                 Wir brauchen eine Schule mit Zukunft! Wir schicken unser bestes
