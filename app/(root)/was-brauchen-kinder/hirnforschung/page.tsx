@@ -13,7 +13,7 @@ const Page = () => {
             imageAlt='Raupe, Puppe und Schmetterling'
             imagePosition='right'
             caption={
-              'Kinder brauchen Verbundenheit und verlässliche Beziehung. Kinder haben ein grundlegendes Bedürfnis nach Autonomie und Kompetenzentwicklung.'
+              'Kinder brauchen Verbundenheit und haben das Bedürfnis nach Autonomie und Kompetenzentwicklung'
             }
           >
             <p className={'text-sm italic text-gray-600'}>
