@@ -188,7 +188,7 @@ export default function HomePage() {
 
             <Card
               imageSrc='/images/evolution-4107273_1920.jpg'
-              title='VISION für alle Schularten?'
+              title='Vision für alle Schularten'
               href={'/was-brauchen-kinder/vision-fuer-alle-schularten'}
             />
           </div>
