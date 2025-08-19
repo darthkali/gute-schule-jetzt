@@ -160,8 +160,10 @@ export default function HomePage() {
             />
           </div>
           <h2
-            id='herausforderungen'
-            className={'text-center text-[color:var(--color-text)] mt-10'}
+            id='kinder'
+            className={
+              'text-center text-[color:var(--color-text)] mt-10 scroll-mt-20 lg:scroll-mt-37'
+            }
           >
             Was brauchen Kinder?
           </h2>
@@ -223,11 +225,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/*VISIONEN*/}
+      {/*LOESUNGEN*/}
       <section className={'bg-[color:var(--color-secondary)]'}>
         <div className={'innerBox'}>
           <h1
-            id='visionen'
+            id='loesungen'
             className={
               'text-center text-[color:var(--color-neutral)] scroll-mt-20 lg:scroll-mt-32'
             }
