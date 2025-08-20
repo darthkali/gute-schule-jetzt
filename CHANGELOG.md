@@ -1,3 +1,17 @@
+## [0.32.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.1...v0.32.2) (2025-08-19)
+
+
+### Bug Fixes
+
+* adjust background opacity and update heading margin in page layout ([3aa15f9](https://github.com/darthkali/gute-schule-jetzt/commit/3aa15f9d5dffcb804a7c2ae5ee6c605339235573))
+* adjust overlay opacity and improve text formatting in homepage ([5f700ed](https://github.com/darthkali/gute-schule-jetzt/commit/5f700edeeca085a34377f7c42d900c08d124e7ee))
+* correct title text for clarity in Vision section ([16a56a5](https://github.com/darthkali/gute-schule-jetzt/commit/16a56a59bd68f9d30fced50f83ccf4c7d388cc2e))
+* enhance Impressum page layout and improve content presentation ([dd5a961](https://github.com/darthkali/gute-schule-jetzt/commit/dd5a961db9626290506fd9fe2740b1d76451b76d))
+* enhance text formatting and update content in page ASW ([cbef4b6](https://github.com/darthkali/gute-schule-jetzt/commit/cbef4b6ca99634bbc31384ea20760c5c488f6e62))
+* update Impressum page to use environment variables for dynamic content ([78d8033](https://github.com/darthkali/gute-schule-jetzt/commit/78d80330f07860f1448f5af2c39677e71675c571))
+* update navigation links, added "Kinder" and section IDs for improved content structure ([c8e4430](https://github.com/darthkali/gute-schule-jetzt/commit/c8e44307628aab0cb91b6b3cf767e14c4fbf7a73))
+* update page layout and content for improved readability and structure ([1db2e1c](https://github.com/darthkali/gute-schule-jetzt/commit/1db2e1c4f43d647158c6375a60e7f0548c4ddff0))
+
 ## [0.32.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.0...v0.32.1) (2025-08-14)
 
 ### Bug Fixes
