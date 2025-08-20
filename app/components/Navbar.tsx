@@ -15,7 +15,8 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/#herausforderungen', text: 'Herausforderungen' },
-    { href: '/#visionen', text: 'Visionen' },
+    { href: '/#kinder', text: 'Kinder' },
+    { href: '/#loesungen', text: 'Lösungen' },
     { href: '/#aktiv-werden', text: 'Aktiv werden' },
   ];
 

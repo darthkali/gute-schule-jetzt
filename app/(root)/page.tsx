@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <div>
       {/*Hero*/}
-      <section className={'bg-[color:var(--color-secondary)]/70'}>
+      <section className={'bg-[color:var(--color-secondary)]/85'}>
         <div
           className={
             'innerBox relative overflow-hidden min-h-[700px] bg-[color:var(--color-background)]'
@@ -46,16 +46,16 @@ export default function HomePage() {
           </div>
           {/* Blaue Overlay-Ebene */}
           {/*<div className="absolute overflow-hidden inset-0 left-0 h-full w-full  z-10 "/>*/}
-          <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/70 z-10 ' />
+          <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/85 z-10 ' />
 
           {/* Inhalt */}
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10  px-6  sm:py-8 md:py-10 text-white'>
             <div className={'sm:col-span-3'}>
-              <h1>Gute Schule - Jetzt!</h1>
+              <h1 className={'mt-0'}>Gute Schule - Jetzt!</h1>
 
               <p>
                 Wir brauchen eine Schule mit Zukunft! Wir schicken unser bestes
-                Potential - unsere Kinder und Jugendlichen- täglich in Schulen
+                Potential - unsere Kinder und Jugendlichen - täglich in Schulen
                 und erwarten, dass sie dort für ihr Leben lernen. Aber dieses
                 Schulsystem presst alle Beteiligten in eng getaktete
                 Stundenplanabläufe, die überholten Vorstellungen, sowie der Not
@@ -81,7 +81,7 @@ export default function HomePage() {
                     Die Petition kann ab dem 3.1.2026 in einem Zeitraum von 6
                     Wochen unterschrieben werden. Bis dahin gilt es weiter{' '}
                     <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
-                    damit weit mehr als die erforderlichen 10000 Unterschriften
+                    damit weit mehr als die erforderlichen 10.000 Unterschriften
                     erreicht werden. Wirst Du Teil dieses Netzwerkes und
                     erweiterst seine Reichweite? Wir freuen uns über Anregungen,
                     sachliche Beiträge und Zusammenarbeit.
@@ -160,8 +160,10 @@ export default function HomePage() {
             />
           </div>
           <h2
-            id='herausforderungen'
-            className={'text-center text-[color:var(--color-text)] mt-10'}
+            id='kinder'
+            className={
+              'text-center text-[color:var(--color-text)] mt-10 scroll-mt-20 lg:scroll-mt-37'
+            }
           >
             Was brauchen Kinder?
           </h2>
@@ -186,7 +188,7 @@ export default function HomePage() {
 
             <Card
               imageSrc='/images/evolution-4107273_1920.jpg'
-              title='VISION für alle Schularten?'
+              title='Vision für alle Schularten'
               href={'/was-brauchen-kinder/vision-fuer-alle-schularten'}
             />
           </div>
@@ -223,11 +225,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/*VISIONEN*/}
+      {/*LOESUNGEN*/}
       <section className={'bg-[color:var(--color-secondary)]'}>
         <div className={'innerBox'}>
           <h1
-            id='visionen'
+            id='loesungen'
             className={
               'text-center text-[color:var(--color-neutral)] scroll-mt-20 lg:scroll-mt-32'
             }
@@ -261,7 +263,7 @@ export default function HomePage() {
                   <li>Vorbild für längeres gemeinsames Lernen</li>
                   <li>Vorbild für Inklusion</li>
                 </ul>
-                <p className='text-blue-400 text-center mt-4'>
+                <p className='text-accent text-center mt-4'>
                   Jede Klasse hat ein Verantwortungsteam- Vorbild für
                   Grundschulen
                 </p>
@@ -284,12 +286,9 @@ export default function HomePage() {
                 <p className='text-blue-400 text-center mt-0'>1-13</p>
                 <ul className={' text-center'}>
                   <li>Vorbild für weiterführende Schulen</li>
-                  <li>
-                    Vorbild für Selbstorganisiertes Lernen und gemeinsames
-                    Projekt-Lernen
-                  </li>
+                  <li>Vorbild für Selbstorganisiertes Lernen</li>
                 </ul>
-                <p className='text-blue-400 text-center mt-4'>
+                <p className='text-accent text-center mt-4'>
                   Ich bin selbstwirksam - ich kann die Welt verändern! Statt
                   schulgerechte Kinder eine kindgerechte Schule!“
                 </p>
