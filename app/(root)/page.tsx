@@ -9,6 +9,8 @@ import {
   FaPeopleGroup,
 } from 'react-icons/fa6';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Card from '@/app/components/Card';
 import InitiativeMapClient from '@/app/components/Map';
 import Button from '@/app/components/Button';
@@ -243,55 +245,132 @@ export default function HomePage() {
             Charakter, aber das Lernen steht unglaublich im Mittelpunkt!
           </p>
 
-          <div className='flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5 my-10'>
+          <div className='flex flex-col lg:flex-row gap-5 md:gap-10 mt-5 mb-15'>
             <Link
-              href='/primus-schule-muenster'
-              className='
-                            bg-[color:var(--color-primary)] text-[color:var(--color-neutral)]
-                            p-6 max-w-md
-                            shadow-xl rounded-xl overflow-hidden
-                            transition-transform duration-300 hover:scale-105
-                            '
+              href={'/primus-schule-muenster'}
+              className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
             >
-              <div className=''>
-                <h2 className={'text-center text-2xl mb-0'}>
-                  Primus Schule <br /> Münster Berg Fidel
-                </h2>
-                <p className='text-blue-400 text-center mt-0'>1-10</p>
-                <ul className={' text-center'}>
-                  <li>Vorbild für Grundschulen</li>
-                  <li>Vorbild für längeres gemeinsames Lernen</li>
-                  <li>Vorbild für Inklusion</li>
-                </ul>
-                <p className='text-accent text-center mt-4'>
+              <div className='relative h-48 w-full'>
+                <Image
+                  src={'/images/deutscher-bundestag-4965585_1920.jpg'}
+                  alt={'Alemannenschule Klassenzimmer'}
+                  fill
+                  className='object-cover'
+                />
+                <div className='absolute inset-0 bg-[color:var(--color-primary)]/80'></div>
+
+                {/* Overlay Text */}
+                <div className='absolute inset-0 flex items-center justify-center'>
+                  <h2
+                    className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
+                  >
+                    {'Primus Schule Münster Berg Fidel'}
+                  </h2>
+                </div>
+              </div>
+
+              {/* Content Section */}
+              <div className='p-6 flex flex-col flex-grow'>
+                <div className='flex justify-center mb-3'>
+                  <span className='bg-primary text-accent text-sm font-medium px-3 py-1 rounded-full'>
+                    Klassen 1-10
+                  </span>
+                </div>
+
+                <div className='space-y-2 mb-4'>
+                  <div className='flex items-center space-x-2'>
+                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+                    <span className='text-sm'>Vorbild für Grundschulen</span>
+                  </div>
+                  <div className='flex items-center space-x-2'>
+                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+                    <span className='text-sm'>
+                      Vorbild für längeres gemeinsames Lernen
+                    </span>
+                  </div>
+                  <div className='flex items-center space-x-2'>
+                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+                    <span className='text-sm'>Vorbild für Inklusion</span>
+                  </div>
+                </div>
+
+                <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
                   Jede Klasse hat ein Verantwortungsteam- Vorbild für
                   Grundschulen
-                </p>
+                </div>
+
+                <div className='mt-auto pt-4'>
+                  <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2 font-medium'>
+                    <span>Mehr erfahren</span>
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      className='transition-transform duration-300 group-hover:translate-x-1'
+                    />
+                  </div>
+                </div>
               </div>
             </Link>
 
             <Link
-              href='/alemannenschule'
-              className='
-                            bg-[color:var(--color-primary)] text-[color:var(--color-neutral)]
-                            p-6 max-w-md
-                            shadow-xl rounded-xl overflow-hidden
-                            transition-transform duration-300 hover:scale-105
-                            '
+              href={'/alemannenschule'}
+              className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
             >
-              <div className=''>
-                <h2 className={'text-center text-2xl mb-0'}>
-                  Alemannenschule Wutöschingen
-                </h2>
-                <p className='text-blue-400 text-center mt-0'>1-13</p>
-                <ul className={' text-center'}>
-                  <li>Vorbild für weiterführende Schulen</li>
-                  <li>Vorbild für Selbstorganisiertes Lernen</li>
-                </ul>
-                <p className='text-accent text-center mt-4'>
+              <div className='relative h-48 w-full'>
+                <Image
+                  src={'/images/deutscher-bundestag-4965585_1920.jpg'}
+                  alt={'Alemannenschule Klassenzimmer'}
+                  fill
+                  className='object-cover'
+                />
+                <div className='absolute inset-0 bg-[color:var(--color-primary)]/80'></div>
+
+                {/* Overlay Text */}
+                <div className='absolute inset-0 flex items-center justify-center'>
+                  <h2
+                    className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
+                  >
+                    {'Alemannenschule Wutöschingen'}
+                  </h2>
+                </div>
+              </div>
+
+              {/* Content Section */}
+              <div className='p-6 flex flex-col flex-grow'>
+                <div className='flex justify-center mb-3'>
+                  <span className='bg-primary text-accent text-sm font-medium px-3 py-1 rounded-full'>
+                    Klassen 1-13
+                  </span>
+                </div>
+
+                <div className='space-y-2 mb-4'>
+                  <div className='flex items-center space-x-2'>
+                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+                    <span className='text-sm'>
+                      Vorbild für weiterführende Schulen
+                    </span>
+                  </div>
+                  <div className='flex items-center space-x-2'>
+                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+                    <span className='text-sm'>
+                      Vorbild für Selbstorganisiertes Lernen
+                    </span>
+                  </div>
+                </div>
+
+                <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
                   Ich bin selbstwirksam - ich kann die Welt verändern! Statt
-                  schulgerechte Kinder eine kindgerechte Schule!“
-                </p>
+                  schulgerechte Kinder eine kindgerechte Schule!
+                </div>
+
+                <div className='mt-auto pt-4'>
+                  <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2 font-medium'>
+                    <span>Mehr erfahren</span>
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      className='transition-transform duration-300 group-hover:translate-x-1'
+                    />
+                  </div>
+                </div>
               </div>
             </Link>
           </div>
