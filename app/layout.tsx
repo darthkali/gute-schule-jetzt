@@ -64,8 +64,45 @@ const robotoFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'EdUnite',
-  description: 'GUTE SCHULE JETZT',
+  title: 'Gute Schule Jetzt - Petition für Bildungswende',
+  description:
+    'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems vor. Für Schulen, in denen Kinder aufblühen können.',
+  openGraph: {
+    title: 'Gute Schule Jetzt - Petition für Bildungswende',
+    description:
+      'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems vor. Für Schulen, in denen Kinder aufblühen können.',
+    type: 'website',
+    url: 'https://gute-schule-jetzt.de',
+    siteName: 'Gute Schule Jetzt',
+    images: [
+      {
+        url: '/images/abstract-1264071_1920.png',
+        width: 1200,
+        height: 630,
+        alt: 'Gute Schule Jetzt - Bildungswende für Baden-Württemberg',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gute Schule Jetzt - Petition für Bildungswende',
+    description:
+      'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems.',
+    images: ['/images/abstract-1264071_1920.png'],
+  },
+  keywords: [
+    'Bildung',
+    'Schule',
+    'Baden-Württemberg',
+    'Petition',
+    'Bildungswende',
+    'Schulreform',
+    'Kinder',
+    'Lernen',
+  ],
+  authors: [{ name: 'Gute Schule Jetzt Initiative' }],
+  creator: 'Gute Schule Jetzt Initiative',
+  publisher: 'Gute Schule Jetzt',
 };
 
 export default function RootLayout({
