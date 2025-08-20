@@ -34,13 +34,23 @@ const Page = () => {
               Abitur-Durchschnitt zeitgleich bei 2,17.
             </p>
 
-            <Button
-              text='Zur Webseite der Schule'
-              href='https://asw-wutoeschingen.de/'
-              bgColor='bg-[color:var(--color-primary)]'
-              textColor={'text-[color:var(--color-neutral)]'}
-              newTab={true}
-            />
+            <div className='flex flex-col sm:flex-row gap-4 items-start'>
+              <Button
+                text='Zur Webseite der Schule'
+                href='https://asw-wutoeschingen.de/'
+                bgColor='bg-[color:var(--color-primary)]'
+                textColor={'text-[color:var(--color-neutral)]'}
+                newTab={true}
+              />
+
+              <Button
+                text='ASW - Kurzfilm'
+                href='https://diler.tube/w/iSSGa9mZVmSncngQt4h64d'
+                bgColor='bg-[color:var(--color-accent)]'
+                textColor={'text-[color:var(--color-text)]'}
+                newTab={true}
+              />
+            </div>
           </div>
           <Image
             src={'/images/Kinderbilder/kids-3171905_19205.png'}
@@ -140,6 +150,13 @@ const Page = () => {
               title='Übersichtliche Informationen zur ASW'
               buttonTitle='zu den Informaionen'
               buttonHref='https://bildungsimpuls.com/alternative-schulsysteme/die-alemannenschule-wutoeschingen-ein-revolutionaeres-bildungskonzept-fuer-das-21-jahrhundert/'
+              imageSrc={'/icons/book-150621_1920.png'}
+            />
+
+            <MediaCard
+              title='Grundsätze Schmetterlingspädagogik'
+              buttonTitle='zur PDF'
+              buttonHref='/documents/Grundsätze%20Schmetterlings-pädagogik%20.pdf'
               imageSrc={'/icons/book-150621_1920.png'}
             />
           </div>
