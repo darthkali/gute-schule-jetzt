@@ -1,11 +1,10 @@
 ## [0.32.4](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.3...v0.32.4) (2025-08-20)
 
-
 ### Bug Fixes
 
-* improve formatting and update mobile menu links for better navigation ([9bd4de6](https://github.com/darthkali/gute-schule-jetzt/commit/9bd4de683cc5955fb435e420998091e18ac3a099))
-* lint changelog ([eae5d2f](https://github.com/darthkali/gute-schule-jetzt/commit/eae5d2f4c19621f7671f8a19e046f6d870e58205))
-* update metadata for improved SEO and clarity in project description ([a8dd1b4](https://github.com/darthkali/gute-schule-jetzt/commit/a8dd1b445de3602113b8e3d12249e3b420b75143))
+- improve formatting and update mobile menu links for better navigation ([9bd4de6](https://github.com/darthkali/gute-schule-jetzt/commit/9bd4de683cc5955fb435e420998091e18ac3a099))
+- lint changelog ([eae5d2f](https://github.com/darthkali/gute-schule-jetzt/commit/eae5d2f4c19621f7671f8a19e046f6d870e58205))
+- update metadata for improved SEO and clarity in project description ([a8dd1b4](https://github.com/darthkali/gute-schule-jetzt/commit/a8dd1b445de3602113b8e3d12249e3b420b75143))
 
 ## [0.32.3](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.2...v0.32.3) (2025-08-20)
 

@@ -14,7 +14,6 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "sed -i '' '/^$/N;/^\\n$/d' CHANGELOG.md",
         "successCmd": "echo \"SEMANTIC_RELEASE_VERSION=${nextRelease.version}\" >> $GITHUB_ENV"
       }
     ]
