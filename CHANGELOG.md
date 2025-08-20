@@ -1,11 +1,10 @@
 ## [0.32.3](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.2...v0.32.3) (2025-08-20)
 
-
 ### Bug Fixes
 
-* **deps:** update nextjs monorepo to v15.4.7 ([79690ad](https://github.com/darthkali/gute-schule-jetzt/commit/79690ad18ba151d33493485e73be2fe531eb32e3))
-* lint changelog ([127ba24](https://github.com/darthkali/gute-schule-jetzt/commit/127ba249bd808338b89a1cece20a823268be9927))
-* lint changelog ([6b65a72](https://github.com/darthkali/gute-schule-jetzt/commit/6b65a721a25de0adc937f8f510cd30239bd6c8d6))
+- **deps:** update nextjs monorepo to v15.4.7 ([79690ad](https://github.com/darthkali/gute-schule-jetzt/commit/79690ad18ba151d33493485e73be2fe531eb32e3))
+- lint changelog ([127ba24](https://github.com/darthkali/gute-schule-jetzt/commit/127ba249bd808338b89a1cece20a823268be9927))
+- lint changelog ([6b65a72](https://github.com/darthkali/gute-schule-jetzt/commit/6b65a721a25de0adc937f8f510cd30239bd6c8d6))
 
 ## [0.32.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.1...v0.32.2) (2025-08-19)
 

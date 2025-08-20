@@ -35,11 +35,19 @@ export default function MobileMenu() {
             <h2>Herausforderungen</h2>
           </Link>
           <Link
-            href='/#visionen'
+            href='/#kinder'
             className='hover:underline'
             onClick={() => setOpen(false)}
           >
-            <h2>Visionen</h2>
+            <h2>Kinder</h2>
+          </Link>
+
+          <Link
+            href='/#loesungen'
+            className='hover:underline'
+            onClick={() => setOpen(false)}
+          >
+            <h2>Lösungen</h2>
           </Link>
           <Link
             href='/#aktiv-werden'

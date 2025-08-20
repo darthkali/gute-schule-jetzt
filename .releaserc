@@ -4,7 +4,7 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", {
-      "changelogFile": "CHANGELOG.md"
+      "changelogFile": "CHANGELOG.md",
     }],
     "@semantic-release/github",
     ["@semantic-release/git", {
@@ -14,6 +14,7 @@
     [
       "@semantic-release/exec",
       {
+        "prepareCmd": "sed -i '' '/^$/N;/^\\n$/d' CHANGELOG.md",
         "successCmd": "echo \"SEMANTIC_RELEASE_VERSION=${nextRelease.version}\" >> $GITHUB_ENV"
       }
     ]
