@@ -19,11 +19,9 @@
     "next": "$next"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^7.0.0",
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@tailwindcss/postcss": "^4.1.10",
-    "@tailwindcss/typography": "^0.5.16",
     "leaflet": "^1.9.4",
     "next": "15.4.7",
     "nodemailer": "^7.0.4",
@@ -32,9 +30,7 @@
     "react-icons": "^5.5.0",
     "react-leaflet": "^5.0.0",
     "react-leaflet-markercluster": "^5.0.0-rc.0",
-    "sharp": "^0.34.2",
-    "tailwind-animate": "^0.2.10",
-    "tailwindcss-animate": "^1.0.7"
+    "sharp": "^0.34.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

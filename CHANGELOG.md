@@ -1,10 +1,17 @@
-## [0.32.5](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.4...v0.32.5) (2025-08-20)
+## [0.32.6](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.5...v0.32.6) (2025-08-20)
 
 
 ### Bug Fixes
 
-* **deps:** update tailwindcss monorepo to v4.1.12 ([cf87a87](https://github.com/darthkali/gute-schule-jetzt/commit/cf87a8766696a274b94fc66d094ad93949385d4e))
-* lint ([7932026](https://github.com/darthkali/gute-schule-jetzt/commit/793202668adb40a148649c4468ba6b5bda35676d))
+* clean up package.json by removing unused dependencies ([f4b8ca1](https://github.com/darthkali/gute-schule-jetzt/commit/f4b8ca1a206f8601cdae13424a66eb4465f88a68))
+* remove vercel dependency from package.json ([07c4f65](https://github.com/darthkali/gute-schule-jetzt/commit/07c4f65e5e6fa840b8e630f2e2f81b1e2d7de131))
+
+## [0.32.5](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.4...v0.32.5) (2025-08-20)
+
+### Bug Fixes
+
+- **deps:** update tailwindcss monorepo to v4.1.12 ([cf87a87](https://github.com/darthkali/gute-schule-jetzt/commit/cf87a8766696a274b94fc66d094ad93949385d4e))
+- lint ([7932026](https://github.com/darthkali/gute-schule-jetzt/commit/793202668adb40a148649c4468ba6b5bda35676d))
 
 ## [0.32.4](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.3...v0.32.4) (2025-08-20)
 
