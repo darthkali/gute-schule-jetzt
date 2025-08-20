@@ -1,3 +1,11 @@
+## [0.32.7](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.6...v0.32.7) (2025-08-20)
+
+
+### Bug Fixes
+
+* added asw-kurzfilm and pdf "Grundsätze Schmetterlingspädagogik" ([2981ea9](https://github.com/darthkali/gute-schule-jetzt/commit/2981ea9a84b2d0dff421fc7214740628d717e30c))
+* improved styling from "umgesetzte loesungen" cards ([1f6adac](https://github.com/darthkali/gute-schule-jetzt/commit/1f6adacfec3b147e8a4d24302dbe19553845d4cf))
+
 ## [0.32.6](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.5...v0.32.6) (2025-08-20)
 
 ### Bug Fixes
