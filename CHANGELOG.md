@@ -1,10 +1,9 @@
 ## [0.32.8](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.7...v0.32.8) (2025-09-05)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @fortawesome/react-fontawesome to v0.2.6 ([72c7366](https://github.com/darthkali/gute-schule-jetzt/commit/72c73663ee31a95244ee27f7238e5e8e4b852bd9))
-* **deps:** update nextjs monorepo to v15.5.2 ([e5fe462](https://github.com/darthkali/gute-schule-jetzt/commit/e5fe462aff54ae8032af1e5ab71d7a15ff691bc4))
+- **deps:** update dependency @fortawesome/react-fontawesome to v0.2.6 ([72c7366](https://github.com/darthkali/gute-schule-jetzt/commit/72c73663ee31a95244ee27f7238e5e8e4b852bd9))
+- **deps:** update nextjs monorepo to v15.5.2 ([e5fe462](https://github.com/darthkali/gute-schule-jetzt/commit/e5fe462aff54ae8032af1e5ab71d7a15ff691bc4))
 
 ## [0.32.7](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.6...v0.32.7) (2025-08-20)
 
