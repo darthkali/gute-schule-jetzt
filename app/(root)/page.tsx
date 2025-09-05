@@ -373,6 +373,65 @@ export default function HomePage() {
                 </div>
               </div>
             </Link>
+
+            <Link
+              href={'/neuseeland'}
+              className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
+            >
+              <div className='relative h-48 w-full'>
+                <Image
+                  src={'/images/beach-583172_1920.jpg'}
+                  alt={'Neuseeland'}
+                  fill
+                  className='object-cover'
+                />
+                <div className='absolute inset-0 bg-[color:var(--color-primary)]/80'></div>
+
+                {/* Overlay Text */}
+                <div className='absolute inset-0 flex items-center justify-center'>
+                  <h2
+                    className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
+                  >
+                    {'Neuseeland'}
+                  </h2>
+                </div>
+              </div>
+
+              {/* Content Section */}
+              <div className='p-6 flex flex-col flex-grow'>
+                <div className='flex justify-center mb-3'></div>
+
+                <div className='space-y-2 mb-4'>
+                  <div className='flex items-center space-x-2'>
+                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+                    <span className='text-sm'>
+                      Vorbild für weiterführende Schulen
+                    </span>
+                  </div>
+                  <div className='flex items-center space-x-2'>
+                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+                    <span className='text-sm'>
+                      Vorbild für Selbstorganisiertes Lernen
+                    </span>
+                  </div>
+                </div>
+
+                <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
+                  Ich bin selbstwirksam - ich kann die Welt verändern! Statt
+                  schulgerechte Kinder eine kindgerechte Schule!
+                </div>
+
+                <div className='mt-auto pt-4'>
+                  <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2 font-medium'>
+                    <span>Mehr erfahren</span>
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      className='transition-transform duration-300 group-hover:translate-x-1'
+                    />
+                  </div>
+                </div>
+              </div>
+            </Link>
           </div>
 
           <h2 className={'text-center text-[color:var(--color-accent)]'}>
