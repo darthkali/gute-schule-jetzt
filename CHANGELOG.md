@@ -1,9 +1,8 @@
 ## [0.32.9](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.8...v0.32.9) (2025-09-05)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency nodemailer to v7.0.6 ([32846c1](https://github.com/darthkali/gute-schule-jetzt/commit/32846c1cb9f0947800710d82e80838adb3ca2764))
+- **deps:** update dependency nodemailer to v7.0.6 ([32846c1](https://github.com/darthkali/gute-schule-jetzt/commit/32846c1cb9f0947800710d82e80838adb3ca2764))
 
 ## [0.32.8](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.7...v0.32.8) (2025-09-05)
 
