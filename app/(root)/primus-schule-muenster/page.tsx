@@ -114,7 +114,7 @@ const Page = () => {
               }
               buttonTitle='zum Film'
               buttonHref='https://www.wfilm.de/berg-fidel-eine-schule-fuer-alle/'
-              imageSrc={'/icons/camera-159582_1920.png'}
+              imageSrc={'/icons/camera-icon.png'}
             />
 
             <MediaCard
