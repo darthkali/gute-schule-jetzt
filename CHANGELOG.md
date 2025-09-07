@@ -1,3 +1,10 @@
+## [0.32.12](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.11...v0.32.12) (2025-09-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fortawesome/free-solid-svg-icons to v7.0.1 ([5a0df9b](https://github.com/darthkali/gute-schule-jetzt/commit/5a0df9b73950bf160f08667c853f89b564a6139a))
+
 ## [0.32.11](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.10...v0.32.11) (2025-09-07)
 
 ### Bug Fixes
