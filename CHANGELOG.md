@@ -1,3 +1,10 @@
+## [0.32.11](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.10...v0.32.11) (2025-09-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fortawesome/react-fontawesome to v3 ([ad0fe75](https://github.com/darthkali/gute-schule-jetzt/commit/ad0fe75a7d9b0918f92cf4ca3ad381ca2ad4ff56))
+
 ## [0.32.10](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.9...v0.32.10) (2025-09-05)
 
 ### Bug Fixes
