@@ -1,9 +1,8 @@
 ## [0.32.10](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.9...v0.32.10) (2025-09-05)
 
-
 ### Bug Fixes
 
-* **deps:** update tailwindcss monorepo to v4.1.13 ([a1afa52](https://github.com/darthkali/gute-schule-jetzt/commit/a1afa5276a1c2dc25738eda74bef1aa93808776c))
+- **deps:** update tailwindcss monorepo to v4.1.13 ([a1afa52](https://github.com/darthkali/gute-schule-jetzt/commit/a1afa5276a1c2dc25738eda74bef1aa93808776c))
 
 ## [0.32.9](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.8...v0.32.9) (2025-09-05)
 
