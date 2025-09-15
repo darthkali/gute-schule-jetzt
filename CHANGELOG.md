@@ -1,3 +1,21 @@
+## [0.32.13](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.12...v0.32.13) (2025-09-14)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to v15.5.3 ([#95](https://github.com/darthkali/gute-schule-jetzt/issues/95)) ([1cad2b9](https://github.com/darthkali/gute-schule-jetzt/commit/1cad2b94753ffad90f89e967513bccdc79b17ab7))
+
+## [0.32.12](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.11...v0.32.12) (2025-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @fortawesome/free-solid-svg-icons to v7.0.1 ([5a0df9b](https://github.com/darthkali/gute-schule-jetzt/commit/5a0df9b73950bf160f08667c853f89b564a6139a))
+
+## [0.32.11](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.10...v0.32.11) (2025-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @fortawesome/react-fontawesome to v3 ([ad0fe75](https://github.com/darthkali/gute-schule-jetzt/commit/ad0fe75a7d9b0918f92cf4ca3ad381ca2ad4ff56))
+
 ## [0.32.10](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.9...v0.32.10) (2025-09-05)
 
 ### Bug Fixes
