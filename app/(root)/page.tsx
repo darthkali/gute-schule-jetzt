@@ -248,10 +248,11 @@ export default function HomePage() {
             Wie sehen bereits umgesetzte Visionen und Lösungen aus?
           </h1>
           <p className={'text-[color:var(--color-neutral)] text-center'}>
-            Diese beiden Schulen haben wir stellvertretend ausgewählt, weil sie
-            erprobte Lösungen und Ideen zeigen, wie Kindern der Weg zum Lernen
-            wirklich frei gemacht wird. Jede Schule hat ihren ganz eigenen
-            Charakter, aber das Lernen steht unglaublich im Mittelpunkt!
+            Diese beiden deutschen Schulen zeigen lang erprobte Lösungen, wie
+            Kindern der Weg zum Lernen wirklich frei gemacht wird. Jede Schule
+            hat ihren ganz eigenen Charakter, aber das Lernen und die Kinder
+            stehen im Mittelpunkt! Neuseeland ist bereits vor Jahrzehnten eine
+            umwälzende Schulreform gelungen.
           </p>
 
           <div className='flex flex-col lg:flex-row gap-5 md:gap-10 mt-5 mb-15'>
