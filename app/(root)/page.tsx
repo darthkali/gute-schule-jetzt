@@ -25,6 +25,15 @@ export default function HomePage() {
   const iconBoxStyle =
     'bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow hover:scale-110 transition-transform';
 
+  function ListElement(text: string) {
+    return (
+      <div className='flex items-center space-x-2'>
+        <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+        <span className='text-sm'>{text}</span>
+      </div>
+    );
+  }
+
   return (
     <div>
       {/*Hero*/}
@@ -239,10 +248,11 @@ export default function HomePage() {
             Wie sehen bereits umgesetzte Visionen und Lösungen aus?
           </h1>
           <p className={'text-[color:var(--color-neutral)] text-center'}>
-            Diese beiden Schulen haben wir stellvertretend ausgewählt, weil sie
-            erprobte Lösungen und Ideen zeigen, wie Kindern der Weg zum Lernen
-            wirklich frei gemacht wird. Jede Schule hat ihren ganz eigenen
-            Charakter, aber das Lernen steht unglaublich im Mittelpunkt!
+            Diese beiden deutschen Schulen zeigen lang erprobte Lösungen, wie
+            Kindern der Weg zum Lernen wirklich frei gemacht wird. Jede Schule
+            hat ihren ganz eigenen Charakter, aber das Lernen und die Kinder
+            stehen im Mittelpunkt! Neuseeland ist bereits vor Jahrzehnten eine
+            umwälzende Schulreform gelungen.
           </p>
 
           <div className='flex flex-col lg:flex-row gap-5 md:gap-10 mt-5 mb-15'>
@@ -278,19 +288,12 @@ export default function HomePage() {
                 </div>
 
                 <div className='space-y-2 mb-4'>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>Vorbild für Grundschulen</span>
-                  </div>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für längeres gemeinsames Lernen
-                    </span>
-                  </div>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>Vorbild für Inklusion</span>
+                  <div className='space-y-2 mb-4'>
+                    <div className='space-y-2 mb-4'>
+                      {ListElement('Vorbild für Grundschulen')}
+                      {ListElement('Vorbild für längeres gemeinsames Lernen')}
+                      {ListElement('Vorbild für Inklusion')}
+                    </div>
                   </div>
                 </div>
 
@@ -343,23 +346,63 @@ export default function HomePage() {
                 </div>
 
                 <div className='space-y-2 mb-4'>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für weiterführende Schulen
-                    </span>
-                  </div>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für Selbstorganisiertes Lernen
-                    </span>
+                  <div className='space-y-2 mb-4'>
+                    {ListElement('Vorbild für weiterführende Schulen')}
+                    {ListElement('Vorbild für Selbstorganisiertes Lernen')}
                   </div>
                 </div>
 
                 <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
                   Ich bin selbstwirksam - ich kann die Welt verändern! Statt
                   schulgerechte Kinder eine kindgerechte Schule!
+                </div>
+
+                <div className='mt-auto pt-4'>
+                  <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2 font-medium'>
+                    <span>Mehr erfahren</span>
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      className='transition-transform duration-300 group-hover:translate-x-1'
+                    />
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            <Link
+              href={'/neuseeland'}
+              className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
+            >
+              <div className='relative h-48 w-full'>
+                <Image
+                  src={'/images/beach-583172_1920.jpg'}
+                  alt={'Vorbildliche Schulreform in Neuseeland'}
+                  fill
+                  className='object-cover'
+                />
+                <div className='absolute inset-0 bg-[color:var(--color-primary)]/80'></div>
+
+                {/* Overlay Text */}
+                <div className='absolute inset-0 flex items-center justify-center'>
+                  <h2
+                    className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
+                  >
+                    {'Vorbildliche Schulreform in Neuseeland'}
+                  </h2>
+                </div>
+              </div>
+
+              {/* Content Section */}
+              <div className='p-6 flex flex-col flex-grow'>
+                <div className='flex justify-center mb-3'></div>
+
+                <div className='space-y-2 mb-4'>
+                  {ListElement('Großer Wurf in 14 Monaten gelungen')}
+                  {ListElement('Selbstverwaltete Schulen')}
+                  {ListElement(
+                    'Glückliche Kinder, glückliche Eltern, geschätzte Lehrkräfte'
+                  )}
+                  {ListElement('Herausragender Bildungserfolg')}
                 </div>
 
                 <div className='mt-auto pt-4'>
