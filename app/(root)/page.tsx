@@ -25,6 +25,15 @@ export default function HomePage() {
   const iconBoxStyle =
     'bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow hover:scale-110 transition-transform';
 
+  function ListElement(text: string) {
+    return (
+      <div className='flex items-center space-x-2'>
+        <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+        <span className='text-sm'>{text}</span>
+      </div>
+    );
+  }
+
   return (
     <div>
       {/*Hero*/}
@@ -278,19 +287,12 @@ export default function HomePage() {
                 </div>
 
                 <div className='space-y-2 mb-4'>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>Vorbild für Grundschulen</span>
-                  </div>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für längeres gemeinsames Lernen
-                    </span>
-                  </div>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>Vorbild für Inklusion</span>
+                  <div className='space-y-2 mb-4'>
+                    <div className='space-y-2 mb-4'>
+                      {ListElement('Vorbild für Grundschulen')}
+                      {ListElement('Vorbild für längeres gemeinsames Lernen')}
+                      {ListElement('Vorbild für Inklusion')}
+                    </div>
                   </div>
                 </div>
 
@@ -343,17 +345,9 @@ export default function HomePage() {
                 </div>
 
                 <div className='space-y-2 mb-4'>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für weiterführende Schulen
-                    </span>
-                  </div>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für Selbstorganisiertes Lernen
-                    </span>
+                  <div className='space-y-2 mb-4'>
+                    {ListElement('Vorbild für weiterführende Schulen')}
+                    {ListElement('Vorbild für Selbstorganisiertes Lernen')}
                   </div>
                 </div>
 
@@ -381,7 +375,7 @@ export default function HomePage() {
               <div className='relative h-48 w-full'>
                 <Image
                   src={'/images/beach-583172_1920.jpg'}
-                  alt={'Neuseeland'}
+                  alt={'Vorbildliche Schulreform in Neuseeland'}
                   fill
                   className='object-cover'
                 />
@@ -392,7 +386,7 @@ export default function HomePage() {
                   <h2
                     className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
                   >
-                    {'Neuseeland'}
+                    {'Vorbildliche Schulreform in Neuseeland'}
                   </h2>
                 </div>
               </div>
@@ -402,23 +396,12 @@ export default function HomePage() {
                 <div className='flex justify-center mb-3'></div>
 
                 <div className='space-y-2 mb-4'>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für weiterführende Schulen
-                    </span>
-                  </div>
-                  <div className='flex items-center space-x-2'>
-                    <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
-                    <span className='text-sm'>
-                      Vorbild für Selbstorganisiertes Lernen
-                    </span>
-                  </div>
-                </div>
-
-                <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
-                  Ich bin selbstwirksam - ich kann die Welt verändern! Statt
-                  schulgerechte Kinder eine kindgerechte Schule!
+                  {ListElement('Großer Wurf in 14 Monaten gelungen')}
+                  {ListElement('Selbstverwaltete Schulen')}
+                  {ListElement(
+                    'Glückliche Kinder, glückliche Eltern, geschätzte Lehrkräfte'
+                  )}
+                  {ListElement('Herausragender Bildungserfolg')}
                 </div>
 
                 <div className='mt-auto pt-4'>
