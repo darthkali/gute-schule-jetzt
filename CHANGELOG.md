@@ -1,16 +1,15 @@
 # [0.33.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.13...v0.33.0) (2025-09-15)
 
-
 ### Features
 
-* add new page for new Zeeland ([a9067f3](https://github.com/darthkali/gute-schule-jetzt/commit/a9067f327b8f205aa3fdce6fe9865505b5681c9f))
-* add new page for new Zeeland ([36c421c](https://github.com/darthkali/gute-schule-jetzt/commit/36c421cfb6c51de9b00b42c473394d20ce3d1b18))
-* update page content (dysfunktionales schulsystem) and images for improved clarity and engagement ([40eb3a1](https://github.com/darthkali/gute-schule-jetzt/commit/40eb3a1162409e67e1e2321e3fc6a81340556582))
-* update page content (dysfunktionales schulsystem) and images for improved clarity and engagement ([f787b2e](https://github.com/darthkali/gute-schule-jetzt/commit/f787b2e23e6570d7c6887bbd8d57f4bf38d3ae98))
-* update page content (dysfunktionales schulsystem) and images for improved clarity and engagement ([b49b05c](https://github.com/darthkali/gute-schule-jetzt/commit/b49b05cf36de91ff6279616531a931d970804104))
-* updated neuseeland card ([56e2c99](https://github.com/darthkali/gute-schule-jetzt/commit/56e2c99ba6fe319e6857d0cd6044181365f2ff19))
-* updated neuseeland site ([52e9c20](https://github.com/darthkali/gute-schule-jetzt/commit/52e9c2048e5f387930ac42186ef11f393bd294c4))
-* updated wie sehen bereits umgesetzte Visionen aus. Neuseelang ergänzt ([30f9da4](https://github.com/darthkali/gute-schule-jetzt/commit/30f9da4914c9d847841d956d0d688d9b2f80bb0c))
+- add new page for new Zeeland ([a9067f3](https://github.com/darthkali/gute-schule-jetzt/commit/a9067f327b8f205aa3fdce6fe9865505b5681c9f))
+- add new page for new Zeeland ([36c421c](https://github.com/darthkali/gute-schule-jetzt/commit/36c421cfb6c51de9b00b42c473394d20ce3d1b18))
+- update page content (dysfunktionales schulsystem) and images for improved clarity and engagement ([40eb3a1](https://github.com/darthkali/gute-schule-jetzt/commit/40eb3a1162409e67e1e2321e3fc6a81340556582))
+- update page content (dysfunktionales schulsystem) and images for improved clarity and engagement ([f787b2e](https://github.com/darthkali/gute-schule-jetzt/commit/f787b2e23e6570d7c6887bbd8d57f4bf38d3ae98))
+- update page content (dysfunktionales schulsystem) and images for improved clarity and engagement ([b49b05c](https://github.com/darthkali/gute-schule-jetzt/commit/b49b05cf36de91ff6279616531a931d970804104))
+- updated neuseeland card ([56e2c99](https://github.com/darthkali/gute-schule-jetzt/commit/56e2c99ba6fe319e6857d0cd6044181365f2ff19))
+- updated neuseeland site ([52e9c20](https://github.com/darthkali/gute-schule-jetzt/commit/52e9c2048e5f387930ac42186ef11f393bd294c4))
+- updated wie sehen bereits umgesetzte Visionen aus. Neuseelang ergänzt ([30f9da4](https://github.com/darthkali/gute-schule-jetzt/commit/30f9da4914c9d847841d956d0d688d9b2f80bb0c))
 
 ## [0.32.13](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.12...v0.32.13) (2025-09-14)
 
