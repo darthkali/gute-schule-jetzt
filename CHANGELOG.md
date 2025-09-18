@@ -1,3 +1,10 @@
+## [0.33.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.33.0...v0.33.1) (2025-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sharp to v0.34.4 ([#101](https://github.com/darthkali/gute-schule-jetzt/issues/101)) ([a7b8e7b](https://github.com/darthkali/gute-schule-jetzt/commit/a7b8e7bc41f6dca97532101182c035bf1657df21))
+
 # [0.33.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.32.13...v0.33.0) (2025-09-15)
 
 ### Features
