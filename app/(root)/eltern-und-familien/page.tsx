@@ -16,7 +16,7 @@ const Page = () => {
             Veränderung!
           </p>
           <p>
-            ehr geehrte Eltern und Erziehungsberechtigte, alle wissen, dass
+            Sehr geehrte Eltern und Erziehungsberechtigte, alle wissen, dass
             unser Bildungssystem nicht so läuft, wie essollte. (link zu
             Dysfunktilonales Schulsystem) Aber es ändert sichnur wenig. Die
             Leidtragenden sind unsere Kinder und ihreFamilien. Es gibt aber
