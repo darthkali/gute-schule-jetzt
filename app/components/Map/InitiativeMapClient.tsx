@@ -133,7 +133,7 @@ const initiatives: Initiative[] = [
     latitude: 51.924613,
     longitude: 7.616089,
     link: 'https://www.primus-muenster.de/',
-    category: 'realschule_gymnasium',
+    category: 'gemeinschaftsschule',
   },
   {
     id: '3',
