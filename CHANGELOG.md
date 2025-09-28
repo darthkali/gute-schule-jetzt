@@ -1,3 +1,11 @@
+# [0.35.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.34.0...v0.35.0) (2025-09-28)
+
+
+### Features
+
+* revise text in dysfunktionales schulsystem ([407a437](https://github.com/darthkali/gute-schule-jetzt/commit/407a4375ddcf6d0086a3fe446b13e6b50d2aff00))
+* update initiatives data with new entries and improved descriptions ([1d234d2](https://github.com/darthkali/gute-schule-jetzt/commit/1d234d29cdb80f20b985835fe2d2438997e9f1b5))
+
 # [0.34.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.33.2...v0.34.0) (2025-09-28)
 
 ### Features
