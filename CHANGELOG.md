@@ -1,9 +1,8 @@
 # [0.34.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.33.2...v0.34.0) (2025-09-28)
 
-
 ### Features
 
-* enhance vision für alle schularten and add TextLinks component ([e598adc](https://github.com/darthkali/gute-schule-jetzt/commit/e598adc97071911f9ba067cf3699c3289701d35e))
+- enhance vision für alle schularten and add TextLinks component ([e598adc](https://github.com/darthkali/gute-schule-jetzt/commit/e598adc97071911f9ba067cf3699c3289701d35e))
 
 ## [0.33.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.33.1...v0.33.2) (2025-09-24)
 
