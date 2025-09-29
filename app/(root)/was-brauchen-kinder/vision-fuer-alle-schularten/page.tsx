@@ -161,7 +161,7 @@ const Page = () => {
                 className={'mr-2'}
               />
               <WebsiteLinks
-                text='Länger Gemeinsam LernenLänger Gemeinsam Lernen'
+                text='Länger Gemeinsam Lernen'
                 href='http://www.laenger-gemeinsam-lernen-bw.de/'
               />
             </div>
