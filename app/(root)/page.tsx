@@ -89,7 +89,7 @@ export default function HomePage() {
                       Petition für eine Neuausrichtung des Schulsystems
                     </Highlight>{' '}
                     in Ba-Wü vor. Der Entwurf des Petitionstextes steht hier.
-                    Die Petition kann ab dem 3.1.2026 in einem Zeitraum von 6
+                    Die Petition kann ab dem 12. Januar 2026 in einem Zeitraum von 6
                     Wochen unterschrieben werden. Bis dahin gilt es weiter{' '}
                     <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
                     damit weit mehr als die erforderlichen 10.000 Unterschriften

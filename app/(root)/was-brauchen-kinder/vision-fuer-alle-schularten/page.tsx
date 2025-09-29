@@ -203,8 +203,7 @@ const Page = () => {
 
             <h3>
               Mehr Austausch, mehr Gemeinsinn, mehr Kreativität und
-              InnovationsgeistMehr Austausch, mehr Gemeinsinn, mehr Kreativität
-              und Innovationsgeist
+              Innovationsgeist
             </h3>
             <p>
               „Zukunftsfähige menschliche Gemeinschaften funktionieren ähnlich
