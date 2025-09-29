@@ -161,7 +161,7 @@ const Page = () => {
                 className={'mr-2'}
               />
               <WebsiteLinks
-                text='Länger Gemeinsam LernenLänger Gemeinsam Lernen'
+                text='Länger Gemeinsam Lernen'
                 href='http://www.laenger-gemeinsam-lernen-bw.de/'
               />
             </div>
@@ -203,8 +203,7 @@ const Page = () => {
 
             <h3>
               Mehr Austausch, mehr Gemeinsinn, mehr Kreativität und
-              InnovationsgeistMehr Austausch, mehr Gemeinsinn, mehr Kreativität
-              und Innovationsgeist
+              Innovationsgeist
             </h3>
             <p>
               „Zukunftsfähige menschliche Gemeinschaften funktionieren ähnlich
