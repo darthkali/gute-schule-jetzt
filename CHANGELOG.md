@@ -1,3 +1,11 @@
+## [0.35.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.0...v0.35.1) (2025-09-29)
+
+
+### Bug Fixes
+
+* deleted duplicated text ([4cb959f](https://github.com/darthkali/gute-schule-jetzt/commit/4cb959fbe71162726888176703d59703e23542b2))
+* deleted duplicated text ([69276fb](https://github.com/darthkali/gute-schule-jetzt/commit/69276fbfe4fa267c69da9a51de0ca68812ac6b66))
+
 # [0.35.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.34.0...v0.35.0) (2025-09-28)
 
 ### Features
