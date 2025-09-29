@@ -23,12 +23,6 @@ const Page = () => {
               brauchen. Sie ermöglichen Lernen, wie es aus neurobiologischer
               Sicht nachhaltig ist und bereiten Schüler:innen auf ein Leben in
               der Gesellschaft vor, wie diese sich heute zeigt und in Zukunft
-              abzeichnet.die allen Kindern Potentialentwicklung, Gesundheit und
-              Selbstwirksamkeitserfahrung ermöglichen: Sie geben Kindern und
-              Jugendlichen das, was sie aus entwicklungspsychologischer Sicht
-              brauchen. Sie ermöglichen Lernen, wie es aus neurobiologischer
-              Sicht nachhaltig ist und bereiten Schüler:innen auf ein Leben in
-              der Gesellschaft vor, wie diese sich heute zeigt und in Zukunft
               abzeichnet.
             </p>
 
@@ -198,16 +192,6 @@ const Page = () => {
               lernen, Konflikte gemeinsam aus der Welt zu schaffen und etwas für
               die Gemeinschaft beizutragen. Menschliches Glück wird von unseren
               Beziehungen mit anderen angetrieben. Teamarbeit und Raum für
-              Kreativität sind dafür Schlüsselwerkzeuge.Dafür sind die
-              Rahmenbedingungen zu schaffen: So dass unsere Grundschulen, die
-              alle Kinder aufnehmen und willkommen heißen, mit ihnen kleine
-              Gemeinschaften aufbauen, in denen sie ihr Potential in Ruhe und
-              gut unterstützt entfalten können. In denen sie lernen, für sich
-              einzustehen, neugierig mit der Vielfalt in der Welt umzugehen,
-              Lernlust und Ausdauer zu entwickeln und von einander zu lernen,
-              Konflikte gemeinsam aus der Welt zu schaffen und etwas für die
-              Gemeinschaft beizutragen. Menschliches Glück wird von unseren
-              Beziehungen mit anderen angetrieben. Teamarbeit und Raum für
               Kreativität sind dafür Schlüsselwerkzeuge.
             </p>
             <p>
@@ -246,13 +230,6 @@ const Page = () => {
               zu Ende. Um zu einem zufriedenstellenden Miteinander zu gelangen,
               müssen wir ein Zusammenleben erlernen, in dem wir uns gegenseitig
               als einzigartige Subjekte wahrnehmen und uns so begegnen, dass in
-              gemeinschaftlichem Miteinander die Fülle unserer Fähigkeiten sich
-              nicht nur addieren, sondern potenzieren kann.“„Das Zeitalter der
-              Einzelkämpfer:innen, in dem wir allzu oft Konkurrent:innen sind
-              und den anderen als Objekt behandeln, geht zu Ende. Um zu einem
-              zufriedenstellenden Miteinander zu gelangen, müssen wir ein
-              Zusammenleben erlernen, in dem wir uns gegenseitig als
-              einzigartige Subjekte wahrnehmen und uns so begegnen, dass in
               gemeinschaftlichem Miteinander die Fülle unserer Fähigkeiten sich
               nicht nur addieren, sondern potenzieren kann.“
             </p>
