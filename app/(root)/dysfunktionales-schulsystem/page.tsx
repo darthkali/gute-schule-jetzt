@@ -303,10 +303,6 @@ const Page = () => {
             System“!
           </h2>
           <p>
-            Auszüge eines Leserbriefs von G.-U. Franz, ehemaliger Vorsitzender
-            der GGG (Verband für Schulen des gemeinsamen Lernens e.V.):
-          </p>
-          <p>
             Die ganze Schule, bildet ein System, das Kinder eher verletzt und
             klein macht, statt eigene und gemeinsame Entwicklung zu befördern.
           </p>
@@ -317,11 +313,22 @@ const Page = () => {
             Miteinander fördernden Schule für alle!
           </p>
           <p>
-            Die Politik vermeidet eine klare Positionierung, obwohl gilt: Die
-            Würde „zu achten und zu schützen ist Auftrag aller staatlichen
-            Gewalt“(GG, Art.1(2)). Dieser Auftrag wird in den Strukturen und
-            Abläufen des Systems tagtäglich missachtet. Spaltung wird befördert,
-            statt wertschätzendes Miteinander erlernt und erlebt!
+            Noch bemühen sich Eltern um die beste Ausgangslage ihres Kindes in
+            der Konkurrenz. Lehrkräfte vollstrecken die Einordnung und die
+            Verteilung der Chancen ohne das Bewusstsein, damit gegen
+            demokratische Grundvoraussetzungen zu verstoßen. Die Politik
+            vermeidet eine klare Positionierung, obwohl gilt: Die Würde „zu
+            achten und zu schützen ist Auftrag aller staatlichen Gewalt“(GG,
+            Art.1(2)). Dieser Auftrag wird in den Strukturen und Abläufen des
+            Systems tagtäglich missachtet. Spaltung wird befördert, statt
+            wertschätzendes Miteinander erlernt und erlebt!
+          </p>
+          <p>
+            Auszüge aus einem Leserbrief von G.-U. Franz, ehemaliger
+            Vorsitzender der GGG
+          </p>
+          <p className={'text-sm italic'}>
+            (Verband für Schulen des gemeinsamen Lernens e. V.)
           </p>
         </div>
       </section>

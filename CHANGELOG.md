@@ -1,3 +1,31 @@
+## [0.35.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.1...v0.35.2) (2025-09-29)
+
+### Bug Fixes
+
+- remove duplicated text and update petition date ([f001179](https://github.com/darthkali/gute-schule-jetzt/commit/f001179f22162bc1bcf0e5659d81fa08c25121df))
+- remove duplicated text and update petition date ([b4a94bd](https://github.com/darthkali/gute-schule-jetzt/commit/b4a94bd893d388c4d71e9a1e951da4ab1b89b20a))
+- remove duplicated text in WebsiteLinks component ([b7e9689](https://github.com/darthkali/gute-schule-jetzt/commit/b7e9689506a2920e7ddfc768547ece897b5ebdce))
+
+## [0.35.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.0...v0.35.1) (2025-09-29)
+
+### Bug Fixes
+
+- deleted duplicated text ([4cb959f](https://github.com/darthkali/gute-schule-jetzt/commit/4cb959fbe71162726888176703d59703e23542b2))
+- deleted duplicated text ([69276fb](https://github.com/darthkali/gute-schule-jetzt/commit/69276fbfe4fa267c69da9a51de0ca68812ac6b66))
+
+# [0.35.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.34.0...v0.35.0) (2025-09-28)
+
+### Features
+
+- revise text in dysfunktionales schulsystem ([407a437](https://github.com/darthkali/gute-schule-jetzt/commit/407a4375ddcf6d0086a3fe446b13e6b50d2aff00))
+- update initiatives data with new entries and improved descriptions ([1d234d2](https://github.com/darthkali/gute-schule-jetzt/commit/1d234d29cdb80f20b985835fe2d2438997e9f1b5))
+
+# [0.34.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.33.2...v0.34.0) (2025-09-28)
+
+### Features
+
+- enhance vision für alle schularten and add TextLinks component ([e598adc](https://github.com/darthkali/gute-schule-jetzt/commit/e598adc97071911f9ba067cf3699c3289701d35e))
+
 ## [0.33.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.33.1...v0.33.2) (2025-09-24)
 
 ### Bug Fixes
