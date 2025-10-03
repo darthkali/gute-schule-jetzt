@@ -1,6 +1,7 @@
 import React from 'react';
-import ImageTextSection from '@/app/components/ImageTextComponent';
 import Link from 'next/link';
+import ImageTextSection from '@/app/components/ImageTextComponent';
+
 
 const Page = () => {
   return (
