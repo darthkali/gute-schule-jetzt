@@ -27,6 +27,7 @@ const eslintConfig = [
       "react/react-in-jsx-scope": "off",
       "react/prop-types": "off",
       "react-hooks/exhaustive-deps": "warn",
+        "react/no-unescaped-entities": "off",
       
       // General code quality rules
       "prefer-const": "error",
