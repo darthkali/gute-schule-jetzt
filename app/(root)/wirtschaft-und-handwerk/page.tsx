@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import TextLinks from '@/app/components/TextLinks';
+import WebsiteLinks from '@/app/components/WebsiteLinks';
 import ImageTextFloatingSection from '@/app/components/ImageTextFloatingComponent';
 
 const Page = () => {
@@ -13,10 +15,28 @@ const Page = () => {
           imagePosition='left'
         >
           <h2>
-            Unsere Arbeitswelt braucht Fachkräfte und Menschen, die innovativ
-            zusammenarbeiten können.
+            Sehr geehrte Führungskräfte und Mitarbeiter:innen in Handwerk und Wirtschaft,
           </h2>
           <p>
+           funktionsfähige und in die Kommunen vernetzte Schulen haben auch für Handwerk und Wirtschaft
+           in unserem Land eine wesentliche Bedeutung. Im Folgenden finden Sie wichtige Informationen dazu.<br/>
+           Helfen Sie bitte mit, dass Baden-Württemberg Schulen schafft, die jedes Kind wirklich zu
+           seinem individuellen Leistungsvermögen führt und jedes fit für die Welt von morgen macht.
+           Wir stellen auf dieser Webseite Hintergrundwissen und praxiserprobte Lösungen vor, die in
+           allen Schularten umsetzbar sind. Viele Schulen würden sich gerne auf den Weg machen, haben
+           aber mit Hemmnissen zu kämpfen. Wenn Betriebe, Kommunen, Wähler:innen gemeinsam an einem
+           Strang ziehen, können diese Hemmnisse endlich beseitigt werden.<br/>
+           Unterstützen Sie bitte die Forderungen der
+           {' '}<TextLinks href={'/#petition/'} className='underline hover:no-underline'>Petition</TextLinks>{' '}
+           Schule bewegen Jetzt!, damit im kommenden
+           Koalitionsvertrag 2026 wesentliche Schritte dafür vereinbart werden.
+           Sprechen Sie mit anderen Menschen darüber - wirken Sie mit Ihren Möglichkeiten mit, eine
+           Trendwende in BW zu erzeugen.
+
+
+
+
+
             Deutschlands Unternehmen fehlt aber der Nachwuchs. Immer mehr
             Betriebe können freie Stellen nicht besetzen – für viele Stellen
             gibt es nicht einmal Bewerbungen. Das hat gravierende Folgen für die

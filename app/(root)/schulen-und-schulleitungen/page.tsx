@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import TextLinks from '@/app/components/TextLinks';
+import WebsiteLinks from '@/app/components/WebsiteLinks';
 import ImageTextFloatingSection from '@/app/components/ImageTextFloatingComponent';
 
 const Page = () => {
@@ -19,26 +21,26 @@ const Page = () => {
         <ul>
           <li>
             Praxiserprobte Lösungen für alle{' '}
-            <Link href={'/#loesungen'} className='underline hover:no-underline'>
+            <TextLinks href={'/#loesungen'} className='underline hover:no-underline'>
               Schularten
-            </Link>{' '}
+            </TextLinks>{' '}
           </li>
           <li>
             Hintergrundwissen für alle Betroffenen, zu menschengerechtem Lernen
             und zur{' '}
-            <Link
+            <TextLinks
               href={'/#hirnforschung'}
               className='underline hover:no-underline'
             >
               Hirnforschung
-            </Link>{' '}
+            </TextLinks>{' '}
           </li>
 
           <li>
             Eine{' '}
-            <Link href={'/#petition'} className='underline hover:no-underline'>
+            <TextLinks href={'/#petition'} className='underline hover:no-underline'>
               Landtags-Petition
-            </Link>{' '}
+            </TextLinks>{' '}
             mit Start im Januar 2026, die mit 10000 digitalen Unterschriften die
             politische Kraft für spürbaren Fortschritt entwickeln soll.
           </li>
@@ -127,19 +129,19 @@ const Page = () => {
 
               <li>
                 In Niedersachsen hat die Landesregierung 2024 ein{' '}
-                <Link
+                <TextLinks
                   href={'https://bass.schule.nrw/20046.htm'}
                   className='underline hover:no-underline'
                 >
                   Freiräume-Programm für innovative schulische Vorhaben
-                </Link>{' '}
+                </TextLinks>{' '}
                 erlassen. In dieser{' '}
-                <Link
+                <TextLinks
                   href={'/#petition'}
                   className='underline hover:no-underline'
                 >
                   Landtags-Petition
-                </Link>{' '}
+                </TextLinks>{' '}
                 fordern wir auch für BW solche Freiräume für Schulleitungen und
                 Kollegien, die ihre Schule zum Wohl aller umgestalten wollen.
               </li>
@@ -149,12 +151,12 @@ const Page = () => {
           <div>
             <h2>Verbündete finden</h2>
             <p>
-              <Link
+              <TextLinks
                 href={'https://schule-im-aufbruch.de'}
                 className='underline hover:no-underline'
               >
                 Schule-im-Aufbruch
-              </Link>{' '}
+              </TextLinks>{' '}
               bietet Transformationsbegleitung und ist eine Initiative mit dem
               Ziel, Kinder bei der Entfaltung ihrer Potenziale zu unterstützen,
               sowie die angeborene Begeisterung und Kreativität von Kindern und
@@ -171,34 +173,34 @@ const Page = () => {
             <ul>
               <li>
                 Ein{' '}
-                <Link
+                <TextLinks
                   href={'https://schule-im-aufbruch.de'}
                   className='underline hover:no-underline'
                 >
                   Materialnetzwerk
-                </Link>{' '}
+                </TextLinks>{' '}
                 baut die Alemannenschule in Wutöschingen mit anderen Schulen
                 auf, das Lernmaterialien für selbstorganisiertes Lernen
                 bereitstellt und{' '}
-                <Link
+                <TextLinks
                   href={'https://www.mnweg.org'}
                   className='underline hover:no-underline'
                 >
                   {' '}
                   teilt.
-                </Link>{' '}
+                </TextLinks>{' '}
               </li>
 
               <li>
                 Expertise für gelungene{' '}
-                <Link
+                <TextLinks
                   href={
                     'https://www.fr.de/politik/inklusion-klappt-viel-arbeit-10963703.html'
                   }
                   className='underline hover:no-underline'
                 >
                   Inklusion
-                </Link>
+                </TextLinks>
                 : „Das wichtigste Element bei der schulischen Inklusion ist die
                 Auflösung der Jahrgangsgrenzen“, so Dr. Reinhard Stähling,
                 ehemaliger Schulleiter der Primus-Schule Münster Berg
@@ -211,14 +213,14 @@ const Page = () => {
             <h2>In eigenes Konzept vertrauen</h2>
             <p>
               {' '}
-              <Link
+              <TextLinks
                 href={
                   'https://muenstertube.wordpress.com/2025/03/11/nicht-fragen-einfach-machen-dr-reinhard-stahling-liest-beim-ir-munster-aus-seinem-neuen-buch/'
                 }
                 className='underline hover:no-underline'
               >
                 Nicht fragen - einfach machen
-              </Link>{' '}
+              </TextLinks>{' '}
             </p>
           </div>
 
@@ -239,34 +241,34 @@ const Page = () => {
             <ul>
               <li>
                 {' '}
-                <Link
+                <TextLinks
                   href={'https://www.youtube.com/watch?v=pCx-ZeGjA1M'}
                   className='underline hover:no-underline'
                 >
                   "Was heißt hier Bildung?"
-                </Link>{' '}
+                </TextLinks>{' '}
                 - Alemannenschule Wutöschingen, Olaf Burow & Reinhard Kahl,
                 Utopie-Studio, 1h 40 min
               </li>
               <li>
                 {' '}
-                <Link
+                <TextLinks
                   href={'https://www.youtube.com/watch?v=2XOrl8P__P0'}
                   className='underline hover:no-underline'
                 >
                   „Unterricht ist aller Übel Anfang“
-                </Link>{' '}
+                </TextLinks>{' '}
                 - Transformation der Schule von einem Ort des Lehrens hin zu
                 einem Ort des Lernens, 45 min
               </li>
               <li>
                 {' '}
-                <Link
+                <TextLinks
                   href={'https://www.youtube.com/watch?v=deREj5SouSU'}
                   className='underline hover:no-underline'
                 >
                   „Schule der Zukunft“
-                </Link>{' '}
+                </TextLinks>{' '}
                 - Kurzbeitrag zum Vortrag von Stefan Ruppaner, ehemaliger
                 Schulleiter der ASW, 13 min
               </li>
@@ -286,24 +288,24 @@ const Page = () => {
               verfolgen und eine Verantwortungsgemeinschaft von Schule und
               Jugendhilfe vorsehen. Davon sind wir in Baden-Württemberg derzeit
               noch sehr weit entfernt. Der{' '}
-              <Link
+              <TextLinks
                 href={
                   'https://liga-bw.de/stellungnahme-im-anhoerungsverfahrenvwv-beschleunigungsprogramm-ganztagsbetreuung/'
                 }
                 className='underline hover:no-underline'
               >
                 „Qualitätsrahmen Betreuung BW“
-              </Link>{' '}
+              </TextLinks>{' '}
               enthält laut der Liga der freien Wohlfahrtspflege nicht ein
               einziges objektiv nachprüfbares{' '}
-              <Link
+              <TextLinks
                 href={
                   'https://liga-bw.de/wp-content/uploads/2025/02/2025_02_10_Klartext_Ganztag_Ganztagsfoerderung_fuer_Grundschulkinder.pdf'
                 }
                 className='underline hover:no-underline'
               >
                 Qualitätskriterium (PDF-Datei).
-              </Link>{' '}
+              </TextLinks>{' '}
               "Das mache ihn wirkungslos. Von einem Dokument mit dem Namen
               Qualitätsrahmen seien zumindest quantifizierende Aussagen zu den
               Themen Personalschlüssel, Fachkraftschlüssel sowie Raumgröße und
@@ -419,14 +421,14 @@ const Page = () => {
               wiederum muss vor allem die Politik sorgen. "Es ist Zeit, das
               Labor aufzuräumen und endlich festzulegen, wo man hinwill. Und wie
               man dort ankommt." Quelle: Buch, Anant Agarwala:{' '}
-              <Link
+              <TextLinks
                 href={
                   'https://www.bpb.de/system/files/dokument_pdf/Agarwala1_978-3-411-75490-8.pdf'
                 }
                 className='underline hover:no-underline'
               >
                 Das Integrationsexperiment
-              </Link>{' '}
+              </TextLinks>{' '}
               - S. 74, S. 25, S.123
             </p>
             <p>
@@ -444,36 +446,36 @@ const Page = () => {
             <ul>
               <li>
                 {' '}
-                <Link
+                <TextLinks
                   href={
                     'https://www.bmbf.de/DE/Bildung/Schule/Startchancen-Programm/startchancen-programm.html'
                   }
                   className='underline hover:no-underline'
                 >
                   1: BMBF; Startchancenprogramm
-                </Link>
+                </TextLinks>
               </li>
               <li>
                 {' '}
-                <Link
+                <TextLinks
                   href={
                     'https://www.km.baden-wuerttemberg.de/de/schule/schulartuebergreifend/startchancen-programm/startchancen-bw'
                   }
                   className='underline hover:no-underline'
                 >
                   2: KM BW; Startchancenprogramm
-                </Link>
+                </TextLinks>
               </li>
               <li>
                 {' '}
-                <Link
+                <TextLinks
                   href={
                     'https://www.forum-verlag.com/fachwissen/bildung-und-erziehung/startchancen-programm/#kritik'
                   }
                   className='underline hover:no-underline'
                 >
                   3: Forum-Verlag; Startchacenprogramm-Kritik
-                </Link>{' '}
+                </TextLinks>{' '}
               </li>
             </ul>
           </div>
@@ -528,18 +530,18 @@ const Page = () => {
               und gleichberechtigter Teilhabe werden, kommen sie nicht darum
               herum, sich damit auseinander zusetzen. Wenn Vielfalt unser Leben
               bestimmt, sollten wir das nicht weiter ignorieren, sondern das
-              Signal aussenden: A LLE Kinder gehören dazu! Länger gemeinsam
+              Signal aussenden: ALLE Kinder gehören dazu! Länger gemeinsam
               lernen! Ressourcen dafür fordern und bündeln.
               <br />
               Quelle:{' '}
-              <Link
+              <TextLinks
                 href={
                   'https://bildungspolitik.blog.rosalux.de/2019/09/11/das-verweigerte-recht-auf-inklusive-bildung-von-dr-brigitte-schumann/'
                 }
                 className='underline hover:no-underline'
               >
                 Brigitte Schuhmann
-              </Link>{' '}
+              </TextLinks>{' '}
             </p>
           </div>
 
@@ -563,22 +565,22 @@ const Page = () => {
               Zum Begriff "multiprofessionelles Team": Die Berg Fidelschule
               hatte diesen Begriff schon seit 1992 benutzt - gemeint als festes
               Klassenteam. Heute wird der Begriff häufig aus dem Zusammenhang
-              des Klassenteams gelöst und sogar ein N ebeneinander von
+              des Klassenteams gelöst und sogar ein Nebeneinander von
               Klassenlehrer:in und Sonderpädagoge:in als multiprofessoionelle
               Arbeit bezeichnet. Aber erst wenn die multiprofessionellen Teams
-              zu einer V erantwortungsgemeinschaft für alle Kinder einer
+              zu einer Verantwortungsgemeinschaft für alle Kinder einer
               einzelnen Klasse werden, ändert sich der gesamte Unterricht und
               die Qualität steigt.
               <br />
               Quelle:{' '}
-              <Link
+              <TextLinks
                 href={
                   'https://reinhard-staehling.de/multiprofessionelle-teams-in-altersgemischten-klassen/'
                 }
                 className='underline hover:no-underline'
               >
                 Stähling 2004,
-              </Link>{' '}
+              </TextLinks>{' '}
               Multiprofessionelle Teams in altersgemischten Klassen, ein Konzept
               für integrativen Unterricht.
             </p>
@@ -606,22 +608,22 @@ const Page = () => {
               Es sollte allen Menschen in der Schule, Kindern wie Erwachsenen,
               der Freiraum zur Selbstwirksamkeitserfahrung geben werden.
               Sinnorientierte Projekte können ein Anfang dafür sein, z.B. den{' '}
-              <Link
+              <TextLinks
                 href={'https://frei-day.org/'}
                 className='underline hover:no-underline'
               >
                 FREI DAY
-              </Link>{' '}
+              </TextLinks>{' '}
               einführen: Regelmäßige Projektarbeit, mindestens 4 Stunden am
               Stück. Am FREI-DAY beschäftigen sich Kinder und Jugendliche mit
               aktuellen gesellschaftlichen oder ökologischen Herausforderungen,
               die sich an den Global Goals SDGs{' '}
-              <Link
+              <TextLinks
                 href={'https://17ziele.de/'}
                 className='underline hover:no-underline'
               >
                 (Sustainable Development Goals)
-              </Link>{' '}
+              </TextLinks>{' '}
               der Vereinten Nationen orientieren. Sie finden Antworten auf
               selbstgewählte Zukunftsfragen. Sie entwickeln Zuversicht für ihre
               Zukunft, da sie sich als selbstwirksam und handlungsfähig erleben.
@@ -630,12 +632,12 @@ const Page = () => {
               für unseren Planeten.
               <br />
               Siehe auch: Buch, Margret Rasfeld{' '}
-              <Link
+              <TextLinks
                 href={'https://frei-day.org/das-buch'}
                 className='underline hover:no-underline'
               >
                 FREI DAY
-              </Link>
+              </TextLinks>
             </p>
           </div>
 
@@ -643,14 +645,14 @@ const Page = () => {
             <h2>Achtsamkeit und Schönes</h2>
             <p>
               {' '}
-              <Link
+              <TextLinks
                 href={
                   'https://montessori-labor.de/gestaltungslabor/raumgestaltung/'
                 }
                 className='underline hover:no-underline'
               >
                 Doris Fratton,
-              </Link>{' '}
+              </TextLinks>{' '}
               Primarlehrerin und erfolgreiche Innenarchitektin, sagte: "Schönes
               schafft Schönes - Verwahrlosung schafft Verwahrlosung", und
               gestaltete für etwa 30 Schulen Schulräume so attraktiv, dass
@@ -665,12 +667,12 @@ const Page = () => {
             <h2>Alles dafür tun, dass Kinder selbstständig lernen können</h2>
             <p>
               Beispielhaft geht hier die{' '}
-              <Link
+              <TextLinks
                 href={'/#loesungen'}
                 className='underline hover:no-underline'
               >
                 ASW
-              </Link>{' '}
+              </TextLinks>{' '}
               vor.
             </p>
           </div>
