@@ -7,7 +7,7 @@ const Page = () => {
     <div>
       <section>
         <div className={'innerBox'}>
-          <h1>Erkenntnisse aus der Hirnforschung</h1>
+          <h1 id='hirnforschung'>Erkenntnisse aus der Hirnforschung</h1>
           <ImageTextFloatingSection
             imageSrc='/images/artificial-intelligence-3382521_1920.jpg'
             imageAlt='Raupe, Puppe und Schmetterling'
