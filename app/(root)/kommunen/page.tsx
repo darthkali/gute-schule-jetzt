@@ -1,13 +1,13 @@
 import React from 'react';
 import TextLinks from '@/app/components/TextLinks';
 import ImageTextSection from '@/app/components/ImageTextComponent';
-
+import ImageTextFloatingSection from '@/app/components/ImageTextFloatingComponent';
 const Page = () => {
   return (
     <section>
       <div className={'innerBox'}>
         <h1>Kommunen, Schulträger und Vereine</h1>
-        <ImageTextSection
+        <ImageTextFloatingSection
           imageSrc='/images/hoch/street-coffee-444922_1920.jpg'
           imageAlt='Raupe, Puppe und Schmetterling'
           imagePosition='left'
@@ -27,25 +27,15 @@ const Page = () => {
         Informationen darüber erhalten, wie alle Kinder und Jugendliche ihrer Kommune an Ihrer Schule
         in eigenständiges und gleichzeitig erfüllendes, gemeinsames Lernen gebracht werden können.<br/>
         Wir möchten motivieren und zeigen, wie ein strukturierter Wandel in den Schulen gelingen kann.
-        Auf dieser Webseite finden Sie ein
-        {' '}<TextLinks href={'/neuseeland/'}
-                                 className='underline hover:no-underline'>Beispiel</TextLinks>{' '}
-         einer vorbildlichen staatlichen Bildungsreform und
-        praxiserprobte
-        {' '}<TextLinks href={'/#loesungen/'}
-                                         className='underline hover:no-underline'>Lösungen</TextLinks>{' '}
-         für alle Schularten, Hintergrundwissen zur
-         {' '}<TextLinks href={'/#hirnforschung/'}
-                                                  className='underline hover:no-underline'>Hirnforschung</TextLinks>{' '}
-         und zu
-         {' '}<TextLinks href={'/#was-brauchen-kinder/'}
-                     className='underline hover:no-underline'>kindgerechtem Lernen</TextLinks>.
+        Auf dieser Webseite finden Sie ein <TextLinks href={'/neuseeland/'} newTab={false}>Beispiel</TextLinks> einer
+        vorbildlichen staatlichen Bildungsreform und praxiserprobte <TextLinks href={'/#loesungen/'} newTab={false}
+        >Lösungen</TextLinks> für alle Schularten,
+        Hintergrundwissen zur <TextLinks href={'/was-brauchen-kinder/hirnforschung/'} newTab={false}>Hirnforschung</TextLinks> und
+        zu <TextLinks href={'/was-brauchen-kinder/'}>kindgerechtem Lernen</TextLinks>.
         <br/>
-         Eine
-         {' '}<TextLinks href={'/petition/'}
-                                                           className='underline hover:no-underline'>Petition</TextLinks>{' '}
-         an den Landtag Baden-Württembergs mit Start im Januar 2026, die mit 10 000
-         digitalen Unterschriften die politische Kraft für spürbaren Fortschritt entwickelt.<br/>
+         Eine <TextLinks href={'/petition/'} newTab={false} >Petition</TextLinks> an den Landtag Baden-Württembergs
+         mit Start im Januar 2026, die mit 10 000 digitalen Unterschriften die politische Kraft für
+         spürbaren Fortschritt entwickelt.<br/>
          Im Folgenden finden Sie vielfältige Informationen zu kommunalen Aufgaben und Herausforderungen im Schulbereich.
         </p>
         <h1>Kommunen in schulische Transformation mit einbinden</h1>
@@ -77,15 +67,13 @@ const Page = () => {
         Bedingungen der Schuleinrichtung. Das umfasst die Bereitstellung und Unterhaltung,
         also die räumlich-technischen Voraussetzungen sowie alle sächlichen Bedingungen zur Sicherung
         von Unterricht und Erziehung einschließlich der außerschulischen Kooperation. Zu den Aufgaben
-        des Schulträgers zählen auch die Aufwendungen für die
-        {' '}<TextLinks href={'https://de.wikipedia.org/wiki/Schülerverkehr'}
-                             className='underline hover:no-underline'>Schülerbeförderung</TextLinks>,{' '}
-        sofern diese nicht durch eine übergeordnete kommunale Körperschaft (Landkreis) erfüllt wird.<br/>
+        des Schulträgers zählen auch die Aufwendungen für
+        die <TextLinks href={'https://de.wikipedia.org/wiki/Schülerverkehr'}>Schülerbeförderung</TextLinks>, sofern
+        diese nicht durch eine übergeordnete kommunale Körperschaft (Landkreis) erfüllt wird.<br/>
         Der Schulträger steht in der Regel nicht für die Aufwendungen des pädagogischen Personals einschließlich
         der Schulleitungen in Verantwortung, ist jedoch der Arbeitgeber für Sekretariatsmitarbeiter:innen,
-        Schulhausmeister:innen und mitunter für Schulsozialarbeiter:innen. Siehe auch Informationen des
-        {' '}<TextLinks href={'https://rp.baden-wuerttemberg.de/gesellschaft/schule-und-bildung/schultraeger/schulhausbau/'}
-                                     className='underline hover:no-underline'>Regierungspräsidiums</TextLinks>.{' '}
+        Schulhausmeister:innen und mitunter für Schulsozialarbeiter:innen. Siehe auch Informationen
+        des <TextLinks href={'https://rp.baden-wuerttemberg.de/gesellschaft/schule-und-bildung/schultraeger/schulhausbau/'}>Regierungspräsidiums</TextLinks>.
         </p>
         <h2>Bessere personelle und sächliche Rahmenbedingungen</h2>
         <p>
@@ -129,9 +117,7 @@ const Page = () => {
         Standards in skandinavischen Ländern, aber in deutschen Schulen noch die Ausnahme.<br/>
 
         </p>
-        Quelle:
-          {' '}<TextLinks href={'https://www.news4teachers.de/2025/06/schulbau-neu-denken-warum-es-bei-der-investitionsoffensive-nicht-nur-um-beton-gehen-darf/?utm_source=mailpoet&utm_medium=email&utm_source_platform=mailpoet&utm_campaign=newsletter-total-neue-meldungen-auf-news4teachers_1'}
-                                             className='underline hover:no-underline'>News4Teachers</TextLinks>{' '}
+        Quelle: <TextLinks href={'https://www.news4teachers.de/2025/06/schulbau-neu-denken-warum-es-bei-der-investitionsoffensive-nicht-nur-um-beton-gehen-darf/?utm_source=mailpoet&utm_medium=email&utm_source_platform=mailpoet&utm_campaign=newsletter-total-neue-meldungen-auf-news4teachers_1'}>News4Teachers</TextLinks>
          <h1> Neue Herausforderungen - für Stadt und Land  </h1>
          <h2> Zusammenarbeit für lebenslanges Lernen  </h2>
          <p>
@@ -155,19 +141,13 @@ const Page = () => {
          <h3> Weiterführende Links</h3>
          <ul>
          <li>
-        Friedrich-Ebert-Stiftung: Grundwissen Kommunalpoltitk
-         {' '}<TextLinks href={'http://library.fes.de/pdf-files/akademie/kommunal/13890/13890-11.pdf'}
-                       className='underline hover:no-underline'>(PDF-Datei)</TextLinks>{' '}
+        Friedrich-Ebert-Stiftung: Grundwissen Kommunalpoltitk <TextLinks href={'http://library.fes.de/pdf-files/akademie/kommunal/13890/13890-11.pdf'}>(PDF-Datei)</TextLinks>
          </li>
         <li>
-        Bertelsmann Stiftung: Vernetzung in kommunalen Bildungslandschaften
-          {' '}<TextLinks href={'https://www.bertelsmann-stiftung.de/fileadmin/files/user_upload/wegweiser_kommune_Vernetzung-in-kommunalen-Bildungslandschaften.pdf'}
-                               className='underline hover:no-underline'>(PDF-Datei)</TextLinks>{' '}
+        Bertelsmann Stiftung: Vernetzung in kommunalen Bildungslandschaften <TextLinks href={'https://www.bertelsmann-stiftung.de/fileadmin/files/user_upload/wegweiser_kommune_Vernetzung-in-kommunalen-Bildungslandschaften.pdf'}>(PDF-Datei)</TextLinks>
         </li>
         <li>
-        Kultusministerium BW:
-         {' '}<TextLinks href={'https://km.baden-wuerttemberg.de/de/jugend-sport/kooperationen-im-schulischen-umfeld'}
-                                       className='underline hover:no-underline'>Kooperation im schulischen Umfeld</TextLinks>{' '}
+        Kultusministerium BW: <TextLinks href={'https://km.baden-wuerttemberg.de/de/jugend-sport/kooperationen-im-schulischen-umfeld'}>Kooperation im schulischen Umfeld</TextLinks>
         </li>
          </ul>
           <h2> Großprojekt Ganztag - Gemeinsam Lern- und Lebensräume gestalten  </h2>
@@ -194,17 +174,14 @@ const Page = () => {
           <h3>Infoseiten des Kultusministeriums</h3>
           <ul>
           <li>
-           {' '}<TextLinks href={'https://www.ganztagsschule-bw.de/'}
-                                className='underline hover:no-underline'>Kultusministerium-BW Die Ganztagsschule</TextLinks>{' '}
+           <TextLinks href={'https://www.ganztagsschule-bw.de/'}>Kultusministerium-BW Die Ganztagsschule</TextLinks>
                     </li>
           <li>
-           {' '}<TextLinks href={'https://www.youtube.com/watch?v=R-Juvr6YGcY'}
-                  className='underline hover:no-underline'>Kultusministerium-BW Video - Wir sind Ganztagsschule (3.50 min)</TextLinks>{' '}
+           <TextLinks href={'https://www.youtube.com/watch?v=R-Juvr6YGcY'}>Kultusministerium-BW Video - Wir sind Ganztagsschule (3.50 min)</TextLinks>
           </li>
 
           <li>
-           {' '}<TextLinks href={'https://km.baden-wuerttemberg.de/de/schule/ganztagsschule-und-ganztagsbetreuung-in-baden-wuerttemberg/rechtsanspruch-auf-ganztagsbetreuung'}
-                                className='underline hover:no-underline'>Kultusministerium-BW Rechtsanspruch auf Ganztagsschule</TextLinks>{' '}
+           <TextLinks href={'https://km.baden-wuerttemberg.de/de/schule/ganztagsschule-und-ganztagsbetreuung-in-baden-wuerttemberg/rechtsanspruch-auf-ganztagsbetreuung'}>Kultusministerium-BW Rechtsanspruch auf Ganztagsschule</TextLinks>
           </li>
           </ul>
             <h3> Chancen </h3>
@@ -218,9 +195,7 @@ const Page = () => {
             für alle Kinder. Verlässlich. Inklusiv. Kostenfrei. Dieses Ziel eint die meisten Menschen, die
             sich in der Bildung und der Bildungspolitik engagieren.
             </p>
-            Weitere Informationen: GEW BW -
-              {' '}<TextLinks href={'https://www.gew-bw.de/schule/grundschule/ganztag'}
-                                            className='underline hover:no-underline'>Ganztagsschule</TextLinks>{' '}
+            Weitere Informationen: GEW BW - <TextLinks href={'https://www.gew-bw.de/schule/grundschule/ganztag'}>Ganztagsschule</TextLinks>
             <br/>
             <h3> Realität</h3>
               <p>
@@ -255,25 +230,17 @@ const Page = () => {
               Links:
               <ul>
               <li>
-              Badische Zeitung 2.4.2024: Interview mit Thomas Rauschenbach -
-               {' '}<TextLinks href={'https://www.badische-zeitung.de/das-land-kriegt-es-nicht-hin'}
-                         className='underline hover:no-underline'>Das Land kriegt es nicht hin</TextLinks>{' '}
+              Badische Zeitung 2.4.2024: Interview mit Thomas Rauschenbach - <TextLinks href={'https://www.badische-zeitung.de/das-land-kriegt-es-nicht-hin'}>Das Land kriegt es nicht hin</TextLinks>
 
               </li>
               <li>
-                GEW-BW:
-                {' '}<TextLinks href={'https://www.gew-bw.de/aktuelles/detailseite/der-rechtsanspruch-an-grundschulen-kommt'}
-                          className='underline hover:no-underline'>Sonderweg Baden-Württemberg ist keine qualitative Absicherung</TextLinks>{' '}
+                GEW-BW: <TextLinks href={'https://www.gew-bw.de/aktuelles/detailseite/der-rechtsanspruch-an-grundschulen-kommt'}>Sonderweg Baden-Württemberg ist keine qualitative Absicherung</TextLinks>{' '}
               </li>
               <li>
-                GEW-BW & Friedrich-Ebert-Stiftung 13.06.2025;
-                  {' '}<TextLinks href={'https://www.gew-bw.de/aktuelles/detailseite/es-fehlt-an-allen-ecken-und-enden'}
-                                          className='underline hover:no-underline'>Es fehlt an allen Ecken und Enden</TextLinks>{' '}
+                GEW-BW & Friedrich-Ebert-Stiftung 13.06.2025; <TextLinks href={'https://www.gew-bw.de/aktuelles/detailseite/es-fehlt-an-allen-ecken-und-enden'}>Es fehlt an allen Ecken und Enden</TextLinks>
               </li>
               <li>
-                New4Teachers 9.7.2025:
-                  {' '}<TextLinks href={'https://www.news4teachers.de/2025/07/ganztagsanspruch-ab-2026-kultusministerin-manche-schule-muss-ein-wenig-improvisieren/?utm_source_platform=mailpoet'}
-                      className='underline hover:no-underline'>Ganztagsanspruch ab 2026</TextLinks>{' '}
+                New4Teachers 9.7.2025: <TextLinks href={'https://www.news4teachers.de/2025/07/ganztagsanspruch-ab-2026-kultusministerin-manche-schule-muss-ein-wenig-improvisieren/?utm_source_platform=mailpoet'}>Ganztagsanspruch ab 2026</TextLinks>
 
               </li>
               </ul>
@@ -294,13 +261,9 @@ const Page = () => {
                 Aussagen zu den Themen Personalschlüssel, Fachkraftschlüssel sowie Raumgröße und
                 -ausstattung zu erwarten, so die Liga.
               </p>
-              Quelle:
-               {' '}<TextLinks href={'https://www.liga-bw.de'}
-                                    className='underline hover:no-underline'>Liga-BW</TextLinks>{' '}
+              Quelle: <TextLinks href={'https://www.liga-bw.de'}>Liga-BW</TextLinks>
 
-               <br/>Weitere Informationen:
-               {' '}<TextLinks href={'https://www.liga-bw.de/wp-content/uploads/2025/02/2025_02_10_Klartext_Ganztag_Ganztagsfoerderung_fuer_Grundschulkinder.pdf'}
-                                                    className='underline hover:no-underline'>Liga-BW Förderung (PDF-Datei)</TextLinks>{' '}
+               <br/>Weitere Informationen: <TextLinks href={'https://www.liga-bw.de/wp-content/uploads/2025/02/2025_02_10_Klartext_Ganztag_Ganztagsfoerderung_fuer_Grundschulkinder.pdf'}>Liga-BW Förderung (PDF-Datei)</TextLinks>
                <h3>Qualität des Ganztages </h3>
                <p>
                 Der Ganztag kann nur gelingen, wenn die Rahmenbedingungen stimmen. Dafür bedarf es einer verbesserten
@@ -324,9 +287,7 @@ const Page = () => {
                 Die Verschränkung der unterschiedlichen Systemwelten kann nur durch klare Vorgaben, einer
                 engen Zusammenarbeit und einer guten Prozessbegleitung gelingen.“
              </p>
-               Quelle: GEW-BW & Friedrich-Ebert-Stiftung 13.06.2025;
-                    {' '}<TextLinks href={'https://www.gew-bw.de/aktuelles/detailseite/es-fehlt-an-allen-ecken-und-enden'}
-                                                       className='underline hover:no-underline'>Es fehlt an allen Ecken und Enden</TextLinks>{' '}
+               Quelle: GEW-BW & Friedrich-Ebert-Stiftung 13.06.2025; <TextLinks href={'https://www.gew-bw.de/aktuelles/detailseite/es-fehlt-an-allen-ecken-und-enden'}>Es fehlt an allen Ecken und Enden</TextLinks>
                <h3>Gebundener oder ungebundener Ganztag? </h3>
             <p>
             Die gebundene Ganztagsschule bringt mehr Ressourcen in die Schule und erlaubt eine echte pädagogische
@@ -351,29 +312,19 @@ const Page = () => {
             Links:
             <ul>
             <li>
-             Dachverband kuturelle Bildung:
-                   {' '}<TextLinks href={'https://www.bkj.de/verbandsposition/ganztag-neu-ausrichten-und-mit-kultureller-bildung-gestalten/'}
-                             className='underline hover:no-underline'>Ganztag neu ausrichten</TextLinks>{' '}
+             Dachverband kuturelle Bildung: <TextLinks href={'https://www.bkj.de/verbandsposition/ganztag-neu-ausrichten-und-mit-kultureller-bildung-gestalten/'}>Ganztag neu ausrichten</TextLinks>
             </li>
             <li>
-                Beispiel Hamburg:
-                   {' '}<TextLinks href={'https://de.wikipedia.org/wiki/Stadtteilschule/'}
-                             className='underline hover:no-underline'>Stadtteilschule</TextLinks>{' '}
+                Beispiel Hamburg: <TextLinks href={'https://de.wikipedia.org/wiki/Stadtteilschule/'}>Stadtteilschule</TextLinks>
             </li>
             <li>
-                Hamburg Schulstruktur:
-                  {' '}<TextLinks href={'https://welcome.hamburg.de/leben-in-hamburg/kinder-und-familie/schulstruktur-417402/'}
-                          className='underline hover:no-underline'>Schulstruktur</TextLinks>{' '}
+                Hamburg Schulstruktur: <TextLinks href={'https://welcome.hamburg.de/leben-in-hamburg/kinder-und-familie/schulstruktur-417402/'}>Schulstruktur</TextLinks>
             </li>
             <li>
-                Die Ganztagsschule und der Verein:
-                    {' '}<TextLinks href={'https://www.djjv.de/fileadmin/DJJV_Dateistruktur/Downloads/Jugend/Schulsport/infoschreiben_gts_2021.pdf'}
-                                          className='underline hover:no-underline'>Sport und Ganztagsschule(PDF-Datei)</TextLinks>{' '}
+                Die Ganztagsschule und der Verein: <TextLinks href={'https://www.djjv.de/fileadmin/DJJV_Dateistruktur/Downloads/Jugend/Schulsport/infoschreiben_gts_2021.pdf'}>Sport und Ganztagsschule(PDF-Datei)</TextLinks>
             </li>
             <li>
-                Landessportbund BW:
-                  {' '}<TextLinks href={'hhttps://www.wlsb.de/aktuelles/news/1813-ganztag-bewegt-sportvereine-als-partner-fuer-starke-schulen'}
-                                      className='underline hover:no-underline'>Sportvereine als Partner für starke Schulen</TextLinks>{' '}
+                Landessportbund BW: <TextLinks href={'hhttps://www.wlsb.de/aktuelles/news/1813-ganztag-bewegt-sportvereine-als-partner-fuer-starke-schulen'}>Sportvereine als Partner für starke Schulen</TextLinks>
             </li>
             </ul>
             <h2> Frühe Bildung - Kitas neu denken</h2>
@@ -428,12 +379,11 @@ const Page = () => {
             Überprüfung und Einschätzung der erreichten Qualität der Kita-Arbeit sollte in einem modernen
             Bildungssystem selbstverständlich werden.“
             </p>
-            Quelle:{' '}<TextLinks href={'https://www.deutscher-kitaverband.de/strategiepapier-kita-neu-denken-aus-baden-wuerttemberg/'}
-                            className='underline hover:no-underline'>Deutscher Kitaverband</TextLinks>{' '}
+            Quelle: <TextLinks href={'https://www.deutscher-kitaverband.de/strategiepapier-kita-neu-denken-aus-baden-wuerttemberg/'}>Deutscher Kitaverband</TextLinks>
 
 
 
-        </ImageTextSection>
+        </ImageTextFloatingSection>
       </div>
     </section>
   );
