@@ -33,7 +33,7 @@ const Page = () => {
 
           Doch auch bei uns tut sich etwas:<br/>
 
-          Hier als Einstieg ein <TextLinks href={'hhtps://www. youtube.com/watch?v=deREj5SouSU/'}>Kurzfilm</TextLinks>, über
+          Hier als Einstieg ein <TextLinks href={'https://www.youtube.com/watch?v=deREj5SouSU/'}>Kurzfilm</TextLinks>, über
           die ASW, eine Schule in BW, an der die Schüler:innen ihren Lernort,
           ihr Lernthema und ihre Lernpartner:innen selbst bestimmen können.<br/>
 
