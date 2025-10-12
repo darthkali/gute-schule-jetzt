@@ -23,12 +23,12 @@ const Page = () => {
             „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der
             Gemeinschaft, Freiheit von Zwang und Hektik, sowie der Möglichkeit
             zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein, an dem
-            Bildungsprozesse durch Zeit und Ruhe gefördert werden.{' '}
+            Bildungsprozesse durch Zeit und Ruhe gefördert werden.
           </p>
 
           <p>
             Die heutige Schule hat nichts mehr mit dem zu tun, wie sie einmal
-            gedacht war.{' '}
+            gedacht war.
           </p>
           <p>
             Spaltung, Demokratieverlust und Verrohung sind die Folgen von
@@ -84,7 +84,7 @@ const Page = () => {
             Unterrichtsablauf behindern häufig individuelle Lernprozesse und
             Feedbackkultur. Auch die Arbeitszeit der Pädagog:innen lässt sich
             nicht mehr sinnvoll in klassischen Deputaten messen, sondern muss an
-            neuen Aufgaben und Rollen ausgerichtet werden.{' '}
+            neuen Aufgaben und Rollen ausgerichtet werden.
           </p>
 
           <h3>4. Raum</h3>
@@ -101,14 +101,13 @@ const Page = () => {
           </p>
 
           <p>
-            {' '}
             Helft mit, dass die Schule wieder zukunftsfähig und für alle Kinder
             ein Ort der Muße und gesunder Entwicklung wird!
           </p>
           <p>
             Helft mit Eurer Unterschrift, dass diese Punkte bei den
             Entscheidungsträgern Beachtung und danach Eingang in den
-            Koalitionsvertrag BW 2026 finden.{' '}
+            Koalitionsvertrag BW 2026 finden.
           </p>
 
           <p className={'bg-red-300 p-4 rounded-lg'}>
