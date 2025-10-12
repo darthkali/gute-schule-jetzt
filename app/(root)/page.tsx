@@ -178,7 +178,7 @@ export default function HomePage() {
           >
             Was brauchen Kinder?
           </h2>
-          <p>
+          <p className={'text-center'}>
             Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen
             stattfinden und das volle Potenzial eines Menschen entfaltet werden.
             Die Voraussetzung für aufbauendes Lernen ist die Beachtung der
