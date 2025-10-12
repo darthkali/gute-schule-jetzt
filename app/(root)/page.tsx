@@ -178,11 +178,11 @@ export default function HomePage() {
           >
             Was brauchen Kinder?
           </h2>
-          <p>
+          <p className={'text-center'}>
             Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen
             stattfinden und das volle Potenzial eines Menschen entfaltet werden.
             Die Voraussetzung für aufbauendes Lernen ist die Beachtung der
-            beiden Grundbedürfnisse nach Verbundenheit und Autonomie. .
+            beiden Grundbedürfnisse nach Verbundenheit und Autonomie.
           </p>
           <div className='flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5 mt-5'>
             <Card
@@ -298,8 +298,7 @@ export default function HomePage() {
                 </div>
 
                 <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
-                  Jede Klasse hat ein Verantwortungsteam- Vorbild für
-                  Grundschulen
+                  Jede Klasse hat ein Verantwortungsteam.
                 </div>
 
                 <div className='mt-auto pt-4'>

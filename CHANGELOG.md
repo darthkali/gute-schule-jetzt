@@ -1,3 +1,16 @@
+# [0.36.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.2...v0.36.0) (2025-10-12)
+
+### Bug Fixes
+
+- clean up whitespace and improve text formatting in page.tsx ([0a0de51](https://github.com/darthkali/gute-schule-jetzt/commit/0a0de51d9fd552130ba87d2769d271a55407f2e5))
+- lint ([8c6ded8](https://github.com/darthkali/gute-schule-jetzt/commit/8c6ded80b8e7225c5271caedf0747f3b162f8840))
+- remove unnecessary id attribute from header in page.tsx ([168ba10](https://github.com/darthkali/gute-schule-jetzt/commit/168ba10ac4b8776a9ba35415207a589a79d22446))
+
+### Features
+
+- ehr -> Sehr ([af71112](https://github.com/darthkali/gute-schule-jetzt/commit/af71112e9addf10c79e9f0c292e0c9167385b277))
+- Korrekturgelesenen Text und Links eingearbeitet ([e9790d7](https://github.com/darthkali/gute-schule-jetzt/commit/e9790d70e4f1614a4daf434fac4f93a16c2df330))
+
 ## [0.35.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.1...v0.35.2) (2025-09-29)
 
 ### Bug Fixes

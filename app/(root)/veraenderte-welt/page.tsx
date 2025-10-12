@@ -12,7 +12,7 @@ const Page = () => {
             imageAlt='Teenager'
             imagePosition='left'
             caption={
-              'Krisen und eine unerhört dynamische Veränderung der Lebens- undArbeitswelt'
+              'Krisen und eine unerhört dynamische Veränderung der Lebens- und Arbeitswelt'
             }
           >
             <p>
