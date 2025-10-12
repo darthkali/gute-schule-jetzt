@@ -25,12 +25,10 @@ const Page = () => {
            allen Schularten umsetzbar sind. Viele Schulen würden sich gerne auf den Weg machen, haben
            aber mit Hemmnissen zu kämpfen. Wenn Betriebe, Kommunen, Wähler:innen gemeinsam an einem
            Strang ziehen, können diese Hemmnisse endlich beseitigt werden.<br/>
-           Unterstützen Sie bitte die Forderungen der
-           {' '}<TextLinks href={'/#petition/'} className='underline hover:no-underline'>Petition Schule bewegen - Jetzt!</TextLinks>,{' '}
-           damit im kommenden Koalitionsvertrag 2026 wesentliche Schritte dafür vereinbart werden.
-           Sprechen Sie mit anderen Menschen darüber -
-           {' '}<TextLinks href={'/#mitwirken/'} className='underline hover:no-underline'> wirken Sie mit Ihren Möglichkeiten mit</TextLinks>,{' '}
-           eine Trendwende in BW zu erzeugen.
+           Unterstützen Sie bitte die Forderungen der <TextLinks href={'/petition/'}  newTab={false} >Petition Schule bewegen - Jetzt!</TextLinks>, damit
+           im kommenden Koalitionsvertrag 2026 wesentliche Schritte dafür vereinbart werden.
+           Sprechen Sie mit anderen Menschen darüber - <TextLinks href={'/kontakt/'}  newTab={false} > wirken Sie mit Ihren Möglichkeiten mit</TextLinks>, eine
+           Trendwende in BW zu erzeugen.
           </p>
           <h2>
           Unsere Arbeitswelt braucht Fachkräfte und Menschen, die innovativ zusammenarbeiten können
@@ -64,8 +62,8 @@ const Page = () => {
             className='w-[50%] h-auto rounded shadow '
           />
             <TextLinks href={'https://www.iab-forum.de/doch-lieber-woanders-hin-wenn-geeignete-bewerberinnen-und-bewerber-abspringen-verschaerft-dies-probleme-bei-der-besetzung-von-ausbildungsplaetzen/'}
-             className='underline hover:no-underline'>  Quelle: IAB-Betriebspanel 2013- 2023</TextLinks>
-           <h2>Mangel an geeigneten Bewerbern</h2>
+             >  Quelle: IAB-Betriebspanel 2013- 2023 </TextLinks>
+                <h2>Mangel an geeigneten Bewerbern</h2>
           <p>
               Aus Sicht der Betriebe ist vor allem ein Mangel an geeigneten Bewerbungen ursächlich für die
               Nichtbesetzung von Ausbildungsplätzen. Darüber hinaus hat im Zeitverlauf auch das generelle
@@ -79,7 +77,7 @@ const Page = () => {
                         className='w-[50%] h-auto rounded shadow '
             />
             <TextLinks href={'https://www.iab-forum.de/doch-lieber-woanders-hin-wenn-geeignete-bewerberinnen-und-bewerber-abspringen-verschaerft-dies-probleme-bei-der-besetzung-von-ausbildungsplaetzen/'}
-                                   className='underline hover:no-underline'>  Quelle: IAB-Betriebspanel 2013- 2023</TextLinks>
+                                   >Quelle: IAB-Betriebspanel 2013- 2023</TextLinks>
 
           <h2>Weniger und qualitativ schlechtere Bewerbungen</h2>
           <p>
@@ -89,10 +87,10 @@ const Page = () => {
             Bereich Aus- und Weiterbildung leitet: "Das betrifft zum einen die schulischen Voraussetzungen,
             wenn es um mathematische Fähigkeiten geht, oder wenn ich in die sprachliche Qualifikation reinschaue.
             Hinzu kommen natürlich auch die sogenannten Soft Skills, wenn es darum geht, wie zuverlässig oder
-            wie pünktlich jemand ist."<br/>
-            <TextLinks href={'https://www.mdr.de/nachrichten/deutschland/panorama/ausbildung-lehrstelle-azubi-mangel-100.html#Weniger/'}
-                                     className='underline hover:no-underline'>Quelle: MDR</TextLinks>
+            wie pünktlich jemand ist."
           </p>
+          <TextLinks href={'https://www.mdr.de/nachrichten/deutschland/panorama/ausbildung-lehrstelle-azubi-mangel-100.html#Weniger/'}
+                                               >Quelle: MDR</TextLinks>
             <h2>Fortschreitende Akademisierung und Minderbewertung der beruflichen Bildung</h2>
           <p>
             wenn immer mehr junge Menschen studieren, gilt das als marktnah und zeitgemäß und wird von der Politik
@@ -104,11 +102,10 @@ const Page = () => {
             nicht-akademischen dualen Berufsausbildung weniger Akademiker ausbilden, meist schlechter
             bewertet als Länder, die stärker auf den Ausbau der Hochschulausbildung setzen. Damit ist
             unweigerlich die Abwertung der beruflichen Bildung verbunden, die mehr und mehr als Sackgasse
-            angesehen wird.<br/>
-            <TextLinks href={'https://www.bpb.de/themen/bildung/dossier-bildung/146199/wissensgesellschaft-eine-idee-im-realitaetscheck/'}
-                                     className='underline hover:no-underline'>Quelle: BPB</TextLinks>
+            angesehen wird.
          </p>
-
+         <TextLinks href={'https://www.bpb.de/themen/bildung/dossier-bildung/146199/wissensgesellschaft-eine-idee-im-realitaetscheck/'}
+                                                >Quelle: BPB</TextLinks>
           <h2>Wert der dualen Ausbildung</h2>
           <p>
           Im Vergleich zu anderen Ländern ermöglicht die duale Berufsausbildung in Deutschland sehr viel mehr
@@ -156,7 +153,7 @@ const Page = () => {
             Jugendliche, die aufgrund ihrer mangelnden "Ausbildungsfähigkeit" oder wegen
             zu geringer Ausbildungsangebote keinen Ausbildungsplatz erhalten, bedeutet dies
             allerdings: Keine Ausbildung – kein Job. Arbeitslose Jugendliche in Deutschland
-            gehören fast ausschließlich zu dieser Gruppe der Menschen ohne Berufsausbildung. {' '}
+            gehören fast ausschließlich zu dieser Gruppe der Menschen ohne Berufsausbildung.
           </p>
 
           <h2>
@@ -174,9 +171,8 @@ const Page = () => {
             Andererseits geht es um die genannten sozialen und personalen Fähigkeiten: Kommunikations-
             und Kooperationsfähigkeit, die Fähigkeit längerfristige Prozesse zu überblicken und auch
             bei Rückschlägen durchzustehen.<br/>
-            Unser Schulsystem produziert aber zu viele
-            {' '}<TextLinks href={'/#verlierer/'} className='underline hover:no-underline'>Verlierer</TextLinks>
-            , denen es an og. Kompetenzen und sozialen
+            Unser Schulsystem produziert aber zu viele <TextLinks href={'/verlierer/'}  newTab={false}>Verlierer</TextLinks>, denen
+            es an og. Kompetenzen und sozialen
             Fähigkeiten mangelt. Ohne baldige Transformation der ursächlichen Strukturen, werden weitere
             Kinder-Generationen nicht die Chancen bekommen, die ihnen auch vom Recht her zustehen.
         </p>
@@ -202,15 +198,13 @@ const Page = () => {
           Gefahr sozialer Verarmung, der Reizüberflutung und des Verlustes gesicherter Wissensbestände.<br/>
           Unsere Jugendlichen sollten an einen kritischen Umgang mit den neuen Informationstechnologien herangeführt
           werden. Grundlage dafür ist, dass sie in ihrer Schulzeit auch möglichst viele reale, sinnliche Erfahrungen
-          mit den Phänomenen unserer Welt machen können.
-          {' '}<TextLinks href={'https://www.taz.de/Sachsen-Anhalt-foerdert-4-Tage-Schule/!6092557&s=Chemie%2Bam%2BZapfhahn/'}
-           className='underline hover:no-underline'>Lebensnahe Projekte</TextLinks>,{' '}
-          außerschulische Lernorte, Praktika, vielfältige Berufsorientierung und Wertschätzung aller Talente
-          gehören unbedingt dazu.
+          mit den Phänomenen unserer Welt machen können. <TextLinks href={'https://www.taz.de/Sachsen-Anhalt-foerdert-4-Tage-Schule/!6092557&s=Chemie%2Bam%2BZapfhahn/'}
+           >Lebensnahe Projekte</TextLinks>, außerschulische Lernorte, Praktika, vielfältige Berufsorientierung
+           und Wertschätzung aller Talente gehören unbedingt dazu.
           </p>
 
           <h2>
-            Inklusive, wohnortnahe Schulen von Klasse 1- 10/13, lebendig in ihre Umgebung vernetzt,{' '}
+            Inklusive, wohnortnahe Schulen von Klasse 1- 10/13, lebendig in ihre Umgebung vernetzt,
           </h2>
 
           <p>
@@ -255,13 +249,11 @@ const Page = () => {
             Wir brauchen funktionsfähige, in die Umgebung geöffnete Schulen, die alle Kinder real zu
             ihrem individuellen Leistungsvermögen führen. Helfen Sie bitte mit, dass Baden-Württemberg
             solche Schulen schafft.<br/>
-            Unterstützen Sie bitte die Forderungen der
-            {' '}<TextLinks href={'/#petition/'} className='underline hover:no-underline'>Petition Schule bewegen -
-            jetzt!</TextLinks>,{' '}
-            damit im kommenden Koalitionsvertrag 2026 wesentliche Schritte dafür vereinbart werden.<br/>
-            Sprechen Sie mit anderen Menschen darüber -
-             {' '}<TextLinks href={'/#mitwirken/'} className='underline hover:no-underline'> wirken Sie mit Ihren Möglichkeiten mit</TextLinks>,{' '}
-             eine Trendwende in BW zu erzeugen.
+            Unterstützen Sie bitte die Forderungen der <TextLinks href={'/petition/'}  newTab={false} >Petition Schule bewegen -
+            jetzt!</TextLinks>, damit
+            im kommenden Koalitionsvertrag 2026 wesentliche Schritte dafür vereinbart werden.<br/>
+            Sprechen Sie mit anderen Menschen darüber - <TextLinks href={'/kontakt/'}  newTab={false} > wirken Sie mit Ihren Möglichkeiten mit</TextLinks>, eine
+            Trendwende in BW zu erzeugen.
           </p>
         </ImageTextFloatingSection>
       </div>
