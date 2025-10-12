@@ -1,4 +1,5 @@
 import React from 'react';
+import TextLinks from '@/app/components/TextLinks';
 import ImageTextSection from '@/app/components/ImageTextComponent';
 
 const Page = () => {
@@ -16,36 +17,72 @@ const Page = () => {
             Veränderung!
           </p>
           <p>
-            ehr geehrte Eltern und Erziehungsberechtigte, alle wissen, dass
-            unser Bildungssystem nicht so läuft, wie essollte. (link zu
-            Dysfunktilonales Schulsystem) Aber es ändert sichnur wenig. Die
-            Leidtragenden sind unsere Kinder und ihreFamilien. Es gibt aber
-            Schulen, die aufgebrochen sind und sich zuTeamschulen, sowie
-            Chancenorten (link zu ASW undBergFidel) verändert haben. Sie
-            erhalten Dankesbriefe, wie:“Mein Kind ist ganz verändert, es kommt
-            zufrieden von der Schuleheim, komplizierte Lebensverhältnisse haben
-            sich für uns sehrvereinfacht…“ Es gibt Schulen, da geht es
-            auffallend freundlichund ruhig zu. In der Folge sind auch die
-            Leistungen derSchülerInnen an diesen Schulen im Schnitt besser.
+            Sehr geehrte Eltern und Erziehungsberechtigte,
+            <br />
+            wir alle wissen, dass unser{' '}
+            <TextLinks href={'/dysfunktionales-schulsystem'} newTab={false}>
+              Bildungssystem
+            </TextLinks>{' '}
+            nicht so läuft, wie es sollte. Aber es ändert sich seit langer Zeit
+            nur wenig. Die Leidtragenden sind unsere Kinder und ihre Familien.
+            <br />
+            Es gibt aber Schulen, die aufgebrochen sind und sich zu{' '}
+            <TextLinks href={'/loesungen'} newTab={false}>
+              Teamschulen
+            </TextLinks>
+            , sowie
+            {/* Diller hat kein gültiges Zertifikat !?*/}{' '}
+            <TextLinks
+              href={'https://www.diler.tube/w/iSSGa9mZVmSncngQt4h64d/'}
+            >
+              Chancenorten
+            </TextLinks>{' '}
+            verändert haben. Sie erhalten Dankesbriefe, wie zum Beispiel:
+            <br />
+            “Mein Kind ist ganz verändert, es kommt zufrieden von der Schule
+            heim, komplizierte Lebensverhältnisse haben sich für uns sehr
+            vereinfacht…“
+            <br />
+            Es gibt Schulen, da geht es auffallend freundlich und ruhig zu. In
+            der Folge sind auch die Leistungen der Schüler:innen an diesen
+            Schulen im Schnitt besser.
           </p>
           <p>
-            Wir brauchen aber flächendeckend im ganzen Land ausvielen Gründen
-            (link zu Dysfunktilonales Schulsystem), Teil 2)wesentliche
-            Verbesserungen in Schulen, so dass sie zuaufbauenden Kraftorten für
-            alle Kinder werden.Eigentlich braucht ein Schulkind (link zu Was
-            brauchen Kinder)drei Dinge: Es braucht Aufgaben, an denen es wachsen
-            kann, esbraucht Vorbilder an denen es sich orientieren kann und
-            esbraucht Gemeinschaften, in denen es sich aufgehoben fühlt.Wenn Sie
-            ebenfalls zu der Überzeugung kommen, dass sich inunserem Schulsystem
-            endlich in diesem Sinne bewegen muss,dann unterschreiben Sie bitte
-            die Petition (Name), teilen sie undsprechen mit anderen Eltern
-            darüber. Klassenfeste undElternabende jetzt im Herbst eignen sich,
-            um eine Welle in BW zuerzeugen. Eine Welle aus der Elternschaft, die
-            so stark ist, dasssie sich im Koalitionsvertrag nach den
-            Landtagswahlen imMärz 2026 wiederfindet. Und dazu führt, dass
-            endlich ein neuerGeist durch unsere Schulen weht, der das Gedeihen
-            jedesKindes an vorderste Stelle setzt (link zu Was brauchen
-            Kinder3.Teil)weitere Infos für Eltern
+            Wir brauchen flächendeckend im ganzen Land aus{' '}
+            <TextLinks href={'/dysfunktionales-schulsystem/'} newTab={false}>
+              vielen Gründen
+            </TextLinks>
+            , wesentliche Verbesserungen in unseren Schulen, so dass sie zu
+            aufbauenden Kraftorten für alle Kinder werden.
+            <br />
+            Ein Schulkind{' '}
+            <TextLinks href={'/was-brauchen-kinder/'} newTab={false}>
+              braucht
+            </TextLinks>
+            , drei Dinge: Aufgaben, an denen es wachsen kann, Vorbilder, an
+            denen es sich orientieren kann und es braucht Gemeinschaften, in
+            denen es sich aufgehoben fühlt.
+            <br />
+            Wenn Sie ebenfalls zu der Überzeugung kommen, dass sich in unserem
+            Schulsystem endlich etwas Grundlegendes bewegen muss, dann
+            unterschreiben Sie bitte die{' '}
+            <TextLinks href={'/petition/'} newTab={false}>
+              Petition
+            </TextLinks>
+            , “Schule bewegen - Jetzt!”, teilen Sie diese und sprechen mit
+            anderen Eltern darüber. Nutzen Sie Klassenfeste und Elternabende,
+            die bis zur Landtagswahl 26 stattfinden, um gemeinsam zu einer
+            politischen Kraft zu werden, die wahrgenommen wird und zu konkreten
+            Reformen führt. Eine Welle aus der Elternschaft, die so stark ist,
+            dass sie sich im Koalitionsvertrag nach den Landtagswahlen im März
+            2026 wiederfindet. Die dazu führt,
+            {/* Ich habe den Links auf Lösungen hier ausgelassen  */}
+            dass endlich ein neuer Geist durch unsere Schulen weht, der das
+            Gedeihen jedes Kindes an vorderste Stelle setzt!
+            <br />
+            <TextLinks href={'/kontakt/'} newTab={false}>
+              Wirken Sie mit?
+            </TextLinks>
           </p>
         </ImageTextSection>
       </div>

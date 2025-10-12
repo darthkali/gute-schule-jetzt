@@ -1,11 +1,10 @@
 ## [0.35.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.1...v0.35.2) (2025-09-29)
 
-
 ### Bug Fixes
 
-* remove duplicated text and update petition date ([f001179](https://github.com/darthkali/gute-schule-jetzt/commit/f001179f22162bc1bcf0e5659d81fa08c25121df))
-* remove duplicated text and update petition date ([b4a94bd](https://github.com/darthkali/gute-schule-jetzt/commit/b4a94bd893d388c4d71e9a1e951da4ab1b89b20a))
-* remove duplicated text in WebsiteLinks component ([b7e9689](https://github.com/darthkali/gute-schule-jetzt/commit/b7e9689506a2920e7ddfc768547ece897b5ebdce))
+- remove duplicated text and update petition date ([f001179](https://github.com/darthkali/gute-schule-jetzt/commit/f001179f22162bc1bcf0e5659d81fa08c25121df))
+- remove duplicated text and update petition date ([b4a94bd](https://github.com/darthkali/gute-schule-jetzt/commit/b4a94bd893d388c4d71e9a1e951da4ab1b89b20a))
+- remove duplicated text in WebsiteLinks component ([b7e9689](https://github.com/darthkali/gute-schule-jetzt/commit/b7e9689506a2920e7ddfc768547ece897b5ebdce))
 
 ## [0.35.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.0...v0.35.1) (2025-09-29)
 

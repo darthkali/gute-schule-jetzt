@@ -1,4 +1,5 @@
 import React from 'react';
+import TextLinks from '@/app/components/TextLinks';
 import ImageTextSection from '@/app/components/ImageTextComponent';
 
 const Page = () => {
@@ -12,34 +13,68 @@ const Page = () => {
           imagePosition='left'
         >
           <p className={'font-semibold'}>
-            Hi, an alle Jugendlichen in unseren Schulen in BW,
+            Hi, an alle Jugendlichen in unseren Schulen in Baden-Württemberg,
           </p>
           <p>
             sind Eure Schulen Orte, die ihr gerne besucht,die Euch inspirieren,
-            gut tun und die Euchweiterbringen?
+            gut tun und die Euch weiterbringen?
           </p>
           <p>
-            Wenn nicht, dann schaut Euch mal auf dieserWebseite um. Wir haben
-            alles zusammengestellt,was es braucht, damit die
-            unbefriedigendeSituation (link zu Dysfunktilonales Schulsystem)
-            inunseren Schulen in Baden-Württemberg von Grundauf geändert werden
-            kann. Es geht darum, allenKindern die Chance zu geben, die sie
-            verdienthaben. Es geht um selbstorganisiertes Lernen
-            undZusammenarbeit. Viele Schulen im Ausland sind dabedeutend weiter
-            als Deutschland. Doch auch beiuns tut sich was. Hier als Einstieg
-            ein Kurzfilm überdie ASW, eine Schule in BW, an der dieSchülerInnen
-            ihren Lernort, ihr Lernthema und ihreLernpartner selbst bestimmen
-            können. Wenn Ihr zuder Überzeugung kommt, dass sich in
-            unseremSchulsystem endlich etwas bewegen muss, dannunterschreibt
-            bitte die Petition (Name), teilt sie underzählt anderen Schülerinnen
-            und Schülern davon.
+            Wenn nicht, dann schaut Euch bitte auf dieser Webseite um. Wir haben
+            alles zusammengestellt, was es braucht, damit die{' '}
+            <TextLinks href={'/dysfunktionales-schulsystem/'} newTab={false}>
+              unbefriedigende Situation
+            </TextLinks>
+            , in unseren Schulen in Baden-Württemberg von Grund auf geändert
+            werden kann.
+            <br />
+            Es geht darum, Dir und allen Kindern und Jugendlichen die Chance zu
+            geben, die Ihr verdient habt. Es geht um selbstorganisiertes Lernen
+            und Zusammenarbeit.
+            <br />
+            In{' '}
+            <TextLinks href={'/neuseeland/'} newTab={false}>
+              Neuseeland
+            </TextLinks>
+            , wurde bereits in den 90ger Jahren eine vorbildliche Schulreform in
+            die Wege geleitet. Heute zählt das Schulsystem in Neuseeland nach
+            internationalen Standards zu den besten der Welt. Auch viele andere
+            Schulen im Ausland sind bedeutend weiter als Deutschland.
+            <br />
+            Doch auch bei uns tut sich etwas:
+            <br />
+            Hier als Einstieg ein{' '}
+            <TextLinks href={'https://www.youtube.com/watch?v=deREj5SouSU/'}>
+              Kurzfilm
+            </TextLinks>
+            , über die ASW, eine Schule in BW, an der die Schüler:innen ihren
+            Lernort, ihr Lernthema und ihre Lernpartner:innen selbst bestimmen
+            können.
+            <br />
+            Schulen müssen Wohlfühlorte und Teamschulen werden. Erst wenn sich
+            viele Menschen in BW sichtbar hinter dieses Ziel stellen, wird die
+            Politik in konsequentes Handeln kommen. Gemeinsam sind wir stark.
+            <br />
+            Wenn Ihr der Überzeugung seid, dass sich in unserem Schulsystem
+            endlich etwas Grundlegendes bewegen muss, dann unterschreibt bitte
+            die{' '}
+            <TextLinks href={'/petition/'} newTab={false}>
+              Petition Schule bewegen - jetzt!
+            </TextLinks>
+            , teilt sie so vielfältig wie möglich und erzählt anderen
+            Schülerinnen und Schülern davon.
+            <br />
+            Bist Du dabei?
           </p>
+          <h2>Zum Nachdenken</h2>
           <p>
-            Zum Nachdenken die Erde ist 4,6 Milliarden Jahrealt. Rechnen wir das
-            runter auf 46 Jahre, ist dieMenschheit seit 4 Stunden hier. Unsere
-            industrielleRevolution begann vor einer Minute. In dieser Zeithaben
-            wir mehr als 50% der weltweiten Wälderzerstört.Unser bisheriger Weg
-            ist nicht nachhaltig. Schlagenwir gemeinsam einen neuen ein.
+            Die Erde ist 4,6 Milliarden Jahre alt. Rechnen wir das runter auf 46
+            Jahre, ist die Menschheit seit 4 Stunden hier. Unsere industrielle
+            Revolution begann vor einer Minute. In dieser Zeit haben wir mehr
+            als 50% der weltweiten Wälder zerstört. Unser bisheriger Weg ist
+            nicht nachhaltig. Schlagen wir gemeinsam einen neuen ein. Dazu
+            brauchen wir eine neue Bildung, die die Menschen frei macht -
+            selbstaktives und gemeinsames problemlösendes Lernen!
           </p>
         </ImageTextSection>
       </div>
