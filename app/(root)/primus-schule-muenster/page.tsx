@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Button from '@/app/components/Button';
 import MediaCard from '@/app/components/MediaCard';
-import InfoCard from '@/app/components/InfoCard';
 
 const Page = () => {
   const infoCardContents = [
@@ -143,43 +142,18 @@ const Page = () => {
             Interessantes zur Schulpraxis im Überblick{' '}
           </h2>
 
-          <div className='lg:grid grid-cols-1 lg:grid-cols-2 auto-rows-auto bg-white rounded-xl overflow-hidden hidden'>
-            {infoCardContents.map((content, index) => {
-              const rowEven = Math.floor(index / 2) % 2 === 0;
-              const colEven = index % 2 === 0;
-
-              const shouldHighlight = rowEven !== colEven;
-              const bgColor = shouldHighlight
-                ? 'lg:bg-[color:var(--color-primary)] lg:text-[color:var(--color-neutral)]'
-                : '';
-
-              return (
-                <InfoCard
-                  key={index}
-                  bgColor={`bg-[color:var(--color-neutral)] ${bgColor}`}
-                >
-                  {content}
-                </InfoCard>
-              );
-            })}
-          </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2  auto-rows-auto lg:bg-white rounded-xl overflow-hidden lg:hidden'>
-            {infoCardContents.map((content, index) => {
-              const rowEven = index % 2 === 0;
-
-              const bgColor = rowEven
-                ? 'bg-[color:var(--color-primary)] text-[color:var(--color-neutral)]'
-                : '';
-
-              return (
-                <InfoCard
-                  key={index}
-                  bgColor={`bg-[color:var(--color-neutral)] ${bgColor}`}
-                >
-                  {content}
-                </InfoCard>
-              );
-            })}
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl mx-auto'>
+            {infoCardContents.map((item, index) => (
+              <div
+                key={index}
+                className={`rounded-2xl p-6 shadow-lg bg-primary text-neutral`}
+              >
+                <p
+                  className='leading-relaxed'
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
