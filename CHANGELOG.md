@@ -1,3 +1,13 @@
+## [0.36.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.36.0...v0.36.1) (2025-10-12)
+
+
+### Bug Fixes
+
+* improve code formatting and clean up whitespace in start page ([7f911cd](https://github.com/darthkali/gute-schule-jetzt/commit/7f911cd78d8e4e74ea8e79ecdc817ebf1c816cef))
+* improve code formatting and clean up whitespace in start page ([aac1eea](https://github.com/darthkali/gute-schule-jetzt/commit/aac1eeadb908e6449e4ac97a3110493502b481d7))
+* improve text formatting and update content in primus schule ([b83e2a3](https://github.com/darthkali/gute-schule-jetzt/commit/b83e2a3ce614f236bd4d9b1cddaf4a6eff523e48))
+* refactor info card layout for improved responsiveness and styling ([d03cec5](https://github.com/darthkali/gute-schule-jetzt/commit/d03cec562fa67283b265b401eb2c4f8da8761ed3))
+
 # [0.36.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.35.2...v0.36.0) (2025-10-12)
 
 ### Bug Fixes
