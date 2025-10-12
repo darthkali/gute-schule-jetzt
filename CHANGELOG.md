@@ -1,3 +1,10 @@
+## [0.36.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.36.1...v0.36.2) (2025-10-12)
+
+
+### Bug Fixes
+
+* updated deps ([b1ab35e](https://github.com/darthkali/gute-schule-jetzt/commit/b1ab35edb5b5f6304bef2fa2e7db1442786319e5))
+
 ## [0.36.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.36.0...v0.36.1) (2025-10-12)
 
 ### Bug Fixes
