@@ -6,21 +6,21 @@ import InfoCard from '@/app/components/InfoCard';
 
 const Page = () => {
   const infoCardContents = [
-    'Lernen mit Kompetenzrastern und Begleitung : DieLeistungsanforderungen werden so formuliert und strukturiert, dass jederSchüler die für sein Leistungsniveau passenden Aufgaben (mitUnterstützung) finden und erfolgreich bearbeiten kann… Drei wichtigeFragen beschäftigen die Schüler dabei: Was habe ich schongeschafft?, Wo stehe ich? und Was sind meine nächsten Schritte? Fürden Lernfortschritt ist es immer wichtig, das die Anforderungenkontinuierlich wachsen und passend an den Lernvoraussetzungenanknüpfen. Dafür braucht es eine pädagogische Beziehung, die vonErmutigung und solidarischer Begleitung geprägt ist (Prengel und Fuest)Auch John Hattie fordert die Koordinierung der pädagogischen Arbeitim Klassenzimmer. Denn: Wechselt die Bezugsperson häufig, so fehlendie beständige Auseinandersetzung an den Herausforderungen, denchallenging learning intentions (S.172-3 Teambuch Inklusion).',
-    'Verlässlich, auf Jahre hinaus angelegtes multiprofessionellesVerantwortungsteam für jede Klasse (Lehrkräfte/ Sonderpädagogen,Erzieherin, Integationshelfer, Studierende über Honorarstellen…):systematisches und einheitliches Fördern im klasseneigenen Team. DieKlassenlehrer:innen leiten ihre Teams und sind verantwortlicheHauptansprechpartner:innen. Jeden Montag Teamsitzung. Alle 6-8Wochen Supervision und 2 x pro Jahr ein Teamtag. Vertretungsregelungnur durchs klasseneigene Team, dadurch Entlastung für dieSchulleitung.',
-    'Vorteil der Mehrperspektivität: „Die Teammitglieder stehen täglich inder Beziehung zu den Lernenden und beobachten die individuellen,entwicklungslogischen Zugänge jedes Einzelnen und könnenunmittelbar reagieren. Dabei entstehen vielfältige spezifischeSichtweisen auf jedes Kind. Kritische Situationen und stoffliche Hürdenkönnen aus verschiedenen Perspektiven beleuchtet und Hilfenindividuell abgestimmt werden. Fehlentscheidungen sind wenigerwahrscheinlich als bei Lehrkräften, die als Einzelkämpferarbeiten.“ (S.174 Teambuch Inklusion)',
-    'Grundlage ist die inklusive interkulturelle, behindertengerechte,jungen- und mädchengerechte Erziehung. Es gibt über Jahrzehnteentwickelte, friedenstiftende Traditionen interkultureller undinterreligiöser Feiern. Damit wird die angebahnte vertrauensvolleZusammenarbeit mit den Familien aus 50 Nationen kontinuierlichfortgesetzt. Sie wirken erfolgreich diskriminierenden Strukturenentgegen und wertschätzen die Vielfalt. Die neue Schuleermöglicht jedem Erfolge. Sitzenbleiben ist ausgeschlossen. Bis zum 8.Schuljahr einschließlich gibt es keine Noten-, sondern Berichtszeugnisse.',
-    'Klassenrat und Schülerparlament: Im realen Lebenszusammenhangwird Verantwortung gelernt. „Wir glauben an unsere Schüler, dass sieihre Dinge mit Unterstützung selbst regeln werden. Dazu ist es sinnvoll,ihnen Aufgaben zu übergeben und sie erfahren zu lassen, dass sie sichbewähren können. Hartmut von Hentig spricht von der nützlichenErfahrung, nützlich zu sein.“ (S.162 Teambuch Inklusion)',
-    'Feed-back- und Fehlerkultur: Rückmeldearmer Unterricht führt dazu,dass das Lernergebnis des Mitschülers unwichtig für die anderen ist undignoriert wird. Kooperatives und kommunikatives Lernen führt dagegenzu besseren Schülerleistungen (S.110 Teambuch Inklusion). Tragendeund entspannte, freudige Beziehungen innerhalb der Klasse bei derfreien Arbeit sind das Fundament für eine eigene Entwicklung. (S.107Teambuch Inklusion).',
-    'Die PRIMUS-Schule Berg Fidel - Geist erfüllt die Ansprüche derStundentafeln der Grundschule und der integrativen Sekundarschule inNRW. In den besonderen Lernformen und Erfahrungsfeldern wie z.B.Projekt, Werkstatt und Freie Arbeit oder Freien Forscher Clubs werdensie umgesetzt. Lernen in Gemeinschaft an selbstgewähltenSachthemen fördert eigenen Antrieb, Methodenlernen, Selbständigkeitund die Erfahrung von Selbstwirksamkeit.',
-    'Jahrgangsgemischtes, inklusives Lernen um mehr effektive Lernzeit fürdie Kinder zu gewinnen. Die Vielfalt ermöglicht das Peer-learning, PeerTutoring und mehrperspektivisches Lernen. Die Potentiale der SchülerInnenentwickeln sich, weil dafür gesorgt wird, dass sich die Lernendengegenseitig anregen und unterstützen; kurz, weil sie miteinander und voneinander lernen können.',
-    'Grundhaltung: Feste Pädagogenteams, die entschlossen sind, keinenSchüler aufzugeben und allen das Denken zu lehren, sorgen fürLernzuwachs bei allen SchülerInnen. „Wir sind alle dazu da, das Lernenjedes einzelnen Kindes herauszufordern und die Kinder bei diesemProzess zu unterstützen, ihren zu helfen und sie verlässlich zu begleiten.Wir müssen in Beziehung treten.“ (S.40 Teambuch Inklusion).',
-    'Der Erfolg der Schulform habe auch etwas mit Vertrauen zu tun, sagtGeorg Balster, Leiter der Primusschule Viersen. &#34;Wir haben die Schülerzehn Jahre bei uns, in ihrer prägendsten Phase als junge Menschen&#34;,betont Balster. &#34;In dieser Zeit wachsen Vertrauensverhältnisse, damerken die Schüler, dass wir ein weiteres Zuhause für sie sind.“',
-    'Inklusive Angebotsschule im sozialen Brennpunkt mit gebundenemGanztag. Dieser ist notwendig, um mehr Personal-Stunden zu erhalten(1/2 Stelle Erzieherin pro Klasse über den Schulträger) und umkindgerechte Stundenpläne gestalten zu können.',
-    'Allen Kindern des nahen Umfeldes ist die Aufnahme (im Rahmen derGebäudemöglichkeiten) garantiert. 25%, also 100 von 500, derSchülerInnen haben Förderbedarf. Der kleinste Teil der Kinder istkörperbehindert und im unteren Gebäudeteil untergebracht, weil bisheute kein Aufzug vorhanden ist.',
-    'Das Konzept: Die Schülerinnen und Schüler bleiben von Klasse 1 bis 10an der selben Schule, es gibt also keinen Wechsel mehr von Grund- zuweiterführender Schule. Die Ergebnisse zeigen, &#34;dass die Erfolge unsererSchülerinnen und Schüler größer sind als an jeder anderen Schulform“.',
-    'Jahrgangsgemischte Klassen 1-10, Oberstufe ist in Planung. AlleSchülerinnen und Schüler lernen vom 1. Schuljahr bis zu ihrembestmöglichen Schulabschluss in einer Schule.',
-    'Jede Klasse hat zwei Räume - dafür sind Fachräume weggefallen undes wird in den Klassenräumen gegessen.',
+    'Jahrgangsgemischte Klassen 1-10.  Alle Schülerinnen und Schüler lernen vom 1. Schuljahr bis zu ihrem bestmöglichen Schulabschluss in einer Schule. Keine Noten bis einschließlich Klasse 8,  Rückmeldungen in Berichtszeugnissen.',
+    'Gebundener verpflichtender Ganztag für alle Kinder bis zum 10. Schuljahr. Verpflichtendes Mittagessen.',
+    'Jedes! Kind des nahen Umfeldes wird aufgenommen. 20-40% davon, also mehr als 100 von 550 SchülerInnen haben offiziell sonderpädagogischen Unterstützungsbedarf.',
+    'Grundlage ist die inklusive interkulturelle, behindertengerechte, jungen- und mädchengerechte Erziehung. Es gibt über Jahrzehnte entwickelte, friedenstiftende Traditionen interkultureller und interreligiöser gemeinsamer Feiern. Damit wird die angebahnte vertrauensvolle Zusammenarbeit mit den Familien aus 50 Nationen kontinuierlich fortgesetzt. Sie wirken erfolgreich diskriminierenden Strukturen entgegen und wertschätzen die Vielfalt.',
+    'Das Konzept - Länger gemeinsam: Die Schülerinnen und Schüler bleiben von Klasse 1 bis 10 an der selben Schule, es gibt also keinen Wechsel mehr von der Grundschule zur weiterführenden Schule. Die Ergebnisse zeigen, dass die Lernfortschritte der Kinder alle Erwartungen übertreffen.',
+    'Jahrgangsgemischtes, inklusives Lernen, um mehr effektive Lernzeit für die Kinder zu gewinnen. Die Klassen sind altersgemischt: Jg 1-3, 4-6, 7-9. Diese Vielfalt ermöglicht Peer-learning, Peer-Tutoring (von und miteinander lernen) und mehrperspektivisches Lernen. Die Potentiale der SchülerInnen entwickeln sich, weil dafür gesorgt wird, dass sich die Lernenden gegenseitig anregen und unterstützen; kurz, weil sie miteinander und von einander lernen können.',
+    'Ein verlässlich, auf Jahre hinaus angelegtes, klasseneigenes multiprofessionelles Verantwortungsteam (Lehrkräfte/ Sonderpädagogen, Erzieher:in, Integationshelfer:in, Studierende über Honorarstellen…) ermöglicht systematische und einheitliche Förderung aller Kinder. Die Klassenlehrer:innen leiten ihre Teams und sind verantwortliche Hauptansprechpartner:innen. Jeden Montag findet die Teamsitzung statt. Alle  6-8 Wochen gibt es Supervision und 2 x pro Jahr einen Teamtag. Die Vertretungsregelung erledigt das klasseneigene Team für sich, dadurch entsteht Entlastung für die Schulleitung.',
+    'Grundhaltung: Die festen Pädagogenteams sind entschlossen, keinen Schüler aufzugeben, sowie allen das Denken zu lehren. Sie sorgen für Lernzuwachsmöglichkeiten bei allen Schüler:innen. „Wir sind alle dazu da, das Lernen jedes einzelnen Kindes herauszufordern und die Kinder bei diesem Prozess zu unterstützen, ihnen zu helfen und sie verlässlich zu begleiten. Dafür müssen wir in Beziehung treten.“ (S.40 Teambuch Inklusion).',
+    'Vorteil der Mehrperspektivität: „Die Teammitglieder stehen täglich in der Beziehung zu den Lernenden und beobachten die individuellen, entwicklungslogischen Zugänge jedes Einzelnen und können unmittelbar reagieren. Dabei entstehen vielfältige spezifische Sichtweisen auf jedes Kind. Kritische Situationen und stoffliche Hürden können aus verschiedenen Perspektiven beleuchtet und Hilfen individuell abgestimmt werden. Fehlentscheidungen sind weniger wahrscheinlich als bei Lehrkräften, die als Einzelkämpfer arbeiten.“ (S.174 Teambuch Inklusion)',
+    'Jede Klasse hat zwei Räume - dafür sind viele Fachräume weggefallen und Mittagessen gibt es in den Klassenräumen der Jahrgänge 1-3, ansonsten in der Mensa.',
+    'Die PRIMUS Schule - Berg Fidel - Geist erfüllt die Ansprüche der Stundentafeln der Grundschule und der integrativen Sekundarschule in NRW. In den besonderen Lernformen und Erfahrungsfeldern wie z.B. Projekt, Werkstatt und Freie Arbeit oder Freien Forscher Clubs werden sie umgesetzt. Lernen in Gemeinschaft an selbstgewählten Sachthemen fördert den eigenen Antrieb, das Methodenlernen, die Selbständigkeit und die Erfahrung von Selbstwirksamkeit.',
+    'Lernen mit Kompetenzrastern und Begleitung: Die Leistungsanforderungen werden so formuliert und strukturiert, dass jeder Schüler die für sein Leistungsniveau passenden Aufgaben (mit Unterstützung) finden und erfolgreich bearbeiten kann… Drei wichtige Fragen beschäftigen die Schüler dabei: Was habe ich schon geschafft?, Wo stehe ich? und Was sind meine nächsten Schritte?',
+    'Für den Lernfortschritt ist es immer wichtig, dass die Anforderungen kontinuierlich wachsen und passend an den Lernvoraussetzungen anknüpfen. Dafür braucht es eine pädagogische Beziehung, die von Ermutigung und solidarischer Begleitung geprägt ist (Prengel). Auch John Hattie fordert die Koordinierung der pädagogischen Arbeit im Klassenzimmer. Denn: Wechselt die Bezugsperson häufig, so fehlt die beständige Auseinandersetzung an den Herausforderungen, den challenging learning intentions (S.172-3 Teambuch Inklusion).',
+    'Feedback- und Fehlerkultur: Kooperatives und kommunikatives Lernen führt zu besseren Schülerleistungen (S.110 Teambuch Inklusion). Tragende und entspannte, freudige Beziehungen innerhalb der Klasse bei der freien Arbeit sind das Fundament für eine eigene Entwicklung (S.107 Teambuch Inklusion).',
+    'Klassenrat und Schülerparlament: Im Klassenrat werden die Probleme der Kinder besprochen, die sie selbst einbringen. In jeder Klasse bis zum Schulabschluss gibt es jede Woche eine Stunde Klassenrat. Im realen Lebenszusammenhang wird Verantwortung gelernt. „Wir glauben an unsere Schüler, dass sie ihre Dinge mit Unterstützung selbst regeln werden. Dazu ist es sinnvoll, ihnen Aufgaben zu übergeben und sie erfahren zu lassen, dass sie sich bewähren können. (S.162 Teambuch Inklusion)',
   ];
 
   return (
@@ -28,48 +28,57 @@ const Page = () => {
       <section>
         <div className='innerBox grid grid-cols-1 lg:grid-cols-4 mt-4'>
           <div className={'col-span-3'}>
-            <h1>Primus Schule Münster Berg Fidel</h1>
+            <h1>PRIMUS Schule Münster - Berg Fidel - Geist</h1>
+
             <p>
-              Zusammen lernen von der ersten bis zur zehnten Klasse Diese
-              Schulearbeitet schon seit 20 Jahren als inklusive Teamschule von
-              1-10. DasBesondere: Jede Klasse hat, auf Jahre angelegt, ein
-              eigenesmultiprofessionelles Team aus Lehrkräften, Sonderpädagogen
-              undsozialpäd. Fachkräften und Praktikanten oder Studierenden. Die
-              festenErwachsenenteams bilden eine Verantwortungsgemeinschaft, die
-              jedemKind vermittelt: „Du gehört zu uns.“ Dadurch werden stabile
-              undsolidarische Gemeinschaftsstrukturen geschaffen, in denen alle
-              KinderVerlässlichkeit erfahren können. Die Erwachsenen sind
-              gemeinsam fürsämtliche pädagogischen Aufgaben und für alle Kinder
-              verantwortlich.Um die Woche zu planen, über Schüler:innen zu
-              sprechen und die Arbeitzu koordinieren oder Schülerzeugnisse/
-              sonderpäd. Gutachtengemeinsam zu besprechen, haben alle Teams
-              inzwischen Montagnachmittags von 13.15 bis 14.45 Teamsitzungen in
-              ihrem Klassenraum.Dies geschieht in der selben Zeit, damit die
-              Teams untereinander inkurzen Wegen Absprachen treffen können. Das
-              klasseneigene Teamorganisiert auch seinen eigenen Stundenplan. So
-              kann gemeinsam mitmehrperspektivischem Blick die Entwicklung jedes
-              einzelnen Kindesgefördert werden. Anstelle von Unterrichtsausfall,
-              Leerlauf-Vertretungenund Einzelkämpfertum treten sinnorientiertes
-              <br />
-              <br />
-              Projekt-Lernen, Verlässlichkeitund tragende Beziehung. „ Zu den
-              Erfolgsbedingungen gehören:
+              Diese Schule wurde 1970 als Grundschule Berg Fidel gegründet und
+              2014 zu einer wohnortnahen Schule von 1-10 im sozialen Brennpunkt
+              ausgebaut. Die Schule wurde 2012 deutschlandweit bekannt durch den
+              Dokumentarfilm „ Berg Fidel – eine Schule für alle“.
             </p>
+
+            <p>
+              Das Besondere: Jede Klasse hat, auf Jahre angelegt, ein eigenes
+              multiprofessionelles Team aus Lehrkräften, Sonderpädagog:innen und
+              sozialpäd. Fachkräften, Praktikant:innen oder Studierenden. Die
+              festen Erwachsenenteams bilden eine Verantwortungsgemeinschaft,
+              die jedem Kind vermittelt: „Du gehört zu uns.“{' '}
+            </p>
+            <p>
+              Dadurch werden stabile und solidarische Gemeinschaftsstrukturen
+              geschaffen, in denen alle Kinder Verlässlichkeit erfahren. Die
+              Erwachsenen sind gemeinsam für sämtliche pädagogischen Aufgaben
+              und für alle Kinder verantwortlich. Das klasseneigene Team
+              organisiert auch seinen eigenen Stundenplan. Um die Woche zu
+              planen, über Schüler:innen zu sprechen und die pädagogische Arbeit
+              zu koordinieren oder Schülerzeugnisse/sonderpäd. Gutachten
+              gemeinsam zu besprechen, haben alle Teams gleichzeitig
+              Montagnachmittags von 13.15 bis 14.45 Uhr Teamsitzungen in ihrem
+              Klassenraum. Dies geschieht in der selben Zeit, damit die Teams
+              untereinander in kurzen Wegen Absprachen treffen können. So kann
+              gemeinsam mit mehrperspektivischem Blick die Entwicklung jedes
+              einzelnen Kindes gefördert werden. Anstelle von
+              Unterrichtsausfall, Leerlauf-Vertretungen und Einzelkämpfertum
+              treten sinnorientiertes Projekt-Lernen, Verlässlichkeit und
+              tragende Beziehung.{' '}
+            </p>
+
+            <p>Zu den Erfolgsbedingungen gehören:</p>
             <ul>
               <li>
-                Solidarische Grundhaltung: Jedes Kind kann lernen- Du gehörst zu
-                uns!
+                Solidarische inklusive Grundhaltung: Jedes Kind kann lernen- Du
+                gehörst zu uns!
               </li>
               <li>
-                Ständige Koordination der Arbeit im Team: Kinder brauchen klare
-                , imteam abgesprochene und sich nicht
-                widersprechendeVorgehensweisen, die ihnen Sicherheit geben
+                Ständige Koordination der Arbeit im klasseneigenen Team: Kinder
+                brauchen klare , im Team abgesprochene und sich nicht
+                widersprechende Vorgehensweisen, die ihnen Sicherheit geben
                 können.
               </li>
               <li>Kontinuität fester Teams über Jahre.</li>
               <li>
                 Ständige interne Aus- und Fortbildungen, berufsbegleitend,
-                währendder konkreten Arbeit.“ (S.98 Teambuch Inklusion).
+                während der konkreten Arbeit.
               </li>
             </ul>
 
@@ -98,7 +107,10 @@ const Page = () => {
 
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mx-auto '>
             <MediaCard
-              title='Interview mit Reinhard Stähling und Barbara Wenders 19 min'
+              title='Qualitätsentwicklung in Schulen, Lernpfade in die inklusive Pädagogik. '
+              text={
+                <>Interview mit Reinhard Stähling und Barbara Wenders 19 min</>
+              }
               buttonHref='https://www.youtube.com/watch?v=pZtgrZWfjG4'
             />
 

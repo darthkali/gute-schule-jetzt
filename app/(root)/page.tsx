@@ -298,8 +298,7 @@ export default function HomePage() {
                 </div>
 
                 <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
-                  Jede Klasse hat ein Verantwortungsteam- Vorbild für
-                  Grundschulen
+                  Jede Klasse hat ein Verantwortungsteam.
                 </div>
 
                 <div className='mt-auto pt-4'>
