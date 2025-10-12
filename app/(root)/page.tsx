@@ -182,7 +182,7 @@ export default function HomePage() {
             Wir wissen: Nur in einer gesunden Umgebung kann aufbauendes Lernen
             stattfinden und das volle Potenzial eines Menschen entfaltet werden.
             Die Voraussetzung für aufbauendes Lernen ist die Beachtung der
-            beiden Grundbedürfnisse nach Verbundenheit und Autonomie. .
+            beiden Grundbedürfnisse nach Verbundenheit und Autonomie.
           </p>
           <div className='flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5gap-x-5 gap-y-5 mt-5'>
             <Card
