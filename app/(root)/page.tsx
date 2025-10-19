@@ -62,7 +62,7 @@ export default function HomePage() {
           {/* Inhalt */}
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10  px-6  sm:py-8 md:py-10 text-white'>
             <div className={'sm:col-span-3'}>
-              <h1 className={'mt-0'}>Gute Schule - Jetzt!</h1>
+              <h1 className={'mt-0'}>Neue Lernkultur - Jetzt!</h1>
 
               <p>
                 Wir brauchen eine Schule mit Zukunft! Wir schicken unser bestes

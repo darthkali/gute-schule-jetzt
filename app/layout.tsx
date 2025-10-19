@@ -64,28 +64,28 @@ const robotoFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Gute Schule Jetzt - Petition für Bildungswende',
+  title: 'Neue Lernkultur Jetzt - Petition für Bildungswende',
   description:
     'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems vor. Für Schulen, in denen Kinder aufblühen können.',
   openGraph: {
-    title: 'Gute Schule Jetzt - Petition für Bildungswende',
+    title: 'Neue Lernkultur Jetzt - Petition für Bildungswende',
     description:
       'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems vor. Für Schulen, in denen Kinder aufblühen können.',
     type: 'website',
     url: 'https://gute-schule-jetzt.de',
-    siteName: 'Gute Schule Jetzt',
+    siteName: 'Neue Lernkultur Jetzt',
     images: [
       {
         url: '/images/abstract-1264071_1920.png',
         width: 1200,
         height: 630,
-        alt: 'Gute Schule Jetzt - Bildungswende für Baden-Württemberg',
+        alt: 'Neue Lernkultur Jetzt - Bildungswende für Baden-Württemberg',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gute Schule Jetzt - Petition für Bildungswende',
+    title: 'Neue Lernkultur Jetzt - Petition für Bildungswende',
     description:
       'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems.',
     images: ['/images/abstract-1264071_1920.png'],
@@ -100,9 +100,9 @@ export const metadata: Metadata = {
     'Kinder',
     'Lernen',
   ],
-  authors: [{ name: 'Gute Schule Jetzt Initiative' }],
-  creator: 'Gute Schule Jetzt Initiative',
-  publisher: 'Gute Schule Jetzt',
+  authors: [{ name: 'Neue Lernkultur Jetzt Initiative' }],
+  creator: 'Neue Lernkultur Jetzt Initiative',
+  publisher: 'Neue Lernkultur Jetzt',
 };
 
 export default function RootLayout({
