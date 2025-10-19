@@ -60,7 +60,7 @@ const Impressum = () => {
               </h2>
               <div className='bg-blue-100 p-4 rounded-xl border-l-4 border-blue-400'>
                 <p className='leading-relaxed'>
-                  <strong>Gute Schule Jetzt!</strong> ist eine gemeinnützige
+                  <strong>Neue Lernkultur Jetzt!</strong> ist eine gemeinnützige
                   Initiative, die sich für bessere Bildung in Deutschland
                   einsetzt. Diese Initiative verfolgt ausschließlich und
                   unmittelbar gemeinnützige Zwecke und ist nicht

@@ -1,13 +1,13 @@
 ![GitHub Release](https://img.shields.io/github/v/release/darthkali/gute-schule-jetzt?color=yellow)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/darthkali/gute-schule-jetzt/ci.yml)
 
-# Gute Schule - Jetzt! 🎓
+# Neue Lernkultur - Jetzt! 🎓
 
 Eine Initiative für bessere Bildung und nachhaltigen Wandel in deutschen Schulen.
 
 ## Über das Projekt
 
-**Gute Schule - Jetzt!** ist eine deutschlandweite Bildungsinitiative, die sich für eine grundlegende Transformation des staatlichen Schulsystems einsetzt. Unser Ziel ist es, Schulen zu schaffen, in denen alle Kinder aufbauend und selbstwirksam lernen können.
+**Neue Lernkultur - Jetzt!** ist eine deutschlandweite Bildungsinitiative, die sich für eine grundlegende Transformation des staatlichen Schulsystems einsetzt. Unser Ziel ist es, Schulen zu schaffen, in denen alle Kinder aufbauend und selbstwirksam lernen können.
 
 ### Unsere Mission
 
