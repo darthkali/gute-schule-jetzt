@@ -59,7 +59,7 @@ const Page = () => {
             endlich etwas Grundlegendes bewegen muss, dann unterschreibt bitte
             die{' '}
             <TextLinks href={'/petition/'} newTab={false}>
-              Petition Schule bewegen - jetzt!
+              Petition Neue Lernkultur - jetzt!
             </TextLinks>
             , teilt sie so vielfältig wie möglich und erzählt anderen
             Schülerinnen und Schülern davon.
