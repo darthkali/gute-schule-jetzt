@@ -84,7 +84,7 @@ const Page = () => {
             Inhalten und Lösungsansätzen auseinander. Folgen Sie bitte den
             Forderungen der{' '}
             <TextLinks href={'/petition/'} newTab={false}>
-              Petition Schule bewegen - jetzt!
+              Petition Neue Lernkultur - jetzt!
             </TextLinks>
             , die auf den vielfältigen Erkenntnissen aus der Lernforschung und
             den Erfahrungen ausgezeichneter Schulen beruhen. Denken Sie zum Wohl

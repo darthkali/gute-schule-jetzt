@@ -33,7 +33,7 @@ const Page = () => {
             <br />
             Unterstützen Sie bitte die Forderungen der{' '}
             <TextLinks href={'/petition/'} newTab={false}>
-              Petition Schule bewegen - Jetzt!
+              Petition Neue Lernkultur - Jetzt!
             </TextLinks>
             , damit im kommenden Koalitionsvertrag 2026 wesentliche Schritte
             dafür vereinbart werden. Sprechen Sie mit anderen Menschen darüber -{' '}
@@ -356,7 +356,7 @@ const Page = () => {
             <br />
             Unterstützen Sie bitte die Forderungen der{' '}
             <TextLinks href={'/petition/'} newTab={false}>
-              Petition Schule bewegen - jetzt!
+              Petition Neue Lernkultur - jetzt!
             </TextLinks>
             , damit im kommenden Koalitionsvertrag 2026 wesentliche Schritte
             dafür vereinbart werden.
