@@ -31,7 +31,7 @@ const Page = () => {
             Ausbildung hat.
             <br />
             In einer immer{' '}
-            <TextLinks href={'/veraendertewelt/'} newTab={false}>
+            <TextLinks href={'/veraenderte-welt'} newTab={false}>
               komplexer werdenden Welt,
             </TextLinks>{' '}
             in der Schulen immer wichtigere Lebensorte von Kindern werden, kann
@@ -57,7 +57,8 @@ const Page = () => {
             <br />
             Es geht nicht darum, diese oder jene Schulart mit ihrer
             vorsortierten Schülerschaft gegeneinander auszuspielen, sondern alle
-            Kinder in ihr Lernen/ ihr Potential zu bringen! Die Schlüsselwörter
+            Kinder in ihr Lernen/ ihr Potential zu bringen! Es braucht eine neue Lernkultur,
+            wie sie einige vorbildhafte Schulen schon lange umsetzen. Die Schlüsselwörter
             dafür heißen: Vertrauen, Selbstwirksamkeit, Zusammenarbeit,
             Teamgeist und gelebte Vielfalt. Unsere Demokratie steht auf dem
             Spiel und die Bildung unserer Jugend ist wichtiger denn je. <br />
@@ -82,9 +83,8 @@ const Page = () => {
           <p>
             setzen Sie sich bitte mit den auf dieser Webseite zusammengestellten
             Inhalten und Lösungsansätzen auseinander. Folgen Sie bitte den
-            Forderungen der{' '}
-            <TextLinks href={'/petition/'} newTab={false}>
-              Petition Neue Lernkultur - jetzt!
+            Forderungen der <TextLinks href={'/petition/'} newTab={false}>
+              Petition Neue Lernkultur - Jetzt!
             </TextLinks>
             , die auf den vielfältigen Erkenntnissen aus der Lernforschung und
             den Erfahrungen ausgezeichneter Schulen beruhen. Denken Sie zum Wohl
@@ -106,7 +106,7 @@ const Page = () => {
             Kinder eine zukunftsweisende Richtung zu geben. Unterschreiben Sie
             bitte die vorbereitete{' '}
             <TextLinks href={'/petition/'} newTab={false}>
-              Petition Schule bewegen - jetzt!
+              Petition Neue Lernkultur - Jetzt!
             </TextLinks>
             , um der Politik zu zeigen, dass wir Bürger:innen entschlossen sind
             - allen unseren Kindern und Jugendlichen, die Bildung zu geben, die
