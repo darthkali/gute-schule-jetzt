@@ -26,7 +26,10 @@ const Page = () => {
           <li>
             Hintergrundwissen für alle Betroffenen, zu menschengerechtem Lernen
             und zur{' '}
-            <TextLinks newTab={false} href={'/was-brauchen-kinder/hirnforschung'}>
+            <TextLinks
+              newTab={false}
+              href={'/was-brauchen-kinder/hirnforschung'}
+            >
               Hirnforschung
             </TextLinks>
           </li>
@@ -36,8 +39,10 @@ const Page = () => {
             <TextLinks href={'/petition'} newTab={false}>
               Landtags-Petition
             </TextLinks>{' '}
-            "Neue Lernkultur - Jetzt!" mit Start am Montag, den 12. Januar 2026, die mit 10000 digitalen Unterschriften die
-            politische Kraft für spürbaren Fortschritt entwickeln soll. Bitte teilen und im Kollegium bekannt machen.
+            "Neue Lernkultur - Jetzt!" mit Start am Montag, den 12. Januar 2026,
+            die mit 10000 digitalen Unterschriften die politische Kraft für
+            spürbaren Fortschritt entwickeln soll. Bitte teilen und im Kollegium
+            bekannt machen.
           </li>
         </ul>
         Lesen Sie hier über Ihre Möglichkeiten, wie sie Kinder und Jugendliche
@@ -123,11 +128,17 @@ const Page = () => {
               </ul>
 
               <li>
-                In Niedersachsen hat die Landesregierung 2024 <TextLinks href={'https://bass.schule.nrw/20046.htm'}>
-                  Freiräume-Programm für innovative schulische Vorhaben</TextLinks> erlassen. In der <TextLinks href={'/petition'} newTab={false}>
+                In Niedersachsen hat die Landesregierung 2024{' '}
+                <TextLinks href={'https://bass.schule.nrw/20046.htm'}>
+                  Freiräume-Programm für innovative schulische Vorhaben
+                </TextLinks>{' '}
+                erlassen. In der{' '}
+                <TextLinks href={'/petition'} newTab={false}>
                   Landtags-Petition
-                </TextLinks> "Neue Lernkultur - Jetzt!" fordern wir auch für BW solche Freiräume für Schulleitungen und
-                Kollegien, die ihre Schule zum Wohl aller umgestalten wollen.
+                </TextLinks>{' '}
+                "Neue Lernkultur - Jetzt!" fordern wir auch für BW solche
+                Freiräume für Schulleitungen und Kollegien, die ihre Schule zum
+                Wohl aller umgestalten wollen.
               </li>
             </ul>
           </div>
@@ -153,20 +164,25 @@ const Page = () => {
             </p>
             <ul>
               <li>
-                Ein <TextLinks href={'http://www.mnweg.org/'}>
-                  Materialnetzwerk </TextLinks> baut die Alemannenschule in Wutöschingen mit anderen Schulen
+                Ein{' '}
+                <TextLinks href={'http://www.mnweg.org/'}>
+                  Materialnetzwerk{' '}
+                </TextLinks>{' '}
+                baut die Alemannenschule in Wutöschingen mit anderen Schulen
                 auf, das Lernmaterialien für selbstorganisiertes Lernen
                 bereitstellt und teilt.
               </li>
 
               <li>
-                Expertise für gelungene <TextLinks
+                Expertise für gelungene{' '}
+                <TextLinks
                   href={
                     'https://www.fr.de/politik/inklusion-klappt-viel-arbeit-10963703.html'
                   }
                 >
                   Inklusion
-                </TextLinks>: „Das wichtigste Element bei der schulischen Inklusion ist die
+                </TextLinks>
+                : „Das wichtigste Element bei der schulischen Inklusion ist die
                 Auflösung der Jahrgangsgrenzen“, so Dr. Reinhard Stähling,
                 ehemaliger Schulleiter der Primus-Schule Münster Berg
                 Fidel-Geist.
