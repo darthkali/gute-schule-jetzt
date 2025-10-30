@@ -12,16 +12,15 @@ const Page = () => {
           <br />
           unsere Schulen haben pädagogische Freiheiten, haben aber auch mit
           strukturellen Grenzen zu kämpfen. Wir möchten motivieren und zeigen,
-          wie ein strukturierter Wandel in den Schulen gelingen kann. Auf dieser
+          wie ein strukturierter Wandel zu einer neuen Lernkultur in den Schulen gelingen kann. Auf dieser
           Webseite finden Sie:
           <br />
         </p>
         <ul>
           <li>
-            Praxiserprobte Lösungen für alle{' '}
-            <TextLinks href={'/#loesungen'} newTab={false}>
-              Schularten
-            </TextLinks>
+            Praxiserprobte Lösungen für alle <TextLinks href={'/#loesungen'} newTab={false}>
+                                                           Schularten
+                                                         </TextLinks>
           </li>
           <li>
             Hintergrundwissen für alle Betroffenen, zu menschengerechtem Lernen
