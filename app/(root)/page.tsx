@@ -446,7 +446,7 @@ export default function HomePage() {
             Wie kann ich dazu beitragen oder aktiv werden?
           </h2>
           <p className={'text-[color:var(--color-text)] text-center'}>
-            Für einen Bildungswandel sind alle Ebenen gefordert aufzubrechen. Es
+            Für eine neue Lernkultur sind alle Ebenen gefordert aufzubrechen. Es
             braucht Bewusstsein, mehrperspektivisches Denken und eine veränderte
             Haltung.
           </p>
