@@ -1,9 +1,8 @@
 # [0.37.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.36.4...v0.37.0) (2025-10-19)
 
-
 ### Features
 
-* updated to new name ([40b48d6](https://github.com/darthkali/gute-schule-jetzt/commit/40b48d63ae97cb635d6e828b08907b4362257bd0))
+- updated to new name ([40b48d6](https://github.com/darthkali/gute-schule-jetzt/commit/40b48d63ae97cb635d6e828b08907b4362257bd0))
 
 ## [0.36.4](https://github.com/darthkali/gute-schule-jetzt/compare/v0.36.3...v0.36.4) (2025-10-18)
 

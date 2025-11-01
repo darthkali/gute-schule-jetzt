@@ -57,11 +57,12 @@ const Page = () => {
             <br />
             Es geht nicht darum, diese oder jene Schulart mit ihrer
             vorsortierten Schülerschaft gegeneinander auszuspielen, sondern alle
-            Kinder in ihr Lernen/ ihr Potential zu bringen! Es braucht eine neue Lernkultur,
-            wie sie einige vorbildhafte Schulen schon lange umsetzen. Die Schlüsselwörter
-            dafür heißen: Vertrauen, Selbstwirksamkeit, Zusammenarbeit,
-            Teamgeist und gelebte Vielfalt. Unsere Demokratie steht auf dem
-            Spiel und die Bildung unserer Jugend ist wichtiger denn je. <br />
+            Kinder in ihr Lernen/ ihr Potential zu bringen! Es braucht eine neue
+            Lernkultur, wie sie einige vorbildhafte Schulen schon lange
+            umsetzen. Die Schlüsselwörter dafür heißen: Vertrauen,
+            Selbstwirksamkeit, Zusammenarbeit, Teamgeist und gelebte Vielfalt.
+            Unsere Demokratie steht auf dem Spiel und die Bildung unserer Jugend
+            ist wichtiger denn je. <br />
             Wir brauchen mutige und kreative Zukunftsgestalter:innen, die
             ausgeprägte Lösungskompetenz zeigen und in den Dienst gemeinsamer
             Anliegen stellen. Zeigen auch Sie als gewählte Volksvertreter Mut
@@ -83,7 +84,8 @@ const Page = () => {
           <p>
             setzen Sie sich bitte mit den auf dieser Webseite zusammengestellten
             Inhalten und Lösungsansätzen auseinander. Folgen Sie bitte den
-            Forderungen der <TextLinks href={'/petition/'} newTab={false}>
+            Forderungen der{' '}
+            <TextLinks href={'/petition/'} newTab={false}>
               Petition Neue Lernkultur - Jetzt!
             </TextLinks>
             , die auf den vielfältigen Erkenntnissen aus der Lernforschung und

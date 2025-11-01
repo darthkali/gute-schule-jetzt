@@ -498,8 +498,8 @@ export default function HomePage() {
           <div className='flex flex-wrap sm:flex-nowrap gap-4 max-w-250 mx-auto justify-center items-start '>
             <div className='flex-1'>
               <Button
-                text='Mitwirken?'
-                href='/kontakt'
+                text='Mitwirken'
+                href='/mitwirken'
                 bgColor='bg-[color:var(--color-neutral)]'
                 textColor='text-[color:var(--color-text)]'
               />

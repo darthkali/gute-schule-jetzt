@@ -32,11 +32,10 @@ const Page = () => {
             </TextLinks>
             , sowie
             {/* Diller hat kein gültiges Zertifikat !?*/}{' '}
-            <TextLinks
-              href={'https://diler.tube/w/iSSGa9mZVmSncngQt4h64d'}
-            >
+            <TextLinks href={'https://diler.tube/w/iSSGa9mZVmSncngQt4h64d'}>
               Chancenorten
-            </TextLinks> verändert haben. Sie erhalten Dankesbriefe, wie zum Beispiel:
+            </TextLinks>{' '}
+            verändert haben. Sie erhalten Dankesbriefe, wie zum Beispiel:
             <br />
             “Mein Kind ist ganz verändert, es kommt zufrieden von der Schule
             heim, komplizierte Lebensverhältnisse haben sich für uns sehr
@@ -47,30 +46,42 @@ const Page = () => {
             Schulen im Schnitt besser.
           </p>
           <p>
-            Wir brauchen flächendeckend im ganzen Land aus <TextLinks href={'/dysfunktionales-schulsystem/'} newTab={false}> vielen Gründen
-            </TextLinks>, eine neue Lernkultur und wesentliche Verbesserungen in unseren Schulen, so dass unsere Schulen zu
-            aufbauenden Kraftorten für alle Kinder werden.
+            Wir brauchen flächendeckend im ganzen Land aus{' '}
+            <TextLinks href={'/dysfunktionales-schulsystem/'} newTab={false}>
+              {' '}
+              vielen Gründen
+            </TextLinks>
+            , eine neue Lernkultur und wesentliche Verbesserungen in unseren
+            Schulen, so dass unsere Schulen zu aufbauenden Kraftorten für alle
+            Kinder werden.
             <br />
             Ein Schulkind{' '}
-            <TextLinks href={'/was-brauchen-kinder/ueberholtes-schulkonzept'} newTab={false}>
+            <TextLinks
+              href={'/was-brauchen-kinder/ueberholtes-schulkonzept'}
+              newTab={false}
+            >
               braucht
-            </TextLinks> drei Dinge: Aufgaben, an denen es wachsen kann, Vorbilder, an
-            denen es sich orientieren kann und es braucht Gemeinschaften, in
-            denen es sich aufgehoben fühlt.
-            <br /><br />
+            </TextLinks>{' '}
+            drei Dinge: Aufgaben, an denen es wachsen kann, Vorbilder, an denen
+            es sich orientieren kann und es braucht Gemeinschaften, in denen es
+            sich aufgehoben fühlt.
+            <br />
+            <br />
             Wenn Sie ebenfalls zu der Überzeugung kommen, dass sich in unserem
             Schulsystem endlich etwas Grundlegendes bewegen muss, dann
             unterschreiben Sie bitte die{' '}
             <TextLinks href={'/petition/'} newTab={false}>
               Petition
-            </TextLinks> “Neue Lernkultur - Jetzt!”, teilen Sie diese und sprechen mit
+            </TextLinks>{' '}
+            “Neue Lernkultur - Jetzt!”, teilen Sie diese und sprechen mit
             anderen Eltern darüber. Nutzen Sie Klassenfeste und Elternabende,
             die bis zur Landtagswahl 26 stattfinden, um gemeinsam zu einer
             politischen Kraft zu werden, die wahrgenommen wird und zu konkreten
             Reformen führt. Eine Welle aus der Elternschaft, die so stark ist,
             dass sie sich im Koalitionsvertrag nach den Landtagswahlen im März
-            2026 wiederfindet. Die dazu führt, dass endlich eine neue Haltung in unsere Schulen Einzug findet, die
-            das Gedeihen jedes Kindes an vorderste Stelle setzt!
+            2026 wiederfindet. Die dazu führt, dass endlich eine neue Haltung in
+            unsere Schulen Einzug findet, die das Gedeihen jedes Kindes an
+            vorderste Stelle setzt!
             <br />
             <TextLinks href={'/kontakt/'} newTab={false}>
               Wirken Sie mit?
