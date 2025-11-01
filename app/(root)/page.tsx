@@ -17,6 +17,7 @@ import Button from '@/app/components/Button';
 import MastodonShareButton from '@/app/components/MastodonShareButton';
 import Highlight from '@/app/components/Highlight';
 import TextImageCard from '@/app/components/TextImageCard';
+import TextLinks from '@/app/components/TextLinks';
 
 export default function HomePage() {
   const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
@@ -446,7 +447,8 @@ export default function HomePage() {
           </h2>
           <p className={'text-[color:var(--color-text)] text-center'}>
             Für einen Bildungswandel sind alle Ebenen gefordert aufzubrechen. Es
-            braucht Bewusstsein, neues Denken und eine veränderte Haltung.
+            braucht Bewusstsein, mehrperspektivisches Denken und eine veränderte
+            Haltung.
           </p>
 
           <div className='flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5'>
@@ -504,9 +506,7 @@ export default function HomePage() {
                 textColor='text-[color:var(--color-text)]'
               />
               <p className={'text-[color:var(--color-neutral)]'}>
-                Hallo,
-                <br />
-                hast du Lust selbst aktiv zu werden?
+                Hallo, hast du Lust selbst aktiv zu werden?
                 <br />
                 Wir freuen uns über Ideen, Menschen im Hintergrund und
                 Vordergrund und …. Schau mal rein!
@@ -520,13 +520,13 @@ export default function HomePage() {
                 bgColor='bg-[color:var(--color-accent)]'
               />
               <p className={'text-[color:var(--color-neutral)]'}>
-                Danke, dass du bis hier runter gescrollt hast.
-                <br />
-                Hier kommst du zur Petition, die die Bildungswende in BW (und
-                irgendwann auch bildungspolitisch für ganz Deutschland) in Fahrt
-                bringen soll. Wir danken dir für deine Unterstützung! Bei
-                Fragen, Ideen und Anregungen schreibe uns gerne an. (LINK zum
-                Kontaktformular).
+                Hier kommst du zur Petition, die die Bildungswende in BaWü in
+                Fahrt bringen soll. Wir danken dir für deine Unterstützung! Bei
+                Fragen, Ideen und Anregungen{' '}
+                <TextLinks href={'/kontakt'} className={'text-accent'}>
+                  schreibe
+                </TextLinks>{' '}
+                uns gerne an.
               </p>
             </div>
           </div>
