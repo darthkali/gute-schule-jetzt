@@ -9,7 +9,6 @@ import {
   FaPeopleGroup,
 } from 'react-icons/fa6';
 import Link from 'next/link';
-import TextLinks from '@/app/components/TextLinks';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Card from '@/app/components/Card';
@@ -18,6 +17,7 @@ import Button from '@/app/components/Button';
 import MastodonShareButton from '@/app/components/MastodonShareButton';
 import Highlight from '@/app/components/Highlight';
 import TextImageCard from '@/app/components/TextImageCard';
+import TextLinks from '@/app/components/TextLinks';
 
 export default function HomePage() {
   const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
