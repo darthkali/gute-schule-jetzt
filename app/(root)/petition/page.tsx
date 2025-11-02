@@ -15,7 +15,7 @@ const Page = () => {
           <p className={'bg-red-300 p-4 rounded-lg'}>
             <b>
               Dies ist die Langfassung der Petition, die als{' '}
-              <TextLinks href={'/documents/petition.pdf'} newTab={false}>
+              <TextLinks href={'/documents/Petition.pdf'} newTab={false}>
                 {' '}
                 Kurzfassung{' '}
               </TextLinks>{' '}
