@@ -457,7 +457,7 @@ const Page = () => {
           <p>
             <b>
               Die Stimmen der Schwachen in unserer Gesellschaft werden leider
-              viel zu selten gehört.
+              viel zu selten gehört.{' '}
             </b>
             Verantwortlich für die Umsetzung dieses Ganztag-Rechtsanspruchs sind
             nach § 69 SGB VIII die Träger der öffentlichen Jugendhilfe. In

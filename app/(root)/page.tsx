@@ -17,6 +17,7 @@ import Button from '@/app/components/Button';
 import MastodonShareButton from '@/app/components/MastodonShareButton';
 import Highlight from '@/app/components/Highlight';
 import TextImageCard from '@/app/components/TextImageCard';
+import TextLinks from '@/app/components/TextLinks';
 
 export default function HomePage() {
   const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
@@ -124,7 +125,7 @@ export default function HomePage() {
 
               <div className='flex gap-5 sm:gap-10 flex-wrap mt-10'>
                 <Button
-                  text='Petition an den Landtag unterzeichnen'
+                  text='Petition lesen/unterzeichnen'
                   href='/petition'
                   bgColor='bg-[color:var(--color-accent)]'
                 />
@@ -498,35 +499,34 @@ export default function HomePage() {
           <div className='flex flex-wrap sm:flex-nowrap gap-4 max-w-250 mx-auto justify-center items-start '>
             <div className='flex-1'>
               <Button
-                text='Mitwirken?'
-                href='/kontakt'
+                text='Mitwirken'
+                href='/mitwirken'
                 bgColor='bg-[color:var(--color-neutral)]'
                 textColor='text-[color:var(--color-text)]'
               />
               <p className={'text-[color:var(--color-neutral)]'}>
                 Hallo,
                 <br />
-                hast du Lust selbst aktiv zu werden?
-                <br />
-                Wir freuen uns über Ideen, Menschen im Hintergrund und
-                Vordergrund und …. Schau mal rein!
+                willst Du selbst aktiv werden und mitwirken? Wir freuen uns über
+                Ideen und suchen Menschen im Vordergrund oder Hintergrund… Schau
+                mal rein!
               </p>
             </div>
 
             <div className='flex-1'>
               <Button
-                text='Petition an den Landtag unterzeichnen'
+                text='Petition lesen/unterzeichnen'
                 href='/petition'
                 bgColor='bg-[color:var(--color-accent)]'
               />
               <p className={'text-[color:var(--color-neutral)]'}>
-                Danke, dass du bis hier runter gescrollt hast.
-                <br />
-                Hier kommst du zur Petition, die die Bildungswende in BW (und
-                irgendwann auch bildungspolitisch für ganz Deutschland) in Fahrt
-                bringen soll. Wir danken dir für deine Unterstützung! Bei
-                Fragen, Ideen und Anregungen schreibe uns gerne an. (LINK zum
-                Kontaktformular).
+                Hier kommst Du zur Petition, die die Bildungswende in BaWü in
+                Fahrt bringen soll. Danke für Deine Unterstützung! Bei Fragen,
+                Ideen und Anregungen{' '}
+                <TextLinks href={'/kontakt'} newTab={false}>
+                  schreibe{' '}
+                </TextLinks>{' '}
+                uns gerne an.
               </p>
             </div>
           </div>
