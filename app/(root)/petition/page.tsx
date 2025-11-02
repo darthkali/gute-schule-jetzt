@@ -6,191 +6,239 @@ const Page = () => {
     <section>
       <div className={'innerBox'}>
         <h1>Neue Lernkultur – Jetzt!</h1>
-        <h2>BW-Petition - Schule mit Zukunft für alle Kinder  </h2>
+        <h2>BW-Petition - Schule mit Zukunft für alle Kinder </h2>
         <ImageTextFloatingSection
           imageSrc='/images/hoch/petition-6788862_1920.jpg'
           imageAlt='Raupe, Puppe und Schmetterling'
           imagePosition='right'
         >
-        <p className={'bg-red-300 p-4 rounded-lg'}>
-        <b>Dies ist die Langfassung der Petition, die als <TextLinks href={'/documents/petition.pdf'}  newTab={false} > Kurzfassung </TextLinks> {' '}(PDF-Datei) ab
-        Montag den 12.01.2026 dann unter diesem
-        Link <i>(ab 12.01.26 aktiv)</i> in einem Zeitraum von 6 Wochen auf der Internetseite des Landtags unterzeichnet werden kann.
-        Davor soll ein weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind 10 000
-        Unterschriften erreicht, wird der Landtag eine öffentliche Anhörung zu dieser Petition durchführen.
-        Bitte unterstütze die Initiative für alle Kinder des Landes.
-        </b>
-        </p>
-        <p>
-            Sehr geehrte Mitglieder des Landtags BW, sehr geehrte Mitglieder der demokratischen Parteien,
-            sehr geehrte Entscheidungsträger:innen der (zukünftigen) Landesregierung,
+          <p className={'bg-red-300 p-4 rounded-lg'}>
+            <b>
+              Dies ist die Langfassung der Petition, die als{' '}
+              <TextLinks href={'/documents/petition.pdf'} newTab={false}>
+                {' '}
+                Kurzfassung{' '}
+              </TextLinks>{' '}
+              (PDF-Datei) ab Montag den 12.01.2026 dann unter diesem Link{' '}
+              <i>(ab 12.01.26 aktiv)</i> in einem Zeitraum von 6 Wochen auf der
+              Internetseite des Landtags unterzeichnet werden kann. Davor soll
+              ein weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden.
+              Sind 10 000 Unterschriften erreicht, wird der Landtag eine
+              öffentliche Anhörung zu dieser Petition durchführen. Bitte
+              unterstütze die Initiative für alle Kinder des Landes.
+            </b>
           </p>
           <p>
-          die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf Wohlergehen von Kindern und Jugendlichen
-          und die zukünftige Entwicklung unserer Gesellschaft fördern und stärken.
+            Sehr geehrte Mitglieder des Landtags BW, sehr geehrte Mitglieder der
+            demokratischen Parteien, sehr geehrte Entscheidungsträger:innen der
+            (zukünftigen) Landesregierung,
           </p>
           <p>
-            „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der Gemeinschaft, Freiheit von Zwang
-            und Hektik, sowie der Möglichkeit zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein,
-            an dem Bildungsprozesse für alle Kinder durch Zeit und Ruhe gefördert werden.
+            die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf
+            Wohlergehen von Kindern und Jugendlichen und die zukünftige
+            Entwicklung unserer Gesellschaft fördern und stärken.
+          </p>
+          <p>
+            „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der
+            Gemeinschaft, Freiheit von Zwang und Hektik, sowie der Möglichkeit
+            zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein, an dem
+            Bildungsprozesse für alle Kinder durch Zeit und Ruhe gefördert
+            werden.
           </p>
 
           <p>
-            Seit hunderten von Jahren wird im Wesentlichen unverändert frontal unterrichtet. Bis Erkenntnisse
-            aus der Pädagogik im praktischen Unterricht landen, vergehen oft Jahrzehnte, in denen sich dann
-            die gesellschaftlichen Rahmenbedingungen längst wieder geändert haben.
+            Seit hunderten von Jahren wird im Wesentlichen unverändert frontal
+            unterrichtet. Bis Erkenntnisse aus der Pädagogik im praktischen
+            Unterricht landen, vergehen oft Jahrzehnte, in denen sich dann die
+            gesellschaftlichen Rahmenbedingungen längst wieder geändert haben.
           </p>
           <p>
-            Spaltung, Demokratieverlust und Verrohung sind die Folgen von strukturellen Ursachen.
-            Den gesellschaftlichen Niedergang, der sich bereits auszuwirken beginnt, können wir gemeinsam
-            durch ganzheitliche Bildung stoppen.
+            Spaltung, Demokratieverlust und Verrohung sind die Folgen von
+            strukturellen Ursachen. Den gesellschaftlichen Niedergang, der sich
+            bereits auszuwirken beginnt, können wir gemeinsam durch
+            ganzheitliche Bildung stoppen.
           </p>
 
           <p>
-            In unserer sich rasant verändernden Welt brauchen wir Zusammenarbeit, eine Kultur des Zuhörens und
-             gemeinsame Lösungen, die wirklich helfen. Aktuell produziert unser Schulsystem zu viele Leidtragende
-             bei Kindern, Jugendlichen, Pädagog:innen und in Familien, somit bei allen unmittelbar Beteiligten
-             und folglich auch in Wirtschaft und Gesellschaft. Das kostet die Gemeinschaft sehr viel Energie und
-             Geld, verhindert Zukunftschancen und ist damit nicht zielführend. Es braucht eine neue Lernkultur,
-             wie sie einige innovative Schulen bereits seit Jahren zeigen. Wir alle können nur gewinnen, wenn
-             jetzt endlich mit neu ausgerichteten Maßnahmen in die Bildung investiert wird!
+            In unserer sich rasant verändernden Welt brauchen wir
+            Zusammenarbeit, eine Kultur des Zuhörens und gemeinsame Lösungen,
+            die wirklich helfen. Aktuell produziert unser Schulsystem zu viele
+            Leidtragende bei Kindern, Jugendlichen, Pädagog:innen und in
+            Familien, somit bei allen unmittelbar Beteiligten und folglich auch
+            in Wirtschaft und Gesellschaft. Das kostet die Gemeinschaft sehr
+            viel Energie und Geld, verhindert Zukunftschancen und ist damit
+            nicht zielführend. Es braucht eine neue Lernkultur, wie sie einige
+            innovative Schulen bereits seit Jahren zeigen. Wir alle können nur
+            gewinnen, wenn jetzt endlich mit neu ausgerichteten Maßnahmen in die
+            Bildung investiert wird!
           </p>
-        <p>
-        Wir fordern die Veränderung unserer Schulen vom Ort des Lehrens zum Ort des Lernens in vier Bereichen:
-        </p>
+          <p>
+            Wir fordern die Veränderung unserer Schulen vom Ort des Lehrens zum
+            Ort des Lernens in vier Bereichen:
+          </p>
           <h3>1. Haltungsänderung</h3>
           <p>
-            Das Wohlergehen der Kinder und Jugendlichen muss in den Mittelpunkt aller schulischen Bemühungen
-            gestellt werden. Allen Kindern wird von Anfang an Potentialentfaltung und Chancengerechtigkeit
-            zugestanden. Sie wachsen als zukünftige Gesellschaft lebendig zusammen auf. Die Beteiligten im
-            gesamten Bildungsbereich üben eine Kultur des gegenseitigen Zuhörens und der Zusammenarbeit.
-            Damit Veränderungsprozesse in eine gesunde Entwicklung kommen können. <br/>
-            Konkret:
-            </p>
-            <ul className='list-disc pl-6 mb-4'>
-            <b>
-            <li>
-            Überparteiliche Einigung auf einen gemeinsamen Bildungsbegriff und darauffolgende konzeptorientierte
-            Schulpolitik, im Sinne der auf  www.neue-lernkultur-jetzt dargestellten Zielsetzungen.
-            Also eine Neuausrichtung der Grundhaltung, sowie der Lehrkräfteausbildung und der Bildungspläne,
-            in der Kinder an vorderster Stelle stehen und jedes sein Potential in Gemeinschaft entwickeln kann.
-            </li>
-            <li>
-            Ressourcen müssen in die Hand der Schulen verlagert werden, damit benötigte Hilfen direkt und
-            zeitnah alle Kinder erreichen.
-            </li>
-            <li>
-            In jeder Lerngruppe braucht es Zeit, sich gegenseitig zuzuhören. Dafür ist jede Woche eine
-            Pädagog:innen-Teamsitzung notwendig, sowie eine Stunde Lerngruppenrat (Klassenrat) für
-            existenzielle Themen, Peer-Konflikte, Gemeinschaft und Persönlichkeitsentwicklung.
-            </li>
-            </b>
-            </ul>
-          <h3>2. Berücksichtigung von Expert:innenwissen</h3>
-          <p>
-            Die Zeiten, in denen Lehrkräfte, Schulbuch und Frontalunterricht die zentrale Rolle spielten,
-            sind nicht mehr zukunftsfähig. Neben den Pädagog:innen gewinnen Lernhelfer:innen, Peergroups,
-            das Internet, Künstliche Intelligenz, digitalisierte Lernmaterialien, Erklärvideos, Apps und
-            außerschulische Lernorte zunehmend an Bedeutung. Im Zentrum steht heute das Lernen – in Gemeinschaft,
-            individuell (zieldifferenziert), selbstwirksam und strategieorientiert.<br/>
-            Konkret:
-           </p>
-           <ul className='list-disc pl-6 mb-4'>
-           <b>
-            <li>
-            Eine Begutachtung der Organisationsstruktur und Arbeitsweise des Kultusministeriums im schulischen
-            Bildungsbereich, durch ein externes Beratungsunternehmen mit dem Ziel, wirksamere Arbeitsergebnisse zu ermöglichen.
-            </li>
-            <li>
-            Stetige Schulentwicklung für eine neue Lernkultur durch ein strukturiert verankertes Einbringen
-            von Expert:innenwissen und der Erfahrungen innovativer Schulen (siehe Vorbild Neuseeland).
-            </li>
-            <li>
-            Eine Enquete-Kommission (Beteiligungsgremium unter Einbezug von Betroffenen und Praktiker:innen)
-            zur Vereinbarung des gemeinsamen Bildungsbegriffs und zur Begleitung der zeitnahen Umsetzung (siehe Neuseeland).
-            </li>
-            </b>
-            </ul>
-
-          <h3>3. Lernen</h3>
-       <p>
-            Lernen benötigt frei verfügbare Zeit statt starrer Taktung, sowie ein verlässliches, pädagogisches
-            Verantwortungsteam für jede Lerngruppe bzw. Klasse von Anfang an. Stundenpläne und klassischer
-            Unterrichtsablauf behindern häufig individuelle Lernprozesse und Feedbackkultur. Verlässliche Beziehungen
-            und Raum für Entwicklung bilden dafür die Grundlage. Auch die Arbeitszeit der Pädagog:innen lässt sich
-            nicht mehr sinnvoll in klassischen Deputaten messen, sondern muss an neuen Aufgaben und Rollen ausgerichtet
-            werden. Für diese Rahmenbedingungen fordern wir Freiräume für alle Schularten. Damit sie sich auf den
-            Weg machen können, Kinder beim Wachsen zu begleiten und kindgerechtes Lernen in den Mittelpunkt zu stellen.
-            <br/>
+            Das Wohlergehen der Kinder und Jugendlichen muss in den Mittelpunkt
+            aller schulischen Bemühungen gestellt werden. Allen Kindern wird von
+            Anfang an Potentialentfaltung und Chancengerechtigkeit zugestanden.
+            Sie wachsen als zukünftige Gesellschaft lebendig zusammen auf. Die
+            Beteiligten im gesamten Bildungsbereich üben eine Kultur des
+            gegenseitigen Zuhörens und der Zusammenarbeit. Damit
+            Veränderungsprozesse in eine gesunde Entwicklung kommen können.{' '}
+            <br />
             Konkret:
           </p>
-           <ul className='list-disc pl-6 mb-4'>
-           <b>
-            <li>
-            Freiräumeprogramm für alle Schularten (siehe Niedersachsen)
-            </li>
-            <li>
-            Generell mehr Personal und die Einrichtung von Verantwortungsteams für alle Lerngruppen (Schulklassen) beginnend in den Primarschulen.
-            </li>
+          <ul className='list-disc pl-6 mb-4'>
+            <b>
+              <li>
+                Überparteiliche Einigung auf einen gemeinsamen Bildungsbegriff
+                und darauffolgende konzeptorientierte Schulpolitik, im Sinne der
+                auf  www.neue-lernkultur-jetzt dargestellten Zielsetzungen. Also
+                eine Neuausrichtung der Grundhaltung, sowie der
+                Lehrkräfteausbildung und der Bildungspläne, in der Kinder an
+                vorderster Stelle stehen und jedes sein Potential in
+                Gemeinschaft entwickeln kann.
+              </li>
+              <li>
+                Ressourcen müssen in die Hand der Schulen verlagert werden,
+                damit benötigte Hilfen direkt und zeitnah alle Kinder erreichen.
+              </li>
+              <li>
+                In jeder Lerngruppe braucht es Zeit, sich gegenseitig zuzuhören.
+                Dafür ist jede Woche eine Pädagog:innen-Teamsitzung notwendig,
+                sowie eine Stunde Lerngruppenrat (Klassenrat) für existenzielle
+                Themen, Peer-Konflikte, Gemeinschaft und
+                Persönlichkeitsentwicklung.
+              </li>
             </b>
-           </ul>
+          </ul>
+          <h3>2. Berücksichtigung von Expert:innenwissen</h3>
+          <p>
+            Die Zeiten, in denen Lehrkräfte, Schulbuch und Frontalunterricht die
+            zentrale Rolle spielten, sind nicht mehr zukunftsfähig. Neben den
+            Pädagog:innen gewinnen Lernhelfer:innen, Peergroups, das Internet,
+            Künstliche Intelligenz, digitalisierte Lernmaterialien,
+            Erklärvideos, Apps und außerschulische Lernorte zunehmend an
+            Bedeutung. Im Zentrum steht heute das Lernen – in Gemeinschaft,
+            individuell (zieldifferenziert), selbstwirksam und
+            strategieorientiert.
+            <br />
+            Konkret:
+          </p>
+          <ul className='list-disc pl-6 mb-4'>
+            <b>
+              <li>
+                Eine Begutachtung der Organisationsstruktur und Arbeitsweise des
+                Kultusministeriums im schulischen Bildungsbereich, durch ein
+                externes Beratungsunternehmen mit dem Ziel, wirksamere
+                Arbeitsergebnisse zu ermöglichen.
+              </li>
+              <li>
+                Stetige Schulentwicklung für eine neue Lernkultur durch ein
+                strukturiert verankertes Einbringen von Expert:innenwissen und
+                der Erfahrungen innovativer Schulen (siehe Vorbild Neuseeland).
+              </li>
+              <li>
+                Eine Enquete-Kommission (Beteiligungsgremium unter Einbezug von
+                Betroffenen und Praktiker:innen) zur Vereinbarung des
+                gemeinsamen Bildungsbegriffs und zur Begleitung der zeitnahen
+                Umsetzung (siehe Neuseeland).
+              </li>
+            </b>
+          </ul>
+
+          <h3>3. Lernen</h3>
+          <p>
+            Lernen benötigt frei verfügbare Zeit statt starrer Taktung, sowie
+            ein verlässliches, pädagogisches Verantwortungsteam für jede
+            Lerngruppe bzw. Klasse von Anfang an. Stundenpläne und klassischer
+            Unterrichtsablauf behindern häufig individuelle Lernprozesse und
+            Feedbackkultur. Verlässliche Beziehungen und Raum für Entwicklung
+            bilden dafür die Grundlage. Auch die Arbeitszeit der Pädagog:innen
+            lässt sich nicht mehr sinnvoll in klassischen Deputaten messen,
+            sondern muss an neuen Aufgaben und Rollen ausgerichtet werden. Für
+            diese Rahmenbedingungen fordern wir Freiräume für alle Schularten.
+            Damit sie sich auf den Weg machen können, Kinder beim Wachsen zu
+            begleiten und kindgerechtes Lernen in den Mittelpunkt zu stellen.
+            <br />
+            Konkret:
+          </p>
+          <ul className='list-disc pl-6 mb-4'>
+            <b>
+              <li>
+                Freiräumeprogramm für alle Schularten (siehe Niedersachsen)
+              </li>
+              <li>
+                Generell mehr Personal und die Einrichtung von
+                Verantwortungsteams für alle Lerngruppen (Schulklassen)
+                beginnend in den Primarschulen.
+              </li>
+            </b>
+          </ul>
           <h3>4. Raum</h3>
           <p>
-            Lernräume sind bewusst gestaltete Umgebungen, die das Lernen unterstützen und fördern. Sie können sowohl
-            physisch als auch digital sein. Um individuelles, selbstbestimmtes und gemeinschaftliches Lernen zu
-            ermöglichen, braucht es eine Vielfalt an Räumen, sowie die Freiheit, diese entsprechend der eigenen
-            Bedürfnisse zu nutzen. Wir fordern eine umfassende Öffnung aller Schulen, damit Kinder und Jugendliche
-            reale und sinnliche Erfahrungen im Stadtteil (Handwerk, Kultur, Vereine) und in der Natur machen können.
-            <br/>
-            Konkret:<br/>
+            Lernräume sind bewusst gestaltete Umgebungen, die das Lernen
+            unterstützen und fördern. Sie können sowohl physisch als auch
+            digital sein. Um individuelles, selbstbestimmtes und
+            gemeinschaftliches Lernen zu ermöglichen, braucht es eine Vielfalt
+            an Räumen, sowie die Freiheit, diese entsprechend der eigenen
+            Bedürfnisse zu nutzen. Wir fordern eine umfassende Öffnung aller
+            Schulen, damit Kinder und Jugendliche reale und sinnliche
+            Erfahrungen im Stadtteil (Handwerk, Kultur, Vereine) und in der
+            Natur machen können.
+            <br />
+            Konkret:
+            <br />
             Für diese lebendigen Lernorte, fordern wir…
           </p>
           <ul className='list-disc pl-6 mb-4'>
-          <b>
-            <li>
-            ... ein gelebtes, gemeinsames Bildungsverständnis aller.
-            </li>
-            <li>
-               ... langfristige, parteiübergreifende Zusammenarbeit.
-            </li>
-            <li>
-            ... vielfältige Vernetzung von Schulen und Kommunen.
-            </li>
-            <li>
-             ... eine Vielfalt und Öffnung von Lernräumen.
-            </li>
-            <li>
-            ... Eine signifikante Erhöhung des Bildungsbudgets  (Vergleich: Deutschland aktuell 4,4% des BIP, Norwegen und Großbritannien 6%, Quelle BZ 10.9.25)
-            </li>
+            <b>
+              <li>... ein gelebtes, gemeinsames Bildungsverständnis aller.</li>
+              <li>... langfristige, parteiübergreifende Zusammenarbeit.</li>
+              <li>... vielfältige Vernetzung von Schulen und Kommunen.</li>
+              <li>... eine Vielfalt und Öffnung von Lernräumen.</li>
+              <li>
+                ... Eine signifikante Erhöhung des Bildungsbudgets  (Vergleich:
+                Deutschland aktuell 4,4% des BIP, Norwegen und Großbritannien
+                6%, Quelle BZ 10.9.25)
+              </li>
             </b>
-           </ul>
+          </ul>
           <p>
-            Die neuseeländische Bildungsreform der 90er-Jahre zeigt, welche Kraft sich entfaltet, wenn das
-            Bildungssystem von einer Vision getragen wird, hinter der Politiker:innen, Wissenschaftler:innen,
-            Lehrer:innen und Eltern gemeinsam stehen. Auch Baden-Württemberg braucht Leitplanken für eine
-            konzeptorientierte Schulpolitik, die nicht nur kleinteilige Reparaturen will, sondern ganzheitliche Transformationen.
+            Die neuseeländische Bildungsreform der 90er-Jahre zeigt, welche
+            Kraft sich entfaltet, wenn das Bildungssystem von einer Vision
+            getragen wird, hinter der Politiker:innen, Wissenschaftler:innen,
+            Lehrer:innen und Eltern gemeinsam stehen. Auch Baden-Württemberg
+            braucht Leitplanken für eine konzeptorientierte Schulpolitik, die
+            nicht nur kleinteilige Reparaturen will, sondern ganzheitliche
+            Transformationen.
           </p>
           <p>
-            Die ausgewählten Schulbeispiele auf der Webseite „www.neue-lernkultur-jetzt.de“ zeigen, wie dies konkret vor Ort
-            im schulischen Alltag umgesetzt werden kann. Jede Schule soll dabei gefördert werden, Schritte in diese Richtung gehen zu können.
+            Die ausgewählten Schulbeispiele auf der Webseite
+            „www.neue-lernkultur-jetzt.de“ zeigen, wie dies konkret vor Ort im
+            schulischen Alltag umgesetzt werden kann. Jede Schule soll dabei
+            gefördert werden, Schritte in diese Richtung gehen zu können.
           </p>
           <p>
-            Helft mit, dass die Schule wieder zukunftsfähig und für alle Kinder ein Ort der Muße und gesunder Entwicklung wird!
+            Helft mit, dass die Schule wieder zukunftsfähig und für alle Kinder
+            ein Ort der Muße und gesunder Entwicklung wird!
           </p>
           <p>
-            Helft mit Eurer Unterschrift, dass diese Punkte bei den Entscheidungsträger:innen Gewicht und danach
-            Eingang in den Koalitionsvertrag und das Regierungsprogramm BW 2026 finden.
+            Helft mit Eurer Unterschrift, dass diese Punkte bei den
+            Entscheidungsträger:innen Gewicht und danach Eingang in den
+            Koalitionsvertrag und das Regierungsprogramm BW 2026 finden.
           </p>
+          <p>Mit herzlichen Grüßen</p>
           <p>
-            Mit herzlichen Grüßen
+            <i>
+              {' '}
+              Alle Initiator:innen und Unterzeichner:innen der BW-Initiative
+              <br />
+              Neue Lernkultur – Jetzt!
+              <br />
+              BW- Petition - Schule mit Zukunft für alle Kinder!
+            </i>
           </p>
-          <p>
-          <i> Alle Initiator:innen und Unterzeichner:innen der BW-Initiative<br/>
-          Neue Lernkultur – Jetzt!<br/>
-          BW- Petition - Schule mit Zukunft für alle Kinder!
-          </i>
-          </p>
-
         </ImageTextFloatingSection>
       </div>
     </section>

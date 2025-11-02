@@ -507,8 +507,9 @@ export default function HomePage() {
               <p className={'text-[color:var(--color-neutral)]'}>
                 Hallo,
                 <br />
-                willst Du selbst aktiv werden und mitwirken?
-                Wir freuen uns über Ideen und suchen Menschen im Vordergrund oder Hintergrund… Schau mal rein!
+                willst Du selbst aktiv werden und mitwirken? Wir freuen uns über
+                Ideen und suchen Menschen im Vordergrund oder Hintergrund… Schau
+                mal rein!
               </p>
             </div>
 
@@ -519,11 +520,13 @@ export default function HomePage() {
                 bgColor='bg-[color:var(--color-accent)]'
               />
               <p className={'text-[color:var(--color-neutral)]'}>
-                Hier kommst Du zur Petition, die die Bildungswende in BaWü in Fahrt bringen soll.
-                Danke für Deine Unterstützung!
-                Bei Fragen, Ideen und Anregungen <TextLinks
-                        href={'/kontakt'}   newTab={false} >
-                        schreibe  </TextLinks>{' '} uns gerne an.
+                Hier kommst Du zur Petition, die die Bildungswende in BaWü in
+                Fahrt bringen soll. Danke für Deine Unterstützung! Bei Fragen,
+                Ideen und Anregungen{' '}
+                <TextLinks href={'/kontakt'} newTab={false}>
+                  schreibe{' '}
+                </TextLinks>{' '}
+                uns gerne an.
               </p>
             </div>
           </div>
