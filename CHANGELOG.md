@@ -1,3 +1,12 @@
+## [0.42.3](https://github.com/darthkali/gute-schule-jetzt/compare/v0.42.2...v0.42.3) (2025-11-03)
+
+
+### Bug Fixes
+
+* logo size adjusted ([3bbdb17](https://github.com/darthkali/gute-schule-jetzt/commit/3bbdb17ed5ffe1ed3a4ad7b2e478620b392b69ca))
+* text color in link adjusted ([7a21c24](https://github.com/darthkali/gute-schule-jetzt/commit/7a21c2441b8362aeaf0d05c0c6b378afff506f3d))
+* updated basic mail ([2daae51](https://github.com/darthkali/gute-schule-jetzt/commit/2daae51a79458a2679f3db52509212573d62ce00))
+
 ## [0.42.2](https://github.com/darthkali/gute-schule-jetzt/compare/v0.42.1...v0.42.2) (2025-11-03)
 
 ### Bug Fixes
