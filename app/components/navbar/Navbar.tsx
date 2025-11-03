@@ -25,8 +25,6 @@ export default function Navbar() {
     { href: '/kontakt', text: 'Kontakt' },
   ];
 
-  const showDevBanner = process.env.NEXT_PUBLIC_SHOW_DEV_BANNER === 'true';
-
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -49,11 +47,6 @@ export default function Navbar() {
 
   return (
     <nav className=' sticky top-0 z-50 bg-[color:var(--color-primary)] text-white'>
-      {showDevBanner && (
-        <div className='sticky top-0 z-50 bg-red-500 text-white text-center py-1'>
-          Preview - Seite ist noch in Arbeit.
-        </div>
-      )}
       {/*Mobile Burger Menu*/}
       <div className='sm:hidden'>
         <MobileMenu />

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import localFont from 'next/font/local';
 import React from 'react';
+import DevBanner from '@/app/components/DevBanner';
 import Navbar from '@/app/components/navbar/Navbar';
 import Footer from '@/app/components/Footer';
 
@@ -116,6 +117,7 @@ export default function RootLayout({
       className={`${poppinsFont.variable} ${robotoFont.variable} ${interFont.variable}`}
     >
       <body className='min-h-screen flex flex-col'>
+        <DevBanner />
         <Navbar />
         <main className='flex-grow'>{children}</main>
         <Footer />
