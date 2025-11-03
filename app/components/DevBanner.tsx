@@ -1,6 +1,5 @@
 export default function DevBanner() {
-  // Diese Variable wird zur Laufzeit gelesen (Server-Komponente)
-  const showDevBanner = process.env.NEXT_PUBLIC_SHOW_DEV_BANNER === 'true';
+  const showDevBanner = process.env.SHOW_DEV_BANNER === 'true';
 
   if (!showDevBanner) {
     return null;
