@@ -21,7 +21,7 @@ export default function Navbar() {
   ];
 
   const dropdownLinks = [
-    { href: '/ueber-uns', text: 'Über Uns' },
+    { href: '/ueber-uns', text: 'Team & Netzwerk' },
     { href: '/kontakt', text: 'Kontakt' },
   ];
 

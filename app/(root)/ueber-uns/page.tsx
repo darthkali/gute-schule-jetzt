@@ -34,9 +34,9 @@ const Page = () => {
 
           <div className='mt-4 space-y-3'>
             <p>
-              <strong>Dagmar Schäfer</strong>, Grund- und Werkrealschule (GWRS)
-              Klassenlehrerin a.D. mit Schwerpunkt Kl. 1-6, Finalistin
-              Freiburger Lehrerpreis 2020
+              <strong>Dagmar Schäfer</strong>, an erster Stelle Mensch, GWRS
+              (Grund-und Werkrealschule) Klassenlehrerin Klasse 1-6, a.D.,
+              Finalistin Freiburger Lehrerpreis 2020
             </p>
             <p>
               <strong>Annegret Keller</strong>, Grundschul- und
