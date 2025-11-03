@@ -35,7 +35,7 @@ const Page = () => {
           <div className='mt-4 space-y-3'>
             <p>
               <strong>Dagmar Schäfer</strong>, an erster Stelle Mensch, GWRS
-              (Grund-und Werkrealschule) Klassenlehrerin Klasse 1-6, a.D.,
+              (Grund-und Werkrealschule) Klassenlehrerin Klasse 1-6, a. D.,
               Finalistin Freiburger Lehrerpreis 2020
             </p>
             <p>
@@ -44,17 +44,17 @@ const Page = () => {
             </p>
             <p>
               <strong>Heidemarie Bauer</strong>, Lehrerin GWRS, Gemeinde- und
-              Kreisrätin a.D
+              Kreisrätin a. D.
             </p>
             <p>
-              <strong>Gottfried Schreiber</strong>, Lehrer GWRS, Schulleiter
-              a.D.
+              <strong>Gottfried Schreiber</strong>, Lehrer GWRS, Schulleiter a.
+              D.
             </p>
             <p>
               <strong>Danny Keller</strong>, Softwareentwickler
             </p>
             <p>
-              <strong>Stefan Ruppaner</strong>, Schulleiter der ASW a.D., Autor
+              <strong>Stefan Ruppaner</strong>, Schulleiter der ASW a. D., Autor
               des Buches „Das könnte Schule machen - Wie ein engagierter
               Pädagoge unser Bildungssystem revolutioniert"
             </p>

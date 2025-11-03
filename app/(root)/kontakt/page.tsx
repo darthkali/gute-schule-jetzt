@@ -81,7 +81,7 @@ export default function ContactPage() {
           <h1>Kontaktiere uns</h1>
 
           <a
-            href='mailto:testemail@projekt.de'
+            href='mailto:info@neue-lernkultur-jetzt.de'
             className='flex items-center gap-2  py-4'
           >
             <span>E-Mail:</span>
