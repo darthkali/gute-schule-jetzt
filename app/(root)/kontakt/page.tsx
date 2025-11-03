@@ -90,7 +90,7 @@ export default function ContactPage() {
                 'text-[color:var(--color-secondary)] hover:text-[color:var(--color-primary)]'
               }
             >
-              testemail@projekt.de
+              info@neue-lernkultur-jetzt.de
             </span>
           </a>
 
