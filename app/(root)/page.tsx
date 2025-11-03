@@ -525,7 +525,11 @@ export default function HomePage() {
                 Hier kommst Du zur Petition, die die Bildungswende in BaWü in
                 Fahrt bringen soll. Danke für Deine Unterstützung! Bei Fragen,
                 Ideen und Anregungen{' '}
-                <TextLinks href={'/kontakt'} newTab={false}>
+                <TextLinks
+                  href={'/kontakt'}
+                  className={'text-accent'}
+                  newTab={false}
+                >
                   schreibe{' '}
                 </TextLinks>{' '}
                 uns gerne an.
