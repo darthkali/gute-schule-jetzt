@@ -1,3 +1,10 @@
+## [0.42.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.42.0...v0.42.1) (2025-11-03)
+
+
+### Bug Fixes
+
+* logo ([3104831](https://github.com/darthkali/gute-schule-jetzt/commit/3104831c1e36de4cf4c8bdf29a6802182beb349b))
+
 # [0.42.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.41.0...v0.42.0) (2025-11-03)
 
 ### Bug Fixes
