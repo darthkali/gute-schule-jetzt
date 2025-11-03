@@ -156,7 +156,7 @@ const Page = () => {
             <MediaCard
               title='Grundsätze Schmetterlingspädagogik'
               buttonTitle='zur PDF'
-              buttonHref='/documents/Grundsätze%20Schmetterlings-pädagogik%20.pdf'
+              buttonHref='/documents/Grundsaetze_Schmetterlings_paedagogik.pdf'
               imageSrc={'/icons/book-150621_1920.png'}
             />
           </div>
