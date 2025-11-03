@@ -21,7 +21,7 @@ export default function Navbar() {
   ];
 
   const dropdownLinks = [
-    { href: '/ueber-uns', text: 'Über Uns' },
+    { href: '/ueber-uns', text: 'Team & Netzwerk' },
     { href: '/kontakt', text: 'Kontakt' },
   ];
 
@@ -66,8 +66,8 @@ export default function Navbar() {
           <Image
             src='/logo/edunite-logo_neu.svg'
             alt='EduUnite Logo'
-            width={70}
-            height={70}
+            width={80}
+            height={80}
             className={'pr-4'}
           />
         </Link>

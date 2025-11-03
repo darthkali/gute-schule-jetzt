@@ -1,0 +1,17 @@
+services:
+  edunite-dev:
+    image: darthkali/gute-schule-jetzt:0.40.1
+    container_name: edunite-dev
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+    # Optional: Healthcheck
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

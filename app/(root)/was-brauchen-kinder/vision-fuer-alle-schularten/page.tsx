@@ -90,6 +90,19 @@ const Page = () => {
               entzünden - den Geist zu entzünden, der die Kulturgüter
               hervorbringt. (nach Gerald Hüther)
             </p>
+
+            <p>
+              John Hattie stellt aktuell klar: “Echte Gerechtigkeit heißt,
+              „allen Lernenden anspruchsvolle Aufgaben zu geben – unabhängig von
+              ihrer Herkunft…. Dafür braucht es die professionelle Expertise und
+              Klarheit von Lehrkräften, die einen doppelt so starken Einfluss
+              auf die Lernergebnisse haben, wie ein oberflächlich
+              individualisiertes Einzellernen… Zugleich müsse Lernen
+              gemeinschaftlich bleiben. „Schüler lernen in erheblichem Maße
+              voneinander – im Guten wie im Schlechten“, sagte er. „Unsere
+              Aufgabe ist es, in Zusammenarbeit sicherzustellen, dass sie auf
+              die richtige Weise voneinander lernen.“
+            </p>
           </ImageTextFloatingSection>
         </div>
       </section>
@@ -311,12 +324,47 @@ const Page = () => {
               </TextLinks>
               )
             </li>
+            {/*<li>*/}
+            {/*  Es geht um die Kunst, Kinder und Jugendliche einzuladen und zu*/}
+            {/*  inspirieren. Es geht darum, den Lernenden zu ermöglichen, die*/}
+            {/*  Lerninhalte zu &#34;ihrem Ding&#34; zu machen. SoL*/}
+            {/*  (selbstorganisiertes Lernen) kombiniert mit LdE (gemeinsames*/}
+            {/*  Projekt-Lernen) ist dafür ein modellhaftes Praxisbeispiel an der{' '}*/}
+            {/*  <TextLinks href={'/alemannenschule'} className={'text-accent'}>*/}
+            {/*    ASW Wutöschingen*/}
+            {/*  </TextLinks>*/}
+            {/*  .*/}
+            {/*</li>*/}
+            <li>
+              <TextLinks
+                href={
+                  'https://www.news4teachers.de/2025/10/john-hattie-rechnet-mit-dem-individualisierungs-hype-beim-unterricht-ab-das-groesste-problem-liegt-in-der-ueberbetonung-des-alleinarbeitens/'
+                }
+                className={'text-accent'}
+              >
+                {' '}
+                John Hattie{' '}
+              </TextLinks>{' '}
+              weist aktuell darauf hin: „Das größte Problem von
+              individualisiertem und personalisiertem Lernen liegt in der
+              Überbetonung des Alleinarbeitens.“ Der Kern schulischen Lernens
+              sei seit jeher Zusammenarbeit und soziales Lernen. Wer Lernen auf
+              individuelle Lernpfade und Eigensteuerung reduziere, beraube
+              Kinder jener gemeinschaftlichen Erfahrung, die Lernen erst
+              tiefgreifend mache. „Viele Lernende brauchen Struktur, Anleitung
+              und ein gemeinsames Ziel“, so Hattie. „Wer Leistung will, muss
+              Sinn bieten“. (nach Peter Fratton)
+            </li>
+
             <li>
               Es geht um die Kunst, Kinder und Jugendliche einzuladen und zu
               inspirieren. Es geht darum, den Lernenden zu ermöglichen, die
-              Lerninhalte zu &#34;ihrem Ding&#34; zu machen. SoL
-              (selbstorganisiertes Lernen) kombiniert mit LdE (gemeinsames
-              Projekt-Lernen) ist dafür ein modellhaftes Praxisbeispiel an der{' '}
+              Lerninhalte zu "ihrem Ding" zu machen. Und darum, dass jedes Kind
+              sein eigenes Potential kennenlernt, sich mit der Welt
+              auseinandersetzt und sich im Austausch mit anderen entwickeln
+              kann. SoL (selbstorganisiertes Lernen) kombiniert mit LdE
+              (gemeinsames Projekt-Lernen) ist dafür ein modellhaftes
+              Praxisbeispiel an der{' '}
               <TextLinks href={'/alemannenschule'} className={'text-accent'}>
                 ASW Wutöschingen
               </TextLinks>

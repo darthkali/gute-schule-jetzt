@@ -56,8 +56,6 @@ export default function HomePage() {
               blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvklEQVR4nB3DzUvDMBgH4Pz5HgLzGASHzCEIVQYDoZeBB/G6g2zCUOqyt23SJP1IaB2+8hN84BFkScXvhNKWXHuL2hsUdMRXpXEsNVNNIGekMNao6TzBNoa9d3CugbE19Enjff/G+vMA1wUp2tAqMCN2PachIvXD/ymNaH1gZxukbpAijk79/EYQfbANGsZr+FihoD2qpmDfl0hTkGK7e1Gb1zVWT3d8v77GY36Dq9sZ1PIC80zyIrtE/vwg/wDDIq/dDmXMmgAAAABJRU5ErkJggg=='
             />
           </div>
-          {/* Blaue Overlay-Ebene */}
-          {/*<div className="absolute overflow-hidden inset-0 left-0 h-full w-full  z-10 "/>*/}
           <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/85 z-10 ' />
 
           {/* Inhalt */}
@@ -65,19 +63,20 @@ export default function HomePage() {
             <div className={'sm:col-span-3'}>
               <h1 className={'mt-0'}>Neue Lernkultur - Jetzt!</h1>
 
+              <h3>BW-Petition – Schule mit Zukunft für alle Kinder!</h3>
               <p>
                 Wir brauchen eine Schule mit Zukunft! Wir schicken unser bestes
                 Potential - unsere Kinder und Jugendlichen - täglich in Schulen
                 und erwarten, dass sie dort für ihr Leben lernen. Aber dieses
                 Schulsystem presst alle Beteiligten in eng getaktete
-                Stundenplanabläufe, die überholten Vorstellungen, sowie der Not
-                an Personal und Raum geschuldet sind. Unser Schulsystem
-                produziert zu viele Leidtragende und leistet bei Weitem nicht,
-                was möglich wäre.
+                Stundenplanabläufe und leidet an überholten Vorstellungen, sowie
+                der Not an Personal und Raum. Unser Schulsystem produziert zu
+                viele Leidtragende und leistet bei Weitem nicht, was möglich
+                wäre.
               </p>
               <p>
-                Wir brauchen eine Schule mit Zukunft, in der Kinder aufblühen!
-                Mit landesweiter Power können wir das erreichen.
+                Wir brauchen eine Lernkultur, in der Kinder aufblühen! Mit
+                landesweiter Power können wir das erreichen.
               </p>
 
               <div className='flex flex-col space-y-6'>
@@ -89,11 +88,12 @@ export default function HomePage() {
                     <Highlight>
                       Petition für eine Neuausrichtung des Schulsystems
                     </Highlight>{' '}
-                    in Ba-Wü vor. Der Entwurf des Petitionstextes steht hier.
-                    Die Petition kann ab dem 12. Januar 2026 in einem Zeitraum
-                    von 6 Wochen unterschrieben werden. Bis dahin gilt es weiter{' '}
+                    in Baden Württemberg (BW) vor. Der Entwurf des
+                    Petitionstextes steht hier. Die Petition „Neue Lernkultur –
+                    Jetzt!“ kann ab Montag 12. Januar 2026 in einem Zeitraum von
+                    6 Wochen unterschrieben werden. Bis dahin gilt es{' '}
                     <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
-                    damit weit mehr als die erforderlichen 10.000 Unterschriften
+                    damit weit mehr als die erforderlichen 10 000 Unterschriften
                     erreicht werden. Wirst Du Teil dieses Netzwerkes und
                     erweiterst seine Reichweite? Wir freuen uns über Anregungen,
                     sachliche Beiträge und Zusammenarbeit.
@@ -104,10 +104,13 @@ export default function HomePage() {
                 <div className='flex items-center space-x-4'>
                   <FaPeopleGroup className='min-w-[32px] h-8 w-8 text-neutral' />
                   <p className='text-left'>
-                    Wir möchten Menschen auf allen Ebenen – Eltern – Kommunen –
-                    Schulen & Schulaufsicht – Jugendliche – Politik ermutigen,
-                    konkrete Schritte in den Umbau hin zu Schulen mit Zukunft zu
-                    gehen.
+                    Wir möchten Menschen auf allen Ebenen –{' '}
+                    <Highlight>
+                      Eltern - Kommunen - Schulen & Schulaufsicht - Jugendliche
+                      - Politik - Handwerk & Wirtschaft
+                    </Highlight>{' '}
+                    – ermutigen, konkrete Schritte für den Umbau hin zu Schulen
+                    mit neuer Lernkultur zu gehen.
                   </p>
                 </div>
               </div>
@@ -446,8 +449,9 @@ export default function HomePage() {
             Wie kann ich dazu beitragen oder aktiv werden?
           </h2>
           <p className={'text-[color:var(--color-text)] text-center'}>
-            Für einen Bildungswandel sind alle Ebenen gefordert aufzubrechen. Es
-            braucht Bewusstsein, neues Denken und eine veränderte Haltung.
+            Für eine neue Lernkultur sind alle Ebenen gefordert aufzubrechen. Es
+            braucht Bewusstsein, mehrperspektivisches Denken und eine veränderte
+            Haltung.
           </p>
 
           <div className='flex flex-wrap justify-center gap-x-5 md:gap-x-15 gap-y-5'>
@@ -505,11 +509,9 @@ export default function HomePage() {
                 textColor='text-[color:var(--color-text)]'
               />
               <p className={'text-[color:var(--color-neutral)]'}>
-                Hallo,
-                <br />
-                willst Du selbst aktiv werden und mitwirken? Wir freuen uns über
-                Ideen und suchen Menschen im Vordergrund oder Hintergrund… Schau
-                mal rein!
+                Hallo, willst Du selbst aktiv werden und mitwirken? Wir freuen
+                uns über Ideen und suchen Menschen im Vordergrund oder
+                Hintergrund… Schau mal rein!
               </p>
             </div>
 
