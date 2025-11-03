@@ -1,17 +1,15 @@
 # [0.42.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.41.0...v0.42.0) (2025-11-03)
 
-
 ### Bug Fixes
 
-* logo ([c120a5b](https://github.com/darthkali/gute-schule-jetzt/commit/c120a5bd4e65ba0c90c5fe382da3e2cac7d5d3ce))
-* typo in team ([0228f00](https://github.com/darthkali/gute-schule-jetzt/commit/0228f0025076167b8a705b2bf2061e3521309697))
-* wrong href ([a8bfcc6](https://github.com/darthkali/gute-schule-jetzt/commit/a8bfcc6e4f0b377108e814396fa54fbaa90ce392))
-* wrong href ([af50a94](https://github.com/darthkali/gute-schule-jetzt/commit/af50a94083039a611fd840c8ac55da2aa18853f9))
-
+- logo ([c120a5b](https://github.com/darthkali/gute-schule-jetzt/commit/c120a5bd4e65ba0c90c5fe382da3e2cac7d5d3ce))
+- typo in team ([0228f00](https://github.com/darthkali/gute-schule-jetzt/commit/0228f0025076167b8a705b2bf2061e3521309697))
+- wrong href ([a8bfcc6](https://github.com/darthkali/gute-schule-jetzt/commit/a8bfcc6e4f0b377108e814396fa54fbaa90ce392))
+- wrong href ([af50a94](https://github.com/darthkali/gute-schule-jetzt/commit/af50a94083039a611fd840c8ac55da2aa18853f9))
 
 ### Features
 
-* update mail adress ([3c9e7da](https://github.com/darthkali/gute-schule-jetzt/commit/3c9e7da4d6d72b61a8040b1fa710bcfb9568a580))
+- update mail adress ([3c9e7da](https://github.com/darthkali/gute-schule-jetzt/commit/3c9e7da4d6d72b61a8040b1fa710bcfb9568a580))
 
 # [0.41.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.40.1...v0.41.0) (2025-11-03)
 
