@@ -1,6 +1,20 @@
 import React from 'react';
 
+// Force dynamic rendering to read env variables at runtime
+export const dynamic = 'force-dynamic';
+
 const Impressum = () => {
+  // Read env variables at runtime (server-side)
+  const impressumData = {
+    organization: process.env.IMPRESSUM_ORGANIZATION,
+    name: process.env.IMPRESSUM_NAME,
+    street: process.env.IMPRESSUM_STREET,
+    city: process.env.IMPRESSUM_CITY,
+    country: process.env.IMPRESSUM_COUNTRY,
+    phone: process.env.IMPRESSUM_PHONE,
+    email: process.env.IMPRESSUM_EMAIL,
+  };
+
   return (
     <div className='max-w-4xl mx-auto p-6'>
       <section className='bg-white'>
@@ -14,15 +28,15 @@ const Impressum = () => {
               </h2>
               <div className='bg-blue-100 p-4 rounded-xl'>
                 <p className='leading-relaxed'>
-                  <strong>{process.env.IMPRESSUM_ORGANIZATION}</strong>
+                  <strong>{impressumData.organization}</strong>
                   <br />
-                  {process.env.IMPRESSUM_NAME}
+                  {impressumData.name}
                   <br />
-                  {process.env.IMPRESSUM_STREET}
+                  {impressumData.street}
                   <br />
-                  {process.env.IMPRESSUM_CITY}
+                  {impressumData.city}
                   <br />
-                  {process.env.IMPRESSUM_COUNTRY}
+                  {impressumData.country}
                 </p>
               </div>
             </div>
@@ -32,10 +46,10 @@ const Impressum = () => {
               <div className='bg-blue-100 p-4 rounded-xl'>
                 <div className='space-y-2'>
                   <p>
-                    <strong>Telefon:</strong> {process.env.IMPRESSUM_PHONE}
+                    <strong>Telefon:</strong> {impressumData.phone}
                   </p>
                   <p>
-                    <strong>E-Mail:</strong> {process.env.IMPRESSUM_EMAIL}
+                    <strong>E-Mail:</strong> {impressumData.email}
                   </p>
                 </div>
               </div>
@@ -49,7 +63,7 @@ const Impressum = () => {
                 <p className='leading-relaxed'>
                   Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
                   <br />
-                  {process.env.IMPRESSUM_NAME}
+                  {impressumData.name}
                 </p>
               </div>
             </div>
