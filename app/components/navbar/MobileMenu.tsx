@@ -13,7 +13,7 @@ export default function MobileMenu() {
     <div className='sticky top-0 z-50  min-h-15 bg-[color:var(--color-primary)]'>
       {/* Logo */}
       <div className='flex justify-start p-4'>
-        <Link href='/public' onClick={() => setOpen(false)}>
+        <Link href='/' onClick={() => setOpen(false)}>
           <Image
             src='/logo/edunite-logo_neu.svg'
             alt='EduUnite Logo'
@@ -28,14 +28,14 @@ export default function MobileMenu() {
       {open && (
         <div className='sticky inset-0 text-white shadow-lg flex flex-col items-center gap-4 py-4 z-40 '>
           <Link
-            href='/public#herausforderungen'
+            href='/#herausforderungen'
             className='hover:underline'
             onClick={() => setOpen(false)}
           >
             <h2>Herausforderungen</h2>
           </Link>
           <Link
-            href='/public#kinder'
+            href='/#kinder'
             className='hover:underline'
             onClick={() => setOpen(false)}
           >
@@ -43,14 +43,14 @@ export default function MobileMenu() {
           </Link>
 
           <Link
-            href='/public#loesungen'
+            href='/#loesungen'
             className='hover:underline'
             onClick={() => setOpen(false)}
           >
             <h2>Lösungen</h2>
           </Link>
           <Link
-            href='/public#aktiv-werden'
+            href='/#aktiv-werden'
             className='hover:underline'
             onClick={() => setOpen(false)}
           >
