@@ -62,7 +62,7 @@ export default function Navbar() {
       <div className={'hidden innerBox items-center sm:flex'}>
         {/* Logo  */}
 
-        <Link href='/'>
+        <Link href='/public'>
           <Image
             src='/logo/edunite-logo_neu.svg'
             alt='EduUnite Logo'
