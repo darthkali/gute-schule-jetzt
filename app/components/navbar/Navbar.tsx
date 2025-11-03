@@ -66,9 +66,9 @@ export default function Navbar() {
           <Image
             src='/logo/edunite-logo_neu.svg'
             alt='EduUnite Logo'
-            width={80}
-            height={80}
-            className={'pr-4'}
+            width={60}
+            height={60}
+            className={'pr-3'}
           />
         </Link>
 
