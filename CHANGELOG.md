@@ -1,21 +1,19 @@
 # [0.41.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.40.1...v0.41.0) (2025-11-03)
 
-
 ### Bug Fixes
 
-* impressum ([b87437a](https://github.com/darthkali/gute-schule-jetzt/commit/b87437a74b096b0fa75ce59917a442d6ff5e0b64))
-
+- impressum ([b87437a](https://github.com/darthkali/gute-schule-jetzt/commit/b87437a74b096b0fa75ce59917a442d6ff5e0b64))
 
 ### Features
 
-* anpassungen an primusschule und hauptseite ([e9a0740](https://github.com/darthkali/gute-schule-jetzt/commit/e9a07407ff470fdec64a0640e1ff3a1158d3498a))
-* logo angepasst ([192788f](https://github.com/darthkali/gute-schule-jetzt/commit/192788fb9596d7a527c254afa85eef61cff3c897))
-* missionsteatment ([9ad2667](https://github.com/darthkali/gute-schule-jetzt/commit/9ad26676b04d2a17ac70b8c11b8840a70078c74e))
-* primus schule angepasst ([fbd6a18](https://github.com/darthkali/gute-schule-jetzt/commit/fbd6a18c619c328cf499c5be9416ccabc7273967))
-* ueber uns angepasst ([696edd8](https://github.com/darthkali/gute-schule-jetzt/commit/696edd8d793c16d81278e1be2c38c53cd5a73a36))
-* update team ([429732b](https://github.com/darthkali/gute-schule-jetzt/commit/429732bca89e18aff5aefe4e0fabf2cab4a3a1e0))
-* vision fuer alle schularten ([4b8a884](https://github.com/darthkali/gute-schule-jetzt/commit/4b8a884cf37228cad1bf3ee7bee7424c101dfc13))
-* wo kann veranderung ansetzen text angepasst ([ea16de8](https://github.com/darthkali/gute-schule-jetzt/commit/ea16de8a55dd2b8fbd9ecc0bd595894fcdc8d546))
+- anpassungen an primusschule und hauptseite ([e9a0740](https://github.com/darthkali/gute-schule-jetzt/commit/e9a07407ff470fdec64a0640e1ff3a1158d3498a))
+- logo angepasst ([192788f](https://github.com/darthkali/gute-schule-jetzt/commit/192788fb9596d7a527c254afa85eef61cff3c897))
+- missionsteatment ([9ad2667](https://github.com/darthkali/gute-schule-jetzt/commit/9ad26676b04d2a17ac70b8c11b8840a70078c74e))
+- primus schule angepasst ([fbd6a18](https://github.com/darthkali/gute-schule-jetzt/commit/fbd6a18c619c328cf499c5be9416ccabc7273967))
+- ueber uns angepasst ([696edd8](https://github.com/darthkali/gute-schule-jetzt/commit/696edd8d793c16d81278e1be2c38c53cd5a73a36))
+- update team ([429732b](https://github.com/darthkali/gute-schule-jetzt/commit/429732bca89e18aff5aefe4e0fabf2cab4a3a1e0))
+- vision fuer alle schularten ([4b8a884](https://github.com/darthkali/gute-schule-jetzt/commit/4b8a884cf37228cad1bf3ee7bee7424c101dfc13))
+- wo kann veranderung ansetzen text angepasst ([ea16de8](https://github.com/darthkali/gute-schule-jetzt/commit/ea16de8a55dd2b8fbd9ecc0bd595894fcdc8d546))
 
 ## [0.40.1](https://github.com/darthkali/gute-schule-jetzt/compare/v0.40.0...v0.40.1) (2025-11-02)
 
