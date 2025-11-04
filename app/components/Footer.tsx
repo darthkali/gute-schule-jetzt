@@ -1,4 +1,5 @@
 import Image from 'next/image';
+const appVersion = process.env.APP_VERSION || '0.0.0';
 
 export default function Footer() {
   return (
@@ -28,6 +29,7 @@ export default function Footer() {
             Datenschutz
           </a>
           <span className='text-sm  break-words'>Gemeinnützige Webseite</span>
+          <span className='text-sm  break-words'>v{appVersion}</span>
         </div>
       </div>
     </footer>
