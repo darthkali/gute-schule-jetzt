@@ -1,3 +1,10 @@
+# [0.47.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.46.0...v0.47.0) (2025-11-04)
+
+
+### Features
+
+* Version 1 ([897f67c](https://github.com/darthkali/gute-schule-jetzt/commit/897f67cd6f8b039fcea3c509b3276acec141f810))
+
 # [0.46.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.45.0...v0.46.0) (2025-11-04)
 
 ### Features
