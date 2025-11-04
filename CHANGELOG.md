@@ -1,3 +1,10 @@
+# [0.46.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.45.0...v0.46.0) (2025-11-04)
+
+
+### Features
+
+* dev banner version and date ([9ae194d](https://github.com/darthkali/gute-schule-jetzt/commit/9ae194d1494516486db51b6379a334966916cc99))
+
 # [0.45.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.44.0...v0.45.0) (2025-11-04)
 
 ### Features
