@@ -1,6 +1,10 @@
 # ---- Phase 1: Build-Stage ----
 FROM node:24 AS builder
 
+# Build Arguments (werden beim Build übergeben)
+ARG VERSION=unknown
+ARG BUILD_DATE=unknown
+
 WORKDIR /app
 
 # Nur package.json + lock kopieren, um den npm ci step zu cachen
@@ -17,6 +21,13 @@ RUN npm run build
 
 # ---- Phase 2: Production Stage ----
 FROM node:24
+
+# ARG erneut deklarieren für diese Stage
+ARG VERSION=unknown
+ARG BUILD_DATE=unknown
+# Als Environment Variables setzen (zur Laufzeit verfügbar)
+ENV APP_VERSION=${VERSION}
+ENV APP_BUILD_DATE=${BUILD_DATE}
 
 WORKDIR /app
 

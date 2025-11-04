@@ -85,7 +85,10 @@ jobs:
       - name: Build Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
+          BUILD_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
           docker build \
+            --build-arg VERSION=${{ steps.check_version.outputs.version }} \
+            --build-arg BUILD_DATE="${BUILD_DATE}" \
             -t docker.io/darthkali/gute-schule-jetzt:${{ steps.check_version.outputs.version }} \
             -t docker.io/darthkali/gute-schule-jetzt:latest \
             .
