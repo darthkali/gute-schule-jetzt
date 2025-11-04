@@ -64,10 +64,10 @@ const Page = () => {
           <li>Hast Du eine Idee, von der wir unbedingt wissen sollten?</li>
           <li>…</li>
         </ul>
-        Wenn Du eine oder mehrere dieser Fragen mit JA beantworten kannst,
+        Wenn Du eine oder mehrere dieser Fragen mit Ja beantworten kannst,
         freuen wir uns über eine Nachricht von Dir. Bitte habe Verständnis, dass
         es auch mal ein paar Tage dauern kann, bis wir antworten, da wir uns
-        alle ehrenamtlich für diese Bildungswende einsetzen .{' '}
+        alle ehrenamtlich für diese Bildungswende einsetzen.{' '}
         <TextLinks href={'/kontakt'} newTab={false}>
           {' '}
           Kontaktiere
