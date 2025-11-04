@@ -19,7 +19,7 @@ const Page = () => {
                 {' '}
                 Kurzfassung{' '}
               </TextLinks>{' '}
-              (PDF-Datei) ab Montag den 12.01.2026 dann unter diesem Link{' '}
+              (PDF-Datei) ab Montag den 12.01.2026 unter diesem Link{' '}
               <i>(ab 12.01.26 aktiv)</i> in einem Zeitraum von 6 Wochen auf der
               Internetseite des Landtags unterzeichnet werden kann. Davor soll
               ein weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden.
