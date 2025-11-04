@@ -85,7 +85,7 @@ jobs:
       - name: Build Docker image
         if: ${{ steps.check_version.outputs.version != '' }}
         run: |
-          BUILD_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          BUILD_DATE=$(TZ=Europe/Berlin date +"%d.%m.%Y %H:%M")
           docker build \
             --build-arg VERSION=${{ steps.check_version.outputs.version }} \
             --build-arg BUILD_DATE="${BUILD_DATE}" \
