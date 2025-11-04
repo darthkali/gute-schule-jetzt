@@ -6,6 +6,9 @@ import DevBanner from '@/app/components/DevBanner';
 import Navbar from '@/app/components/navbar/Navbar';
 import Footer from '@/app/components/Footer';
 
+// Force dynamic rendering to read env variables at runtime
+export const dynamic = 'force-dynamic';
+
 const poppinsFont = localFont({
   src: [
     {
