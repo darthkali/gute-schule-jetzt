@@ -1,6 +1,6 @@
 services:
   edunite-dev:
-    image: darthkali/gute-schule-jetzt:0.40.1
+    image: darthkali/gute-schule-jetzt:0.42.5
     container_name: edunite-dev
     env_file:
       - .env
