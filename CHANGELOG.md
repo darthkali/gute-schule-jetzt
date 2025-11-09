@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.0...v1.0.1) (2025-11-09)
+
+
+### Bug Fixes
+
+* cronjob for updates ([f428c7d](https://github.com/darthkali/gute-schule-jetzt/commit/f428c7d247959dba78ecc2a465d80ccde539be63))
+
 # [1.0.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.47.0...v1.0.0) (2025-11-04)
 
 
