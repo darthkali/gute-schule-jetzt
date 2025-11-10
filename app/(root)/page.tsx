@@ -19,7 +19,7 @@ import TextImageCard from '@/app/components/TextImageCard';
 import TextLinks from '@/app/components/TextLinks';
 
 export default function HomePage() {
-  const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
+  const shareUrl = encodeURIComponent('https://wwww.neue-lernkultur-jetzt.de');
   const text = encodeURIComponent('Schau dir diese Seite an:');
 
   const iconBoxStyle =

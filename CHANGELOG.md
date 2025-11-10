@@ -1,11 +1,10 @@
 # [1.1.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.2...v1.1.0) (2025-11-10)
 
-
 ### Features
 
-* added threema social media button and removed twitter ([586a909](https://github.com/darthkali/gute-schule-jetzt/commit/586a909a9cb1981d6af1f8efc2f741b472f17dc0))
-* removed old logo, added new logo to browser tab, resized open-graph image ([ca86253](https://github.com/darthkali/gute-schule-jetzt/commit/ca86253cadec20d4c2dbabf12beaf58e08cec9ba))
-* text bei dagi ergänzt ([a1ecf7b](https://github.com/darthkali/gute-schule-jetzt/commit/a1ecf7ba1e2a0a1643b7495681084f840c626914))
+- added threema social media button and removed twitter ([586a909](https://github.com/darthkali/gute-schule-jetzt/commit/586a909a9cb1981d6af1f8efc2f741b472f17dc0))
+- removed old logo, added new logo to browser tab, resized open-graph image ([ca86253](https://github.com/darthkali/gute-schule-jetzt/commit/ca86253cadec20d4c2dbabf12beaf58e08cec9ba))
+- text bei dagi ergänzt ([a1ecf7b](https://github.com/darthkali/gute-schule-jetzt/commit/a1ecf7ba1e2a0a1643b7495681084f840c626914))
 
 ## [1.0.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.1...v1.0.2) (2025-11-10)
 
