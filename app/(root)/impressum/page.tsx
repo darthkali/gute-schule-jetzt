@@ -5,6 +5,7 @@ export const dynamic = 'force-dynamic';
 
 const Impressum = () => {
   // Read env variables at runtime (server-side)
+
   const impressumData = {
     organization: process.env.IMPRESSUM_ORGANIZATION,
     name: process.env.IMPRESSUM_NAME,
@@ -20,7 +21,6 @@ const Impressum = () => {
       <section className='bg-white'>
         <div className='innerBox'>
           <h1 className='text-3xl font-bold mb-8 '>Impressum</h1>
-
           <div className='space-y-8'>
             <div>
               <h2 className='text-xl font-semibold mb-4 '>
