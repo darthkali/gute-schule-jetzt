@@ -1,5 +1,5 @@
 import React from 'react';
-import TextLinks from '@/app/components/links/TextLinks';
+import TextLinks from '@/app/components/text/TextLinks';
 import ImageTextSection from '@/app/components/text/ImageTextComponent';
 
 const Page = () => {

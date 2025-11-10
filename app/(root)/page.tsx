@@ -16,7 +16,7 @@ import Button from '@/app/components/button/Button';
 import MastodonShareButton from '@/app/components/button/MastodonShareButton';
 import Highlight from '@/app/components/text/Highlight';
 import TextImageCard from '@/app/components/card/TextImageCard';
-import TextLinks from '@/app/components/links/TextLinks';
+import TextLinks from '@/app/components/text/TextLinks';
 
 export default function HomePage() {
   const shareUrl = encodeURIComponent('https://www.neue-lernkultur-jetzt.de');

@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
-import WebsiteLinks from '@/app/components/links/WebsiteLinks';
+import TextLinks, { Style } from '@/app/components/text/TextLinks';
 
 const Page = () => {
   return (
@@ -133,16 +133,20 @@ const Page = () => {
 
             <p className={'font-bold'}>Links:</p>
 
-            <WebsiteLinks
-              text='Lernen ohne Druck'
+            <TextLinks
               href='https://www.welt.de/debatte/kommentare/article113327766/Jedes-Kind-lernt-gerne-aber-nur-ohne-Druck.html'
               className={'mr-2'}
-            />
+              style={Style.Button}
+            >
+              Lernen ohne Druck
+            </TextLinks>
 
-            <WebsiteLinks
-              text='Gerald Hüther'
+            <TextLinks
               href='https://www.gerald-huether.de/'
-            />
+              style={Style.Button}
+            >
+              Gerald Hüther
+            </TextLinks>
           </ImageTextFloatingSection>
         </div>
       </section>

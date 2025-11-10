@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
-import TextLinks from '@/app/components/links/TextLinks';
+import TextLinks from '@/app/components/text/TextLinks';
 const Page = () => {
   return (
     <section>

@@ -1,9 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
-import WebsiteLinks from '@/app/components/links/WebsiteLinks';
+import TextLinks, { Style } from '@/app/components/text/TextLinks';
 
 const Page = () => {
+  console.log(
+    'Page - Style.Button:',
+    Style.Button,
+    'Style.InlineText:',
+    Style.InlineText
+  );
+
   return (
     <div>
       <section>
@@ -448,29 +455,46 @@ const Page = () => {
           <h2>Weitere Informationen</h2>
 
           <div className={'flex flex-col items-start space-y-4'}>
-            <WebsiteLinks
-              text='Gebt den Kindern einen Grund zum Lernen - Text zum Buch von Verena Friederike Hasel'
+            <TextLinks
               href='https://www.zeit.de/gesellschaft/schule/2019-12/bildung-neuseeland-schulen-lehrer-kinder-lernen'
-            />
+              style={Style.Button}
+            >
+              Gebt den Kindern einen Grund zum Lernen - Text zum Buch von Verena
+              Friederike Hasel
+            </TextLinks>
 
-            <WebsiteLinks
-              text='Schulen von heute entscheiden über die Zukunft von morgen - 12 min Podcast'
+            <TextLinks
               href='https://www.deutschlandfunkkultur.de/weltkindertag-was-und-wie-sollten-die-kinder-im-21-jahrhundert-lernen-dlf-kultur-2b357d2f-100.html'
-            />
-            <WebsiteLinks
-              text='Neuseeland: Das schrägste Bildungssystem der Welt'
+              style={Style.Button}
+            >
+              Schulen von heute entscheiden über die Zukunft von morgen - 12 min
+              Podcast
+            </TextLinks>
+
+            <TextLinks
               href='https://campus-a.at/2025/03/27/neuseeland-das-schragste-bildungssystem-der-welt/'
-            />
+              style={Style.Button}
+            >
+              Neuseeland: Das schrägste Bildungssystem der Welt
+            </TextLinks>
 
-            <WebsiteLinks
-              text='Vorbild Neuseeland - Wie wird Schule menschlicher? In Neuseeland ist das Wohlbefinden der Schüler:innen und Lehrer:innen erklärtes Ziel im Lehrplan. Wie kann Deutschland davon lernen? Expertin Anne Sliwka gibt Impulse. 5:48 min'
+            <TextLinks
               href='https://zeitfuerx.de/bildung/wie-wird-schule-menschlicher-vorbild-neuseeland/'
-            />
+              style={Style.Button}
+            >
+              Vorbild Neuseeland - Wie wird Schule menschlicher? In Neuseeland
+              ist das Wohlbefinden der Schüler:innen und Lehrer:innen erklärtes
+              Ziel im Lehrplan. Wie kann Deutschland davon lernen? Expertin Anne
+              Sliwka gibt Impulse. 5:48 min
+            </TextLinks>
 
-            <WebsiteLinks
-              text='SCHULE IN NEUSEELAND - Das Neuseeländische Schulsystem erklärt von einer Deutschen Auswanderin , Video 8 min'
+            <TextLinks
               href='https://www.youtube.com/watch?v=8tFCKMFG9MM'
-            />
+              style={Style.Button}
+            >
+              SCHULE IN NEUSEELAND - Das Neuseeländische Schulsystem erklärt von
+              einer Deutschen Auswanderin , Video 8 min
+            </TextLinks>
           </div>
         </div>
       </section>
