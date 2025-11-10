@@ -7,27 +7,28 @@ const Page = () => {
       <div className={'innerBox'}>
         <h1>Neue Lernkultur – Jetzt!</h1>
         <h2>BW-Petition - Schule mit Zukunft für alle Kinder </h2>
+        <p className={'bg-red-300 p-4 rounded-lg'}>
+          <b>
+            Dies ist die Langfassung der Petition, die als{' '}
+            <TextLinks href={'/documents/Petition.pdf'} newTab={false}>
+              {' '}
+              Kurzfassung{' '}
+            </TextLinks>{' '}
+            (PDF-Datei) ab Montag den 12.01.2026 unter diesem Link{' '}
+            <i>(ab 12.01.26 aktiv)</i> in einem Zeitraum von 6 Wochen auf der
+            Internetseite des Landtags unterzeichnet werden kann. Davor soll ein
+            weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind
+            10 000 Unterschriften erreicht, wird der Landtag eine öffentliche
+            Anhörung zu dieser Petition durchführen. Bitte unterstütze die
+            Initiative für alle Kinder des Landes.
+          </b>
+        </p>
         <ImageTextFloatingSection
-          imageSrc='/images/hoch/petition-6788862_1920.jpg'
+          imageSrc='/images/hoch/all-kids.svg'
           imageAlt='Raupe, Puppe und Schmetterling'
           imagePosition='right'
+          className={'shadow-none'}
         >
-          <p className={'bg-red-300 p-4 rounded-lg'}>
-            <b>
-              Dies ist die Langfassung der Petition, die als{' '}
-              <TextLinks href={'/documents/Petition.pdf'} newTab={false}>
-                {' '}
-                Kurzfassung{' '}
-              </TextLinks>{' '}
-              (PDF-Datei) ab Montag den 12.01.2026 unter diesem Link{' '}
-              <i>(ab 12.01.26 aktiv)</i> in einem Zeitraum von 6 Wochen auf der
-              Internetseite des Landtags unterzeichnet werden kann. Davor soll
-              ein weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden.
-              Sind 10 000 Unterschriften erreicht, wird der Landtag eine
-              öffentliche Anhörung zu dieser Petition durchführen. Bitte
-              unterstütze die Initiative für alle Kinder des Landes.
-            </b>
-          </p>
           <p>
             Sehr geehrte Mitglieder des Landtags BW, sehr geehrte Mitglieder der
             demokratischen Parteien, sehr geehrte Entscheidungsträger:innen der

@@ -10,6 +10,7 @@ type ImageTextSectionProps = {
   caption?: string;
   children: ReactNode;
   size?: 'tiny' | 'small' | 'medium' | 'large' | 'xl';
+  className?: string;
 };
 
 export default function ImageTextFloatingSection({
@@ -21,6 +22,7 @@ export default function ImageTextFloatingSection({
   caption,
   children,
   size = 'xl',
+  className,
 }: ImageTextSectionProps) {
   const floatClass =
     imagePosition === 'right'
@@ -43,7 +45,7 @@ export default function ImageTextFloatingSection({
         alt={imageAlt}
         width={imageWidth}
         height={imageHeight}
-        className={`${floatClass} ${sizeClasses[size]} w-full mb-2 mx-auto  h-auto rounded shadow`}
+        className={`${className} ${floatClass} ${sizeClasses[size]} w-full mb-2 mx-auto  h-auto rounded shadow`}
       />
       <div className='clearfix'>{children}</div>
       <div className='clear-both'></div>

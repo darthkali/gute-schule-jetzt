@@ -1,21 +1,18 @@
 ## [1.0.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.0...v1.0.1) (2025-11-09)
 
-
 ### Bug Fixes
 
-* cronjob for updates ([f428c7d](https://github.com/darthkali/gute-schule-jetzt/commit/f428c7d247959dba78ecc2a465d80ccde539be63))
+- cronjob for updates ([f428c7d](https://github.com/darthkali/gute-schule-jetzt/commit/f428c7d247959dba78ecc2a465d80ccde539be63))
 
 # [1.0.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.47.0...v1.0.0) (2025-11-04)
 
-
 ### Features
 
-* Version 1 ([ec8ba0c](https://github.com/darthkali/gute-schule-jetzt/commit/ec8ba0c6cec636e6623edb0c48becbb94d61d7cd))
-
+- Version 1 ([ec8ba0c](https://github.com/darthkali/gute-schule-jetzt/commit/ec8ba0c6cec636e6623edb0c48becbb94d61d7cd))
 
 ### BREAKING CHANGES
 
-* V1
+- V1
 
 # [0.47.0](https://github.com/darthkali/gute-schule-jetzt/compare/v0.46.0...v0.47.0) (2025-11-04)
 
