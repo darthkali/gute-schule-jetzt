@@ -1,16 +1,14 @@
 ## [1.1.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.2...v1.1.3) (2025-11-10)
 
-
 ### Bug Fixes
 
-* fixed social media url ([0091763](https://github.com/darthkali/gute-schule-jetzt/commit/0091763bdbd20158e63cfbebad7e6a20ac177055))
+- fixed social media url ([0091763](https://github.com/darthkali/gute-schule-jetzt/commit/0091763bdbd20158e63cfbebad7e6a20ac177055))
 
 ## [1.1.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.1...v1.1.2) (2025-11-10)
 
-
 ### Bug Fixes
 
-* updated open graph image path ([1fa2d3a](https://github.com/darthkali/gute-schule-jetzt/commit/1fa2d3a4e4c0c2019cdd7fa85239b0779a352870))
+- updated open graph image path ([1fa2d3a](https://github.com/darthkali/gute-schule-jetzt/commit/1fa2d3a4e4c0c2019cdd7fa85239b0779a352870))
 
 ## [1.1.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.0...v1.1.1) (2025-11-10)
 
