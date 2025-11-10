@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import Button from '@/app/components/Button';
+import Button from '@/app/components/button/Button';
 import MobileMenu from './MobileMenu';
 import {
   mainNavLinks,

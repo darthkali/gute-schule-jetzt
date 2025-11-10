@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import ImageTextFloatingSection from '@/app/components/ImageTextFloatingComponent';
-import Button from '@/app/components/Button';
+import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
+import Button from '@/app/components/button/Button';
 
 const Page = () => {
   return (

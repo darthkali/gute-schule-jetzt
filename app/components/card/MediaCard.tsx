@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Button from '@/app/components/Button';
+import Button from '@/app/components/button/Button';
 import YouTubePreview from '@/app/components/ YouTubePreview';
 
 type CardProps = {
