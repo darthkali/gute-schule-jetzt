@@ -1,3 +1,47 @@
+# [1.2.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.3...v1.2.0) (2025-11-10)
+
+### Bug Fixes
+
+- created folder structure for components ([f932be9](https://github.com/darthkali/gute-schule-jetzt/commit/f932be9d96d42342bd97abfa5e3b26db3d5afb00))
+
+### Features
+
+- merges WebsiteLinks and TextLinks ([8725942](https://github.com/darthkali/gute-schule-jetzt/commit/8725942355c80bd0c21ad21ed1c5d7583c8ea184))
+- set new image for petition ([67b751d](https://github.com/darthkali/gute-schule-jetzt/commit/67b751d794c2592a0f3b6b4c2b4088db5668b8a3))
+- set the same data for mobile- and non-mobile-navbar. ([cdb8716](https://github.com/darthkali/gute-schule-jetzt/commit/cdb871644ad3a7296e821651c8f0ce1beaca368f))
+
+## [1.1.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.2...v1.1.3) (2025-11-10)
+
+### Bug Fixes
+
+- fixed social media url ([0091763](https://github.com/darthkali/gute-schule-jetzt/commit/0091763bdbd20158e63cfbebad7e6a20ac177055))
+
+## [1.1.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.1...v1.1.2) (2025-11-10)
+
+### Bug Fixes
+
+- updated open graph image path ([1fa2d3a](https://github.com/darthkali/gute-schule-jetzt/commit/1fa2d3a4e4c0c2019cdd7fa85239b0779a352870))
+
+## [1.1.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.0...v1.1.1) (2025-11-10)
+
+### Bug Fixes
+
+- updated url for socialMediaButtons ([e555504](https://github.com/darthkali/gute-schule-jetzt/commit/e5555040286bfc483ab56a34a991046ff620679c))
+
+# [1.1.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.2...v1.1.0) (2025-11-10)
+
+### Features
+
+- added threema social media button and removed twitter ([586a909](https://github.com/darthkali/gute-schule-jetzt/commit/586a909a9cb1981d6af1f8efc2f741b472f17dc0))
+- removed old logo, added new logo to browser tab, resized open-graph image ([ca86253](https://github.com/darthkali/gute-schule-jetzt/commit/ca86253cadec20d4c2dbabf12beaf58e08cec9ba))
+- text bei dagi ergänzt ([a1ecf7b](https://github.com/darthkali/gute-schule-jetzt/commit/a1ecf7ba1e2a0a1643b7495681084f840c626914))
+
+## [1.0.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.1...v1.0.2) (2025-11-10)
+
+### Bug Fixes
+
+- add other image to petition and moved hint text to the top ([928b35a](https://github.com/darthkali/gute-schule-jetzt/commit/928b35a825d689318badface77a5fbea0183e64f))
+
 ## [1.0.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.0...v1.0.1) (2025-11-09)
 
 ### Bug Fixes

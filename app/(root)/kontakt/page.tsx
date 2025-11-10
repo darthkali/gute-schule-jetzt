@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
-import Button from '@/app/components/Button';
+import Button from '@/app/components/button/Button';
 import Toast from '@/app/components/Toast';
 
 export default function ContactPage() {

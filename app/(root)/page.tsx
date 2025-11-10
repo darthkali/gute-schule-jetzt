@@ -4,23 +4,22 @@ import {
   FaLinkedin,
   FaWhatsapp,
   FaFacebook,
-  FaXTwitter,
   FaPen,
   FaPeopleGroup,
 } from 'react-icons/fa6';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import Card from '@/app/components/Card';
+import Card from '@/app/components/card/Card';
 import InitiativeMapClient from '@/app/components/Map';
-import Button from '@/app/components/Button';
-import MastodonShareButton from '@/app/components/MastodonShareButton';
-import Highlight from '@/app/components/Highlight';
-import TextImageCard from '@/app/components/TextImageCard';
-import TextLinks from '@/app/components/TextLinks';
+import Button from '@/app/components/button/Button';
+import MastodonShareButton from '@/app/components/button/MastodonShareButton';
+import Highlight from '@/app/components/text/Highlight';
+import TextImageCard from '@/app/components/card/TextImageCard';
+import TextLinks from '@/app/components/text/TextLinks';
 
 export default function HomePage() {
-  const shareUrl = encodeURIComponent('https://edunite-web.vercel.app/');
+  const shareUrl = encodeURIComponent('https://www.neue-lernkultur-jetzt.de');
   const text = encodeURIComponent('Schau dir diese Seite an:');
 
   const iconBoxStyle =
@@ -559,7 +558,22 @@ export default function HomePage() {
               shareUrl={shareUrl}
               className={iconBoxStyle}
             />
-
+            <a
+              key='threema'
+              href={`https://threema.id/compose?text=${text}%20${shareUrl}`}
+              target='_blank'
+              rel='noopener noreferrer'
+              className={iconBoxStyle}
+              aria-label='Teilen auf Threema'
+            >
+              <Image
+                src='/icons/Threema.png'
+                alt='Threema'
+                width={24}
+                height={24}
+                className='text-black'
+              />
+            </a>
             <a
               key='linkedin'
               href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`}
@@ -591,17 +605,6 @@ export default function HomePage() {
               aria-label='Teilen auf Facebook'
             >
               <FaFacebook size={24} className='text-[#1877F2]' />
-            </a>
-
-            <a
-              key='twitter'
-              href={`https://twitter.com/intent/tweet?text=${text}&url=${shareUrl}`}
-              target='_blank'
-              rel='noopener noreferrer'
-              className={iconBoxStyle}
-              aria-label='Teilen auf X (Twitter)'
-            >
-              <FaXTwitter size={24} className='text-black' />
             </a>
           </div>
         </div>

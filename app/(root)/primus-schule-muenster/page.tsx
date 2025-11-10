@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Button from '@/app/components/Button';
-import MediaCard from '@/app/components/MediaCard';
+import Button from '@/app/components/button/Button';
+import MediaCard from '@/app/components/card/MediaCard';
 
 const Page = () => {
   const infoCardContents = [

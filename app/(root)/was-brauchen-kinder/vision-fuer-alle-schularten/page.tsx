@@ -1,7 +1,6 @@
 import React from 'react';
-import ImageTextFloatingSection from '@/app/components/ImageTextFloatingComponent';
-import TextLinks from '@/app/components/TextLinks';
-import WebsiteLinks from '@/app/components/WebsiteLinks';
+import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
+import TextLinks, { Style } from '@/app/components/text/TextLinks';
 
 const Page = () => {
   return (
@@ -168,15 +167,19 @@ const Page = () => {
             </p>
             <p className={'font-bold'}>Mehr erfahren:</p>
             <div className={'flex flex-col gap-2 items-start'}>
-              <WebsiteLinks
-                text='Reinhard Stähling'
+              <TextLinks
                 href='https://www.reinhard-staehling.de'
                 className={'mr-2'}
-              />
-              <WebsiteLinks
-                text='Länger Gemeinsam Lernen'
+                style={Style.Button}
+              >
+                Reinhard Stähling
+              </TextLinks>
+              <TextLinks
                 href='http://www.laenger-gemeinsam-lernen-bw.de/'
-              />
+                style={Style.Button}
+              >
+                Länger Gemeinsam Lernen
+              </TextLinks>
             </div>
           </ImageTextFloatingSection>
         </div>
@@ -230,10 +233,12 @@ const Page = () => {
               und mehr Innovationsgeist!“
             </p>
 
-            <WebsiteLinks
-              text='Mehr erfahren'
+            <TextLinks
               href='https://schulen-der-zukunft.org'
-            />
+              style={Style.Button}
+            >
+              Mehr erfahren
+            </TextLinks>
 
             <h3>Im Miteinander die Fülle unserer Fähigkeiten potenzieren</h3>
             <p>
@@ -246,10 +251,12 @@ const Page = () => {
               nicht nur addieren, sondern potenzieren kann.“
             </p>
 
-            <WebsiteLinks
-              text='Mehr erfahren'
+            <TextLinks
               href='https://schule-im-aufbruch.de/'
-            />
+              style={Style.Button}
+            >
+              Mehr erfahren
+            </TextLinks>
           </ImageTextFloatingSection>
         </div>
       </section>

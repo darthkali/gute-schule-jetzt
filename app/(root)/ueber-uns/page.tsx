@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageTextSection from '@/app/components/ImageTextComponent';
+import ImageTextSection from '@/app/components/text/ImageTextComponent';
 
 const Page = () => {
   return (
@@ -34,9 +34,9 @@ const Page = () => {
 
           <div className='mt-4 space-y-3'>
             <p>
-              <strong>Dagmar Schäfer</strong>, an erster Stelle Mensch, GWRS
-              (Grund-und Werkrealschule) Klassenlehrerin Klasse 1-6, a. D.,
-              Finalistin Freiburger Lehrerpreis 2020
+              <strong>Dagmar Schäfer</strong>, an erster Stelle Mensch (wie alle
+              in diesem Team), GWRS (Grund-und Werkrealschule) Klassenlehrerin
+              Klasse 1-6, a. D., Finalistin Freiburger Lehrerpreis 2020
             </p>
             <p>
               <strong>Annegret Keller</strong>, Grundschul- und
