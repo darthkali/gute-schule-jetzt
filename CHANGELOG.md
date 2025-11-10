@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.2.2...v1.2.3) (2025-11-10)
+
+
+### Bug Fixes
+
+* update next ([f7a7e6a](https://github.com/darthkali/gute-schule-jetzt/commit/f7a7e6ae3c5cd95cdc25e4d0fa642373aa131652))
+
 ## [1.2.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.2.1...v1.2.2) (2025-11-10)
 
 ### Bug Fixes
