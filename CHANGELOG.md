@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.3...v1.2.0) (2025-11-10)
+
+
+### Bug Fixes
+
+* created folder structure for components ([f932be9](https://github.com/darthkali/gute-schule-jetzt/commit/f932be9d96d42342bd97abfa5e3b26db3d5afb00))
+
+
+### Features
+
+* merges WebsiteLinks and TextLinks ([8725942](https://github.com/darthkali/gute-schule-jetzt/commit/8725942355c80bd0c21ad21ed1c5d7583c8ea184))
+* set new image for petition ([67b751d](https://github.com/darthkali/gute-schule-jetzt/commit/67b751d794c2592a0f3b6b4c2b4088db5668b8a3))
+* set the same data for mobile- and non-mobile-navbar. ([cdb8716](https://github.com/darthkali/gute-schule-jetzt/commit/cdb871644ad3a7296e821651c8f0ce1beaca368f))
+
 ## [1.1.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.2...v1.1.3) (2025-11-10)
 
 ### Bug Fixes
