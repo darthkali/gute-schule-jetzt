@@ -1,9 +1,8 @@
 ## [1.1.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.1.0...v1.1.1) (2025-11-10)
 
-
 ### Bug Fixes
 
-* updated url for socialMediaButtons ([e555504](https://github.com/darthkali/gute-schule-jetzt/commit/e5555040286bfc483ab56a34a991046ff620679c))
+- updated url for socialMediaButtons ([e555504](https://github.com/darthkali/gute-schule-jetzt/commit/e5555040286bfc483ab56a34a991046ff620679c))
 
 # [1.1.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.2...v1.1.0) (2025-11-10)
 
