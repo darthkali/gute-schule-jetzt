@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageTextSection from '@/app/components/ImageTextComponent';
+import ImageTextSection from '@/app/components/text/ImageTextComponent';
 
 const Page = () => {
   return (

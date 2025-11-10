@@ -5,25 +5,18 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import Button from '@/app/components/Button';
+import Button from '@/app/components/button/Button';
 import MobileMenu from './MobileMenu';
+import {
+  mainNavLinks,
+  secondaryNavLinks,
+  petitionButton,
+} from './navigationConfig';
 
 export default function Navbar() {
   const pathname = usePathname();
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-
-  const navLinks = [
-    { href: '/#herausforderungen', text: 'Herausforderungen' },
-    { href: '/#kinder', text: 'Kinder' },
-    { href: '/#loesungen', text: 'Lösungen' },
-    { href: '/#aktiv-werden', text: 'Aktiv werden' },
-  ];
-
-  const dropdownLinks = [
-    { href: '/ueber-uns', text: 'Team & Netzwerk' },
-    { href: '/kontakt', text: 'Kontakt' },
-  ];
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -67,7 +60,7 @@ export default function Navbar() {
 
         {/* Navigation */}
         <div className='flex gap-6 items-start font-semibold'>
-          {navLinks.map(({ href, text }) => {
+          {mainNavLinks.map(({ href, text }) => {
             const isActive = pathname === href;
 
             return (
@@ -99,7 +92,7 @@ export default function Navbar() {
 
             {dropdownOpen && (
               <div className='absolute top-full left-0 mt-2 bg-white shadow-lg rounded-md py-2 min-w-48 z-50'>
-                {dropdownLinks.map(({ href, text }) => {
+                {secondaryNavLinks.map(({ href, text }) => {
                   const isActive = pathname === href;
                   return (
                     <Link
@@ -123,8 +116,8 @@ export default function Navbar() {
         {/*  Petition-Button */}
         <div className={'ml-auto'}>
           <Button
-            text='Petition lesen/unterzeichnen'
-            href='/petition'
+            text={petitionButton.textDesktop}
+            href={petitionButton.href}
             bgColor='bg-[color:var(--color-accent)]'
           />
         </div>

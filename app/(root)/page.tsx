@@ -10,13 +10,13 @@ import {
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import Card from '@/app/components/Card';
+import Card from '@/app/components/card/Card';
 import InitiativeMapClient from '@/app/components/Map';
-import Button from '@/app/components/Button';
-import MastodonShareButton from '@/app/components/MastodonShareButton';
-import Highlight from '@/app/components/Highlight';
-import TextImageCard from '@/app/components/TextImageCard';
-import TextLinks from '@/app/components/TextLinks';
+import Button from '@/app/components/button/Button';
+import MastodonShareButton from '@/app/components/button/MastodonShareButton';
+import Highlight from '@/app/components/text/Highlight';
+import TextImageCard from '@/app/components/card/TextImageCard';
+import TextLinks from '@/app/components/text/TextLinks';
 
 export default function HomePage() {
   const shareUrl = encodeURIComponent('https://www.neue-lernkultur-jetzt.de');

@@ -4,7 +4,7 @@ import localFont from 'next/font/local';
 import React from 'react';
 import DevBanner from '@/app/components/DevBanner';
 import Navbar from '@/app/components/navbar/Navbar';
-import Footer from '@/app/components/Footer';
+import Footer from '@/app/components/navbar/Footer';
 
 // Force dynamic rendering to read env variables at runtime
 export const dynamic = 'force-dynamic';

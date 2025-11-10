@@ -1,6 +1,6 @@
 import React from 'react';
-import ImageTextFloatingSection from '@/app/components/ImageTextFloatingComponent';
-import WebsiteLinks from '@/app/components/WebsiteLinks';
+import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
+import TextLinks, { Style } from '@/app/components/text/TextLinks';
 
 const Page = () => {
   return (
@@ -69,20 +69,28 @@ const Page = () => {
             </p>
 
             <h3>Mehr erfahren:</h3>
-            <WebsiteLinks
-              text='Schulen im Aufbruch'
+            <TextLinks
               href='http://www.schule-im-aufbruch.de'
               className={'mr-2'}
-            />
-            <WebsiteLinks
-              text='Schulen der Zukunft'
+              style={Style.Button}
+            >
+              Schulen im Aufbruch
+            </TextLinks>
+
+            <TextLinks
               href='http://www.schulen-der-zukunft.org'
               className={'mr-2'}
-            />
-            <WebsiteLinks
-              text='Länger gemeinsam lernen'
-              href='www.laenger-gemeinsam-lernen-bw.de'
-            />
+              style={Style.Button}
+            >
+              Schulen der Zukunft
+            </TextLinks>
+
+            <TextLinks
+              href='http://www.laenger-gemeinsam-lernen-bw.de'
+              style={Style.Button}
+            >
+              Länger gemeinsam lernen
+            </TextLinks>
           </ImageTextFloatingSection>
         </div>
       </section>

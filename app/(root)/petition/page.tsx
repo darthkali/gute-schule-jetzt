@@ -1,6 +1,6 @@
 import React from 'react';
-import ImageTextFloatingSection from '@/app/components/ImageTextFloatingComponent';
-import TextLinks from '@/app/components/TextLinks';
+import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
+import TextLinks from '@/app/components/text/TextLinks';
 const Page = () => {
   return (
     <section>
@@ -24,7 +24,7 @@ const Page = () => {
           </b>
         </p>
         <ImageTextFloatingSection
-          imageSrc='/images/hoch/all-kids.svg'
+          imageSrc='/images/pexels-fauxels-3184432.jpg'
           imageAlt='Raupe, Puppe und Schmetterling'
           imagePosition='right'
           className={'shadow-none'}
