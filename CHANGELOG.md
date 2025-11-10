@@ -1,9 +1,8 @@
 ## [1.0.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.1...v1.0.2) (2025-11-10)
 
-
 ### Bug Fixes
 
-* add other image to petition and moved hint text to the top ([928b35a](https://github.com/darthkali/gute-schule-jetzt/commit/928b35a825d689318badface77a5fbea0183e64f))
+- add other image to petition and moved hint text to the top ([928b35a](https://github.com/darthkali/gute-schule-jetzt/commit/928b35a825d689318badface77a5fbea0183e64f))
 
 ## [1.0.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.0.0...v1.0.1) (2025-11-09)
 
