@@ -71,6 +71,10 @@ export const metadata: Metadata = {
   title: 'Neue Lernkultur Jetzt - Petition für Bildungswende',
   description:
     'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems vor. Für Schulen, in denen Kinder aufblühen können.',
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     title: 'Neue Lernkultur Jetzt - Petition für Bildungswende',
     description:
@@ -81,8 +85,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/images/abstract-1264071_1920.png',
-        width: 1200,
-        height: 630,
+        width: 1920,
+        height: 869,
         alt: 'Neue Lernkultur Jetzt - Bildungswende für Baden-Württemberg',
       },
     ],
