@@ -4,7 +4,6 @@ import {
   FaLinkedin,
   FaWhatsapp,
   FaFacebook,
-  FaXTwitter,
   FaPen,
   FaPeopleGroup,
 } from 'react-icons/fa6';
@@ -559,7 +558,22 @@ export default function HomePage() {
               shareUrl={shareUrl}
               className={iconBoxStyle}
             />
-
+            <a
+              key='threema'
+              href={`https://threema.id/compose?text=${text}%20${shareUrl}`}
+              target='_blank'
+              rel='noopener noreferrer'
+              className={iconBoxStyle}
+              aria-label='Teilen auf Threema'
+            >
+              <Image
+                src='/icons/Threema.png'
+                alt='Threema'
+                width={24}
+                height={24}
+                className='text-black'
+              />
+            </a>
             <a
               key='linkedin'
               href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`}
@@ -591,17 +605,6 @@ export default function HomePage() {
               aria-label='Teilen auf Facebook'
             >
               <FaFacebook size={24} className='text-[#1877F2]' />
-            </a>
-
-            <a
-              key='twitter'
-              href={`https://twitter.com/intent/tweet?text=${text}&url=${shareUrl}`}
-              target='_blank'
-              rel='noopener noreferrer'
-              className={iconBoxStyle}
-              aria-label='Teilen auf X (Twitter)'
-            >
-              <FaXTwitter size={24} className='text-black' />
             </a>
           </div>
         </div>
