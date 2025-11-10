@@ -24,7 +24,7 @@ const Page = () => {
           </b>
         </p>
         <ImageTextFloatingSection
-          imageSrc='/images/hoch/all-kids.svg'
+          imageSrc='/images/pexels-fauxels-3184432.jpg'
           imageAlt='Raupe, Puppe und Schmetterling'
           imagePosition='right'
           className={'shadow-none'}
