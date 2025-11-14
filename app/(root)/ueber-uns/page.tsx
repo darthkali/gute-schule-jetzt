@@ -73,6 +73,9 @@ const Page = () => {
               <strong>Dipl.-Päd. Edgar Bohn</strong>, Grundschulverband
               Baden-Württemberg, Vorstandsmitglied
             </p>
+            <p>
+              <strong>Dr. rer. nat. Dr. med. habil. Gerald Hüther</strong>, Neurowissenschaftler und Vorstand der Akademie für Potentialentfaltung
+            </p>
           </div>
         </ImageTextSection>
       </div>
