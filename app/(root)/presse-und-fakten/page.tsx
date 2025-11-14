@@ -115,13 +115,13 @@ const Page = () => {
                <img src="icons/book-150621_1920.png" width="20" height="20"
                 onMouseOver={(e) => (
                             e.currentTarget.src = "./documents/ChatGPTzuElla.png",
-                            e.currentTarget.width="810",
-                            e.currentTarget.height="820"
+                            e.currentTarget.width=810,
+                            e.currentTarget.height=820
                             )}
                         onMouseLeave={(e) => (
                             e.currentTarget.src = "icons/book-150621_1920.png",
-                            e.currentTarget.width="20",
-                            e.currentTarget.height="20"
+                            e.currentTarget.width=20,
+                            e.currentTarget.height=20
                             )}
                         />
            </p>
