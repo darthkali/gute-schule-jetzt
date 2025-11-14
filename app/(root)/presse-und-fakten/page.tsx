@@ -20,7 +20,11 @@ const Page = () => {
         und eine von uns zusammengestellte Faktensammlung zur weiteren Unterfütterung der Petitions-Forderungen.
         </p>
           <h2>Fakten</h2>
-          <h3>Verwaltung1: Personalplanung I, Geisterstellen</h3>
+          <h3>Verwaltung</h3>
+          Wir wollen hier zur nachdrücklichen Begründung unseres Antrags auf externe Evaluation der
+          Organisation und Arbeitsweise des Kultusministeriums nur drei der (uns bekannten) „Leuchtturm“-Negativbeispiele
+          erwähnen, die diesen Schritt nahelegen:
+          <h3>Personalplanung I, Geisterstellen</h3>
           <p>
           <b>1440 unbesetzte Lehrerstellen</b><br/>
           Im Juli dieses Jahres fiel im Kultusministerium auf, dass weit mehr als 1000 Lehrer-Planstellen über
@@ -28,15 +32,13 @@ const Page = () => {
                     dass sie auf diese Tatsache aufmerksam gemacht hat. Wussten ihre Vorgänger:innen vielleicht auch schon davon,
                     haben sich aber nicht getraut an die Öffentlichkeit zu gehen?
                     <br/>
-          Wenn sogar selbst der umstürzlerischer Umtriebe unverdächtige ehemalige Ministerpräsident Günter Öttinger (CDU)
-          der Auffassung war, das Problem ließe sich nur durch die Neugründung des Ministeriums lösen, und sich auch
+          Wenn sogar selbst der umstürzlerischer Umtriebe unverdächtige ehemalige Ministerpräsident <b>Günter Öttinger (CDU)</b>
+          der Auffassung war, <b>das Problem ließe sich nur durch die Neugründung des Ministeriums lösen</b>, und sich auch
           der amtierende Ministerpräsident Winfried Kretschmann (Grüne) über die Jahre gerade über die
           Lehrerstellenverwaltung und die Trägheit der Schulverwaltung immer wieder kritisch geäußert hat,
           dann liegt wirklich sehr viel im Argen.
-          Jede Lehrkraft im Staatsdienst wird aus dem Stand mindestens eine haarsträubende Kultusverwaltungsgeschichte
-          zu erzählen haben. Wir wollen hier zur nachdrücklichen Begründung unseres Antrags auf externe Evaluation der
-          Organisation und Arbeitsweise des Kultusministeriums  nur diese drei (uns bekannten)  „Leuchtturm“-Negativbeispiele
-          erwähnen, die diesen Schritt nahelegen:
+          Jede Lehrkraft im Staatsdienst kann aus dem Stand mindestens eine haarsträubende Kultusverwaltungsgeschichte
+          erzählen.
 
           <br/>
           </p>
@@ -45,8 +47,8 @@ const Page = () => {
           <i>"An der Leistungsfähigkeit der baden-württembergischen Kultusverwaltung gibt es schon seit vielen Jahren
           große Zweifel, der frühere Ministerpräsident Günter Oettinger (CDU) war sogar der Auffassung, das Problem
           ließe sich nur durch die Neugründung des Ministeriums lösen, auch der amtierende Ministerpräsident Winfried
-          Kretschmann (Grüne) hat sich über die Jahre gerade über die Lehrerstellenverwaltung und die Trägheit der S
-          chulverwaltung immer wieder kritisch geäußert."
+          Kretschmann (Grüne) hat sich über die Jahre gerade über die Lehrerstellenverwaltung und die Trägheit der
+          Schulverwaltung immer wieder kritisch geäußert."
           </i>
           </p>
           Quellen:
@@ -60,7 +62,7 @@ const Page = () => {
 
 
 
-          <h3>Verwaltung2: Personalplanung II, Abschluss 2025</h3>
+          <h3>Personalplanung II, Abschluss 2025</h3>
           <p>
           Nach Abschluss der gymnasialen Ausbildung 2025 hat sich herausgestellt, dass nur wenige Referendar:innen vom
           Kultusministerium eine Stelle als Gymnasialleher:in angeboten bekommen.</p>
@@ -78,7 +80,7 @@ const Page = () => {
         Quelle: <TextLinks href={'https://www.swr.de/swraktuell/baden-wuerttemberg/junge-lehrer-kein-job-gymnasium-100.html'} >
                         SWR: Junglehrer ohne Job</TextLinks>
 
-          <h3>Verwaltung3: Digitale Bildungsplattform "ella" nicht betriebsfähig</h3>
+          <h3>Digitale Bildungsplattform "ella" nicht betriebsfähig</h3>
           <p>Im Jahr 2018 musste das Kultusministerium das Scheitern eines digitalen Projektes eingestehen: 24 Millionen
           Euro Ausgaben plus  Kosten in unbekannter Höhe, die durch die Projektsteuerung im Ministerium und bei dem
               damaligen Dienstleister KIVBF entstanden waren. Die KIVBF war ein öffentlich-rechtlicher Zweckverband, der zudem am 1.7.2018
@@ -112,7 +114,7 @@ const Page = () => {
           <b>Unsere Anfrage an ChatGPT-KI mit folgendem Prompt:</b><br/>
           <i>"Gibt es Informationen zu ella, das war der Versuch des Landes Baden-Württemberg ein Lehrerauskunftsprogramm
           einzuführen. Dies ist 2018 gescheitert. Gab es dazu eine parlamentarische Aufarbeitung?"</i><br/> ergab diese ChatGPT-Ausgabe:
-               <img src="icons/book-150621_1920.png" width="20" height="20"
+               <img src="icons/book-150621_1920.png" width="40" height="40"
                 onMouseOver={(e) => (
                             e.currentTarget.src = "./documents/ChatGPTzuElla.png",
                             e.currentTarget.width=810,
@@ -120,8 +122,8 @@ const Page = () => {
                             )}
                         onMouseLeave={(e) => (
                             e.currentTarget.src = "icons/book-150621_1920.png",
-                            e.currentTarget.width=20,
-                            e.currentTarget.height=20
+                            e.currentTarget.width=40,
+                            e.currentTarget.height=40
                             )}
                         />
            </p>
