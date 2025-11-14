@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
-import TextLinks from '@/app/components/Text/TextLinks';
-import ImageTextSection from '@/app/components/Text/ImageTextComponent';
+import TextLinks from '@/app/components/text/TextLinks';
+import ImageTextSection from '@/app/components/text/ImageTextComponent';
 
 
 const Page = () => {
