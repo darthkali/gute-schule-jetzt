@@ -9,10 +9,10 @@ const Page = () => {
         <h2>BW-Petition - Schule mit Zukunft für alle Kinder </h2>
         <p className={'bg-red-300 p-4 rounded-lg'}>
           <b>
-            Dies ist die Langfassung der Petition, die als{' '}
+            Hier steht das Anschreiben an die MdLs, die Parteien und Entscheidungsträger:innen, welches als
             <TextLinks href={'/documents/Petition.pdf'} newTab={false}>
               {' '}
-              Kurzfassung{' '}
+              Petitionstext in Kurzfassung{' '}
             </TextLinks>{' '}
             (PDF-Datei) ab Montag den 12.01.2026 unter diesem Link{' '}
             <i>(ab 12.01.26 aktiv)</i> in einem Zeitraum von 6 Wochen auf der
@@ -29,12 +29,12 @@ const Page = () => {
           imagePosition='right'
           className={'shadow-none'}
         >
-          <p>
+          <p><br/>
             Sehr geehrte Mitglieder des Landtags BW, sehr geehrte Mitglieder der
             demokratischen Parteien, sehr geehrte Entscheidungsträger:innen der
             (zukünftigen) Landesregierung,
           </p>
-          <p>
+          <p><br/>
             die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf
             Wohlergehen von Kindern und Jugendlichen und die zukünftige
             Entwicklung unserer Gesellschaft fördern und stärken.
