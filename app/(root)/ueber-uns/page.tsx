@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageTextSection from '@/app/components/text/ImageTextComponent';
+import TextLinks from '@/app/components/text/TextLinks';
 
 const Page = () => {
   return (
@@ -77,6 +78,17 @@ const Page = () => {
               <strong>Dr. rer. nat. Dr. med. habil. Gerald Hüther</strong>, Neurowissenschaftler und Vorstand der Akademie für Potentialentfaltung
             </p>
           </div>
+
+          <br/>
+          <h2>Verwandte Initiativen</h2>
+          <ul>
+          <li>
+          <b>BILDUNGSWENDE JETZT!</b><br/>
+          Eine breite <TextLinks href={'https://www.bildungswende-jetzt.de/'} >
+                    Initiative</TextLinks> in den vielen Bundesländern - aber nicht in BaWü.
+          </li>
+          </ul>
+
         </ImageTextSection>
       </div>
     </section>

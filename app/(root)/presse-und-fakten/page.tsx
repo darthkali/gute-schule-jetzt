@@ -10,11 +10,12 @@ const Page = () => {
        <div className={'innerBox'}>
 
         <h1>Presse und Fakten</h1>
-        <ImageTextSection
+        {/* <ImageTextSection
           imageSrc={'/images/presse-und-fakten.jpg'}
           imageAlt={'sdaf'}
           imagePosition={'left'}
         >
+         </ImageTextSection>*/}
         <p>
         Auf diesen Seite findet ihr Links zu Presseartikeln (teilweise leider hinter einer Bezahlschranke) zum Thema Bildung
         und eine von uns zusammengestellte Faktensammlung zur weiteren Unterfütterung der Petitions-Forderungen.
@@ -54,11 +55,13 @@ const Page = () => {
           Quellen:
           <br/>
           Staatsanzeiger: <TextLinks href={'https://www.staatsanzeiger.de/nachrichten/politik-und-verwaltung/die-1440-geisterstellen-sind-ein-strukturproblem-geisterstellen-ein-strukturproblem/'} >
-                    Die 1440 Geisterstellen sind ein Strukturproblem </TextLinks>{' '}
+                    Die 1440 Geisterstellen sind ein Strukturproblem </TextLinks>
           <br/>
           F.A.Z: <TextLinks href={'https://www.faz.net/aktuell/politik/inland/baden-wuerttemberg-1440-unbesetzte-lehrerstellen-entdeckt-110594045.html'} >
-          1440 unbesetzte Lehrerstellen</TextLinks>{' '}(Bezahlschranke)
-
+          1440 unbesetzte Lehrerstellen</TextLinks><br/>
+                  SWR: <TextLinks href={'https://www.swr.de/swraktuell-radio/software-panne-kultusministerium-bw-unbesetzte-lehrerstellen-bleiben-unentdeckt-100.html/'} >
+                            Warum blieben 1.440 unbesetzte Lehrerstellen unentdeckt? </TextLinks>
+           <br/>
 
 
 
@@ -194,7 +197,7 @@ const Page = () => {
           </li><br/>
           </ul>
 
-        </ImageTextSection>
+
       </div>
     </section>
   );
