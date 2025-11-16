@@ -36,31 +36,18 @@ const Page = () => {
             demokratischen Parteien, sehr geehrte Entscheidungsträger:innen der
             (zukünftigen) Landesregierung,
           </p>
-          <p>
-            <br />
-            die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf
-            Wohlergehen von Kindern und Jugendlichen und die zukünftige
-            Entwicklung unserer Gesellschaft fördern und stärken.
-          </p>
-          <p>
-            „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der
-            Gemeinschaft, Freiheit von Zwang und Hektik, sowie der Möglichkeit
-            zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein, an dem
-            Bildungsprozesse für alle Kinder durch Zeit und Ruhe gefördert
-            werden.
-          </p>
-
-          <p>
-            Seit hunderten von Jahren wird im Wesentlichen unverändert frontal
-            unterrichtet. Bis Erkenntnisse aus der Pädagogik im praktischen
-            Unterricht landen, vergehen oft Jahrzehnte, in denen sich dann die
-            gesellschaftlichen Rahmenbedingungen längst wieder geändert haben.
-          </p>
-          <p>
-            Spaltung, Demokratieverlust und Verrohung sind die Folgen von
-            strukturellen Ursachen. Den gesellschaftlichen Niedergang, der sich
-            bereits auszuwirken beginnt, können wir gemeinsam durch
-            ganzheitliche Bildung stoppen.
+          <p><br/>
+            Es war sehr schwierig einen Namen für unsere Initiative zu finden. Nicht weil wir keine Phantasie gehabt hätten - nein -
+            weil die Anzahl der Initiativen zu einer Reform des Bildungssystems unüberschaubar ist.<br/> Warum? Weil so viele Menschen mit der
+            aktuellen Situation im Bildungsbereich schon sehr lange sehr unzufrieden sind. Es wird Zeit, dass Sie, geehrte Entscheidungsträger:innen,
+            endlich die Einsicht, die Kompromissbereitschaft und Tatkraft finden, eine Bildungsreform anzugehen, die den Namen verdient
+            und das Klein-Klein der letzten Jahre hinter sich lässt. Springen Sie über Ihren Schatten, nehmen Sie einen neuen Anlauf
+            und bringen Sie eine große Bildungsreform auf den Weg.<br/>
+            Nehmen Sie die technologischen, gesellschaftlichen und kulturellen Änderungen der letzten Jahre wahr - sehr vieles hat sich geändert -
+            in der praktischen Schulbildung hingegen sehr wenig. Unser Bildungssystem muss auf diese Entwicklungen reagieren.<br/>
+            Das es anders gehen kann und muss, zeigen wir auf neue-lernkultur-jetzt.de, dort werden u.a. erfolgreiche Lösungen vorgestellt.
+            Grundlage für eine prosperierende, dem Gemeinsinn verpflichtete, resiliente Gesellschaft sind unsere gut ausgebildeten Kinder - Zukunft! gestalten! - jetzt!
+            <br/>
           </p>
 
           <p>
