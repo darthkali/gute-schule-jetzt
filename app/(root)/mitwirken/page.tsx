@@ -74,10 +74,10 @@ const Page = () => {
         </TextLinks>{' '}
         uns.
         <p>
-        Zum Weiterleiten, Ausdrucken und Weitergeben: <TextLinks href={'/documents/Plakat_A4.jpeg'}>
-                  Plakat </TextLinks> {' '}und {' '}<TextLinks href={'/documents/4xFlyer_A4.jpeg'}>
-                  Flyer  </TextLinks>
-         </p>
+          Zum Weiterleiten, Ausdrucken und Weitergeben:{' '}
+          <TextLinks href={'/documents/Plakat_A4.jpeg'}>Plakat </TextLinks> und{' '}
+          <TextLinks href={'/documents/4xFlyer_A4.jpeg'}>Flyer </TextLinks>
+        </p>
       </div>
     </section>
   );
