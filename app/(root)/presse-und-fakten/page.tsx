@@ -116,20 +116,50 @@ const Page = () => {
           <p>
           <b>Unsere Anfrage an ChatGPT-KI mit folgendem Prompt:</b><br/>
           <i>"Gibt es Informationen zu ella, das war der Versuch des Landes Baden-Württemberg ein Lehrerauskunftsprogramm
-          einzuführen. Dies ist 2018 gescheitert. Gab es dazu eine parlamentarische Aufarbeitung?"</i><br/> ergab diese ChatGPT-Ausgabe:
-               <img src="icons/book-150621_1920.png" width="40" height="40"
-                onMouseOver={(e) => (
-                            e.currentTarget.src = "./documents/ChatGPTzuElla.png",
-                            e.currentTarget.width=810,
-                            e.currentTarget.height=820
-                            )}
-                        onMouseLeave={(e) => (
-                            e.currentTarget.src = "icons/book-150621_1920.png",
-                            e.currentTarget.width=40,
-                            e.currentTarget.height=40
-                            )}
-                        />
-           </p>
+          einzuführen. Dies ist 2018 gescheitert. Gab es dazu eine parlamentarische Aufarbeitung?"</i><br/> ergab diese
+          </p>
+          <details>
+          <summary> <b>ChatGPT-Ausgabe</b> </summary>
+             <p  className={'bg-cyan-50 p-4 rounded-lg'}>
+                           <b>Das ella-Projekt - Überblick:</b><br/>
+                         "ella" war eine digitale Bildungsplattform Baden-Württembergs, die am 26. Februar 2018 wegen massiver technischer
+                          Probleme nicht wie geplant starten konnte. Die Plattform sollte allen 1,5 Millionen Schülern und
+                          Lehrern in Baden-Württemberg zur Verfügung stehen.
+                          <b>Finanzielle Dimension und Streitigkeiten</b><br/>
+                          Das Land forderte 6,5 Millionen Euro von der Entwicklerfirma Iteos zurück, nachdem das Vertragsverhältnis
+                          durch den Rücktritt des Landes beendet wurde. Gleichzeitig forderten die Entwickler der gescheiterten
+                          Bildungsplattform "ella" vom Land Baden-Württemberg 20 Millionen Euro für ihre Arbeit.
+                          <b>Parlamentarische Aufarbeitung</b><br/>
+                          <b>Rechnungshof-Untersuchung:</b> Das grün-schwarze Kabinett beschloss im Oktober 2018, die obersten Rechnungsprüfer
+                          des Landes mit der Untersuchung zu beauftragen. Ein Gutachten des Rechnungshofs Baden-Württemberg lastete
+                          die Versäumnisse <b>vor allem dem Kultusministerium</b> an.<br/>
+                          <b>Diskussion über Untersuchungsausschuss:</b> Es gab Diskussionen darüber, ob trotz des Rechnungshof-Gutachtens
+                          noch ein parlamentarischer Untersuchungsausschuss gebraucht würde, wobei besonders die SPD als Initiatorin
+                          des Projekts dies abwägen müsse.<br/>
+                          <b>Kultusausschuss-Behandlung:</b> Der Fall wurde im Kultusausschuss des Landtags behandelt, jedoch konnte ich
+                          keine Hinweise auf einen eigenen parlamentarischen Untersuchungsausschuss speziell zu "ella" finden.
+                          <b>Ergebnis der Aufarbeitung</b><br/>
+                          Die parlamentarische Aufarbeitung erfolgte primär über:
+             </p>
+                          <ul>
+                          <li>Die Rechnungshof-Untersuchung (2018-2019)</li>
+                          <li>Behandlung im Kultusausschuss</li>
+                          <li>Diskussionen über einen möglichen Untersuchungsausschuss, der aber offenbar nicht eingesetzt wurde</li>
+                          </ul>
+             <p   className={'bg-cyan-50 p-4 rounded-lg'}>
+                          Das Projekt wurde als "Leuchtturmprojekt" angekündigt und ist gescheitert, mit einem finanziellen Schaden
+                          in Millionenhöhe. Eine vollständige parlamentarische Untersuchung <b>durch einen eigenen Untersuchungsausschuss
+                          fand jedoch nicht statt.</b>
+             </p>
+
+
+            </details>
+
+
+
+
+
+
            <p className={'bg-red-200 p-4 rounded-lg'} >
            <b>Einen Untersuchungsausschuss hat es nie gegeben!</b><br/>
            Da dürfen wir gespannt sein, wie es mit dem neu 2024 eingeführten <TextLinks

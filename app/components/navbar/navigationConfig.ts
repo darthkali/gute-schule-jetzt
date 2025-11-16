@@ -12,6 +12,7 @@ export const mainNavLinks: NavLink[] = [
 
 export const secondaryNavLinks: NavLink[] = [
   { href: '/ueber-uns', text: 'Team & Netzwerk' },
+  { href: '/mitwirken', text: 'Mitwirken' },
   { href: '/kontakt', text: 'Kontakt' },
   { href: '/presse-und-fakten', text: 'Presse & Fakten' }
 ];
