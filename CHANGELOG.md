@@ -1,17 +1,15 @@
 # [1.5.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.4.0...v1.5.0) (2025-11-17)
 
-
 ### Features
 
-* updated petition date ([5f95ff6](https://github.com/darthkali/gute-schule-jetzt/commit/5f95ff6f18f276ac5f01e36d306d57b81c56a546))
+- updated petition date ([5f95ff6](https://github.com/darthkali/gute-schule-jetzt/commit/5f95ff6f18f276ac5f01e36d306d57b81c56a546))
 
 # [1.4.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.3.0...v1.4.0) (2025-11-17)
 
-
 ### Features
 
-* updated media image ([49d6869](https://github.com/darthkali/gute-schule-jetzt/commit/49d68692effbe785e5e70f72af2692b8936d36c7))
-* updated petition date ([e3114d2](https://github.com/darthkali/gute-schule-jetzt/commit/e3114d2113b6f09978d82bbb1c42950128ae5b8a))
+- updated media image ([49d6869](https://github.com/darthkali/gute-schule-jetzt/commit/49d68692effbe785e5e70f72af2692b8936d36c7))
+- updated petition date ([e3114d2](https://github.com/darthkali/gute-schule-jetzt/commit/e3114d2113b6f09978d82bbb1c42950128ae5b8a))
 
 # [1.3.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.2.5...v1.3.0) (2025-11-16)
 

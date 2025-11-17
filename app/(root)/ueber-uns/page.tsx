@@ -1,6 +1,5 @@
 import React from 'react';
 import ImageTextSection from '@/app/components/text/ImageTextComponent';
-import TextLinks from '@/app/components/text/TextLinks';
 
 const Page = () => {
   return (
@@ -20,7 +19,7 @@ const Page = () => {
             bereits für die Zukunft fit gemacht und erfolgreich transformiert
             ist - diese Erfahrung treibt uns an. Gemeinsam setzen wir alles
             daran, einen Bildungswandel zu erreichen, der die Kinder und ihr
-            autonomes Lernen in den Mittelpunkt allen Tuns stellt.
+            eigenständiges Lernen in den Mittelpunkt allen Tuns stellt.
           </p>
 
           <p>
@@ -80,20 +79,6 @@ const Page = () => {
               Potentialentfaltung
             </p>
           </div>
-
-          <br />
-          <h2>Verwandte Initiativen</h2>
-          <ul>
-            <li>
-              <b>BILDUNGSWENDE JETZT!</b>
-              <br />
-              Eine breite{' '}
-              <TextLinks href={'https://www.bildungswende-jetzt.de/'}>
-                Initiative
-              </TextLinks>{' '}
-              in den vielen Bundesländern - aber nicht in BaWü.
-            </li>
-          </ul>
         </ImageTextSection>
       </div>
     </section>

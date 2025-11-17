@@ -133,13 +133,13 @@ const Page = () => {
 
             <p className={'font-bold'}>Links:</p>
 
-            <TextLinks
+            {/* <TextLinks
               href='https://www.welt.de/debatte/kommentare/article113327766/Jedes-Kind-lernt-gerne-aber-nur-ohne-Druck.html'
               className={'mr-2'}
               style={Style.Button}
             >
               Lernen ohne Druck
-            </TextLinks>
+            </TextLinks> */}
 
             <TextLinks
               href='https://www.gerald-huether.de/'

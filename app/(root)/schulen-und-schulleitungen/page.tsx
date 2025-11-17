@@ -39,8 +39,8 @@ const Page = () => {
             <TextLinks href={'/petition'} newTab={false}>
               Landtags-Petition
             </TextLinks>{' '}
-            "Neue Lernkultur - Jetzt!" mit Start am Montag, den 08. Dezember
-            2026, die mit 10000 digitalen Unterschriften die politische Kraft
+            "Neue Lernkultur - Jetzt!" mit Start am Montag, den 8. Dezember
+            2025, die mit 10000 digitalen Unterschriften die politische Kraft
             für spürbaren Fortschritt entwickeln soll. Bitte teilen und im
             Kollegium bekannt machen.
           </li>

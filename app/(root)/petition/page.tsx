@@ -15,8 +15,8 @@ const Page = () => {
               {' '}
               Petitionstext in Kurzfassung{' '}
             </TextLinks>{' '}
-            (PDF-Datei) ab Montag den 08.12.2025 unter diesem Link{' '}
-            <i>(ab 08.12.2025 aktiv)</i> in einem Zeitraum von 6 Wochen auf der
+            (PDF-Datei) ab Montag den 8.12.2025 unter diesem Link{' '}
+            <i>(ab 8.12.25 aktiv)</i> in einem Zeitraum von 6 Wochen auf der
             Internetseite des Landtags unterzeichnet werden kann. Davor soll ein
             weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind
             10 000 Unterschriften erreicht, wird der Landtag eine öffentliche
@@ -38,29 +38,22 @@ const Page = () => {
           </p>
           <p>
             <br />
-            die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf
-            Wohlergehen von Kindern und Jugendlichen und die zukünftige
-            Entwicklung unserer Gesellschaft fördern und stärken.
-          </p>
-          <p>
-            „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der
-            Gemeinschaft, Freiheit von Zwang und Hektik, sowie der Möglichkeit
-            zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein, an dem
-            Bildungsprozesse für alle Kinder durch Zeit und Ruhe gefördert
-            werden.
-          </p>
-
-          <p>
-            Seit hunderten von Jahren wird im Wesentlichen unverändert frontal
-            unterrichtet. Bis Erkenntnisse aus der Pädagogik im praktischen
-            Unterricht landen, vergehen oft Jahrzehnte, in denen sich dann die
-            gesellschaftlichen Rahmenbedingungen längst wieder geändert haben.
-          </p>
-          <p>
-            Spaltung, Demokratieverlust und Verrohung sind die Folgen von
-            strukturellen Ursachen. Den gesellschaftlichen Niedergang, der sich
-            bereits auszuwirken beginnt, können wir gemeinsam durch
-            ganzheitliche Bildung stoppen.
+            Viele sind Menschen mit der aktuellen Situation im Bildungsbereich
+            schon sehr lange sehr unzufrieden. Geehrte
+            Entscheidungsträger:innen, nehmen Sie einen neuen Anlauf und bringen
+            Sie eine große Bildungsreform auf den Weg.
+            <br />
+            Berücksichtigen Sie die technologischen, gesellschaftlichen und
+            kulturellen Änderungen der letzten Jahre - sehr vieles hat sich
+            geändert - in der praktischen Schulbildung hingegen sehr wenig.
+            Unser Bildungssystem muss auf diese Entwicklungen reagieren.
+            <br />
+            Das es anders gehen kann und muss, zeigen wir auf
+            neue-lernkultur-jetzt.de, dort werden u.a. erfolgreiche Lösungen
+            vorgestellt. Grundlage für eine prosperierende, dem Gemeinsinn
+            verpflichtete, resiliente Gesellschaft sind unsere gut ausgebildeten
+            Kinder - Zukunft! gestalten! - jetzt!
+            <br />
           </p>
 
           <p>

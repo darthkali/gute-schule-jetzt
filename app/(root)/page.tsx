@@ -89,7 +89,7 @@ export default function HomePage() {
                     </Highlight>{' '}
                     in Baden Württemberg (BW) vor. Der Entwurf des
                     Petitionstextes steht hier. Die Petition „Neue Lernkultur –
-                    Jetzt!“ kann ab Montag 08. Dezember 2025 in einem Zeitraum
+                    Jetzt!“ kann ab Montag 8. Dezember 2025 in einem Zeitraum
                     von 6 Wochen unterschrieben werden. Bis dahin gilt es{' '}
                     <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
                     damit weit mehr als die erforderlichen 10 000 Unterschriften
@@ -156,7 +156,7 @@ export default function HomePage() {
                 'Eine sich rasant veränderte Welt braucht auch eine veränderte Schule'
               }
               description={
-                'Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus liegt auf dem Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf partizipative Konzepte, bei denen alle Beteiligten – von Schüler*innen bis hin zu Lehrkräften und Schulträgern – aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame Entwicklung schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und Lernprozesse positiv beeinflussen. Wir sind alle Lernende, die Transformationskompetenz und zukunftsfähige Bildung brauchen.'
+                'Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus liegt auf dem Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf partizipative Konzepte, bei denen alle Beteiligten – von Schüler:innen bis hin zu Lehrkräften und Schulträgern – aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame Entwicklung schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und Lernprozesse positiv beeinflussen. Wir sind alle Lernende, die Transformationskompetenz und zukunftsfähige Bildung brauchen.'
               }
               href={'/veraenderte-welt'}
             />
