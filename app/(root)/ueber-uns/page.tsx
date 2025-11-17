@@ -7,7 +7,7 @@ const Page = () => {
       <div className={'innerBox'}>
         <h1>Team & Netzwerk</h1>
         <ImageTextSection
-          imageSrc={'/images/school-543041_1920.jpg'}
+          imageSrc={'/images/people-8139477_1280.jpg'}
           imageAlt={'sdaf'}
           imagePosition={'left'}
         >

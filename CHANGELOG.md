@@ -1,15 +1,14 @@
 # [1.6.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.5.0...v1.6.0) (2025-11-17)
 
-
 ### Features
 
-* format ([7af0ee3](https://github.com/darthkali/gute-schule-jetzt/commit/7af0ee385b7426d8eed2fe7c46caa4caa504ce4a))
-* format ([261a1d0](https://github.com/darthkali/gute-schule-jetzt/commit/261a1d0e9f8c56d387b5da13ae41cee861560701))
-* Neue Quelle: Stuttgarter Nachrichten 29.3.2024 (Bezahlschrank) Presse&Fakten ([70ed224](https://github.com/darthkali/gute-schule-jetzt/commit/70ed22473c5a476a529d7f2a8ae0aa5973f95970))
-* Noch eine Änderung am Petitionseinführungstext ([9b68bc8](https://github.com/darthkali/gute-schule-jetzt/commit/9b68bc80a6e46eaa26d37eed56d684d7fd313726))
-* Petitionsstart auf 8.12.2025 geändert ([e4e6458](https://github.com/darthkali/gute-schule-jetzt/commit/e4e64580144421c49701a14cc929c4b6845658d3))
-* Petitionsstart auf 8.12.2025 geändert ([75f2ed1](https://github.com/darthkali/gute-schule-jetzt/commit/75f2ed10a7472f31d66095dcec364c32b2e3d3da))
-* Redaktionelle Änderung in der Einführung Anschreiben Petition ([6372700](https://github.com/darthkali/gute-schule-jetzt/commit/6372700dc8657e3128a4f3f626f797ccc0c77be1))
+- format ([7af0ee3](https://github.com/darthkali/gute-schule-jetzt/commit/7af0ee385b7426d8eed2fe7c46caa4caa504ce4a))
+- format ([261a1d0](https://github.com/darthkali/gute-schule-jetzt/commit/261a1d0e9f8c56d387b5da13ae41cee861560701))
+- Neue Quelle: Stuttgarter Nachrichten 29.3.2024 (Bezahlschrank) Presse&Fakten ([70ed224](https://github.com/darthkali/gute-schule-jetzt/commit/70ed22473c5a476a529d7f2a8ae0aa5973f95970))
+- Noch eine Änderung am Petitionseinführungstext ([9b68bc8](https://github.com/darthkali/gute-schule-jetzt/commit/9b68bc80a6e46eaa26d37eed56d684d7fd313726))
+- Petitionsstart auf 8.12.2025 geändert ([e4e6458](https://github.com/darthkali/gute-schule-jetzt/commit/e4e64580144421c49701a14cc929c4b6845658d3))
+- Petitionsstart auf 8.12.2025 geändert ([75f2ed1](https://github.com/darthkali/gute-schule-jetzt/commit/75f2ed10a7472f31d66095dcec364c32b2e3d3da))
+- Redaktionelle Änderung in der Einführung Anschreiben Petition ([6372700](https://github.com/darthkali/gute-schule-jetzt/commit/6372700dc8657e3128a4f3f626f797ccc0c77be1))
 
 # [1.5.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.4.0...v1.5.0) (2025-11-17)
 
