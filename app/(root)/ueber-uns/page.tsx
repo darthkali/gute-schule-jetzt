@@ -81,19 +81,7 @@ const Page = () => {
             </p>
           </div>
 
-          <br />
-          <h2>Verwandte Initiativen</h2>
-          <ul>
-            <li>
-              <b>BILDUNGSWENDE JETZT!</b>
-              <br />
-              Eine breite{' '}
-              <TextLinks href={'https://www.bildungswende-jetzt.de/'}>
-                Initiative
-              </TextLinks>{' '}
-              in den vielen Bundesländern - aber nicht in BaWü.
-            </li>
-          </ul>
+         
         </ImageTextSection>
       </div>
     </section>
