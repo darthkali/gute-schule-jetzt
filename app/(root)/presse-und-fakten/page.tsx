@@ -370,7 +370,7 @@ const Page = () => {
             begeben, aber nur so könnte eine echte Bildungsreform überleben zu
             Stande kommen. Unsere Meinung: Der Schulfrieden musss ein; Schluss
             mit dem kleinmütigen Parteiengezänk.
-            <br/>
+            <br />
             Pressemitteilung der SPD vom 31.12.2024:{' '}
             <TextLinks
               href={
@@ -379,16 +379,16 @@ const Page = () => {
             >
               Ohne echte Lösungen gibt es auch 2025 keinen Schulfrieden
             </TextLinks>
-            <br/>
-              Stuttgarter Nachrichten 29.3.2024 (Bezahlschranke):{' '}
-                        <TextLinks
-                          href={
-                            'https://www.stuttgarter-nachrichten.de/inhalt.zweiter-bildungsgipfel-warum-erst-wochen-spaeter-ueber-den-schulfrieden-gesprochen-wird.cb24cb99-a927-43a6-9e45-9f4145c3700c.html#/'
-                          }
-                        >
-                          Warum erst Wochen später über den Schulfrieden gesprochen wird
-                        </TextLinks>
-                        <br />
+            <br />
+            Stuttgarter Nachrichten 29.3.2024 (Bezahlschranke):{' '}
+            <TextLinks
+              href={
+                'https://www.stuttgarter-nachrichten.de/inhalt.zweiter-bildungsgipfel-warum-erst-wochen-spaeter-ueber-den-schulfrieden-gesprochen-wird.cb24cb99-a927-43a6-9e45-9f4145c3700c.html#/'
+              }
+            >
+              Warum erst Wochen später über den Schulfrieden gesprochen wird
+            </TextLinks>
+            <br />
             Der Schulpädagoge Klaus Zierer in der Badischen Zeitung vom
             2.11.2025:{' '}
             <TextLinks

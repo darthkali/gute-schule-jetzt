@@ -36,15 +36,24 @@ const Page = () => {
             demokratischen Parteien, sehr geehrte Entscheidungsträger:innen der
             (zukünftigen) Landesregierung,
           </p>
-          <p><br/>
-            Viele sind Menschen mit der
-            aktuellen Situation im Bildungsbereich schon sehr lange sehr unzufrieden. Geehrte Entscheidungsträger:innen, nehmen Sie einen neuen Anlauf
-            und bringen Sie eine große Bildungsreform auf den Weg.<br/>
-            Berücksichtigen Sie die technologischen, gesellschaftlichen und kulturellen Änderungen der letzten Jahre - sehr vieles hat sich geändert -
-            in der praktischen Schulbildung hingegen sehr wenig. Unser Bildungssystem muss auf diese Entwicklungen reagieren.<br/>
-            Das es anders gehen kann und muss, zeigen wir auf neue-lernkultur-jetzt.de, dort werden u.a. erfolgreiche Lösungen vorgestellt.
-            Grundlage für eine prosperierende, dem Gemeinsinn verpflichtete, resiliente Gesellschaft sind unsere gut ausgebildeten Kinder - Zukunft! gestalten! - jetzt!
-            <br/>
+          <p>
+            <br />
+            Viele sind Menschen mit der aktuellen Situation im Bildungsbereich
+            schon sehr lange sehr unzufrieden. Geehrte
+            Entscheidungsträger:innen, nehmen Sie einen neuen Anlauf und bringen
+            Sie eine große Bildungsreform auf den Weg.
+            <br />
+            Berücksichtigen Sie die technologischen, gesellschaftlichen und
+            kulturellen Änderungen der letzten Jahre - sehr vieles hat sich
+            geändert - in der praktischen Schulbildung hingegen sehr wenig.
+            Unser Bildungssystem muss auf diese Entwicklungen reagieren.
+            <br />
+            Das es anders gehen kann und muss, zeigen wir auf
+            neue-lernkultur-jetzt.de, dort werden u.a. erfolgreiche Lösungen
+            vorgestellt. Grundlage für eine prosperierende, dem Gemeinsinn
+            verpflichtete, resiliente Gesellschaft sind unsere gut ausgebildeten
+            Kinder - Zukunft! gestalten! - jetzt!
+            <br />
           </p>
 
           <p>

@@ -1,6 +1,5 @@
 import React from 'react';
 import ImageTextSection from '@/app/components/text/ImageTextComponent';
-import TextLinks from '@/app/components/text/TextLinks';
 
 const Page = () => {
   return (
@@ -80,8 +79,6 @@ const Page = () => {
               Potentialentfaltung
             </p>
           </div>
-
-         
         </ImageTextSection>
       </div>
     </section>
