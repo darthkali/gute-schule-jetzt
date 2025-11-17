@@ -89,7 +89,7 @@ export default function HomePage() {
                     </Highlight>{' '}
                     in Baden Württemberg (BW) vor. Der Entwurf des
                     Petitionstextes steht hier. Die Petition „Neue Lernkultur –
-                    Jetzt!“ kann ab Montag 12. Januar 2026 in einem Zeitraum von
+                    Jetzt!“ kann ab Montag 8. Dezember 2025 in einem Zeitraum von
                     6 Wochen unterschrieben werden. Bis dahin gilt es{' '}
                     <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
                     damit weit mehr als die erforderlichen 10 000 Unterschriften
