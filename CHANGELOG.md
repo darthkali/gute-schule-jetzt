@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.6.0...v1.6.1) (2025-11-17)
+
+
+### Bug Fixes
+
+* changed iage in team und netzwerk ([cb00997](https://github.com/darthkali/gute-schule-jetzt/commit/cb00997ff7330c9fc53d4619801ba37e5a4384b6))
+
 # [1.6.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.5.0...v1.6.0) (2025-11-17)
 
 ### Features
