@@ -37,13 +37,10 @@ const Page = () => {
             (zukünftigen) Landesregierung,
           </p>
           <p><br/>
-            Es war sehr schwierig einen Namen für unsere Initiative zu finden. Nicht weil wir keine Phantasie gehabt hätten - nein -
-            weil die Anzahl der Initiativen zu einer Reform des Bildungssystems unüberschaubar ist.<br/> Warum? Weil so viele Menschen mit der
-            aktuellen Situation im Bildungsbereich schon sehr lange sehr unzufrieden sind. Es wird Zeit, dass Sie, geehrte Entscheidungsträger:innen,
-            endlich die Einsicht, die Kompromissbereitschaft und Tatkraft finden, eine Bildungsreform anzugehen, die den Namen verdient
-            und das Klein-Klein der letzten Jahre hinter sich lässt. Springen Sie über Ihren Schatten, nehmen Sie einen neuen Anlauf
+            Viele sind Menschen mit der
+            aktuellen Situation im Bildungsbereich schon sehr lange sehr unzufrieden. Geehrte Entscheidungsträger:innen, nehmen Sie einen neuen Anlauf
             und bringen Sie eine große Bildungsreform auf den Weg.<br/>
-            Nehmen Sie die technologischen, gesellschaftlichen und kulturellen Änderungen der letzten Jahre wahr - sehr vieles hat sich geändert -
+            Berücksichtigen Sie die technologischen, gesellschaftlichen und kulturellen Änderungen der letzten Jahre - sehr vieles hat sich geändert -
             in der praktischen Schulbildung hingegen sehr wenig. Unser Bildungssystem muss auf diese Entwicklungen reagieren.<br/>
             Das es anders gehen kann und muss, zeigen wir auf neue-lernkultur-jetzt.de, dort werden u.a. erfolgreiche Lösungen vorgestellt.
             Grundlage für eine prosperierende, dem Gemeinsinn verpflichtete, resiliente Gesellschaft sind unsere gut ausgebildeten Kinder - Zukunft! gestalten! - jetzt!

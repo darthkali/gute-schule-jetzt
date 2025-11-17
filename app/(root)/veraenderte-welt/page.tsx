@@ -21,7 +21,7 @@ const Page = () => {
               abfordert. Die Informationsmengen, die wir für das Funktionieren
               in Wirtschaft, Technik, Kultur und im täglichen Leben verarbeiten
               müssen, nehmen exponentiell zu. Digitalisierung und der Einsatz
-              von Ki wird unsere Lebensbereiche stark beeinflussen und
+              von KI wird unsere Lebensbereiche stark beeinflussen und
               verändern.
             </p>
             <p>
@@ -39,7 +39,7 @@ const Page = () => {
             </p>
             <p>
               {' '}
-              Die Grenzen des Wachstums sind seit den 70ger Jahren klar (Club of
+              Die Grenzen des Wachstums sind seit den 70er-Jahren klar (Club of
               Rome). Ein demokratisches Europa hat sich 2024 - rund 50 Jahre
               später - darauf geeinigt, unsere natürlichen Lebensgrundlagen zu
               erhalten oder wiederherzustellen. Einzelkämpfertum und
@@ -74,7 +74,7 @@ const Page = () => {
               {' '}
               Die Idee der demokratischen, toleranten und gerechten
               Gesellschaft. Das kann nur mit der Einbindung und der Beteiligung
-              der breiten Gesellschaft und, angesichts unsers zunehmend
+              der breiten Gesellschaft und, angesichts unseres zunehmend
               dysfunktionalen Schulsystems, nur mit dem Aufbau einer neuen
               Bildungskultur gelingen. Inmitten akuter Krisen in einer immer
               komplexer werdenden Welt, gilt es also für viele ungelöste

@@ -156,7 +156,7 @@ export default function HomePage() {
                 'Eine sich rasant veränderte Welt braucht auch eine veränderte Schule'
               }
               description={
-                'Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus liegt auf dem Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf partizipative Konzepte, bei denen alle Beteiligten – von Schüler*innen bis hin zu Lehrkräften und Schulträgern – aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame Entwicklung schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und Lernprozesse positiv beeinflussen. Wir sind alle Lernende, die Transformationskompetenz und zukunftsfähige Bildung brauchen.'
+                'Es ist wichtig zu verstehen, warum wir anderes Lernen als früher brauchen. Unser Fokus liegt auf dem Mehrwert für alle Kinder, ihre Familien und unsere Gesellschaft. Wir setzen auf partizipative Konzepte, bei denen alle Beteiligten – von Schüler:innen bis hin zu Lehrkräften und Schulträgern – aktiv in die Gestaltung der Lernumgebung einbezogen werden. Durch diese gemeinsame Entwicklung schaffen die Beteiligten Umgebungen, die den Bedürfnissen aller gerecht werden und Lernprozesse positiv beeinflussen. Wir sind alle Lernende, die Transformationskompetenz und zukunftsfähige Bildung brauchen.'
               }
               href={'/veraenderte-welt'}
             />

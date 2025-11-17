@@ -20,7 +20,7 @@ const Page = () => {
             bereits für die Zukunft fit gemacht und erfolgreich transformiert
             ist - diese Erfahrung treibt uns an. Gemeinsam setzen wir alles
             daran, einen Bildungswandel zu erreichen, der die Kinder und ihr
-            autonomes Lernen in den Mittelpunkt allen Tuns stellt.
+            eigenständiges Lernen in den Mittelpunkt allen Tuns stellt.
           </p>
 
           <p>
