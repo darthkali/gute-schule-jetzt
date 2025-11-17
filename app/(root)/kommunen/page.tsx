@@ -63,8 +63,8 @@ const Page = () => {
             <TextLinks href={'/petition/'} newTab={false}>
               Petition
             </TextLinks>{' '}
-            an den Landtag Baden-Württembergs mit Start am 12. Januar 2026, die
-            mit 10 000 digitalen Unterschriften die politische Kraft für
+            an den Landtag Baden-Württembergs mit Start am 08. Dezember 2026,
+            die mit 10 000 digitalen Unterschriften die politische Kraft für
             spürbaren Fortschritt entwickelt.
             <br />
             Im Folgenden finden Sie vielfältige Informationen zu kommunalen
