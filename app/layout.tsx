@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     siteName: 'Neue Lernkultur Jetzt',
     images: [
       {
-        url: 'https://neue-lernkultur-jetzt.de/images/abstract-1264071_1920.png',
+        url: 'https://neue-lernkultur-jetzt.de/images/abstract-1264071_1920-ohne-verlauf.png',
         width: 1920,
         height: 869,
         alt: 'Neue Lernkultur Jetzt - Bildungswende für Baden-Württemberg',
@@ -97,7 +97,7 @@ export const metadata: Metadata = {
     description:
       'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems.',
     images: [
-      'https://neue-lernkultur-jetzt.de/images/abstract-1264071_1920.png',
+      'https://neue-lernkultur-jetzt.de/images/abstract-1264071_1920-ohne-verlauf.png',
     ],
   },
   keywords: [
