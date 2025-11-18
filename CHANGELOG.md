@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.2...v1.8.3) (2025-11-18)
+
+
+### Bug Fixes
+
+* updated text in petition ([cc244a3](https://github.com/darthkali/gute-schule-jetzt/commit/cc244a36e2353d4f5f5a1d458e3218adb2054745))
+
 ## [1.8.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.1...v1.8.2) (2025-11-18)
 
 ### Bug Fixes
