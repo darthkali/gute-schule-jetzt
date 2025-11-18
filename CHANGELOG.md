@@ -1,9 +1,8 @@
 ## [1.8.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.1...v1.8.2) (2025-11-18)
 
-
 ### Bug Fixes
 
-* update impressum date ([c0484cc](https://github.com/darthkali/gute-schule-jetzt/commit/c0484cc0fe7f36599ad39ecee2d28eb8f4540f78))
+- update impressum date ([c0484cc](https://github.com/darthkali/gute-schule-jetzt/commit/c0484cc0fe7f36599ad39ecee2d28eb8f4540f78))
 
 ## [1.8.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.0...v1.8.1) (2025-11-18)
 

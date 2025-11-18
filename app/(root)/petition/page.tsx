@@ -17,7 +17,7 @@ const Page = () => {
             </TextLinks>{' '}
             (PDF-Datei) nach Freigabe durch den Petitionsauschuss (wir erhoffen
             den 8.12.2025) in einem Zeitraum von 6 Wochen auf der Internetseite
-            des Landtags unterzeichnet werden kann. Davor soll ein
+            des Landtags unterzeichnet werden kann. Dazu soll ein
             weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind
             10 000 Unterschriften erreicht, wird der Landtag eine öffentliche
             Anhörung zu dieser Petition durchführen. Bitte unterstütze die
