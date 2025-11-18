@@ -38,22 +38,26 @@ const Page = () => {
           </p>
           <p>
             <br />
-            Viele sind Menschen mit der aktuellen Situation im Bildungsbereich
-            schon sehr lange sehr unzufrieden. Geehrte
-            Entscheidungsträger:innen, nehmen Sie einen neuen Anlauf und bringen
-            Sie eine große Bildungsreform auf den Weg.
-            <br />
-            Berücksichtigen Sie die technologischen, gesellschaftlichen und
-            kulturellen Änderungen der letzten Jahre - sehr vieles hat sich
-            geändert - in der praktischen Schulbildung hingegen sehr wenig.
-            Unser Bildungssystem muss auf diese Entwicklungen reagieren.
-            <br />
-            Das es anders gehen kann und muss, zeigen wir auf
-            neue-lernkultur-jetzt.de, dort werden u.a. erfolgreiche Lösungen
-            vorgestellt. Grundlage für eine prosperierende, dem Gemeinsinn
-            verpflichtete, resiliente Gesellschaft sind unsere gut ausgebildeten
-            Kinder - Zukunft! gestalten! - jetzt!
-            <br />
+            die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf Wohlergehen von Kindern und Jugendlichen und die
+            zukünftige Entwicklung unserer Gesellschaft fördern und stärken.<br />
+            „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der Gemeinschaft, Freiheit von Zwang und Hektik,
+            sowie der Möglichkeit zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein, an dem Bildungsprozesse
+            für alle Kinder durch Zeit und Ruhe gefördert werden.<br />
+            Bitte finden Sie die Einsicht, die Kompromissbereitschaft und Tatkraft, um eine Bildungsreform anzugehen,
+            die den Namen verdient und das Klein-Klein der letzten Jahre hinter sich lässt. Springen Sie über Ihren
+            Schatten und nehmen Sie einen neuen Anlauf eine gemeinsame und überparteiliche Bildungsreform einzuleiten,
+            welche mit der Vereinbarung eines gemeinsamen Bildungsbegriffes beginnt, der mit wissenschaftlicher
+            Expertise zum Wohle aller Kinder führt. Eine große Bildungsreform kann nicht in nur einer
+            Legislaturperiode abgeschlossen werden.<br />
+            Denken Sie an die umgreifenden technologischen, gesellschaftlichen und kulturellen Änderungen der
+            letzten Jahre  - rasante und komplexe Herausforderungen für die unsere Schulen nicht gerüstet sind.
+            Unser Bildungssystem kennzeichnet sich durch zunehmende Dysfunktionalität und  muss, um unseren Kindern
+            und unserer Demokratie gerecht zu werden, dringend zielführend aufgestellt werden.<br />
+            Dass es  anders gehen kann und muss, zeigen wir auf www.neue-lernkultur-jetzt.de, dort finden Sie
+            gebündelte Prämissen aus der aktuellen Lernforschung, sowie erprobte schulpraktische Lösungen und
+            das Beispiel einer überaus erfolgreichen Bildungsreform.<br />
+            Grundlage für eine prosperierende, dem Gemeinsinn verpflichtete, resiliente Gesellschaft sind unsere
+            gut ausgebildeten Kinder - Zukunft! gestalten! – Jetzt!
           </p>
 
           <p>

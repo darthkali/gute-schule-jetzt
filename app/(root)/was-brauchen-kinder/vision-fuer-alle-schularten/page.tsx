@@ -112,7 +112,7 @@ const Page = () => {
       >
         <div className={'innerBox'}>
           <ImageTextFloatingSection
-            imageSrc='/images/hands-1846428_1920.jpg'
+            imageSrc='/images/feedback-2990424_1920.jpg'
             imageAlt='Raupe, Puppe und Schmetterling'
             imagePosition='left'
             caption={'Gesellschaft zusammenbringen, statt spalten'}
