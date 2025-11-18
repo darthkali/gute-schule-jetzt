@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.7.0...v1.8.0) (2025-11-18)
+
+
+### Features
+
+* Einleitungstext Petition geändert & Verweis auf Flyer unddPlakat vorläufig rausgenommen ([d3ddf40](https://github.com/darthkali/gute-schule-jetzt/commit/d3ddf4072941d9b52b32cd11853bd4e40720d1c2))
+
 # [1.7.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.6.1...v1.7.0) (2025-11-18)
 
 
