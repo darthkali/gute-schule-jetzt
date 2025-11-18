@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.6.1...v1.7.0) (2025-11-18)
+
+
+### Features
+
+* Bild hands gegen Bild feedback ausgetauscht (Dagi 17.11. per Signal) ([94bfefd](https://github.com/darthkali/gute-schule-jetzt/commit/94bfefd625ff08bb47c956f05f9ad4dcfeb41e4d))
+
 ## [1.6.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.6.0...v1.6.1) (2025-11-17)
 
 
