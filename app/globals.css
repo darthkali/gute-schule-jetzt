@@ -44,7 +44,7 @@
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.2;
-    @apply mt-5 mb-2;
+    @apply mt-8 mb-2;
     @apply text-base sm:text-lg md:text-xl lg:text-2xl font-semibold;
   }
 
