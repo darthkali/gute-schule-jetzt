@@ -146,7 +146,7 @@ const Impressum = () => {
 
             <div className='pt-8 border-t border-gray-200'>
               <p className='text-sm text-gray-500 text-center'>
-                Letzte Aktualisierung: {new Date().toLocaleDateString('de-DE')}
+                Letzte Aktualisierung: 13.11.2025
               </p>
             </div>
           </div>
