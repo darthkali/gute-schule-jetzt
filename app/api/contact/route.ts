@@ -39,10 +39,10 @@ export async function POST(req: NextRequest) {
 
   try {
     await transporter.sendMail({
-      from: `"Kontaktformular Edunite" <${process.env.EMAIL_FROM}>`,
+      from: `"Kontaktformular Neue-Lernkultur-Jetzt" <${process.env.EMAIL_FROM}>`,
       to: process.env.EMAIL_TO,
       replyTo: email,
-      subject: `Neue Nachricht von Edunite - ${category}`,
+      subject: `Neue Nachricht von Neue-Lernkultur-Jetzt - ${category}`,
       text: `Name: ${name}\nKategorie: ${category}\nE-Mail: ${email}\n\n${message}`,
     });
 

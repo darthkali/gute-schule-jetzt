@@ -15,8 +15,9 @@ const Page = () => {
               {' '}
               Petitionstext in Kurzfassung{' '}
             </TextLinks>{' '}
-            (PDF-Datei) nach Freigabe durch den Petitionsauschuss (wir erhoffen den 8.12.2025) in einem Zeitraum von 6 Wochen auf der
-            Internetseite des Landtags unterzeichnet werden kann. Davor soll ein
+            (PDF-Datei) nach Freigabe durch den Petitionsauschuss (wir erhoffen
+            den 8.12.2025) in einem Zeitraum von 6 Wochen auf der Internetseite
+            des Landtags unterzeichnet werden kann. Davor soll ein
             weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind
             10 000 Unterschriften erreicht, wird der Landtag eine öffentliche
             Anhörung zu dieser Petition durchführen. Bitte unterstütze die
@@ -37,31 +38,45 @@ const Page = () => {
           </p>
           <p>
             <br />
-            die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf Wohlergehen von Kindern und Jugendlichen und die
-            zukünftige Entwicklung unserer Gesellschaft fördern und stärken.<br />
-            „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der Gemeinschaft, Freiheit von Zwang und
-            Hektik, sowie der Möglichkeit zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein, an dem
-            Bildungsprozesse für alle Kinder durch Zeit und Ruhe gefördert werden.<br />
-            Bitte machen Sie sich tatkräftig und kompromissbereit auf den Weg, um eine Bildungsreform anzugehen,
-            die den Namen verdient und das Klein-Klein der letzten Jahre hinter sich lässt. Bitte leiten Sie zeitnah
-            eine gemeinsame und überparteiliche Bildungsreform ein. Grundlage dafür ist die Vereinbarung eines
-            gemeinsamen Bildungsbegriffes, der mit wissenschaftlicher Expertise zum Wohle aller Kinder führt.
-            Eine große Bildungsreform erfordert einen richtungsweisenden Konsens über Legislaturperioden hinaus.<br />
-            Denken Sie an die umgreifenden technologischen, gesellschaftlichen und kulturellen Änderungen der
-            letzten Jahre - rasante und komplexe Herausforderungen für die unsere Schulen nicht gerüstet sind.
-            Derzeit weist unser Bildungssystem zunehmende Dysfunktionalität auf und muss, um unseren Kindern und
-            unserer Demokratie gerecht zu werden, dringend zielführend aufgestellt werden.<br />
-            Spaltung, Demokratieverlust und Verrohung sind die Folgen von strukturellen Ursachen. Einen
-            resultierenden gesellschaftlichen Niedergang können wir gemeinsam durch eine ganzheitliche Bildung
-            und förderliche Lernkultur stoppen.<br />
-            Dass es anders gehen kann und muss, zeigen wir auf neue-lernkultur-jetzt.de. Dort finden Sie
-            gebündelte Prämissen aus der aktuellen Lernforschung, sowie erprobte schulpraktische Lösungen und
-            das Beispiel einer überaus erfolgreichen Bildungsreform.
-            Grundlage für eine prosperierende, dem Gemeinsinn verpflichtete, resiliente Gesellschaft sind unsere
-            gut ausgebildeten Kinder.<br />
+            die Petition „Neue Lernkultur – Jetzt!“ will das Recht auf
+            Wohlergehen von Kindern und Jugendlichen und die zukünftige
+            Entwicklung unserer Gesellschaft fördern und stärken.
+            <br />
+            „Schule“ im Sinne von Aristoteles meint einen Ort der Muße, der
+            Gemeinschaft, Freiheit von Zwang und Hektik, sowie der Möglichkeit
+            zur Besinnung und Selbstbestimmung. Schule soll ein Ort sein, an dem
+            Bildungsprozesse für alle Kinder durch Zeit und Ruhe gefördert
+            werden.
+            <br />
+            Bitte machen Sie sich tatkräftig und kompromissbereit auf den Weg,
+            um eine Bildungsreform anzugehen, die den Namen verdient und das
+            Klein-Klein der letzten Jahre hinter sich lässt. Bitte leiten Sie
+            zeitnah eine gemeinsame und überparteiliche Bildungsreform ein.
+            Grundlage dafür ist die Vereinbarung eines gemeinsamen
+            Bildungsbegriffes, der mit wissenschaftlicher Expertise zum Wohle
+            aller Kinder führt. Eine große Bildungsreform erfordert einen
+            richtungsweisenden Konsens über Legislaturperioden hinaus.
+            <br />
+            Denken Sie an die umgreifenden technologischen, gesellschaftlichen
+            und kulturellen Änderungen der letzten Jahre - rasante und komplexe
+            Herausforderungen für die unsere Schulen nicht gerüstet sind.
+            Derzeit weist unser Bildungssystem zunehmende Dysfunktionalität auf
+            und muss, um unseren Kindern und unserer Demokratie gerecht zu
+            werden, dringend zielführend aufgestellt werden.
+            <br />
+            Spaltung, Demokratieverlust und Verrohung sind die Folgen von
+            strukturellen Ursachen. Einen resultierenden gesellschaftlichen
+            Niedergang können wir gemeinsam durch eine ganzheitliche Bildung und
+            förderliche Lernkultur stoppen.
+            <br />
+            Dass es anders gehen kann und muss, zeigen wir auf
+            neue-lernkultur-jetzt.de. Dort finden Sie gebündelte Prämissen aus
+            der aktuellen Lernforschung, sowie erprobte schulpraktische Lösungen
+            und das Beispiel einer überaus erfolgreichen Bildungsreform.
+            Grundlage für eine prosperierende, dem Gemeinsinn verpflichtete,
+            resiliente Gesellschaft sind unsere gut ausgebildeten Kinder.
+            <br />
             Zukunft! gestalten! – Jetzt!
-
-
           </p>
 
           <p>

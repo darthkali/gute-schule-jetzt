@@ -15,15 +15,15 @@ const Datenschutz = () => {
           <p>
             Die folgenden Hinweise geben einen einfachen Überblick darüber, was
             mit Ihren personenbezogenen Daten passiert, wenn Sie unsere
-            gemeinnützige Bildungswebsite Edunite besuchen. Personenbezogene
-            Daten sind alle Daten, mit denen Sie persönlich identifiziert werden
-            können.
+            gemeinnützige Bildungswebsite Neue-Lernkultur-Jetzt besuchen.
+            Personenbezogene Daten sind alle Daten, mit denen Sie persönlich
+            identifiziert werden können.
           </p>
 
           <h3>Grundsatz der Datenminimierung</h3>
           <p>
-            Edunite folgt dem Prinzip der Datenminimierung. Wir speichern keine
-            personenbezogenen Daten und verwenden keine Cookies.
+            Neue-Lernkultur-Jetzt folgt dem Prinzip der Datenminimierung. Wir
+            speichern keine personenbezogenen Daten und verwenden keine Cookies.
           </p>
 
           <h3>Datenerfassung auf dieser Website</h3>
@@ -33,32 +33,7 @@ const Datenschutz = () => {
             entnehmen.
           </p>
 
-          <h3>Wie erfassen wir Ihre Daten?</h3>
-          <p>Wir erheben Daten nur durch:</p>
-          <ul className='list-disc pl-6 mb-4'>
-            <li>
-              Ihr Kontaktformular (direkte Weiterleitung an unser
-              E-Mail-Postfach)
-            </li>
-            <li>Eingebettete YouTube-Videos (verarbeitet von Google)</li>
-          </ul>
-
-          <h2>2. Verantwortlicher</h2>
-          <p>
-            Verantwortlich für die Datenverarbeitung auf dieser Website ist:
-          </p>
-
-          <p>
-            [Name des Verantwortlichen]
-            <br />
-            [Adresse]
-            <br />
-            [Telefon]
-            <br />
-            [E-Mail]
-          </p>
-
-          <h2>3. Datenverarbeitung</h2>
+          <h2>2. Datenverarbeitung</h2>
 
           <h3>Kontaktformular</h3>
           <p>
@@ -72,7 +47,7 @@ const Datenschutz = () => {
             dabei IP-Adresse und Video-Interaktionen verarbeiten.
           </p>
 
-          <h2>4. Rechtsgrundlage</h2>
+          <h2>3. Rechtsgrundlage</h2>
           <ul className='list-disc pl-6 mb-4'>
             <li>
               <strong>Art. 6 Abs. 1 lit. f DSGVO:</strong> Berechtigte
@@ -84,7 +59,7 @@ const Datenschutz = () => {
             </li>
           </ul>
 
-          <h2>5. YouTube-Einbindung</h2>
+          <h2>4. YouTube-Einbindung</h2>
           <p>Wir binden YouTube-Videos im erweiterten Datenschutzmodus ein.</p>
           <ul className='list-disc pl-6 mb-4'>
             <li>
@@ -105,13 +80,13 @@ const Datenschutz = () => {
             <li>Übertragene Daten: IP-Adresse bei Video-Interaktion</li>
           </ul>
 
-          <h2>6. Cookies</h2>
+          <h2>5. Cookies</h2>
           <p>
             Wir verwenden keine Cookies. YouTube kann Cookies setzen, wenn Sie
             ein Video abspielen.
           </p>
 
-          <h2>7. Ihre Rechte</h2>
+          <h2>6. Ihre Rechte</h2>
           <p>
             Sie haben folgende Rechte bezüglich Ihrer personenbezogenen Daten:
           </p>
@@ -148,26 +123,8 @@ const Datenschutz = () => {
             diese jederzeit widerrufen.
           </p>
 
-          <h2>8. Speicherdauer</h2>
-          <p>
-            Kontakt-E-Mails werden entsprechend unserer
-            E-Mail-Aufbewahrungspraxis behandelt.
-          </p>
-
-          <h2>9. Datensicherheit</h2>
+          <h2>7. Datensicherheit</h2>
           <p>SSL/TLS-Verschlüsselung für sichere Datenübertragung.</p>
-
-          <h2>10. Kontakt bei Datenschutzfragen</h2>
-          <p>Bei Fragen zum Datenschutz wenden Sie sich an:</p>
-
-          <h3>Datenschutzbeauftragter:</h3>
-          <p>
-            [Name] (falls vorhanden)
-            <br />
-            [E-Mail]
-            <br />
-            [Telefon]
-          </p>
 
           <h3>Beschwerderecht</h3>
           <p>
@@ -175,16 +132,16 @@ const Datenschutz = () => {
             über unsere Verarbeitung personenbezogener Daten zu beschweren.
           </p>
 
-          <h2>11. Hinweise zur gemeinnützigen Bildungswebsite</h2>
+          <h2>8. Hinweise zur gemeinnützigen Bildungswebsite</h2>
           <p>
-            Edunite ist eine gemeinnützige Initiative ohne kommerzielle
-            Interessen. Die YouTube-Videos dienen ausschließlich
+            Neue-Lernkultur-Jetzt ist eine gemeinnützige Initiative ohne
+            kommerzielle Interessen. Die YouTube-Videos dienen ausschließlich
             Bildungszwecken.
           </p>
 
           <div className='border-t pt-6 mt-8'>
             <p className='text-sm text-gray-600'>
-              <strong>Letzte Aktualisierung:</strong> [Datum]
+              <strong>Letzte Aktualisierung:</strong> 18.11.2025
             </p>
             <p className='text-sm text-gray-600 mt-2'>
               <em>

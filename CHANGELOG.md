@@ -1,23 +1,20 @@
 # [1.8.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.7.0...v1.8.0) (2025-11-18)
 
-
 ### Features
 
-* Einleitungstext Petition geändert & Verweis auf Flyer unddPlakat vorläufig rausgenommen ([d3ddf40](https://github.com/darthkali/gute-schule-jetzt/commit/d3ddf4072941d9b52b32cd11853bd4e40720d1c2))
+- Einleitungstext Petition geändert & Verweis auf Flyer unddPlakat vorläufig rausgenommen ([d3ddf40](https://github.com/darthkali/gute-schule-jetzt/commit/d3ddf4072941d9b52b32cd11853bd4e40720d1c2))
 
 # [1.7.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.6.1...v1.7.0) (2025-11-18)
 
-
 ### Features
 
-* Bild hands gegen Bild feedback ausgetauscht (Dagi 17.11. per Signal) ([94bfefd](https://github.com/darthkali/gute-schule-jetzt/commit/94bfefd625ff08bb47c956f05f9ad4dcfeb41e4d))
+- Bild hands gegen Bild feedback ausgetauscht (Dagi 17.11. per Signal) ([94bfefd](https://github.com/darthkali/gute-schule-jetzt/commit/94bfefd625ff08bb47c956f05f9ad4dcfeb41e4d))
 
 ## [1.6.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.6.0...v1.6.1) (2025-11-17)
 
-
 ### Bug Fixes
 
-* changed iage in team und netzwerk ([cb00997](https://github.com/darthkali/gute-schule-jetzt/commit/cb00997ff7330c9fc53d4619801ba37e5a4384b6))
+- changed iage in team und netzwerk ([cb00997](https://github.com/darthkali/gute-schule-jetzt/commit/cb00997ff7330c9fc53d4619801ba37e5a4384b6))
 
 # [1.6.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.5.0...v1.6.0) (2025-11-17)
 
