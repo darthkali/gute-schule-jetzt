@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.3...v1.8.4) (2025-11-19)
+
+
+### Bug Fixes
+
+* updated h3 top margin ([f7199a6](https://github.com/darthkali/gute-schule-jetzt/commit/f7199a606bcbdbb074f9122f9fc2a2301272c07e))
+
 ## [1.8.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.2...v1.8.3) (2025-11-18)
 
 
