@@ -50,7 +50,7 @@ export default function Navbar() {
 
         <Link href='/'>
           <Image
-            src='/logo/edunite-logo_neu.svg'
+            src='/logo/logo-neu.svg'
             alt='EduUnite Logo'
             width={60}
             height={60}

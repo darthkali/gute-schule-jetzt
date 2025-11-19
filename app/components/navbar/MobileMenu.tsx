@@ -22,7 +22,7 @@ export default function MobileMenu() {
       <div className='flex justify-start p-4'>
         <Link href='/' onClick={() => setOpen(false)}>
           <Image
-            src='/logo/edunite-logo_neu.svg'
+            src='/logo/logo-neu.svg'
             alt='EduUnite Logo'
             width={50}
             height={50}
