@@ -1,9 +1,8 @@
 ## [1.8.5](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.4...v1.8.5) (2025-11-19)
 
-
 ### Bug Fixes
 
-* added new logo ([c19455d](https://github.com/darthkali/gute-schule-jetzt/commit/c19455d60fa5546ddb60ae91eac92dd78ccbe40c))
+- added new logo ([c19455d](https://github.com/darthkali/gute-schule-jetzt/commit/c19455d60fa5546ddb60ae91eac92dd78ccbe40c))
 
 ## [1.8.4](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.3...v1.8.4) (2025-11-19)
 

@@ -71,10 +71,6 @@ export const metadata: Metadata = {
   title: 'Neue Lernkultur Jetzt - Petition für Bildungswende',
   description:
     'Wir brauchen eine Schule mit Zukunft! Bereiten Sie mit uns eine Petition für eine Neuausrichtung des Schulsystems vor. Für Schulen, in denen Kinder aufblühen können.',
-  icons: {
-    icon: '/icon.png',
-    apple: '/apple-icon.png',
-  },
   openGraph: {
     title: 'Neue Lernkultur Jetzt - Petition für Bildungswende',
     description:
