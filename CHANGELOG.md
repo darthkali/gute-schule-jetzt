@@ -1,3 +1,10 @@
+## [1.8.7](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.6...v1.8.7) (2025-11-20)
+
+
+### Bug Fixes
+
+* added link to mitwirken in petition ([f334592](https://github.com/darthkali/gute-schule-jetzt/commit/f33459255b255da783086ab7f4b042e6bfa25d77))
+
 ## [1.8.6](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.5...v1.8.6) (2025-11-19)
 
 ### Bug Fixes
