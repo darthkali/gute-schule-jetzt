@@ -20,8 +20,11 @@ const Page = () => {
             des Landtags unterzeichnet werden kann. Dazu soll ein
             weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind
             10 000 Unterschriften erreicht, wird der Landtag eine öffentliche
-            Anhörung zu dieser Petition durchführen. Bitte unterstütze die
-            Initiative für alle Kinder des Landes.
+            Anhörung zu dieser Petition durchführen.{' '}
+            <TextLinks href={'/mitwirken'}>
+              {' '}
+              Bitte unterstütze die Initiative für alle Kinder des Landes.
+            </TextLinks>
           </b>
         </p>
         <ImageTextFloatingSection
