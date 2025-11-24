@@ -1,9 +1,8 @@
 ## [1.9.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.9.0...v1.9.1) (2025-11-24)
 
-
 ### Bug Fixes
 
-* flyer caption ([a084f7f](https://github.com/darthkali/gute-schule-jetzt/commit/a084f7f028d4439fe203aa632340cac60b9e8502))
+- flyer caption ([a084f7f](https://github.com/darthkali/gute-schule-jetzt/commit/a084f7f028d4439fe203aa632340cac60b9e8502))
 
 # [1.9.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.9...v1.9.0) (2025-11-24)
 
