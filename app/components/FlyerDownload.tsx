@@ -8,13 +8,13 @@ type FlyerOption = {
 
 const flyers: FlyerOption[] = [
   {
-    title: 'Flyer A4',
-    description: 'Ein Flyer im A4-Format',
+    title: 'Plakat A4',
+    description: 'Ein Plakat im A4-Format',
     basePath: '/Flyer/Flyer',
   },
   {
-    title: 'Flyer A4 (4-fach)',
-    description: 'Vier kleine Flyer auf einem A4-Blatt',
+    title: 'Flyer A6 (4-fach)',
+    description: 'Vier kleine Flyer (A6) auf einem A4-Blatt',
     basePath: '/Flyer/Flyer-4-fach',
   },
 ];

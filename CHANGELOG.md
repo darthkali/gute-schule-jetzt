@@ -1,16 +1,14 @@
 # [1.9.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.9...v1.9.0) (2025-11-24)
 
-
 ### Features
 
-* added flyer to repo and to page mitwirken ([2bd45af](https://github.com/darthkali/gute-schule-jetzt/commit/2bd45afd81b1612122627bffc87e1815c565442f))
+- added flyer to repo and to page mitwirken ([2bd45af](https://github.com/darthkali/gute-schule-jetzt/commit/2bd45afd81b1612122627bffc87e1815c565442f))
 
 ## [1.8.9](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.8...v1.8.9) (2025-11-24)
 
-
 ### Bug Fixes
 
-* added missing whitespace ([2ae42ac](https://github.com/darthkali/gute-schule-jetzt/commit/2ae42ace44b6913eed8c0dd7c368c8a14b2d1d75))
+- added missing whitespace ([2ae42ac](https://github.com/darthkali/gute-schule-jetzt/commit/2ae42ace44b6913eed8c0dd7c368c8a14b2d1d75))
 
 ## [1.8.8](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.7...v1.8.8) (2025-11-24)
 
