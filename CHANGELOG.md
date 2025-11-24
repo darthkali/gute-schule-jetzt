@@ -1,9 +1,8 @@
 ## [1.8.8](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.7...v1.8.8) (2025-11-24)
 
-
 ### Bug Fixes
 
-* added Vorstand des LSBR ([6dbfe0f](https://github.com/darthkali/gute-schule-jetzt/commit/6dbfe0fd0cb7bee27159e1ac0e0434ca2cd97aeb))
+- added Vorstand des LSBR ([6dbfe0f](https://github.com/darthkali/gute-schule-jetzt/commit/6dbfe0fd0cb7bee27159e1ac0e0434ca2cd97aeb))
 
 ## [1.8.7](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.6...v1.8.7) (2025-11-20)
 

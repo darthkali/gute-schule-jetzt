@@ -82,7 +82,7 @@ const Page = () => {
             <p>
               <strong>Vorstand des LSBR</strong> (Landesschülerbeirat des Landes
               Baden-Württemberg), vertritt die Interessen der 1,5 Mio SuS in
-              BaWü gegenüber der Politik, den Medien und derZivilgesellschaft.
+              BaWü gegenüber der Politik, den Medien und der Zivilgesellschaft.
             </p>
           </div>
         </ImageTextSection>
