@@ -31,7 +31,7 @@ export default function FlyerDownload() {
             <p className='text-sm'>{flyer.description}</p>
             <div className='relative min-h-80 rounded overflow-hidden'>
               <Image
-                src={`${flyer.basePath}.svg`}
+                src={`${flyer.basePath}.png`}
                 alt={flyer.title}
                 fill
                 className='object-contain object-left p-2'

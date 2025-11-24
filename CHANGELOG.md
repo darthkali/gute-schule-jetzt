@@ -1,9 +1,8 @@
 # [1.10.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.9.1...v1.10.0) (2025-11-24)
 
-
 ### Features
 
-* added rocketchat ([52f21c8](https://github.com/darthkali/gute-schule-jetzt/commit/52f21c85aeb296cad84dc0cec9b055b787bcdfa7))
+- added rocketchat ([52f21c8](https://github.com/darthkali/gute-schule-jetzt/commit/52f21c85aeb296cad84dc0cec9b055b787bcdfa7))
 
 ## [1.9.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.9.0...v1.9.1) (2025-11-24)
 
