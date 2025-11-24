@@ -1,5 +1,6 @@
 import React from 'react';
 import TextLinks from '@/app/components/text/TextLinks';
+import FlyerDownload from '@/app/components/FlyerDownload';
 const Page = () => {
   return (
     <section>
@@ -73,11 +74,7 @@ const Page = () => {
           Kontaktiere
         </TextLinks>{' '}
         uns.
-        {/* }<p>
-          Zum Weiterleiten, Ausdrucken und Weitergeben:{' '}
-          <TextLinks href={'/documents/Plakat_A4.jpeg'}>Plakat </TextLinks> und{' '}
-          <TextLinks href={'/documents/4xFlyer_A4.jpeg'}>Flyer </TextLinks>
-        </p> */}
+        <FlyerDownload />
       </div>
     </section>
   );
