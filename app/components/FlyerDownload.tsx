@@ -1,0 +1,61 @@
+import Image from 'next/image';
+
+type FlyerOption = {
+  title: string;
+  description: string;
+  basePath: string;
+};
+
+const flyers: FlyerOption[] = [
+  {
+    title: 'Flyer A4',
+    description: 'Ein Flyer im A4-Format',
+    basePath: '/Flyer/Flyer',
+  },
+  {
+    title: 'Flyer A4 (4-fach)',
+    description: 'Vier kleine Flyer auf einem A4-Blatt',
+    basePath: '/Flyer/Flyer-4-fach',
+  },
+];
+
+export default function FlyerDownload() {
+  return (
+    <div className='mt-8'>
+      <h2>Flyer herunterladen</h2>
+      <p>Zum Weiterleiten, Ausdrucken und Weitergeben:</p>
+      <div className='grid gap-4 sm:grid-cols-2'>
+        {flyers.map((flyer, index) => (
+          <div key={index} className='rounded-lg p-4 flex flex-col gap-3'>
+            <h3 className='font-semibold'>{flyer.title}</h3>
+            <p className='text-sm'>{flyer.description}</p>
+            <div className='relative min-h-80 rounded overflow-hidden'>
+              <Image
+                src={`${flyer.basePath}.svg`}
+                alt={flyer.title}
+                fill
+                className='object-contain object-left p-2'
+              />
+            </div>
+            <div className='flex items-center gap-3 mt-auto'>
+              <a
+                href={`${flyer.basePath}.svg`}
+                download
+                className='inline-block px-4 py-2 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 bg-[color:var(--color-neutral)] text-[color:var(--color-text)]  hover:scale-105 text-sm'
+              >
+                SVG
+              </a>
+              <a
+                href={`${flyer.basePath}.png`}
+                download
+                className='inline-block px-4 py-2 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 bg-[color:var(--color-neutral)] text-[color:var(--color-text)]  hover:scale-105 text-sm'
+              >
+                PNG
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
