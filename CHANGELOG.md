@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.10.0...v1.10.1) (2025-11-24)
+
+
+### Bug Fixes
+
+* mobile flyer flaky page ([be8e571](https://github.com/darthkali/gute-schule-jetzt/commit/be8e571603ab26b8c4f3c0605b7f1de1c5c9fef5))
+
 # [1.10.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.9.1...v1.10.0) (2025-11-24)
 
 
