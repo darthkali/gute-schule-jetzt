@@ -78,6 +78,12 @@ const Page = () => {
               Neurowissenschaftler und Vorstand der Akademie für
               Potentialentfaltung
             </p>
+
+            <p>
+              <strong>Vorstand des LSBR</strong> (Landesschülerbeirat des Landes
+              Baden-Württemberg), vertritt die Interessen der 1,5 Mio SuS in
+              BaWü gegenüber der Politik, den Medien und derZivilgesellschaft.
+            </p>
           </div>
         </ImageTextSection>
       </div>
