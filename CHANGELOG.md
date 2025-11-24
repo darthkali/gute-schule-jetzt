@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.9...v1.9.0) (2025-11-24)
+
+
+### Features
+
+* added flyer to repo and to page mitwirken ([2bd45af](https://github.com/darthkali/gute-schule-jetzt/commit/2bd45afd81b1612122627bffc87e1815c565442f))
+
 ## [1.8.9](https://github.com/darthkali/gute-schule-jetzt/compare/v1.8.8...v1.8.9) (2025-11-24)
 
 
