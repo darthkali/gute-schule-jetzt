@@ -7,8 +7,6 @@ const Datenschutz = () => {
         <div className='innerBox'>
           <h1>DATENSCHUTZERKLÄRUNG</h1>
 
-          <p className='text-sm text-gray-600 mb-8'>Stand: [Datum]</p>
-
           <h2>1. Datenschutz auf einen Blick</h2>
 
           <h3>Allgemeine Hinweise</h3>
@@ -37,8 +35,66 @@ const Datenschutz = () => {
 
           <h3>Kontaktformular</h3>
           <p>
-            Nachrichten werden direkt an unser E-Mail-Postfach weitergeleitet,
-            ohne Speicherung auf unseren Servern.
+            Wenn Sie uns über das Kontaktformular eine Nachricht senden, werden
+            folgende Daten verarbeitet:
+          </p>
+          <ul className='list-disc pl-6 mb-4'>
+            <li>Name</li>
+            <li>E-Mail-Adresse</li>
+            <li>Kategorie der Anfrage (Kommentar, Mitmachen, Frage)</li>
+            <li>Nachrichteninhalt</li>
+          </ul>
+          <p>Diese Daten werden zu folgenden Zwecken verarbeitet:</p>
+          <ul className='list-disc pl-6 mb-4'>
+            <li>
+              <strong>E-Mail-Versand:</strong> Die Nachricht wird direkt an
+              unser E-Mail-Postfach weitergeleitet
+            </li>
+            <li>
+              <strong>RocketChat-Benachrichtigung:</strong> Parallel wird eine
+              Benachrichtigung an unseren selbst gehosteten RocketChat-Server
+              gesendet, um eine schnellere Bearbeitung zu ermöglichen
+            </li>
+          </ul>
+          <p>
+            Die Kontaktformular-Daten werden nicht dauerhaft auf unseren Servern
+            gespeichert. Nach der Weiterleitung an E-Mail und RocketChat werden
+            sie aus dem Übertragungssystem gelöscht.
+          </p>
+
+          <h3>RocketChat-Integration (selbst gehostet)</h3>
+          <p>
+            Wir nutzen RocketChat als internes Kommunikationstool zur
+            Bearbeitung von Kontaktanfragen. RocketChat wird vollständig auf
+            unseren eigenen Servern in Deutschland betrieben (Self-Hosting).
+          </p>
+          <ul className='list-disc pl-6 mb-4'>
+            <li>
+              <strong>Zweck:</strong> Interne Benachrichtigung über neue
+              Kontaktanfragen
+            </li>
+            <li>
+              <strong>Datenstandort:</strong> Deutschland (eigener Server)
+            </li>
+            <li>
+              <strong>Verarbeitete Daten:</strong> Name, E-Mail-Adresse,
+              Kategorie und Nachrichteninhalt aus dem Kontaktformular
+            </li>
+            <li>
+              <strong>Speicherdauer:</strong> Die Daten werden im RocketChat
+              gemäß unserer Aufbewahrungspflichten für Geschäftskorrespondenz
+              verarbeitet
+            </li>
+            <li>
+              <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO
+              (berechtigtes Interesse an effizienter Kommunikation)
+            </li>
+          </ul>
+          <p>
+            Da RocketChat auf unserer eigenen Infrastruktur betrieben wird,
+            erfolgt keine Weitergabe Ihrer Daten an Dritte. Die Verarbeitung
+            unterliegt vollständig unserer Kontrolle und deutschen
+            Datenschutzstandards.
           </p>
 
           <h3>YouTube-Videos</h3>
@@ -141,7 +197,7 @@ const Datenschutz = () => {
 
           <div className='border-t pt-6 mt-8'>
             <p className='text-sm text-gray-600'>
-              <strong>Letzte Aktualisierung:</strong> 18.11.2025
+              <strong>Letzte Aktualisierung:</strong> 24.11.2024
             </p>
             <p className='text-sm text-gray-600 mt-2'>
               <em>
