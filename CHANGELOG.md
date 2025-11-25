@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.10.3...v1.11.0) (2025-11-25)
+
+
+### Bug Fixes
+
+* format ([e0f0ce7](https://github.com/darthkali/gute-schule-jetzt/commit/e0f0ce796120a5cb64932d28522f7d19a3861c8e))
+
+
+### Features
+
+* Neue Kurzversion der Petition eingestellt (Dagi Email v. 24.11.25) ([658883e](https://github.com/darthkali/gute-schule-jetzt/commit/658883eefeda5dd4c36cda62f03ae90a0523976a))
+
 ## [1.10.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.10.2...v1.10.3) (2025-11-24)
 
 ### Bug Fixes
