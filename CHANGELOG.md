@@ -1,9 +1,8 @@
 ## [1.10.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.10.2...v1.10.3) (2025-11-24)
 
-
 ### Bug Fixes
 
-* updated datenschutz because of rocketchat integration ([ea67c9b](https://github.com/darthkali/gute-schule-jetzt/commit/ea67c9b40bae9628ad037d24405cd50a1da29d82))
+- updated datenschutz because of rocketchat integration ([ea67c9b](https://github.com/darthkali/gute-schule-jetzt/commit/ea67c9b40bae9628ad037d24405cd50a1da29d82))
 
 ## [1.10.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.10.1...v1.10.2) (2025-11-24)
 
