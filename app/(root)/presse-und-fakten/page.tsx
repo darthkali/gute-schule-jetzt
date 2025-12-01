@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import TextLinks from '@/app/components/text/TextLinks';
+import ImageTextSection from '@/app/components/text/ImageTextComponent';
 
 const Page = () => {
   return (
@@ -365,10 +366,10 @@ const Page = () => {
             Es gab 2023/24 einen Anlauf für den sogenannten Schulfrieden - die
             Zusicherung, dass, sollten sich die Mehrheiten nach einer
             Legislaturperiode ändern - die Bildungspolitik nicht wieder
-            kleinmütig dem Parteikalkül geopfert werden wird. Auf diese sehr
+            kleinmütig dem Parteikalkül geopfert werden wird. Auf diesen sehr
             sinnvollen Nenner, wollten sich die Parteien dann leider doch nicht
             begeben, aber nur so könnte eine echte Bildungsreform überleben zu
-            Stande kommen. Unsere Meinung: Der Schulfrieden musss ein; Schluss
+            Stande kommen. Unsere Meinung: Der Schulfrieden muss sein; Schluss
             mit dem kleinmütigen Parteiengezänk.
             <br />
             Pressemitteilung der SPD vom 31.12.2024:{' '}
@@ -420,9 +421,21 @@ const Page = () => {
               die Zukunft fit machen.
             </i>
             <br />
-            Was dabei woll rauskommen würde?
+            Was dabei wohl rauskommen würde?
           </li>
           <br />
+          <li>
+             {' '}
+              <b>Bildungsausgaben im Vergleich</b>
+               <br />
+                    <ImageTextSection
+                        imageSrc='/images/Kosten-Tagesschau.jpg'
+                        imageAlt='Kostengrafik'
+                        imagePosition='left'
+                    />
+         
+               Noch Fragen?
+          </li>
         </ul>
       </div>
     </section>
