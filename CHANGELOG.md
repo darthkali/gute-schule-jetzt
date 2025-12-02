@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.12.0...v1.12.1) (2025-12-02)
+
+
+### Bug Fixes
+
+* format and lint ([1acd9bc](https://github.com/darthkali/gute-schule-jetzt/commit/1acd9bcf9add0419091a452ade50712307dfb43f))
+
 # [1.12.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.3...v1.12.0) (2025-12-02)
 
 ### Features
