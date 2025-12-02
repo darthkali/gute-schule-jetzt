@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import TextLinks from '@/app/components/text/TextLinks';
-import ImageTextSection from '@/app/components/text/ImageTextComponent';
+import Image from 'next/image';
 
 const Page = () => {
   return (
@@ -425,16 +425,16 @@ const Page = () => {
           </li>
           <br />
           <li>
-             {' '}
-              <b>Bildungsausgaben im Vergleich</b>
-               <br />
-                    <ImageTextSection
-                        imageSrc='/images/Kosten-Tagesschau.jpg'
-                        imageAlt='Kostengrafik'
-                        imagePosition='left'
-                    />
-         
-               Noch Fragen?
+            {' '}
+            <b>Bildungsausgaben im Vergleich</b>
+            <br />
+            <Image
+              src='/images/Kosten-Tagesschau.jpg'
+              alt='Kostengrafik'
+              width={400}
+              height={150}
+            />
+            Noch Fragen?
           </li>
         </ul>
       </div>

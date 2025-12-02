@@ -1,35 +1,30 @@
 ## [1.11.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.2...v1.11.3) (2025-12-01)
 
-
 ### Bug Fixes
 
-* **deps:** update nextjs monorepo to v16.0.6 ([#213](https://github.com/darthkali/gute-schule-jetzt/issues/213)) ([13b1413](https://github.com/darthkali/gute-schule-jetzt/commit/13b1413a86f9237b667402fa331caa3102c88435))
+- **deps:** update nextjs monorepo to v16.0.6 ([#213](https://github.com/darthkali/gute-schule-jetzt/issues/213)) ([13b1413](https://github.com/darthkali/gute-schule-jetzt/commit/13b1413a86f9237b667402fa331caa3102c88435))
 
 ## [1.11.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.1...v1.11.2) (2025-11-28)
 
-
 ### Bug Fixes
 
-* **deps:** update nextjs monorepo to v16.0.5 ([#208](https://github.com/darthkali/gute-schule-jetzt/issues/208)) ([42d3819](https://github.com/darthkali/gute-schule-jetzt/commit/42d38194395bd3901478a2b334b419b10946af63))
+- **deps:** update nextjs monorepo to v16.0.5 ([#208](https://github.com/darthkali/gute-schule-jetzt/issues/208)) ([42d3819](https://github.com/darthkali/gute-schule-jetzt/commit/42d38194395bd3901478a2b334b419b10946af63))
 
 ## [1.11.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.0...v1.11.1) (2025-11-25)
 
-
 ### Bug Fixes
 
-* **deps:** update nextjs monorepo to v16.0.4 ([96b9f62](https://github.com/darthkali/gute-schule-jetzt/commit/96b9f62a61eae734a71d00d78e015f0b0100907f))
+- **deps:** update nextjs monorepo to v16.0.4 ([96b9f62](https://github.com/darthkali/gute-schule-jetzt/commit/96b9f62a61eae734a71d00d78e015f0b0100907f))
 
 # [1.11.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.10.3...v1.11.0) (2025-11-25)
 
-
 ### Bug Fixes
 
-* format ([e0f0ce7](https://github.com/darthkali/gute-schule-jetzt/commit/e0f0ce796120a5cb64932d28522f7d19a3861c8e))
-
+- format ([e0f0ce7](https://github.com/darthkali/gute-schule-jetzt/commit/e0f0ce796120a5cb64932d28522f7d19a3861c8e))
 
 ### Features
 
-* Neue Kurzversion der Petition eingestellt (Dagi Email v. 24.11.25) ([658883e](https://github.com/darthkali/gute-schule-jetzt/commit/658883eefeda5dd4c36cda62f03ae90a0523976a))
+- Neue Kurzversion der Petition eingestellt (Dagi Email v. 24.11.25) ([658883e](https://github.com/darthkali/gute-schule-jetzt/commit/658883eefeda5dd4c36cda62f03ae90a0523976a))
 
 ## [1.10.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.10.2...v1.10.3) (2025-11-24)
 

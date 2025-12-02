@@ -144,4 +144,3 @@ Aktuell wird die Anwendung als Docker Image gebaut und veröffentlicht:
 - **Docker Registry**: [docker.io/darthkali/gute-schule-jetzt](https://hub.docker.com/r/darthkali/gute-schule-jetzt/tags)
 - **CI/CD**: Automatischer Build und Push von Docker Images bei neuen Releases
 - **Semantic Versioning**: Automatische Versionierung basierend auf Commit-Nachrichten
-
