@@ -137,13 +137,6 @@ Wir freuen uns über Beiträge zur Verbesserung der Webseite und der Bildungsini
 4. Push den Branch (`git push origin feature/amazing-feature`)
 5. Öffne einen Pull Request
 
-### Inhaltliche Beiträge
-
-- Korrekturen und Verbesserungen der Texte
-- Neue Beispielschulen für die Landkarte
-- Übersetzungen
-- Feedback und Verbesserungsvorschläge
-
 ## Deployment
 
 Aktuell wird die Anwendung als Docker Image gebaut und veröffentlicht:
@@ -152,23 +145,3 @@ Aktuell wird die Anwendung als Docker Image gebaut und veröffentlicht:
 - **CI/CD**: Automatischer Build und Push von Docker Images bei neuen Releases
 - **Semantic Versioning**: Automatische Versionierung basierend auf Commit-Nachrichten
 
-### Geplant für Entwicklungsumgebung
-
-- **Vercel Deployment**: Automatisches Deployment auf [Vercel](https://vercel.com) für die Entwicklungsumgebung (in Planung)
-- **Preview Deployments**: Automatische Preview-Deployments für Pull Requests (geplant)
-
-### Umgebungsvariablen
-
-Für das Kontaktformular werden folgende Umgebungsvariablen benötigt:
-
-```bash
-SMTP_HOST=your-smtp-host
-SMTP_PORT=587
-SMTP_USER=your-email
-SMTP_PASS=your-password
-```
-
----
-
-> _"Ich bin selbstwirksam - ich kann die Welt verändern! Statt schulgerechte Kinder eine kindgerechte Schule!"_  
-> — Leitsatz der Alemannenschule Wutöschingen
