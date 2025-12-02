@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
-import TextLinks from '@/app/components/text/TextLinks';
 import Image from 'next/image';
+import TextLinks from '@/app/components/text/TextLinks';
 
 const Page = () => {
   return (
