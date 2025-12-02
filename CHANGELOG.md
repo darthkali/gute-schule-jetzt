@@ -1,3 +1,11 @@
+# [1.12.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.3...v1.12.0) (2025-12-02)
+
+
+### Features
+
+* Ausgaben bild eingefügt ([7fc5f9c](https://github.com/darthkali/gute-schule-jetzt/commit/7fc5f9ce028cb793c1173f2dc3442694592cb458))
+* Korrektur Presse&Fakten, EInfügen Bildungsausgabengrafik von Dagi ([1f630fe](https://github.com/darthkali/gute-schule-jetzt/commit/1f630fed514173c385a3b534c6f6d738d2132440))
+
 ## [1.11.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.2...v1.11.3) (2025-12-01)
 
 ### Bug Fixes
