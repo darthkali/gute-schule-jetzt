@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import ImageTextSection from '@/app/components/text/ImageTextComponent';
 
 const Page = () => {
@@ -86,16 +87,19 @@ const Page = () => {
             </p>
             <p>
             <br/> <b>Unterstützt durch:</b>
-            <ImageTextSection
-                          imageSrc='/images/GSVLogo.jpg'
-                          imageAlt='GSV'
-                          imagePosition='center'
+            <Image
+                          src='/images/GSVLogo.jpg'
+                          alt='GSV'
+                          width={250}
+                          height = {200}
                           />
-             <ImageTextSection
-                          imageSrc='/images/OmasButton.jpg'
-                          imageAlt='Omas gegen Rechts'
-                          imagePosition='center'
-
+             </p>
+             <p>
+             <Image
+                          src='/images/OmasButton.jpg'
+                          alt='Omas gegen Rechts'
+                          width={250}
+                          height={200}
                       />
 
                </p>
