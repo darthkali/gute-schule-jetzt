@@ -1,3 +1,11 @@
+# [1.13.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.12.1...v1.13.0) (2025-12-03)
+
+
+### Features
+
+* ImageTextSection durch Image ausgetauscht ([2533f56](https://github.com/darthkali/gute-schule-jetzt/commit/2533f56e65e88091810e58ca133006980c4bb579))
+* unter Netzwerk Logi von Omas und GSV eingefügt ([b9001b2](https://github.com/darthkali/gute-schule-jetzt/commit/b9001b2639764bacf3834d56ba7fc301410190cc))
+
 ## [1.12.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.12.0...v1.12.1) (2025-12-02)
 
 
