@@ -84,6 +84,21 @@ const Page = () => {
               Baden-Württemberg), vertritt die Interessen der 1,5 Mio SuS in
               BaWü gegenüber der Politik, den Medien und der Zivilgesellschaft.
             </p>
+            <p>
+            <br/> <b>Unterstützt durch:</b>
+            <ImageTextSection
+                          imageSrc='/images/GSVLogo.jpg'
+                          imageAlt='GSV'
+                          imagePosition='center'
+                          />
+             <ImageTextSection
+                          imageSrc='/images/OmasButton.jpg'
+                          imageAlt='Omas gegen Rechts'
+                          imagePosition='center'
+
+                      />
+
+               </p>
           </div>
         </ImageTextSection>
       </div>
