@@ -3,6 +3,7 @@ import './globals.css';
 import localFont from 'next/font/local';
 import React from 'react';
 import DevBanner from '@/app/components/DevBanner';
+import NewsBanner from '@/app/components/NewsBanner';
 import Navbar from '@/app/components/navbar/Navbar';
 import Footer from '@/app/components/navbar/Footer';
 
@@ -124,6 +125,7 @@ export default function RootLayout({
       <body className='min-h-screen flex flex-col'>
         <DevBanner />
         <Navbar />
+        <NewsBanner />
         <main className='flex-grow'>{children}</main>
         <Footer />
       </body>

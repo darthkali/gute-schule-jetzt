@@ -7,6 +7,31 @@
   --color-primary: #2c3e50;
   --color-secondary: #1c7aac;
   --color-text: #333333;
+  --nlj-green: #50af4c;
+
+  /* Marquee Animation */
+  --animate-marquee: marquee 70s linear infinite;
+  --animate-marquee-alt: marquee-alt 70s linear infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes marquee-alt {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
 }
 
 @layer base {
@@ -39,6 +64,7 @@
     @apply mt-5 mb-2;
     @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold;
   }
+
   h3 {
     font-family: var(--font-inter), serif;
     font-size: 1.6rem;
@@ -110,6 +136,7 @@
         md:px-16
         py-5;
   }
+
   .cluster-icon {
     background: grey !important;
     border-radius: 50% !important;
@@ -181,18 +208,23 @@ blockquote cite {
 .bg-accent {
   background-color: var(--color-accent);
 }
+
 .bg-background {
   background-color: var(--color-background);
 }
+
 .bg-neutral {
   background-color: var(--color-neutral);
 }
+
 .bg-primary {
   background-color: var(--color-primary);
 }
+
 .bg-secondary {
   background-color: var(--color-secondary);
 }
+
 .bg-text {
   background-color: var(--color-text);
 }
@@ -200,18 +232,23 @@ blockquote cite {
 .text-accent {
   color: var(--color-accent);
 }
+
 .text-background {
   color: var(--color-background);
 }
+
 .text-neutral {
   color: var(--color-neutral);
 }
+
 .text-primary {
   color: var(--color-primary);
 }
+
 .text-secondary {
   color: var(--color-secondary);
 }
+
 .text-text {
   color: var(--color-text);
 }
