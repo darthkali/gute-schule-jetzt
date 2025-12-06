@@ -1,9 +1,8 @@
 ## [1.13.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.13.0...v1.13.1) (2025-12-03)
 
-
 ### Bug Fixes
 
-* updated dependency because of CVE-2025-66478, fixed image name ([e393bbd](https://github.com/darthkali/gute-schule-jetzt/commit/e393bbd284ed96ab51b638a2460443e8d3e7edf0))
+- updated dependency because of CVE-2025-66478, fixed image name ([e393bbd](https://github.com/darthkali/gute-schule-jetzt/commit/e393bbd284ed96ab51b638a2460443e8d3e7edf0))
 
 # [1.13.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.12.1...v1.13.0) (2025-12-03)
 
