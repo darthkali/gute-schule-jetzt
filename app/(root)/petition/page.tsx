@@ -28,7 +28,7 @@ const Page = () => {
               und Schulen zu Gute kommt!
             </p>
             <Button
-              text='Jetzt Petition mitzeichnen'
+              text='Jetzt Petition unterzeichnen'
               href='https://TODO.de/'
               bgColor='bg-white'
               textColor='text-[color:var(--color-nlj-green)]'
