@@ -9,7 +9,10 @@ import {
 } from 'react-icons/fa6';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import {
+  faArrowRight,
+  faFileSignature,
+} from '@fortawesome/free-solid-svg-icons';
 import Card from '@/app/components/card/Card';
 import InitiativeMapClient from '@/app/components/Map';
 import Button from '@/app/components/button/Button';
@@ -127,9 +130,16 @@ export default function HomePage() {
 
               <div className='flex gap-5 sm:gap-10 flex-wrap mt-10'>
                 <Button
-                  text='Petition lesen/unterzeichnen'
+                  text='Informationen zum Petitionstext'
                   href='/petition'
+                  bgColor='bg-[color:var(--color-primary)]'
+                  textColor={'text-neutral'}
+                />
+                <Button
+                  text='Petition unterzeichnen'
+                  href='https://TODO.de/'
                   bgColor='bg-[color:var(--color-accent)]'
+                  icon={faFileSignature}
                 />
               </div>
             </div>

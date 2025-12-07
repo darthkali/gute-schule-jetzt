@@ -1,9 +1,8 @@
 # [1.14.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.13.1...v1.14.0) (2025-12-06)
 
-
 ### Features
 
-* added news banner ([6a2c59b](https://github.com/darthkali/gute-schule-jetzt/commit/6a2c59bfe3e9d05ddf44ccd610ec2e1f3337d74d))
+- added news banner ([6a2c59b](https://github.com/darthkali/gute-schule-jetzt/commit/6a2c59bfe3e9d05ddf44ccd610ec2e1f3337d74d))
 
 ## [1.13.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.13.0...v1.13.1) (2025-12-03)
 
