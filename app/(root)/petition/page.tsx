@@ -1,6 +1,9 @@
 import React from 'react';
+import { faFileSignature } from '@fortawesome/free-solid-svg-icons';
 import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
 import TextLinks from '@/app/components/text/TextLinks';
+import Button from '@/app/components/button/Button';
+
 const Page = () => {
   return (
     <section>
@@ -27,6 +30,14 @@ const Page = () => {
             </TextLinks>
           </b>
         </p>
+        <Button
+          text='Jetzt Petition mitzeichnen'
+          href='https://TODO.de/'
+          bgColor='bg-red-600'
+          textColor={'text-[color:var(--color-neutral)]'}
+          newTab={true}
+          icon={faFileSignature}
+        />
         <ImageTextFloatingSection
           imageSrc='/images/pexels-fauxels-3184432.jpg'
           imageAlt='Raupe, Puppe und Schmetterling'
