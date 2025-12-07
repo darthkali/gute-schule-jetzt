@@ -1,7 +1,7 @@
 import React from 'react';
 import { faFileSignature } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
-import TextLinks from '@/app/components/text/TextLinks';
 import Button from '@/app/components/button/Button';
 
 const Page = () => {
@@ -10,34 +10,57 @@ const Page = () => {
       <div className={'innerBox'}>
         <h1>Neue Lernkultur – Jetzt!</h1>
         <h2>BW-Petition - Schule mit Zukunft für alle Kinder </h2>
-        <p className={'bg-red-300 p-4 rounded-lg'}>
-          <b>
-            Hier steht das Anschreiben an die MdLs, die Parteien und
-            Entscheidungsträger:innen, welches als
-            <TextLinks href={'/documents/Petition.pdf'} newTab={false}>
-              {' '}
-              Petitionstext in Kurzfassung{' '}
-            </TextLinks>{' '}
-            (PDF-Datei) nach Freigabe durch den Petitionsauschuss (wir erhoffen
-            den 8.12.2025) in einem Zeitraum von 6 Wochen auf der Internetseite
-            des Landtags unterzeichnet werden kann. Dazu soll ein
-            weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind
-            10 000 Unterschriften erreicht, wird der Landtag eine öffentliche
-            Anhörung zu dieser Petition durchführen.{' '}
-            <TextLinks href={'/mitwirken'}>
-              {' '}
-              Bitte unterstütze die Initiative für alle Kinder des Landes.
-            </TextLinks>
-          </b>
-        </p>
-        <Button
-          text='Jetzt Petition mitzeichnen'
-          href='https://TODO.de/'
-          bgColor='bg-red-600'
-          textColor={'text-[color:var(--color-neutral)]'}
-          newTab={true}
-          icon={faFileSignature}
-        />
+
+        {/* Hero Call-to-Action Section */}
+        <div className='my-8 bg-[color:var(--nlj-green)] rounded-2xl shadow-2xl p-8 md:p-12 text-center'>
+          <div className='max-w-4xl mx-auto'>
+            <div className='mb-6'>
+              <FontAwesomeIcon
+                icon={faFileSignature}
+                className='text-white text-6xl mb-4'
+              />
+            </div>
+            <h3 className='text-white text-3xl md:text-4xl font-bold mb-4'>
+              10.000 Unterschriften für eine bessere Bildung!
+            </h3>
+            <p className='text-white text-lg md:text-xl mb-6 opacity-90'>
+              Gemeinsam für die Bildungswende in BaWü, die allen jungen Menschen
+              und Schulen zu Gute kommt!
+            </p>
+            <Button
+              text='Jetzt Petition mitzeichnen'
+              href='https://TODO.de/'
+              bgColor='bg-white'
+              textColor='text-[color:var(--nlj-green)]'
+              newTab={true}
+              className='text-xl md:text-2xl px-12 py-6 hover:shadow-2xl transform hover:scale-110 transition-all duration-300 font-extrabold'
+            />
+            <p className='text-white text-sm mt-4 opacity-80'>
+              Auf der Webseite des Landtags Baden-Württemberg
+            </p>
+          </div>
+        </div>
+
+        {/*<p className={'bg-red-300 p-4 rounded-lg'}>*/}
+        {/*  <b>*/}
+        {/*    Hier steht das Anschreiben an die MdLs, die Parteien und*/}
+        {/*    Entscheidungsträger:innen, welches als*/}
+        {/*    <TextLinks href={'/documents/Petition.pdf'} newTab={false}>*/}
+        {/*      {' '}*/}
+        {/*      Petitionstext in Kurzfassung{' '}*/}
+        {/*    </TextLinks>{' '}*/}
+        {/*    (PDF-Datei) nach Freigabe durch den Petitionsauschuss (wir erhoffen*/}
+        {/*    den 8.12.2025) in einem Zeitraum von 6 Wochen auf der Internetseite*/}
+        {/*    des Landtags unterzeichnet werden kann. Dazu soll ein*/}
+        {/*    weitverzweigtes Netzwerk in BW aufgebaut und aktiviert werden. Sind*/}
+        {/*    10 000 Unterschriften erreicht, wird der Landtag eine öffentliche*/}
+        {/*    Anhörung zu dieser Petition durchführen.{' '}*/}
+        {/*    <TextLinks href={'/mitwirken'}>*/}
+        {/*      {' '}*/}
+        {/*      Bitte unterstütze die Initiative für alle Kinder des Landes.*/}
+        {/*    </TextLinks>*/}
+        {/*  </b>*/}
+        {/*</p>*/}
         <ImageTextFloatingSection
           imageSrc='/images/pexels-fauxels-3184432.jpg'
           imageAlt='Raupe, Puppe und Schmetterling'
