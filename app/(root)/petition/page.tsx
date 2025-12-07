@@ -12,7 +12,7 @@ const Page = () => {
         <h2>BW-Petition - Schule mit Zukunft für alle Kinder </h2>
 
         {/* Hero Call-to-Action Section */}
-        <div className='my-8 bg-[color:var(--nlj-green)] rounded-2xl shadow-2xl p-8 md:p-12 text-center'>
+        <div className='my-8 bg-[color:var(--color-nlj-green)] rounded-2xl shadow-2xl p-8 md:p-12 text-center'>
           <div className='max-w-4xl mx-auto'>
             <div className='mb-6'>
               <FontAwesomeIcon
@@ -31,7 +31,7 @@ const Page = () => {
               text='Jetzt Petition mitzeichnen'
               href='https://TODO.de/'
               bgColor='bg-white'
-              textColor='text-[color:var(--nlj-green)]'
+              textColor='text-[color:var(--color-nlj-green)]'
               newTab={true}
               className='text-xl md:text-2xl px-12 py-6 hover:shadow-2xl transform hover:scale-110 transition-all duration-300 font-extrabold'
             />
