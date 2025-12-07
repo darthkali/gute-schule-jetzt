@@ -1,17 +1,15 @@
 # [1.15.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.14.0...v1.15.0) (2025-12-07)
 
-
 ### Bug Fixes
 
-* updated env example ([bd27efa](https://github.com/darthkali/gute-schule-jetzt/commit/bd27efaa3c3cf7699b2525d162f8c666cba0898c))
-* updated text ([163ad7c](https://github.com/darthkali/gute-schule-jetzt/commit/163ad7cb462120acefc6c4f00139c03d4971c2f8))
-
+- updated env example ([bd27efa](https://github.com/darthkali/gute-schule-jetzt/commit/bd27efaa3c3cf7699b2525d162f8c666cba0898c))
+- updated text ([163ad7c](https://github.com/darthkali/gute-schule-jetzt/commit/163ad7cb462120acefc6c4f00139c03d4971c2f8))
 
 ### Features
 
-* added hero section for petition, removed red hint text ([8a5d6f2](https://github.com/darthkali/gute-schule-jetzt/commit/8a5d6f2f51514a42470a64e992424c72541240fb))
-* added icon to button ([1901534](https://github.com/darthkali/gute-schule-jetzt/commit/190153422cfaabcf7a95dd143b3a8cff0ce7602a))
-* added second button on main herosection ([f811a69](https://github.com/darthkali/gute-schule-jetzt/commit/f811a6909b2dd59e4faf0a7668926e9c141bdac2))
+- added hero section for petition, removed red hint text ([8a5d6f2](https://github.com/darthkali/gute-schule-jetzt/commit/8a5d6f2f51514a42470a64e992424c72541240fb))
+- added icon to button ([1901534](https://github.com/darthkali/gute-schule-jetzt/commit/190153422cfaabcf7a95dd143b3a8cff0ce7602a))
+- added second button on main herosection ([f811a69](https://github.com/darthkali/gute-schule-jetzt/commit/f811a6909b2dd59e4faf0a7668926e9c141bdac2))
 
 # [1.14.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.13.1...v1.14.0) (2025-12-06)
 
