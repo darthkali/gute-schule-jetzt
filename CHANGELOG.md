@@ -1,3 +1,73 @@
+## [1.15.4](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.3...v1.15.4) (2025-12-08)
+
+### Bug Fixes
+
+- deleted Gemeinnützige Webseite from Footer ([fdc1b84](https://github.com/darthkali/gute-schule-jetzt/commit/fdc1b84ca03f5a039ed4c228c00a93e2482db51a))
+
+## [1.15.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.2...v1.15.3) (2025-12-08)
+
+### Bug Fixes
+
+- changed gemeinnützig to ehrenamtliche ([da025ab](https://github.com/darthkali/gute-schule-jetzt/commit/da025ab290262683a3e872be404f702d021b58db))
+- changed gemeinnützig to ehrenamtliche ([0d2ed9c](https://github.com/darthkali/gute-schule-jetzt/commit/0d2ed9c7bc1e8c5b37a007cdb8489298f83f8546))
+
+## [1.15.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.1...v1.15.2) (2025-12-08)
+
+### Bug Fixes
+
+- added correct petition url ([8f729d9](https://github.com/darthkali/gute-schule-jetzt/commit/8f729d9392ac4028e95999906eddd975e4865042))
+
+## [1.15.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.0...v1.15.1) (2025-12-07)
+
+### Bug Fixes
+
+- npm audit ([1816f9c](https://github.com/darthkali/gute-schule-jetzt/commit/1816f9cf474d203c2fce60fb4eeb6396e584d904))
+
+# [1.15.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.14.0...v1.15.0) (2025-12-07)
+
+### Bug Fixes
+
+- updated env example ([bd27efa](https://github.com/darthkali/gute-schule-jetzt/commit/bd27efaa3c3cf7699b2525d162f8c666cba0898c))
+- updated text ([163ad7c](https://github.com/darthkali/gute-schule-jetzt/commit/163ad7cb462120acefc6c4f00139c03d4971c2f8))
+
+### Features
+
+- added hero section for petition, removed red hint text ([8a5d6f2](https://github.com/darthkali/gute-schule-jetzt/commit/8a5d6f2f51514a42470a64e992424c72541240fb))
+- added icon to button ([1901534](https://github.com/darthkali/gute-schule-jetzt/commit/190153422cfaabcf7a95dd143b3a8cff0ce7602a))
+- added second button on main herosection ([f811a69](https://github.com/darthkali/gute-schule-jetzt/commit/f811a6909b2dd59e4faf0a7668926e9c141bdac2))
+
+# [1.14.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.13.1...v1.14.0) (2025-12-06)
+
+### Features
+
+- added news banner ([6a2c59b](https://github.com/darthkali/gute-schule-jetzt/commit/6a2c59bfe3e9d05ddf44ccd610ec2e1f3337d74d))
+
+## [1.13.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.13.0...v1.13.1) (2025-12-03)
+
+### Bug Fixes
+
+- updated dependency because of CVE-2025-66478, fixed image name ([e393bbd](https://github.com/darthkali/gute-schule-jetzt/commit/e393bbd284ed96ab51b638a2460443e8d3e7edf0))
+
+# [1.13.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.12.1...v1.13.0) (2025-12-03)
+
+### Features
+
+- ImageTextSection durch Image ausgetauscht ([2533f56](https://github.com/darthkali/gute-schule-jetzt/commit/2533f56e65e88091810e58ca133006980c4bb579))
+- unter Netzwerk Logi von Omas und GSV eingefügt ([b9001b2](https://github.com/darthkali/gute-schule-jetzt/commit/b9001b2639764bacf3834d56ba7fc301410190cc))
+
+## [1.12.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.12.0...v1.12.1) (2025-12-02)
+
+### Bug Fixes
+
+- format and lint ([1acd9bc](https://github.com/darthkali/gute-schule-jetzt/commit/1acd9bcf9add0419091a452ade50712307dfb43f))
+
+# [1.12.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.3...v1.12.0) (2025-12-02)
+
+### Features
+
+- Ausgaben bild eingefügt ([7fc5f9c](https://github.com/darthkali/gute-schule-jetzt/commit/7fc5f9ce028cb793c1173f2dc3442694592cb458))
+- Korrektur Presse&Fakten, EInfügen Bildungsausgabengrafik von Dagi ([1f630fe](https://github.com/darthkali/gute-schule-jetzt/commit/1f630fed514173c385a3b534c6f6d738d2132440))
+
 ## [1.11.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.11.2...v1.11.3) (2025-12-01)
 
 ### Bug Fixes

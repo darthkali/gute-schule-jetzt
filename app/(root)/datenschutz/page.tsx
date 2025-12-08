@@ -13,7 +13,7 @@ const Datenschutz = () => {
           <p>
             Die folgenden Hinweise geben einen einfachen Überblick darüber, was
             mit Ihren personenbezogenen Daten passiert, wenn Sie unsere
-            gemeinnützige Bildungswebsite Neue-Lernkultur-Jetzt besuchen.
+            ehrenamtliche Bildungswebsite Neue-Lernkultur-Jetzt besuchen.
             Personenbezogene Daten sind alle Daten, mit denen Sie persönlich
             identifiziert werden können.
           </p>
@@ -188,9 +188,9 @@ const Datenschutz = () => {
             über unsere Verarbeitung personenbezogener Daten zu beschweren.
           </p>
 
-          <h2>8. Hinweise zur gemeinnützigen Bildungswebsite</h2>
+          <h2>8. Hinweise zur ehrenantlichen Bildungswebsite</h2>
           <p>
-            Neue-Lernkultur-Jetzt ist eine gemeinnützige Initiative ohne
+            Neue-Lernkultur-Jetzt ist eine ehrenamtliche Initiative ohne
             kommerzielle Interessen. Die YouTube-Videos dienen ausschließlich
             Bildungszwecken.
           </p>

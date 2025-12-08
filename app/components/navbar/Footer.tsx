@@ -32,7 +32,6 @@ export default function Footer() {
           <a href='/datenschutz' className='hover:underline'>
             Datenschutz
           </a>
-          <span className='text-sm  break-words'>Gemeinnützige Webseite</span>
           <span className='text-sm  break-words'>v{appVersion}</span>
         </div>
       </div>
