@@ -1,3 +1,11 @@
+## [1.15.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.2...v1.15.3) (2025-12-08)
+
+
+### Bug Fixes
+
+* changed gemeinnützig to ehrenamtliche ([da025ab](https://github.com/darthkali/gute-schule-jetzt/commit/da025ab290262683a3e872be404f702d021b58db))
+* changed gemeinnützig to ehrenamtliche ([0d2ed9c](https://github.com/darthkali/gute-schule-jetzt/commit/0d2ed9c7bc1e8c5b37a007cdb8489298f83f8546))
+
 ## [1.15.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.1...v1.15.2) (2025-12-08)
 
 ### Bug Fixes
