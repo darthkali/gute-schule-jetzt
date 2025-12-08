@@ -1,9 +1,8 @@
 ## [1.15.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.0...v1.15.1) (2025-12-07)
 
-
 ### Bug Fixes
 
-* npm audit ([1816f9c](https://github.com/darthkali/gute-schule-jetzt/commit/1816f9cf474d203c2fce60fb4eeb6396e584d904))
+- npm audit ([1816f9c](https://github.com/darthkali/gute-schule-jetzt/commit/1816f9cf474d203c2fce60fb4eeb6396e584d904))
 
 # [1.15.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.14.0...v1.15.0) (2025-12-07)
 

@@ -29,7 +29,7 @@ const Page = () => {
             </p>
             <Button
               text='Jetzt Petition unterzeichnen'
-              href='https://TODO.de/'
+              href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
               bgColor='bg-white'
               textColor='text-[color:var(--color-nlj-green)]'
               newTab={true}
