@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import TextLinks from '@/app/components/text/TextLinks';
-import Image from 'next/image';
 
 const Page = () => {
   return (
@@ -429,25 +428,28 @@ const Page = () => {
             <b>Bildungsausgaben 2023 im Vergleich</b>
             <br />
             <ul>
-            <li>
-                Durchschnitt Österreich/Schweiz:    <b>13,1 %</b>
-            </li><li>
-                Durchschnitt Nordische Länder:      <b>12,4 %</b>
-            </li><li>
-                Durchschnitt Europäische Union:     <b>9,6 %</b>
-            </li><li>
-                Deutschland:                        <b>9,2 %</b>
-            </li>
+              <li>
+                Durchschnitt Österreich/Schweiz: <b>13,1 %</b>
+              </li>
+              <li>
+                Durchschnitt Nordische Länder: <b>12,4 %</b>
+              </li>
+              <li>
+                Durchschnitt Europäische Union: <b>9,6 %</b>
+              </li>
+              <li>
+                Deutschland: <b>9,2 %</b>
+              </li>
             </ul>
-            <i>Quelle: Institut der deutschen Wirtschaft</i><br />
-             Gibt es dazu noch Fragen?
+            <i>Quelle: Institut der deutschen Wirtschaft</i>
+            <br />
+            Gibt es dazu noch Fragen?
             {/*<Image
               src='/images/Kosten-Tagesschau.jpg'
               alt='Kostengrafik'
               width={400}
               height={150}
             /> */}
-
           </li>
         </ul>
       </div>

@@ -86,23 +86,22 @@ const Page = () => {
               BaWü gegenüber der Politik, den Medien und der Zivilgesellschaft.
             </p>
             <p>
-            <br/> <b>Unterstützt durch:</b>
-            <Image
-                          src='/images/GSVLogo.jpg'
-                          alt='GSV'
-                          width={250}
-                          height = {200}
-                          />
-             </p>
-             <p>
-             <Image
-                          src='/images/OmasButton.jpg'
-                          alt='Omas gegen Rechts'
-                          width={250}
-                          height={200}
-                      />
-
-               </p>
+              <br /> <b>Unterstützt durch:</b>
+              <Image
+                src='/images/GSVLogo.jpg'
+                alt='GSV'
+                width={250}
+                height={200}
+              />
+            </p>
+            <p>
+              <Image
+                src='/images/OmasButton.jpg'
+                alt='Omas gegen Rechts'
+                width={250}
+                height={200}
+              />
+            </p>
           </div>
         </ImageTextSection>
       </div>
