@@ -1,3 +1,17 @@
+# [1.16.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.4...v1.16.0) (2025-12-08)
+
+
+### Bug Fixes
+
+* format and lint ([4a0bb58](https://github.com/darthkali/gute-schule-jetzt/commit/4a0bb586dd727443fd38189f597b0139e72ae1db))
+* format and lint ([96524ec](https://github.com/darthkali/gute-schule-jetzt/commit/96524ec4912185145adeeec311c076758d156707))
+
+
+### Features
+
+* image Kosten (presse&fakten) durch Text ersetzt. ([7489edd](https://github.com/darthkali/gute-schule-jetzt/commit/7489eddd1eccb1a8d762e45f99afc9c19f94df99))
+* image Kosten (presse&fakten) durch Text ersetzt. ([cbc2a44](https://github.com/darthkali/gute-schule-jetzt/commit/cbc2a44c0b58de853545a497873400fc192bf908))
+
 ## [1.15.4](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.3...v1.15.4) (2025-12-08)
 
 ### Bug Fixes
