@@ -426,15 +426,29 @@ const Page = () => {
           <br />
           <li>
             {' '}
-            <b>Bildungsausgaben im Vergleich</b>
+            <b>Bildungsausgaben 2023 im Vergleich</b>
             <br />
-            <Image
+            <ul>
+            <li>
+                Durchschnitt Österreich/Schweiz:    <b>13,1 %</b>
+            </li><li>
+                Durchschnitt Nordische Länder:      <b>12,4 %</b>
+            </li><li>
+                Durchschnitt Europäische Union:     <b>9,6 %</b>
+            </li><li>
+                Deutschland:                        <b>9,2 %</b>
+            </li>
+            <i>Quelle: Institut der deutschen Wirtschaft</i><br />
+            Dazu noch Fragen?
+            </ul>
+
+            {/*<Image
               src='/images/Kosten-Tagesschau.jpg'
               alt='Kostengrafik'
               width={400}
               height={150}
-            />
-            Noch Fragen?
+            /> */}
+
           </li>
         </ul>
       </div>
