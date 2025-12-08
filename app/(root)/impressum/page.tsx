@@ -140,6 +140,17 @@ const Impressum = () => {
                     bzw. Erstellers. Downloads und Kopien dieser Seite sind nur
                     für den privaten, nicht kommerziellen Gebrauch gestattet.
                   </p>
+                  <p className='leading-relaxed text-sm mt-2'>
+                    Die auf dieser Website verwendeten Bilder und deren
+                    Urheberrechte sind in den{' '}
+                    <a
+                      href='/bildnachweise'
+                      className='text-blue-600 hover:text-blue-800 underline'
+                    >
+                      Bildnachweisen
+                    </a>{' '}
+                    aufgeführt.
+                  </p>
                 </div>
               </div>
             </div>
