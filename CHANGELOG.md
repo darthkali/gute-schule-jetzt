@@ -1,3 +1,10 @@
+## [1.15.4](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.3...v1.15.4) (2025-12-08)
+
+
+### Bug Fixes
+
+* deleted Gemeinnützige Webseite from Footer ([fdc1b84](https://github.com/darthkali/gute-schule-jetzt/commit/fdc1b84ca03f5a039ed4c228c00a93e2482db51a))
+
 ## [1.15.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.2...v1.15.3) (2025-12-08)
 
 
