@@ -1,9 +1,8 @@
 ## [1.15.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.1...v1.15.2) (2025-12-08)
 
-
 ### Bug Fixes
 
-* added correct petition url ([8f729d9](https://github.com/darthkali/gute-schule-jetzt/commit/8f729d9392ac4028e95999906eddd975e4865042))
+- added correct petition url ([8f729d9](https://github.com/darthkali/gute-schule-jetzt/commit/8f729d9392ac4028e95999906eddd975e4865042))
 
 ## [1.15.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.15.0...v1.15.1) (2025-12-07)
 
