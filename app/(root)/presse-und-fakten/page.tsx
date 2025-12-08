@@ -438,10 +438,9 @@ const Page = () => {
             </li><li>
                 Deutschland:                        <b>9,2 %</b>
             </li>
-            <i>Quelle: Institut der deutschen Wirtschaft</i><br />
-            Dazu noch Fragen?
             </ul>
-
+            <i>Quelle: Institut der deutschen Wirtschaft</i><br />
+             Gibt es dazu noch Fragen?
             {/*<Image
               src='/images/Kosten-Tagesschau.jpg'
               alt='Kostengrafik'
