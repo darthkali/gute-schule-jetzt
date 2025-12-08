@@ -197,7 +197,7 @@ const Datenschutz = () => {
 
           <div className='border-t pt-6 mt-8'>
             <p className='text-sm text-gray-600'>
-              <strong>Letzte Aktualisierung:</strong> 24.11.2024
+              <strong>Letzte Aktualisierung:</strong> 08.12.2025
             </p>
             <p className='text-sm text-gray-600 mt-2'>
               <em>

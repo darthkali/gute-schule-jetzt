@@ -140,24 +140,24 @@ const Impressum = () => {
                     bzw. Erstellers. Downloads und Kopien dieser Seite sind nur
                     für den privaten, nicht kommerziellen Gebrauch gestattet.
                   </p>
-                  <p className='leading-relaxed text-sm mt-2'>
-                    Die auf dieser Website verwendeten Bilder und deren
-                    Urheberrechte sind in den{' '}
-                    <a
-                      href='/bildnachweise'
-                      className='text-blue-600 hover:text-blue-800 underline'
-                    >
-                      Bildnachweisen
-                    </a>{' '}
-                    aufgeführt.
-                  </p>
+                  {/*<p className='leading-relaxed text-sm mt-2'>*/}
+                  {/*  Die auf dieser Website verwendeten Bilder und deren*/}
+                  {/*  Urheberrechte sind in den{' '}*/}
+                  {/*  <a*/}
+                  {/*    href='/bildnachweise'*/}
+                  {/*    className='text-blue-600 hover:text-blue-800 underline'*/}
+                  {/*  >*/}
+                  {/*    Bildnachweisen*/}
+                  {/*  </a>{' '}*/}
+                  {/*  aufgeführt.*/}
+                  {/*</p>*/}
                 </div>
               </div>
             </div>
 
             <div className='pt-8 border-t border-gray-200'>
               <p className='text-sm text-gray-500 text-center'>
-                Letzte Aktualisierung: 13.11.2025
+                Letzte Aktualisierung: 08.12.2025
               </p>
             </div>
           </div>

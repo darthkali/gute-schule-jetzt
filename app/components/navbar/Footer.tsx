@@ -32,9 +32,9 @@ export default function Footer() {
           <a href='/datenschutz' className='hover:underline'>
             Datenschutz
           </a>
-          <a href='/bildnachweise' className='hover:underline'>
-            Bildnachweise
-          </a>
+          {/*<a href='/bildnachweise' className='hover:underline'>*/}
+          {/*  Bildnachweise*/}
+          {/*</a>*/}
           <span className='text-sm  break-words'>v{appVersion}</span>
         </div>
       </div>
