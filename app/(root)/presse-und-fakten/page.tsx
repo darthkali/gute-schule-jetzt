@@ -428,12 +428,23 @@ const Page = () => {
             {' '}
             <b>Bildungsausgaben im Vergleich</b>
             <br />
-            <Image
+            <ul>
+            <li>
+                Durchschnitt Österreich/Schweiz:    <b>13,1 %</b>
+            </li><li>
+                Durchschnitt Nordische Länder:      <b>12,4 %</b>
+            </li><li>
+                Durchschnitt Europäische Union:     <b>9,6 %</b>
+            </li><li>
+                Deutschland:                        <b>9,2 %</b>
+            </li>
+            </ul>
+            {/*<Image
               src='/images/Kosten-Tagesschau.jpg'
               alt='Kostengrafik'
               width={400}
               height={150}
-            />
+            /> */}
             Noch Fragen?
           </li>
         </ul>
