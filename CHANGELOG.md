@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.1...v1.17.2) (2025-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update nextjs monorepo to v16.0.8 ([#224](https://github.com/darthkali/gute-schule-jetzt/issues/224)) ([038b93d](https://github.com/darthkali/gute-schule-jetzt/commit/038b93da9a42343137180f36c7107402abb799e6))
+
 ## [1.17.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.0...v1.17.1) (2025-12-08)
 
 
