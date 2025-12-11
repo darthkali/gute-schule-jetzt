@@ -13,7 +13,7 @@
     "test": "jest",
     "fixAll": "npm audit fix && eslint --fix . && prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\""
   },
-  "packageManager": "npm@11.6.4",
+  "packageManager": "npm@11.7.0",
   "overrides": {
     "react": "$react",
     "react-dom": "$react-dom",
