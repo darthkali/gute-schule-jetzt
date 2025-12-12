@@ -1,23 +1,20 @@
 ## [1.17.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.2...v1.17.3) (2025-12-12)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency next to v16.0.9 [security] ([#227](https://github.com/darthkali/gute-schule-jetzt/issues/227)) ([98f4719](https://github.com/darthkali/gute-schule-jetzt/commit/98f471904dd751dd022f9d6f0d6fa7e0576395ac))
+- **deps:** update dependency next to v16.0.9 [security] ([#227](https://github.com/darthkali/gute-schule-jetzt/issues/227)) ([98f4719](https://github.com/darthkali/gute-schule-jetzt/commit/98f471904dd751dd022f9d6f0d6fa7e0576395ac))
 
 ## [1.17.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.1...v1.17.2) (2025-12-10)
 
-
 ### Bug Fixes
 
-* **deps:** update nextjs monorepo to v16.0.8 ([#224](https://github.com/darthkali/gute-schule-jetzt/issues/224)) ([038b93d](https://github.com/darthkali/gute-schule-jetzt/commit/038b93da9a42343137180f36c7107402abb799e6))
+- **deps:** update nextjs monorepo to v16.0.8 ([#224](https://github.com/darthkali/gute-schule-jetzt/issues/224)) ([038b93d](https://github.com/darthkali/gute-schule-jetzt/commit/038b93da9a42343137180f36c7107402abb799e6))
 
 ## [1.17.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.0...v1.17.1) (2025-12-08)
 
-
 ### Bug Fixes
 
-* changed update date ([20893f2](https://github.com/darthkali/gute-schule-jetzt/commit/20893f26049d4e568760b54c9fbd793de530a846))
+- changed update date ([20893f2](https://github.com/darthkali/gute-schule-jetzt/commit/20893f26049d4e568760b54c9fbd793de530a846))
 
 # [1.17.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.16.0...v1.17.0) (2025-12-08)
 
