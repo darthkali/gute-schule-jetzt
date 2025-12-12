@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.3...v1.18.0) (2025-12-12)
+
+
+### Features
+
+* added petition button to mobile menue ([f42a43f](https://github.com/darthkali/gute-schule-jetzt/commit/f42a43fad4be08643d53af63f1e65bb6f44a03e3))
+
 ## [1.17.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.2...v1.17.3) (2025-12-12)
 
 ### Bug Fixes
