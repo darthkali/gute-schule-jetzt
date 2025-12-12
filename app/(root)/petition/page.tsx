@@ -3,8 +3,37 @@ import { faFileSignature } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
 import Button from '@/app/components/button/Button';
+import PetitionProgressTracker from '@/app/components/petition/PetitionProgressTracker';
 
-const Page = () => {
+async function getPetitionData(): Promise<{
+  count: number;
+  updatedAt: string;
+}> {
+  try {
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+    const response = await fetch(`${baseUrl}/api/petition-count`, {
+      cache: 'no-store',
+    });
+
+    if (!response.ok) {
+      console.error('Fehler beim Abrufen der Unterschriftenzahl');
+      return { count: 1165, updatedAt: new Date().toISOString() }; // Fallback-Wert
+    }
+
+    const data = await response.json();
+    return {
+      count: data.count || 1165,
+      updatedAt: data.updatedAt || new Date().toISOString(),
+    };
+  } catch (error) {
+    console.error('Fehler:', error);
+    return { count: 1165, updatedAt: new Date().toISOString() }; // Fallback-Wert
+  }
+}
+
+const Page = async () => {
+  const { count: currentSignatures, updatedAt } = await getPetitionData();
+
   return (
     <section>
       <div className={'innerBox'}>
@@ -61,6 +90,12 @@ const Page = () => {
         {/*    </TextLinks>*/}
         {/*  </b>*/}
         {/*</p>*/}
+
+        <PetitionProgressTracker
+          currentSignatures={currentSignatures}
+          updatedAt={updatedAt}
+        />
+
         <ImageTextFloatingSection
           imageSrc='/images/pexels-fauxels-3184432.jpg'
           imageAlt='Raupe, Puppe und Schmetterling'
