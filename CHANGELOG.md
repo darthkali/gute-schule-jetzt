@@ -1,3 +1,10 @@
+## [1.17.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.2...v1.17.3) (2025-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.9 [security] ([#227](https://github.com/darthkali/gute-schule-jetzt/issues/227)) ([98f4719](https://github.com/darthkali/gute-schule-jetzt/commit/98f471904dd751dd022f9d6f0d6fa7e0576395ac))
+
 ## [1.17.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.1...v1.17.2) (2025-12-10)
 
 
