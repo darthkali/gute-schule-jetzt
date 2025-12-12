@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.0...v1.18.1) (2025-12-12)
+
+
+### Bug Fixes
+
+* updated next.js because of CVE-2025-55184 ([6ec4997](https://github.com/darthkali/gute-schule-jetzt/commit/6ec4997eac799bc54b5ab698cde6b478ba4fbcb9))
+
 # [1.18.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.17.3...v1.18.0) (2025-12-12)
 
 ### Features
