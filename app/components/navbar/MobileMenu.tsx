@@ -4,13 +4,13 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import {
-  mainNavLinks,
-  secondaryNavLinks,
-  petitionButton,
-  NavLink,
-} from './navigationConfig';
+  faBars,
+  faFileSignature,
+  faXmark,
+} from '@fortawesome/free-solid-svg-icons';
+import Button from '@/app/components/button/Button';
+import { mainNavLinks, secondaryNavLinks, NavLink } from './navigationConfig';
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
@@ -19,16 +19,29 @@ export default function MobileMenu() {
   return (
     <div className='sticky top-0 z-50  min-h-15 bg-[color:var(--color-primary)]'>
       {/* Logo */}
-      <div className='flex justify-start p-4'>
-        <Link href='/' onClick={() => setOpen(false)}>
-          <Image
-            src='/logo/logo-neu.svg'
-            alt='EduUnite Logo'
-            width={50}
-            height={50}
-            className='hover:scale-105 transition-transform'
-          />
-        </Link>
+      <div
+        className='flex  items-center gap-4 py-4 z-50'
+        style={{ minHeight: '15vh' }}
+      >
+        <div className='flex justify-start p-4'>
+          <Link href='/' onClick={() => setOpen(false)}>
+            <Image
+              src='/logo/logo-neu.svg'
+              alt='EduUnite Logo'
+              width={50}
+              height={50}
+              className='hover:scale-105 transition-transform'
+            />
+          </Link>
+        </div>
+
+        {/* Petition Button */}
+        <Button
+          text='Petition unterzeichnen'
+          href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
+          bgColor='bg-[color:var(--color-accent)]'
+          icon={faFileSignature}
+        />
       </div>
 
       {/* Mobile Menu */}
@@ -46,13 +59,6 @@ export default function MobileMenu() {
               <h2>{text}</h2>
             </Link>
           ))}
-
-          {/* Petition Button */}
-          <Link href={petitionButton.href} onClick={() => setOpen(false)}>
-            <button className='bg-[#f59e0b] text-black px-4 py-2 rounded-md hover:bg-[#facc15] transition'>
-              {petitionButton.textMobile}
-            </button>
-          </Link>
         </div>
       )}
 
