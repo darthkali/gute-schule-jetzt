@@ -32,7 +32,7 @@ In einer sich rasant verändernden Welt besteht grundlegender Handlungsbedarf in
 
 Diese Webseite wurde mit modernen Web-Technologien entwickelt, um eine optimale Benutzererfahrung und Barrierefreiheit zu gewährleisten:
 
-- **Framework**: [Next.js 15.4.2](https://nextjs.org) mit App Router für optimale Performance und SEO
+- **Framework**: [Next.js](https://nextjs.org) mit App Router für optimale Performance und SEO
 - **Frontend**: React 19 mit TypeScript für typsichere Entwicklung
 - **Styling**: [Tailwind CSS](https://tailwindcss.com) für konsistentes und responsives Design
 - **Karten**: [Leaflet](https://leafletjs.com) und React-Leaflet für interaktive Landkarten der Bildungsinitiativen
