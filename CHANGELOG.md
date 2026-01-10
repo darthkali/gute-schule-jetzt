@@ -1,9 +1,8 @@
 ## [1.18.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.1...v1.18.2) (2025-12-22)
 
-
 ### Bug Fixes
 
-* trigger new release ([f043c93](https://github.com/darthkali/gute-schule-jetzt/commit/f043c938fc6b7ec23eae0f2b58501dc0850da7cb))
+- trigger new release ([f043c93](https://github.com/darthkali/gute-schule-jetzt/commit/f043c938fc6b7ec23eae0f2b58501dc0850da7cb))
 
 ## [1.18.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.0...v1.18.1) (2025-12-12)
 
