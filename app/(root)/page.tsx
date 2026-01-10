@@ -31,7 +31,7 @@ export default function HomePage() {
   function ListElement(text: string) {
     return (
       <div className='flex items-center space-x-2'>
-        <div className='w-2 h-2 bg-[color:var(--color-primary)] rounded-full'></div>
+        <div className='w-2 h-2 bg-primary rounded-full'></div>
         <span className='text-sm'>{text}</span>
       </div>
     );
@@ -40,10 +40,10 @@ export default function HomePage() {
   return (
     <div>
       {/*Hero*/}
-      <section className={'bg-[color:var(--color-secondary)]/85'}>
+      <section className={'bg-secondary/85'}>
         <div
           className={
-            'innerBox relative overflow-hidden min-h-[700px] bg-[color:var(--color-background)]'
+            'innerBox relative overflow-hidden min-h-[700px] bg-background'
           }
         >
           {/* Hintergrundbild */}
@@ -58,7 +58,7 @@ export default function HomePage() {
               blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvklEQVR4nB3DzUvDMBgH4Pz5HgLzGASHzCEIVQYDoZeBB/G6g2zCUOqyt23SJP1IaB2+8hN84BFkScXvhNKWXHuL2hsUdMRXpXEsNVNNIGekMNao6TzBNoa9d3CugbE19Enjff/G+vMA1wUp2tAqMCN2PachIvXD/ymNaH1gZxukbpAijk79/EYQfbANGsZr+FihoD2qpmDfl0hTkGK7e1Gb1zVWT3d8v77GY36Dq9sZ1PIC80zyIrtE/vwg/wDDIq/dDmXMmgAAAABJRU5ErkJggg=='
             />
           </div>
-          <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-[color:var(--color-secondary)]/85 z-10 ' />
+          <div className='absolute overflow-hidden inset-0 left-0 h-full w-full bg-secondary/85 z-10 ' />
 
           {/* Inhalt */}
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10  px-6  sm:py-8 md:py-10 text-white'>
@@ -84,27 +84,20 @@ export default function HomePage() {
               <div className='flex flex-col space-y-6'>
                 {/* Block 1 */}
                 <div className='flex items-center space-x-4'>
-                  <FaPen className='min-w-[32px] h-8 w-8 text-neutral' />
+                  <FaPen className='min-w-8 h-8 w-8 text-neutral' />
+
                   <p className='text-left'>
-                    Darum bereiten wir zur Landtagswahl 2026 eine{' '}
-                    <Highlight>
-                      Petition für eine Neuausrichtung des Schulsystems
-                    </Highlight>{' '}
-                    in Baden Württemberg (BW) vor. Der Entwurf des
-                    Petitionstextes steht hier. Die Petition „Neue Lernkultur –
-                    Jetzt!“ kann ab Montag 8. Dezember 2025 in einem Zeitraum
-                    von 6 Wochen unterschrieben werden. Bis dahin gilt es{' '}
-                    <Highlight>Netzwerke in ganz BW aufzubauen</Highlight>,
-                    damit weit mehr als die erforderlichen 10 000 Unterschriften
-                    erreicht werden. Wirst Du Teil dieses Netzwerkes und
-                    erweiterst seine Reichweite? Wir freuen uns über Anregungen,
-                    sachliche Beiträge und Zusammenarbeit.
+                    Unterstütze unsere Forderungen! Wir brauchen{' '}
+                    <Highlight>10000 Unterschriften</Highlight>, damit wir eine
+                    Anhörung beim Landtag erreichen. Wirst du Teil dieses
+                    Netzwerkes und erweiterst seine Reichweite? Wir freuen uns
+                    über Anregungen, sachliche Beiträge und Zusammenarbeit.
                   </p>
                 </div>
 
                 {/* Block 2 */}
                 <div className='flex items-center space-x-4'>
-                  <FaPeopleGroup className='min-w-[32px] h-8 w-8 text-neutral' />
+                  <FaPeopleGroup className='min-w-8 h-8 w-8 text-neutral' />
                   <p className='text-left'>
                     Wir möchten Menschen auf allen Ebenen –{' '}
                     <Highlight>
@@ -152,9 +145,7 @@ export default function HomePage() {
         <div className={'innerBox'}>
           <h1
             id='herausforderungen'
-            className={
-              'text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32'
-            }
+            className={'text-center text-text scroll-mt-20 lg:scroll-mt-32'}
           >
             Welche Herausforderungen sehen wir?
           </h1>
@@ -186,7 +177,7 @@ export default function HomePage() {
           <h2
             id='kinder'
             className={
-              'text-center text-[color:var(--color-text)] mt-10 scroll-mt-20 lg:scroll-mt-37'
+              'text-center text-text mt-10 scroll-mt-20 lg:scroll-mt-37'
             }
           >
             Was brauchen Kinder?
@@ -250,17 +241,15 @@ export default function HomePage() {
       </section>
 
       {/*LOESUNGEN*/}
-      <section className={'bg-[color:var(--color-secondary)]'}>
+      <section className={'bg-secondary'}>
         <div className={'innerBox'}>
           <h1
             id='loesungen'
-            className={
-              'text-center text-[color:var(--color-neutral)] scroll-mt-20 lg:scroll-mt-32'
-            }
+            className={'text-center text-neutral scroll-mt-20 lg:scroll-mt-32'}
           >
             Wie sehen bereits umgesetzte Visionen und Lösungen aus?
           </h1>
-          <p className={'text-[color:var(--color-neutral)] text-center'}>
+          <p className={'text-neutral text-center'}>
             Diese beiden deutschen Schulen zeigen lang erprobte Lösungen, wie
             Kindern der Weg zum Lernen wirklich frei gemacht wird. Jede Schule
             hat ihren ganz eigenen Charakter, aber das Lernen und die Kinder
@@ -271,7 +260,7 @@ export default function HomePage() {
           <div className='flex flex-col lg:flex-row gap-5 md:gap-10 mt-5 mb-15'>
             <Link
               href={'/primus-schule-muenster'}
-              className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
+              className='bg-neutral group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
             >
               <div className='relative h-48 w-full'>
                 <Image
@@ -280,12 +269,12 @@ export default function HomePage() {
                   fill
                   className='object-cover'
                 />
-                <div className='absolute inset-0 bg-[color:var(--color-primary)]/80'></div>
+                <div className='absolute inset-0 bg-primary/80'></div>
 
                 {/* Overlay Text */}
                 <div className='absolute inset-0 flex items-center justify-center'>
                   <h2
-                    className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
+                    className={`text-neutral text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
                   >
                     {'Primus Schule Münster Berg Fidel'}
                   </h2>
@@ -293,7 +282,7 @@ export default function HomePage() {
               </div>
 
               {/* Content Section */}
-              <div className='p-6 flex flex-col flex-grow'>
+              <div className='p-6 flex flex-col grow'>
                 <div className='flex justify-center mb-3'>
                   <span className='bg-primary text-accent text-sm font-medium px-3 py-1 rounded-full'>
                     Klassen 1-10
@@ -310,7 +299,7 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
+                <div className='text-primary text-center italic border-l-4 border-[color:var(--color-accent)] '>
                   Jede Klasse hat ein Verantwortungsteam.
                 </div>
 
