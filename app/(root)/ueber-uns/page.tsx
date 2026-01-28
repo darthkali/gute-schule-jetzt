@@ -39,10 +39,10 @@ const Page = () => {
               in diesem Team), GWRS (Grund-und Werkrealschule) Klassenlehrerin
               Klasse 1-6, a. D., Finalistin Freiburger Lehrerpreis 2020
             </p>
-            <p>
-              <strong>Annegret Keller</strong>, Grundschul- und
-              Gymnasiallehrerin, mit Schwerpunkt Klasse 1-6
-            </p>
+            {/*<p>*/}
+            {/*  <strong>Annegret Keller</strong>, Grundschul- und*/}
+            {/*  Gymnasiallehrerin, mit Schwerpunkt Klasse 1-6*/}
+            {/*</p>*/}
             <p>
               <strong>Heidemarie Bauer</strong>, Lehrerin GWRS, Gemeinde- und
               Kreisrätin a. D.

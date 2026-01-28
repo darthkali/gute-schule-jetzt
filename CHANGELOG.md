@@ -1,9 +1,8 @@
 ## [1.18.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.2...v1.18.3) (2026-01-10)
 
-
 ### Bug Fixes
 
-* changed mission statement ([9c66559](https://github.com/darthkali/gute-schule-jetzt/commit/9c665595d324189e13943b672c1a1c81bb64c22b))
+- changed mission statement ([9c66559](https://github.com/darthkali/gute-schule-jetzt/commit/9c665595d324189e13943b672c1a1c81bb64c22b))
 
 ## [1.18.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.1...v1.18.2) (2025-12-22)
 
