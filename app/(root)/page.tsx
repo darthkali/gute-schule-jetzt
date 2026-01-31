@@ -4,7 +4,6 @@ import {
   FaLinkedin,
   FaWhatsapp,
   FaFacebook,
-  FaPen,
   FaPeopleGroup,
 } from 'react-icons/fa6';
 import Link from 'next/link';
@@ -78,31 +77,42 @@ export default function HomePage() {
               </p>
               <p>
                 Wir brauchen eine Lernkultur, in der Kinder aufblühen! Mit
-                landesweiter Power können wir das erreichen.
+                landesweiter Power kann das gemeinsam erreicht werden. Zwei
+                Dinge sind dafür wichtig: Kinder & Bildung müssen in den
+                gesellschaftlichen Fokus gerückt und die
+                Entscheidungsträger:innen zu einer überparteilichen Einigung auf
+                einen zukunftsfähigen Bildungsbegriff bewegt werden.
+              </p>
+              <p>
+                Es geht dabei nicht um Visionen, sondern um die Anerkennung der
+                Praxisarbeit der innovativen Schulen. Andere Länder dienen als
+                Vorbild, wie z.B. Neuseeland, das bereits vor Jahren eine
+                erfolgreiche Neuausrichtung ihrer Bildungslandschaft geschafft
+                hat.
               </p>
 
               <div className='flex flex-col space-y-6'>
                 {/* Block 1 */}
-                <div className='flex items-center space-x-4'>
-                  <FaPen className='min-w-8 h-8 w-8 text-neutral' />
+                {/*<div className='flex items-center space-x-4'>*/}
+                {/*  <FaPen className='min-w-8 h-8 w-8 text-neutral' />*/}
 
-                  <p className='text-left'>
-                    Unterstütze unsere Forderungen! Wir brauchen{' '}
-                    <Highlight>10000 Unterschriften</Highlight>, damit wir eine
-                    Anhörung beim Landtag erreichen. Wirst du Teil dieses
-                    Netzwerkes und erweiterst seine Reichweite? Wir freuen uns
-                    über Anregungen, sachliche Beiträge und Zusammenarbeit.
-                  </p>
-                </div>
+                {/*  <p className='text-left'>*/}
+                {/*    Unterstütze unsere Forderungen! Wir brauchen{' '}*/}
+                {/*    <Highlight>10000 Unterschriften</Highlight>, damit wir eine*/}
+                {/*    Anhörung beim Landtag erreichen. Wirst du Teil dieses*/}
+                {/*    Netzwerkes und erweiterst seine Reichweite? Wir freuen uns*/}
+                {/*    über Anregungen, sachliche Beiträge und Zusammenarbeit.*/}
+                {/*  </p>*/}
+                {/*</div>*/}
 
                 {/* Block 2 */}
                 <div className='flex items-center space-x-4'>
                   <FaPeopleGroup className='min-w-8 h-8 w-8 text-neutral' />
                   <p className='text-left'>
-                    Wir möchten Menschen auf allen Ebenen –{' '}
+                    Wir möchten Menschen auf allen beteiligten Ebenen –{' '}
                     <Highlight>
-                      Eltern - Kommunen - Schulen & Schulaufsicht - Jugendliche
-                      - Politik - Handwerk & Wirtschaft
+                      Politik - Eltern - Kommunen - Schulen & Schulaufsicht -
+                      Jugendliche - Handwerk & Wirtschaft
                     </Highlight>{' '}
                     – ermutigen, konkrete Schritte für den Umbau hin zu Schulen
                     mit neuer Lernkultur zu gehen.
@@ -123,13 +133,13 @@ export default function HomePage() {
 
               <div className='flex gap-5 sm:gap-10 flex-wrap mt-10'>
                 <Button
-                  text='Informationen zum Petitionstext'
+                  text='Informationen zur Landtagspetition'
                   href='/petition'
                   bgColor='bg-[color:var(--color-primary)]'
                   textColor={'text-neutral'}
                 />
                 <Button
-                  text='Petition unterzeichnen'
+                  text='Landtagspetition in Prüfung'
                   href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
                   bgColor='bg-[color:var(--color-accent)]'
                   icon={faFileSignature}

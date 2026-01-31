@@ -20,6 +20,6 @@ export const secondaryNavLinks: NavLink[] = [
 // Petition Button
 export const petitionButton = {
   href: '/petition',
-  textDesktop: 'Petition lesen/unterzeichnen',
-  textMobile: 'Petition unterzeichnen',
+  textDesktop: 'Landtagspetition in Prüfung ',
+  textMobile: 'Landtagspetition in Prüfung ',
 };
