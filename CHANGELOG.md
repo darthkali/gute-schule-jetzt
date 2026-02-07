@@ -1,3 +1,12 @@
+# [1.19.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.4...v1.19.0) (2026-02-07)
+
+
+### Features
+
+* news banner geschwinsigkeit reduziert für längere Texte ([d7e9873](https://github.com/darthkali/gute-schule-jetzt/commit/d7e9873f453f9cc724b546ffd1dc1eea7ddaed02))
+* texte auf hauptseite und Navigation angepasst ([191713e](https://github.com/darthkali/gute-schule-jetzt/commit/191713ea3316c0e97828af0410874a7f9520cf4f))
+* updated petition content and petition status ([f7be72b](https://github.com/darthkali/gute-schule-jetzt/commit/f7be72b897355a3675d079274d7a933e2b9062d1))
+
 ## [1.18.4](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.3...v1.18.4) (2026-01-28)
 
 ### Bug Fixes
