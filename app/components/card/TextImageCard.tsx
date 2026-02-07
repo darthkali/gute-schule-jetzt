@@ -25,7 +25,7 @@ export default function TextImageCard({
   return (
     <Link
       href={href}
-      className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
+      className='bg-neutral group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
     >
       <div className='relative h-48 w-full'>
         <Image src={imageSrc} alt={overlayText} fill className='object-cover' />
@@ -49,7 +49,7 @@ export default function TextImageCard({
           <h3 className='text-lg'> {heading}</h3>
           <p className=' text-base leading-relaxed'>{description}</p>
         </div>
-        <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2'>
+        <div className='text-right text-sm text-secondary flex items-center justify-end gap-2'>
           <span>Mehr erfahren</span>
           <FontAwesomeIcon
             icon={faArrowRight}

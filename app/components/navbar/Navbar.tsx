@@ -5,13 +5,8 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import Button from '@/app/components/button/Button';
 import MobileMenu from './MobileMenu';
-import {
-  mainNavLinks,
-  secondaryNavLinks,
-  petitionButton,
-} from './navigationConfig';
+import { mainNavLinks, secondaryNavLinks } from './navigationConfig';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -39,7 +34,7 @@ export default function Navbar() {
   }, [dropdownOpen]);
 
   return (
-    <nav className=' sticky top-0 z-50 bg-[color:var(--color-primary)] text-white'>
+    <nav className=' sticky top-0 z-50 bg-primary text-white'>
       {/*Mobile Burger Menu*/}
       <div className='sm:hidden'>
         <MobileMenu />
@@ -69,7 +64,7 @@ export default function Navbar() {
                 href={href}
                 className={`
                                     transition-all duration-300 hover:scale-105 hover:brightness-110
-                                    ${isActive ? 'text-[color:var(--color-accent)] underline underline-offset-4' : ''}
+                                    ${isActive ? 'text-accent underline underline-offset-4' : ''}
                                 `}
               >
                 <p className='font-semibold'>{text}</p>
@@ -99,7 +94,7 @@ export default function Navbar() {
                       key={href}
                       href={href}
                       className={`
-                                                block px-4 py-2 text-[color:var(--color-text)] hover:bg-gray-100 transition-colors
+                                                block px-4 py-2 text-text hover:bg-gray-100 transition-colors
                                                 ${isActive ? 'bg-gray-100 font-semibold' : ''}
                                             `}
                       onClick={() => setDropdownOpen(false)}
@@ -114,13 +109,13 @@ export default function Navbar() {
         </div>
 
         {/*  Petition-Button */}
-        <div className={'ml-auto'}>
-          <Button
-            text={petitionButton.textDesktop}
-            href={petitionButton.href}
-            bgColor='bg-[color:var(--color-accent)]'
-          />
-        </div>
+        {/*<div className={'ml-auto'}>*/}
+        {/*  <Button*/}
+        {/*    text={petitionButton.textDesktop}*/}
+        {/*    href={petitionButton.href}*/}
+        {/*    bgColor='bg-[color:var(--color-accent)]'*/}
+        {/*  />*/}
+        {/*</div>*/}
       </div>
     </nav>
   );

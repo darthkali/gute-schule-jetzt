@@ -43,7 +43,7 @@ export default function FlyerDownload() {
                 href={`${flyer.basePath}.svg`}
                 target='_blank'
                 rel='noopener noreferrer'
-                className='inline-block px-4 py-2 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 bg-[color:var(--color-neutral)] text-[color:var(--color-text)]  hover:scale-105 text-sm'
+                className='inline-block px-4 py-2 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 bg-neutral text-text  hover:scale-105 text-sm'
               >
                 SVG
               </a>
@@ -51,7 +51,7 @@ export default function FlyerDownload() {
                 href={`${flyer.basePath}.png`}
                 target='_blank'
                 rel='noopener noreferrer'
-                className='inline-block px-4 py-2 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 bg-[color:var(--color-neutral)] text-[color:var(--color-text)]  hover:scale-105 text-sm'
+                className='inline-block px-4 py-2 rounded-full font-bold shadow transition-colors duration-300 hover:brightness-110 bg-neutral text-text  hover:scale-105 text-sm'
               >
                 PNG
               </a>

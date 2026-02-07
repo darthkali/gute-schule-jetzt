@@ -19,7 +19,7 @@ export default function Button({
   text,
   href,
   newTab = false,
-  bgColor = 'bg-[color:var(--color-neutral)]',
+  bgColor = 'bg-neutral',
   textColor = 'text-[color:var(--color-text)]',
   className = '',
   icon,
