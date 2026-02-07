@@ -4,15 +4,16 @@ import {
   FaLinkedin,
   FaWhatsapp,
   FaFacebook,
-  FaPen,
   FaPeopleGroup,
 } from 'react-icons/fa6';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faArrowRight,
+  faExclamation,
   faFileSignature,
 } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
 import Card from '@/app/components/card/Card';
 import InitiativeMapClient from '@/app/components/Map';
 import Button from '@/app/components/button/Button';
@@ -26,7 +27,7 @@ export default function HomePage() {
   const text = encodeURIComponent('Schau dir diese Seite an:');
 
   const iconBoxStyle =
-    'bg-[color:var(--color-neutral)] w-14 h-14 flex items-center justify-center rounded-xl shadow hover:scale-110 transition-transform';
+    'bg-neutral w-14 h-14 flex items-center justify-center rounded-xl shadow hover:scale-110 transition-transform';
 
   function ListElement(text: string) {
     return (
@@ -43,7 +44,7 @@ export default function HomePage() {
       <section className={'bg-secondary/85'}>
         <div
           className={
-            'innerBox relative overflow-hidden min-h-[700px] bg-background'
+            'innerBox relative overflow-hidden min-h-175 bg-background'
           }
         >
           {/* Hintergrundbild */}
@@ -78,31 +79,42 @@ export default function HomePage() {
               </p>
               <p>
                 Wir brauchen eine Lernkultur, in der Kinder aufblühen! Mit
-                landesweiter Power können wir das erreichen.
+                landesweiter Power kann das gemeinsam erreicht werden. Zwei
+                Dinge sind dafür wichtig: Kinder & Bildung müssen in den
+                gesellschaftlichen Fokus gerückt und die
+                Entscheidungsträger:innen zu einer überparteilichen Einigung auf
+                einen zukunftsfähigen Bildungsbegriff bewegt werden.
+              </p>
+              <p>
+                Es geht dabei nicht um Visionen, sondern um die Anerkennung der
+                Praxisarbeit der innovativen Schulen. Andere Länder dienen als
+                Vorbild, wie z.B. Neuseeland, das bereits vor Jahren eine
+                erfolgreiche Neuausrichtung ihrer Bildungslandschaft geschafft
+                hat.
               </p>
 
               <div className='flex flex-col space-y-6'>
                 {/* Block 1 */}
-                <div className='flex items-center space-x-4'>
-                  <FaPen className='min-w-8 h-8 w-8 text-neutral' />
+                {/*<div className='flex items-center space-x-4'>*/}
+                {/*  <FaPen className='min-w-8 h-8 w-8 text-neutral' />*/}
 
-                  <p className='text-left'>
-                    Unterstütze unsere Forderungen! Wir brauchen{' '}
-                    <Highlight>10000 Unterschriften</Highlight>, damit wir eine
-                    Anhörung beim Landtag erreichen. Wirst du Teil dieses
-                    Netzwerkes und erweiterst seine Reichweite? Wir freuen uns
-                    über Anregungen, sachliche Beiträge und Zusammenarbeit.
-                  </p>
-                </div>
+                {/*  <p className='text-left'>*/}
+                {/*    Unterstütze unsere Forderungen! Wir brauchen{' '}*/}
+                {/*    <Highlight>10000 Unterschriften</Highlight>, damit wir eine*/}
+                {/*    Anhörung beim Landtag erreichen. Wirst du Teil dieses*/}
+                {/*    Netzwerkes und erweiterst seine Reichweite? Wir freuen uns*/}
+                {/*    über Anregungen, sachliche Beiträge und Zusammenarbeit.*/}
+                {/*  </p>*/}
+                {/*</div>*/}
 
                 {/* Block 2 */}
                 <div className='flex items-center space-x-4'>
                   <FaPeopleGroup className='min-w-8 h-8 w-8 text-neutral' />
                   <p className='text-left'>
-                    Wir möchten Menschen auf allen Ebenen –{' '}
+                    Wir möchten Menschen auf allen beteiligten Ebenen –{' '}
                     <Highlight>
-                      Eltern - Kommunen - Schulen & Schulaufsicht - Jugendliche
-                      - Politik - Handwerk & Wirtschaft
+                      Politik - Eltern - Kommunen - Schulen & Schulaufsicht -
+                      Jugendliche - Handwerk & Wirtschaft
                     </Highlight>{' '}
                     – ermutigen, konkrete Schritte für den Umbau hin zu Schulen
                     mit neuer Lernkultur zu gehen.
@@ -123,18 +135,58 @@ export default function HomePage() {
 
               <div className='flex gap-5 sm:gap-10 flex-wrap mt-10'>
                 <Button
-                  text='Informationen zum Petitionstext'
+                  text='Informationen zur Landtagspetition'
                   href='/petition'
-                  bgColor='bg-[color:var(--color-primary)]'
-                  textColor={'text-neutral'}
-                />
-                <Button
-                  text='Petition unterzeichnen'
-                  href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
                   bgColor='bg-[color:var(--color-accent)]'
-                  icon={faFileSignature}
                 />
+                {/*<Button*/}
+                {/*  text='Landtagspetition in Prüfung'*/}
+                {/*  href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'*/}
+                {/*  bgColor='bg-[color:var(--color-accent)]'*/}
+                {/*  icon={faFileSignature}*/}
+                {/*/>*/}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={'bg-secondary/85'}>
+        <div className={'innerBox relative overflow-hidden bg-primary'}>
+          <div className='my-8 bg-nlj-green rounded-2xl shadow-2xl p-8 md:p-12 text-center'>
+            <div className='max-w-4xl mx-auto '>
+              <div className='mb-6'>
+                <FontAwesomeIcon
+                  icon={faExclamation}
+                  className='text-white text-6xl mb-4'
+                />
+                <h2 className='text-white'>Wie geht es weiter?</h2>
+              </div>
+              <p className='text-white'>
+                Für den Plan, noch vor der Landtagswahl eine direkte Anhörung im
+                Landtag zu bekommen, wären 10 000 Unterschriften nötig gewesen.
+                Aus verschiedenen Gründen war es nicht möglich, die betroffenen
+                Eltern, Lehrkräfte, sowie jugendlichen Schüler und Schülerinnen
+                im Land zu mobilisieren. Damit wäre nicht nur ein erhöhtes
+                Medieninteresse entstanden, sondern auch politischer Druck, der
+                nun für die Landtagswahl fehlt.
+              </p>
+              <p className='text-white'>
+                Wie geht es weiter? Die Landtagspetition wird derzeit vom
+                Petitionsausschuss in Stuttgart geprüft und auf mögliche
+                Maßnahmen hin bearbeitet - eine Entscheidung wird im Juli
+                erwartet. Wir bleiben dran! Nach einer Retrospektive im engeren
+                Team im Februar, werden wir die weiteren Schritte hier
+                veröffentlichen.
+              </p>
+
+              <Button
+                text='Landtagspetition in Prüfung'
+                href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
+                bgColor='bg-[color:var(--color-primary)]'
+                textColor='text-white'
+                icon={faFileSignature}
+              />
             </div>
           </div>
         </div>
@@ -299,12 +351,12 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className='text-primary text-center italic border-l-4 border-[color:var(--color-accent)] '>
+                <div className='text-primary text-center italic border-l-4 border-accent '>
                   Jede Klasse hat ein Verantwortungsteam.
                 </div>
 
                 <div className='mt-auto pt-4'>
-                  <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2 font-medium'>
+                  <div className='text-right text-sm text-secondary flex items-center justify-end gap-2 font-medium'>
                     <span>Mehr erfahren</span>
                     <FontAwesomeIcon
                       icon={faArrowRight}
@@ -317,7 +369,7 @@ export default function HomePage() {
 
             <Link
               href={'/alemannenschule'}
-              className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
+              className='bg-neutral group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
             >
               <div className='relative h-48 w-full'>
                 <Image
@@ -326,12 +378,12 @@ export default function HomePage() {
                   fill
                   className='object-cover'
                 />
-                <div className='absolute inset-0 bg-[color:var(--color-primary)]/80'></div>
+                <div className='absolute inset-0 bg-primary/80'></div>
 
                 {/* Overlay Text */}
                 <div className='absolute inset-0 flex items-center justify-center'>
                   <h2
-                    className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
+                    className={`text-neutral text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
                   >
                     {'Alemannenschule Wutöschingen'}
                   </h2>
@@ -339,7 +391,7 @@ export default function HomePage() {
               </div>
 
               {/* Content Section */}
-              <div className='p-6 flex flex-col flex-grow'>
+              <div className='p-6 flex flex-col grow'>
                 <div className='flex justify-center mb-3'>
                   <span className='bg-primary text-accent text-sm font-medium px-3 py-1 rounded-full'>
                     Klassen 1-13
@@ -353,13 +405,13 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className='text-[color:var(--color-primary)] text-center italic border-l-4 border-[color:var(--color-accent)] '>
+                <div className='text-primary text-center italic border-l-4 border-accent '>
                   Ich bin selbstwirksam - ich kann die Welt verändern! Statt
                   schulgerechte Kinder eine kindgerechte Schule!
                 </div>
 
                 <div className='mt-auto pt-4'>
-                  <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2 font-medium'>
+                  <div className='text-right text-sm text-secondary flex items-center justify-end gap-2 font-medium'>
                     <span>Mehr erfahren</span>
                     <FontAwesomeIcon
                       icon={faArrowRight}
@@ -372,7 +424,7 @@ export default function HomePage() {
 
             <Link
               href={'/neuseeland'}
-              className='bg-[color:var(--color-neutral)] group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
+              className='bg-neutral group w-full max-w-full flex-1 mx-auto rounded-lg overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col'
             >
               <div className='relative h-48 w-full'>
                 <Image
@@ -381,12 +433,12 @@ export default function HomePage() {
                   fill
                   className='object-cover'
                 />
-                <div className='absolute inset-0 bg-[color:var(--color-primary)]/80'></div>
+                <div className='absolute inset-0 bg-primary/80'></div>
 
                 {/* Overlay Text */}
                 <div className='absolute inset-0 flex items-center justify-center'>
                   <h2
-                    className={`text-[color:var(--color-neutral)] text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
+                    className={`text-neutral text-center text-lg sm:text-xl md:text-2xl font-semibold px-4 leading-tight`}
                   >
                     {'Vorbildliche Schulreform in Neuseeland'}
                   </h2>
@@ -394,7 +446,7 @@ export default function HomePage() {
               </div>
 
               {/* Content Section */}
-              <div className='p-6 flex flex-col flex-grow'>
+              <div className='p-6 flex flex-col grow'>
                 <div className='flex justify-center mb-3'></div>
 
                 <div className='space-y-2 mb-4'>
@@ -407,7 +459,7 @@ export default function HomePage() {
                 </div>
 
                 <div className='mt-auto pt-4'>
-                  <div className='text-right text-sm text-[color:var(--color-secondary)] flex items-center justify-end gap-2 font-medium'>
+                  <div className='text-right text-sm text-secondary flex items-center justify-end gap-2 font-medium'>
                     <span>Mehr erfahren</span>
                     <FontAwesomeIcon
                       icon={faArrowRight}
@@ -419,11 +471,11 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <h2 className={'text-center text-[color:var(--color-accent)]'}>
+          <h2 className={'text-center text-accent'}>
             Landkarte weiterer beispielgebender Schulen und
             Bildungsinnovator:innen
           </h2>
-          <p className={'text-[color:var(--color-neutral)] text-center'}>
+          <p className={'text-neutral text-center'}>
             Viele Schulen haben sich bereits auf den Weg gemacht, hier stellen
             wir ihre wesentlichen Punkte vor und geben Zugriff auf vertiefende
             Informationen.
@@ -437,16 +489,14 @@ export default function HomePage() {
         <div className={'innerBox'}>
           <h1
             id='aktiv-werden'
-            className={
-              'text-center text-[color:var(--color-text)] scroll-mt-20 lg:scroll-mt-32'
-            }
+            className={'text-center text-text scroll-mt-20 lg:scroll-mt-32'}
           >
             Wo kann Veränderung direkt ansetzen?
           </h1>
-          <h2 className={'text-center text-[color:var(--color-text)]'}>
+          <h2 className={'text-center text-text'}>
             Wie kann ich dazu beitragen oder aktiv werden?
           </h2>
-          <p className={'text-[color:var(--color-text)] text-center'}>
+          <p className={'text-text text-center'}>
             Für eine neue Lernkultur sind alle Ebenen gefordert aufzubrechen. Es
             braucht Bewusstsein, mehrperspektivisches Denken und eine veränderte
             Haltung.
@@ -496,17 +546,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className={'bg-[color:var(--color-secondary)]'}>
+      <section className={'bg-secondary'}>
         <div className={'innerBox '}>
           <div className='flex flex-wrap sm:flex-nowrap gap-4 max-w-250 mx-auto justify-center items-start '>
             <div className='flex-1'>
               <Button
                 text='Mitwirken'
                 href='/mitwirken'
-                bgColor='bg-[color:var(--color-neutral)]'
+                bgColor='bg-neutral'
                 textColor='text-[color:var(--color-text)]'
               />
-              <p className={'text-[color:var(--color-neutral)]'}>
+              <p className={'text-neutral'}>
                 Hallo, willst Du selbst aktiv werden und mitwirken? Wir freuen
                 uns über Ideen und suchen Menschen im Vordergrund oder
                 Hintergrund… Schau mal rein!
@@ -519,7 +569,7 @@ export default function HomePage() {
                 href='/petition'
                 bgColor='bg-[color:var(--color-accent)]'
               />
-              <p className={'text-[color:var(--color-neutral)]'}>
+              <p className={'text-neutral'}>
                 Hier kommst Du zur Petition, die die Bildungswende in BaWü in
                 Fahrt bringen soll. Danke für Deine Unterstützung! Bei Fragen,
                 Ideen und Anregungen{' '}
@@ -535,7 +585,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <p className={'text-center text-[color:var(--color-accent)]'}>
+          <p className={'text-center text-accent'}>
             Teile unsere Seite und mache andere darauf aufmerksam
           </p>
 

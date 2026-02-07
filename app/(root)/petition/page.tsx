@@ -1,8 +1,5 @@
 import React from 'react';
-import { faFileSignature } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ImageTextFloatingSection from '@/app/components/text/ImageTextFloatingComponent';
-import Button from '@/app/components/button/Button';
 
 const Page = () => {
   return (
@@ -12,34 +9,29 @@ const Page = () => {
         <h2>BW-Petition - Schule mit Zukunft für alle Kinder </h2>
 
         {/* Hero Call-to-Action Section */}
-        <div className='my-8 bg-[color:var(--color-nlj-green)] rounded-2xl shadow-2xl p-8 md:p-12 text-center'>
-          <div className='max-w-4xl mx-auto'>
-            <div className='mb-6'>
-              <FontAwesomeIcon
-                icon={faFileSignature}
-                className='text-white text-6xl mb-4'
-              />
-            </div>
-            <h3 className='text-white text-3xl md:text-4xl font-bold mb-4'>
-              10.000 Unterschriften für eine bessere Bildung!
-            </h3>
-            <p className='text-white text-lg md:text-xl mb-6 opacity-90'>
-              Gemeinsam für die Bildungswende in BaWü, die allen jungen Menschen
-              und Schulen zu Gute kommt!
-            </p>
-            <Button
-              text='Jetzt Petition unterzeichnen'
-              href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
-              bgColor='bg-white'
-              textColor='text-[color:var(--color-nlj-green)]'
-              newTab={true}
-              className='text-xl md:text-2xl px-12 py-6 hover:shadow-2xl transform hover:scale-110 transition-all duration-300 font-extrabold'
-            />
-            <p className='text-white text-sm mt-4 opacity-80'>
-              Auf der Webseite des Landtags Baden-Württemberg
-            </p>
-          </div>
-        </div>
+        {/*<div className='my-8 bg-nlj-green rounded-2xl shadow-2xl p-8 md:p-12 text-center'>*/}
+        {/*    <div className='max-w-4xl mx-auto '>*/}
+        {/*        <div className='mb-6'>*/}
+        {/*            <FontAwesomeIcon*/}
+        {/*                icon={faExclamation}*/}
+        {/*                className='text-white text-6xl mb-4'*/}
+        {/*            />*/}
+        {/*            <h2 className="text-white">Wie geht es weiter?</h2>*/}
+        {/*        </div>*/}
+        {/*        <p className="text-white">Für den Plan, noch vor der Landtagswahl eine direkte Anhörung im*/}
+        {/*            Landtag zu bekommen, wären*/}
+        {/*            10 000 Unterschriften nötig gewesen. Aus verschiedenen Gründen war es nicht möglich, die*/}
+        {/*            betroffenen Eltern, Lehrkräfte, sowie jugendlichen Schüler und Schülerinnen im Land zu*/}
+        {/*            mobilisieren. Damit wäre nicht nur ein erhöhtes Medieninteresse entstanden, sondern auch*/}
+        {/*            politischer Druck, der nun für die Landtagswahl fehlt.*/}
+        {/*        </p>*/}
+        {/*        <p className="text-white">Wie geht es weiter? Die Landtagspetition wird derzeit vom*/}
+        {/*            Petitionsausschuss in Stuttgart*/}
+        {/*            geprüft und auf mögliche Maßnahmen hin bearbeitet - eine Entscheidung wird im Juli erwartet.*/}
+        {/*            Wir bleiben dran! Nach einer Retrospektive im engeren Team im Februar, werden wir die*/}
+        {/*            weiteren Schritte hier veröffentlichen.</p>*/}
+        {/*    </div>*/}
+        {/*</div>*/}
 
         {/*<p className={'bg-red-300 p-4 rounded-lg'}>*/}
         {/*  <b>*/}
@@ -150,7 +142,7 @@ const Page = () => {
               <li>
                 Überparteiliche Einigung auf einen gemeinsamen Bildungsbegriff
                 und darauffolgende konzeptorientierte Schulpolitik, im Sinne der
-                auf  www.neue-lernkultur-jetzt dargestellten Zielsetzungen. Also
+                auf www.neue-lernkultur-jetzt dargestellten Zielsetzungen. Also
                 eine Neuausrichtung der Grundhaltung, sowie der
                 Lehrkräfteausbildung und der Bildungspläne, in der Kinder an
                 vorderster Stelle stehen und jedes sein Potential in
@@ -255,7 +247,7 @@ const Page = () => {
               <li>... vielfältige Vernetzung von Schulen und Kommunen.</li>
               <li>... eine Vielfalt und Öffnung von Lernräumen.</li>
               <li>
-                ... Eine signifikante Erhöhung des Bildungsbudgets  (Vergleich:
+                ... Eine signifikante Erhöhung des Bildungsbudgets (Vergleich:
                 Deutschland aktuell 4,4% des BIP, Norwegen und Großbritannien
                 6%, Quelle BZ 10.9.25)
               </li>

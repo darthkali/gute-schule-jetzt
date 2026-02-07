@@ -4,12 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faBars,
-  faFileSignature,
-  faXmark,
-} from '@fortawesome/free-solid-svg-icons';
-import Button from '@/app/components/button/Button';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { mainNavLinks, secondaryNavLinks, NavLink } from './navigationConfig';
 
 export default function MobileMenu() {
@@ -17,7 +12,7 @@ export default function MobileMenu() {
   const collectedLinks: NavLink[] = [...mainNavLinks, ...secondaryNavLinks];
 
   return (
-    <div className='sticky top-0 z-50  min-h-15 bg-[color:var(--color-primary)]'>
+    <div className='sticky top-0 z-50  min-h-15 bg-primary'>
       {/* Logo */}
       <div
         className='flex  items-center gap-4 py-4 z-50'
@@ -36,12 +31,12 @@ export default function MobileMenu() {
         </div>
 
         {/* Petition Button */}
-        <Button
-          text='Petition unterzeichnen'
-          href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
-          bgColor='bg-[color:var(--color-accent)]'
-          icon={faFileSignature}
-        />
+        {/*<Button*/}
+        {/*  text='Petition unterzeichnen'*/}
+        {/*  href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'*/}
+        {/*  bgColor='bg-[color:var(--color-accent)]'*/}
+        {/*  icon={faFileSignature}*/}
+        {/*/>*/}
       </div>
 
       {/* Mobile Menu */}

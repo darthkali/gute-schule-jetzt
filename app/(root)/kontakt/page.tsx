@@ -29,7 +29,7 @@ export default function ContactPage() {
   };
 
   const inputClassNames =
-    'w-full bg-[color:var(--color-neutral)]  rounded-xl p-3 focus:ring-1 focus:ring-[color:var(--color-accent)] disabled:bg--[color:var(--color-neutral)] disabled:cursor-not-allowed';
+    'w-full bg-neutral  rounded-xl p-3 focus:ring-1 focus:ring-[color:var(--color-accent)] disabled:bg--[color:var(--color-neutral)] disabled:cursor-not-allowed';
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -87,7 +87,7 @@ export default function ContactPage() {
             <span>E-Mail:</span>
             <span
               className={
-                'text-[color:var(--color-secondary)] hover:text-[color:var(--color-primary)]'
+                'text-secondary hover:text-[color:var(--color-primary)]'
               }
             >
               info@neue-lernkultur-jetzt.de

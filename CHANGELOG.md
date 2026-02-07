@@ -1,9 +1,8 @@
 ## [1.18.4](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.3...v1.18.4) (2026-01-28)
 
-
 ### Bug Fixes
 
-* removed contributor ([664da5f](https://github.com/darthkali/gute-schule-jetzt/commit/664da5fa181f9a223624e367f98d9deb462e47f5))
+- removed contributor ([664da5f](https://github.com/darthkali/gute-schule-jetzt/commit/664da5fa181f9a223624e367f98d9deb462e47f5))
 
 ## [1.18.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.2...v1.18.3) (2026-01-10)
 
