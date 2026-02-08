@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.1...v1.19.2) (2026-02-08)
+
+
+### Bug Fixes
+
+* fixed section background color ([b4ac781](https://github.com/darthkali/gute-schule-jetzt/commit/b4ac781191873621c48b226a30c56eaee61251b7))
+
 ## [1.19.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.0...v1.19.1) (2026-02-08)
 
 ### Bug Fixes
