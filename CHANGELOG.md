@@ -1,9 +1,8 @@
 ## [1.19.1](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.0...v1.19.1) (2026-02-08)
 
-
 ### Bug Fixes
 
-* updated text ([96f1b3a](https://github.com/darthkali/gute-schule-jetzt/commit/96f1b3a54644a7c8be889c51e3d8eb6fd014c194))
+- updated text ([96f1b3a](https://github.com/darthkali/gute-schule-jetzt/commit/96f1b3a54644a7c8be889c51e3d8eb6fd014c194))
 
 # [1.19.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.18.4...v1.19.0) (2026-02-07)
 
