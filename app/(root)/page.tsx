@@ -167,9 +167,9 @@ export default function HomePage() {
                 Landtag zu bekommen, wären 10 000 Unterschriften nötig gewesen.
                 Aus verschiedenen Gründen war es nicht möglich, die betroffenen
                 Eltern, Lehrkräfte, sowie jugendlichen Schüler und Schülerinnen
-                im Land zu mobilisieren. Damit wäre nicht nur ein erhöhtes
-                Medieninteresse entstanden, sondern auch politischer Druck, der
-                nun für die Landtagswahl fehlt.
+                im Land genügend zu mobilisieren. Damit wäre nicht nur ein
+                erhöhtes Medieninteresse entstanden, sondern auch politischer
+                Druck, der nun für die Landtagswahl fehlt.
               </p>
               <p className='text-white'>
                 Wie geht es weiter? Die Landtagspetition wird derzeit vom
