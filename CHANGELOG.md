@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.2...v1.19.3) (2026-02-11)
+
+
+### Bug Fixes
+
+* removed wrong cite ([9f73b63](https://github.com/darthkali/gute-schule-jetzt/commit/9f73b63c81e10e0693c622ac16c5e5335105b086))
+
 ## [1.19.2](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.1...v1.19.2) (2026-02-08)
 
 ### Bug Fixes
