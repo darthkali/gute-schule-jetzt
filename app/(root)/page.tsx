@@ -151,8 +151,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className={'bg-secondary/85'}>
-        <div className={'innerBox relative overflow-hidden bg-primary'}>
+      <section className={'bg-primary'}>
+        <div className={'innerBox relative overflow-hidden '}>
           <div className='my-8 bg-nlj-green rounded-2xl shadow-2xl p-8 md:p-12 text-center'>
             <div className='max-w-4xl mx-auto '>
               <div className='mb-6'>
