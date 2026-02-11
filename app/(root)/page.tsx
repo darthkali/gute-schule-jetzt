@@ -277,16 +277,17 @@ export default function HomePage() {
             selber gehören, und gerade deshalb unser Bestes geben, um ein paar
             der verdammt vielen Probleme zu lösen, die wir haben.
             <cite>
-              gekürzt, Wolf Lotter, https://www.wolflotter.com <br /> siehe:{' '}
-              <Link
-                href={
-                  'https://www.zeit.de/2025/29/regression-demokratie-staatliche-steuerung-westen-liberale-demokratie'
-                }
-                target={'_blank'}
-                className={'hover:underline'}
-              >
-                &#34;Die Demokratie macht schlapp&#34; (Die Zeit Nr 29/ 2025 )
-              </Link>
+              gekürzt, Wolf Lotter, https://www.wolflotter.com
+              {/*<br /> siehe:{' '}*/}
+              {/*<Link*/}
+              {/*  href={*/}
+              {/*    'https://www.zeit.de/2025/29/regression-demokratie-staatliche-steuerung-westen-liberale-demokratie'*/}
+              {/*  }*/}
+              {/*  target={'_blank'}*/}
+              {/*  className={'hover:underline'}*/}
+              {/*>*/}
+              {/*  &#34;Die Demokratie macht schlapp&#34; (Die Zeit Nr 29/ 2025 )*/}
+              {/*</Link>*/}
             </cite>
           </blockquote>
         </div>
