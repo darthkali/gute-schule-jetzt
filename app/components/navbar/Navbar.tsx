@@ -40,7 +40,7 @@ export default function Navbar() {
         <MobileMenu />
       </div>
 
-      <div className={'hidden innerBox items-center sm:flex'}>
+      <div className={'hidden innerBox !py-3 items-center sm:flex'}>
         {/* Logo  */}
 
         <Link href='/'>

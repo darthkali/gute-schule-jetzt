@@ -10,7 +10,6 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faArrowRight,
-  faExclamation,
   faFileSignature,
 } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
@@ -21,6 +20,7 @@ import MastodonShareButton from '@/app/components/button/MastodonShareButton';
 import Highlight from '@/app/components/text/Highlight';
 import TextImageCard from '@/app/components/card/TextImageCard';
 import TextLinks from '@/app/components/text/TextLinks';
+import PetitionButtons from '@/app/components/PetitionButtons';
 
 export default function HomePage() {
   const shareUrl = encodeURIComponent('https://www.neue-lernkultur-jetzt.de');
@@ -133,59 +133,76 @@ export default function HomePage() {
                 einsetzen. Bist Du dabei?
               </p>
 
-              <div className='flex gap-5 sm:gap-10 flex-wrap mt-10'>
-                <Button
-                  text='Informationen zur Landtagspetition'
-                  href='/petition'
-                  bgColor='bg-[color:var(--color-accent)]'
-                />
-                {/*<Button*/}
-                {/*  text='Landtagspetition in Prüfung'*/}
-                {/*  href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'*/}
-                {/*  bgColor='bg-[color:var(--color-accent)]'*/}
-                {/*  icon={faFileSignature}*/}
-                {/*/>*/}
-              </div>
+              <PetitionButtons />
             </div>
           </div>
         </div>
       </section>
 
-      <section className={'bg-primary'}>
-        <div className={'innerBox relative overflow-hidden '}>
-          <div className='my-8 bg-nlj-green rounded-2xl shadow-2xl p-8 md:p-12 text-center'>
-            <div className='max-w-4xl mx-auto '>
-              <div className='mb-6'>
-                <FontAwesomeIcon
-                  icon={faExclamation}
-                  className='text-white text-6xl mb-4'
-                />
-                <h2 className='text-white'>Wie geht es weiter?</h2>
-              </div>
-              <p className='text-white'>
-                Für den Plan, noch vor der Landtagswahl eine direkte Anhörung im
-                Landtag zu bekommen, wären 10 000 Unterschriften nötig gewesen.
-                Aus verschiedenen Gründen war es nicht möglich, die betroffenen
-                Eltern, Lehrkräfte, sowie jugendlichen Schüler und Schülerinnen
-                im Land genügend zu mobilisieren. Damit wäre nicht nur ein
-                erhöhtes Medieninteresse entstanden, sondern auch politischer
-                Druck, der nun für die Landtagswahl fehlt.
-              </p>
-              <p className='text-white'>
-                Wie geht es weiter? Die Landtagspetition wird derzeit vom
-                Petitionsausschuss in Stuttgart geprüft und auf mögliche
-                Maßnahmen hin bearbeitet - eine Entscheidung wird im Juli
-                erwartet. Wir bleiben dran! Nach einer Retrospektive im engeren
-                Team im Februar, werden wir die weiteren Schritte hier
-                veröffentlichen.
-              </p>
+      <section className='bg-nlj-green'>
+        <div className='innerBox max-w-4xl'>
+          <h2 className='text-neutral text-center'>Wie geht es weiter?</h2>
 
+          <p className='text-neutral/90'>
+            <strong className='text-neutral'>
+              Info zur Landtagspetition 2025
+            </strong>
+            : In der sechswöchigen Mitzeichnungsfrist vom 8. Dezember 2025 bis
+            19. Januar 2026 kamen 3007 Unterschriften zusammen. Für den Plan,
+            noch vor der Landtagswahl eine direkte Anhörung im Landtag zu
+            bekommen, wären 10 000 Unterschriften nötig gewesen. Aus
+            verschiedenen Gründen war es nicht möglich, die betroffenen Eltern,
+            Lehrkräfte, sowie jugendlichen Schüler und Schülerinnen im Land
+            innerhalb der kurzen 6 Wochenfrist der Landtagspetition genügend zu
+            mobilisieren. Damit wäre nicht nur ein erhöhtes Medieninteresse
+            sondern auch eine politische Kraft entstanden, die das Thema Bildung
+            in der Landtagswahl in den Fokus gerückt hätte.
+          </p>
+
+          <div className='border-l-4 border-neutral/40 pl-6 my-8 space-y-4'>
+            <p className='text-neutral/90'>
+              <strong className='text-neutral'>a)</strong> Die Landtagspetition
+              wird derzeit vom Petitionsausschuss in Stuttgart geprüft und auf
+              mögliche Maßnahmen hin bearbeitet — eine Entscheidung wird im Juli
+              erwartet.
+            </p>
+            <p className='text-neutral/90'>
+              <strong className='text-neutral'>b)</strong> Wir bleiben dran und
+              haben die Folgepetition{' '}
+              <Link
+                href='https://innn.it/schule-mit-zukunft-lernkultur'
+                target='_blank'
+                className='text-accent underline hover:brightness-110'
+              >
+                https://innn.it/schule-mit-zukunft-lernkultur
+              </Link>{' '}
+              gestartet. Unterzeichnen kann grundsätzlich jede und jeder —
+              Kinder, Jugendliche und Erwachsene, Deutsche und Nicht-Deutsche,
+              sogar Personen, die im Ausland wohnen, wenn sie von dem Thema
+              betroffen sind.
+            </p>
+          </div>
+
+          <p className='text-neutral/90'>
+            Viele Menschen wissen nicht, welche Kraft sie in unserer Demokratie
+            zusammen bilden können. Wir setzen auf diese Kraft und bieten jetzt
+            die Möglichkeit, sich niederschwellig zu beteiligen.
+          </p>
+
+          <div className='text-center mt-8'>
+            <p className='text-neutral font-bold mb-0'>
+              Für unsere Kinder, Jugendlichen und zeitgemäße Bildung!
+            </p>
+            <p className='text-neutral/80 italic'>Euer NLJ! Team</p>
+
+            <div className='mt-6'>
               <Button
-                text='Landtagspetition in Prüfung'
-                href='https://petitionen.landtag-bw.de/Petitionen/Details/46215aff-a7ad-4de3-8b6f-0cc2bce51e0c'
-                bgColor='bg-[color:var(--color-primary)]'
-                textColor='text-white'
+                text='Innn.it-Petition jetzt unterschreiben'
+                href='https://innn.it/schule-mit-zukunft-lernkultur'
+                bgColor='bg-[color:var(--color-accent)]'
+                textColor='text-primary'
                 icon={faFileSignature}
+                newTab
               />
             </div>
           </div>
