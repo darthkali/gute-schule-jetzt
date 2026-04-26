@@ -61,8 +61,8 @@ const Page = () => {
           </p>
           <ol className='list-decimal pl-6 space-y-3 mt-4'>
             <li className='font-semibold'>
-              Gesellschaftlicher Fokus auf Kinder, Jugendliche und zeitgemäße
-              Bildung
+              Gesellschaftlicher Fokus auf Kinder, Jugendliche und Bildung mit
+              Herz
             </li>
             <li className='font-semibold'>
               Überparteiliche Einigung auf einen zukunftsfähigen Bildungsbegriff

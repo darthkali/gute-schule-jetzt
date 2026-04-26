@@ -19,7 +19,7 @@ export const secondaryNavLinks: NavLink[] = [
 
 // Petition Button
 export const petitionButton = {
-  href: '/petition',
-  textDesktop: 'Landtagspetition in Prüfung ',
-  textMobile: 'Landtagspetition in Prüfung ',
+  href: 'https://innn.it/schule-mit-zukunft-lernkultur',
+  textDesktop: 'Petition unterzeichnen ',
+  textMobile: 'Petition unterzeichnen ',
 };
