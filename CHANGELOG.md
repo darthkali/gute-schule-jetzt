@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.20.0...v1.21.0) (2026-04-26)
+
+
+### Features
+
+* update mobile menu with new petition button and link; enhance text for clarity ([657e55f](https://github.com/darthkali/gute-schule-jetzt/commit/657e55f94d1b32741f0ac0044a202aeb32b4ce02))
+
 # [1.20.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.3...v1.20.0) (2026-04-25)
 
 ### Features
