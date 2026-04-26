@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.3...v1.20.0) (2026-04-25)
+
+
+### Features
+
+* redesign footer and news banner components; enhance petition information and add new buttons ([6591d58](https://github.com/darthkali/gute-schule-jetzt/commit/6591d5809be4ddc030a95b90586d7231ad743e95))
+
 ## [1.19.3](https://github.com/darthkali/gute-schule-jetzt/compare/v1.19.2...v1.19.3) (2026-02-11)
 
 ### Bug Fixes
