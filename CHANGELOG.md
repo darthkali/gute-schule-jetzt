@@ -1,3 +1,11 @@
+# [1.22.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.21.0...v1.22.0) (2026-04-26)
+
+
+### Features
+
+* add configurable news banner speed for improved animation control ([bfb8611](https://github.com/darthkali/gute-schule-jetzt/commit/bfb8611d132cadb1be663a5c5c9efc054d0fc840))
+* add configurable news banner speed for improved animation control ([53028c4](https://github.com/darthkali/gute-schule-jetzt/commit/53028c4aa032d42271b190a880dcf39384a9d8af))
+
 # [1.21.0](https://github.com/darthkali/gute-schule-jetzt/compare/v1.20.0...v1.21.0) (2026-04-26)
 
 ### Features
